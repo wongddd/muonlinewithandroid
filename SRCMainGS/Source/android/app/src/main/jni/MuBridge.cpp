@@ -27,6 +27,7 @@ static JavaVM* g_jvm = nullptr;
 static jclass  g_muJniClass = nullptr;
 static jmethodID g_showKeyboardMethod = nullptr;
 static jmethodID g_bgmPlayMethod = nullptr;
+static jmethodID g_sfxPlayMethod = nullptr;
 static jmethodID g_bgmStopMethod = nullptr;
 static jmethodID g_bgmSetVolumeMethod = nullptr;
 static jmethodID g_bgmSetEnabledMethod = nullptr;
@@ -68,6 +69,7 @@ JNIEXPORT jint JNICALL JNI_OnLoad(JavaVM* vm, void* /* reserved */) {
         g_bgmStopMethod      = env->GetStaticMethodID(g_muJniClass, "bgmStop", "()V");
         g_bgmSetVolumeMethod = env->GetStaticMethodID(g_muJniClass, "bgmSetVolume", "(F)V");
         g_bgmSetEnabledMethod = env->GetStaticMethodID(g_muJniClass, "bgmSetEnabled", "(Z)V");
+        g_sfxPlayMethod      = env->GetStaticMethodID(g_muJniClass, "sfxPlay", "(Ljava/lang/String;I)V");
         env->DeleteLocalRef(localClass);
     }
     return JNI_VERSION_1_6;
@@ -153,6 +155,36 @@ void Android_BgmSetVolume(float volume) {
 
 void Android_BgmSetEnabled(bool enabled) {
     callStaticVoidMethod_Bool(g_bgmSetEnabledMethod, enabled);
+}
+
+// ========== SFX bridge ==========
+// Called from PlayBuffer stub to delegate to Android.
+void Android_SfxPlay(const char* path, int loop) {
+    JNIEnv* env = nullptr;
+    bool attached = false;
+    jint status = g_jvm->GetEnv((void**)&env, JNI_VERSION_1_6);
+    if (status == JNI_EDETACHED) {
+        if (g_jvm->AttachCurrentThread(&env, nullptr) == 0) attached = true;
+        else return;
+    }
+    if (env && g_sfxPlayMethod) {
+        jstring jPath = env->NewStringUTF(path);
+        env->CallStaticVoidMethod(g_muJniClass, g_sfxPlayMethod, jPath, loop);
+        env->DeleteLocalRef(jPath);
+        if (attached) g_jvm->DetachCurrentThread();
+    }
+}
+
+// ========== PlayBuffer stub (P1-2) ==========
+// PC: HRESULT PlayBuffer(int Buffer, OBJECT* Object, BOOL bLooped)
+// On Android, maps Buffer index to Sound/ wav file and plays via MediaPlayer.
+// Since we don't have the g_lpszSoundFileName mapping easily accessible,
+// we construct the path as Data/Sound/Buffer_NNN.wav
+extern "C" void PlayBuffer_stub(int buffer, void* obj, int looped) {
+    char path[64];
+    snprintf(path, sizeof(path), "Data/Sound/%d.wav", buffer);
+    LOGI("PlayBuffer: idx=%d path=%s loop=%d", buffer, path, looped);
+    Android_SfxPlay(path, looped);
 }
 
 // Override the weak symbol in UIControls.cpp

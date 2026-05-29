@@ -113,6 +113,45 @@ object MuJNI {
         bgmPlayer?.setVolume(bgmVolume, bgmVolume)
     }
 
+    // ======== P1-2: SFX sound effects ========
+    private var sfxPlayer: MediaPlayer? = null
+
+    @JvmStatic
+    fun sfxPlay(path: String, loop: Int) {
+        try {
+            val filePath = "$dataDir/$path"
+            val file = java.io.File(filePath)
+            if (!file.exists()) {
+                // Try extracting from APK assets
+                val am = bgmAssetManager
+                if (am != null) {
+                    val assetPath = if (path.startsWith("Data/")) path else "Data/$path"
+                    try {
+                        file.parentFile?.mkdirs()
+                        val input = am.open(assetPath)
+                        val output = java.io.FileOutputStream(file)
+                        input.copyTo(output)
+                        input.close()
+                        output.close()
+                    } catch (_: Exception) {}
+                }
+            }
+            if (file.exists()) {
+                sfxPlayer?.release()
+                sfxPlayer = MediaPlayer().apply {
+                    setDataSource(filePath)
+                    isLooping = loop != 0
+                    setVolume(0.7f, 0.7f)
+                    prepare()
+                    start()
+                }
+                Log.d("MuSFX", "sfxPlay: $path")
+            }
+        } catch (e: Exception) {
+            Log.e("MuSFX", "sfxPlay failed: ${e.message}")
+        }
+    }
+
     @JvmStatic
     fun bgmSetEnabled(enabled: Boolean) {
         bgmEnabled = enabled

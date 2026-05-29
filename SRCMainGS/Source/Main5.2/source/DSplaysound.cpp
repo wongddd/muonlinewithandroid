@@ -127,7 +127,7 @@ HRESULT InitDirectSound(HWND hDlg)
 
 		// Release the primary buffer, since it is not need anymore
 
-		//  LPDIRECTSOUNDBUFFER �ʱ�ȭ.
+		//  LPDIRECTSOUNDBUFFER �ʱ�ȭ.
 		for (int i = 0; i < MAX_BUFFER; ++i)
 		{
 			g_lpDSBuffer[i][0] = NULL;
@@ -431,11 +431,18 @@ DWORD Temp;
 //-----------------------------------------------------------------------------
 HRESULT PlayBuffer(int Buffer, OBJECT* Object, BOOL bLooped)
 {
+#ifdef ANDROID
+	// Redirect to Android SFX bridge
+	extern void PlayBuffer_stub(int buffer, void* obj, int looped);
+	PlayBuffer_stub(Buffer, Object, bLooped);
+	return 0;
+#else
 	if (!g_EnableSound)
 		return 0;
 
 	if (Buffer < 0)
 		return 0;
+// #endif removed - end of #else
 
 	HRESULT hr;
 
@@ -465,6 +472,7 @@ HRESULT PlayBuffer(int Buffer, OBJECT* Object, BOOL bLooped)
 	}
 	return S_OK;
 }
+#endif
 
 //-----------------------------------------------------------------------------
 // Name: IsSoundPlaying()
