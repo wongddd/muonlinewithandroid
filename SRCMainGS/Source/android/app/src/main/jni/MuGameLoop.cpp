@@ -1084,20 +1084,23 @@ static void renderLoop() {
                 float panelW = scrW * 0.5f;
                 float colW = panelW / 4.0f;
                 float rowH = scrH / 4.0f;
+                ImFont* font = ImGui::GetFont();
                 auto* dl = ImGui::GetWindowDrawList();
-                for (int i = 0; i < 16 && i < 16; i++) {
+                for (int i = 0; i < 16; i++) {
                     int col = i % 4;
                     int row = i / 4;
-                    float cx = col * colW + colW/2;
-                    float cy = row * rowH + rowH/2;
-                    dl->AddRectFilled(ImVec2(col*colW+4, row*rowH+4),
-                        ImVec2((col+1)*colW-4, (row+1)*rowH-4),
-                        IM_COL32(0,0,0,40), 8.0f);
-                    dl->AddRect(ImVec2(col*colW+4, row*rowH+4),
-                        ImVec2((col+1)*colW-4, (row+1)*rowH-4),
-                        IM_COL32(255,255,255,30), 8.0f, 0, 1.5f);
-                    // We can't easily render text here without ImGui::Text,
-                    // but the rect indicators show the touch zones
+                    float x1 = col * colW + 4, y1 = row * rowH + 4;
+                    float x2 = (col+1)*colW - 4, y2 = (row+1)*rowH - 4;
+                    dl->AddRectFilled(ImVec2(x1, y1), ImVec2(x2, y2),
+                        IM_COL32(0,0,0,50), 8.0f);
+                    dl->AddRect(ImVec2(x1, y1), ImVec2(x2, y2),
+                        IM_COL32(255,255,255,40), 8.0f, 0, 1.5f);
+                    // Draw label text centered in button
+                    const char* label = btnLabels[i];
+                    ImVec2 ts = font->CalcTextSizeA(font->FontSize, FLT_MAX, 0, label);
+                    float tx = (x1 + x2 - ts.x) * 0.5f;
+                    float ty = (y1 + y2 - ts.y) * 0.5f;
+                    dl->AddText(ImVec2(tx, ty), IM_COL32(255,255,255,180), label);
                 }
                 ImGui::End();
             }
