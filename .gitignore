@@ -54,3 +54,6 @@ SRCMainGS/Source/DataServer/Debug/
 *.log
 *.lastbuildstate
 *.unsuccessfulbuild
+
+*.png
+
