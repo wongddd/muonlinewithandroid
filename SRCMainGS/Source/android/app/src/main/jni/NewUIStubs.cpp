@@ -222,11 +222,7 @@ void* g_hFixFont = nullptr;
 void PlayBuffer(int, OBJECT*, int) {}
 void LoadWaveFile(int, char*, int, bool) {}
 // ==================== CGMFerea ====================
-class CGMFerea {
-public:
-    static void* Make();
-};
-void* CGMFerea::Make() { return nullptr; }
+// Stub removed: real implementation compiled from GMFerea.cpp (P2-6)
 
 // ==================== TEXCOORD ====================
 void TEXCOORD(float* c, float u, float v) {

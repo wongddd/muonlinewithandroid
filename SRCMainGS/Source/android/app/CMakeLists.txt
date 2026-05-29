@@ -237,6 +237,8 @@ set(MAIN52_WAVE6
 set(MAIN52_WAVE7
     ${MAIN52_SOURCE_DIR}/GMCharacterScene.cpp
     ${MAIN52_SOURCE_DIR}/GMLogInScene.cpp
+    # -- P2-6: Remaining PC module ports --
+    ${MAIN52_SOURCE_DIR}/GMFerea.cpp        # Scene map handler (Ferea map)
     ${MAIN52_SOURCE_DIR}/LoadingScene.cpp
     ${MAIN52_SOURCE_DIR}/MovieScene.cpp
     ${MAIN52_SOURCE_DIR}/GM3rdChangeUp.cpp
