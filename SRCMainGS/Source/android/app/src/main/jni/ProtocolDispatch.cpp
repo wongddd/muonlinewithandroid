@@ -1185,14 +1185,14 @@ static void handleProtocol0xF3(const Packet& packet) {
 
                 // Task 3: Auto-show core in-game HUD windows (NewUI)
                 // Matches PC default when entering MAIN_SCENE
-                NewUI_ShowWindow(53,  true); // INTERFACE_MAINFRAME — HP/XP bar
-                NewUI_ShowWindow(98,  true); // INTERFACE_MINI_MAP
-                NewUI_ShowWindow(54,  true); // INTERFACE_SKILL_LIST
-                NewUI_ShowWindow(58,  true); // INTERFACE_BUFF_WINDOW
+                NewUI_ShowWindow(53,  true); // INTERFACE_MAINFRAME  — HP/XP bar
+                NewUI_ShowWindow(72,  true); // INTERFACE_MINI_MAP   — minimap
+                NewUI_ShowWindow(54,  true); // INTERFACE_SKILL_LIST — skill bar
+                NewUI_ShowWindow(56,  true); // INTERFACE_BUFF_WINDOW — buff status
                 NewUI_ShowWindow(33,  true); // INTERFACE_CHATINPUTBOX
                 NewUI_ShowWindow(41,  true); // INTERFACE_CHATLOGWINDOW
                 NewUI_ShowWindow(39,  true); // INTERFACE_QUICK_COMMAND
-                NewUI_ShowWindow(108, true); // INTERFACE_HOTKEY
+                NewUI_ShowWindow(82,  true); // INTERFACE_HOTKEY
                 LOGI("*** Default NewUI HUD windows shown");
 
                 SceneFlag = MAIN_SCENE;
