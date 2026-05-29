@@ -60,16 +60,34 @@ object MuJNI {
                 mp.setDataSource(filePath)
                 Log.d("MuBGM", "bgmPlay: using file path '$filePath'")
             } else {
-                // Fallback to APK assets (for small files bundled in APK)
+                // Fallback to APK assets (stored under Data/ prefix)
                 val am = bgmAssetManager ?: run {
                     Log.e("MuBGM", "bgmPlay: AssetManager not set and file not found: $filePath")
                     mp.release()
                     return
                 }
-                val afd: AssetFileDescriptor = am.openFd(path)
+                // Assets are at Data/Music/login_theme.mp3 (from assets/Data/)
+                var assetPath = path
+                if (!assetPath.startsWith("Data/")) {
+                    assetPath = "Data/$assetPath"
+                }
+                val afd: AssetFileDescriptor = am.openFd(assetPath)
                 mp.setDataSource(afd.fileDescriptor, afd.startOffset, afd.length)
                 afd.close()
-                Log.d("MuBGM", "bgmPlay: using asset path '$path'")
+                Log.d("MuBGM", "bgmPlay: using asset path '$assetPath'")
+                // Also extract to disk for future runs
+                try {
+                    val outFile = java.io.File(filePath)
+                    outFile.parentFile?.mkdirs()
+                    val input = am.open(assetPath)
+                    val output = java.io.FileOutputStream(outFile)
+                    input.copyTo(output)
+                    input.close()
+                    output.close()
+                    Log.d("MuBGM", "bgmPlay: extracted to $filePath")
+                } catch (e: Exception) {
+                    Log.e("MuBGM", "bgmPlay: extract failed: ${e.message}")
+                }
             }
             mp.isLooping = true
             mp.setVolume(bgmVolume, bgmVolume)
