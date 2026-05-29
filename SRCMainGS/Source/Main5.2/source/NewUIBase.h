@@ -4,7 +4,11 @@
 
 #pragma once
 
+#ifndef ANDROID
 #include <windows.h>
+#else
+// Android: HWND is a void pointer (defined in MuPlatform.h)
+#endif
 
 namespace SEASON3B
 {
@@ -32,9 +36,9 @@ namespace SEASON3B
 		CNewUIObj() : m_hRelatedWnd(NULL), m_bRender(true), m_bUpdate(true) {}
 		virtual ~CNewUIObj() {}
 
-		void SetRelatedWnd(HWND hWnd = gwinhandle->GethWnd()) 
-		{ 
-			m_hRelatedWnd = hWnd; 
+		void SetRelatedWnd(HWND hWnd = NULL)
+		{
+			m_hRelatedWnd = hWnd;
 		}
 		HWND GetRelatedWnd() const { return m_hRelatedWnd; }
 
