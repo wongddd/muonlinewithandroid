@@ -97,7 +97,7 @@ static bool g_serverListRequested = false;
 
 // 超时检测 (Task 4)
 static float g_timeoutAccum = 0.0f;
-static constexpr float CONNECT_TIMEOUT = 15.0f;   // 连接超时 15s
+static constexpr float CONNECT_TIMEOUT = 45.0f;   // 连接超时 45s (某些服务器响应慢)
 static constexpr float LOGIN_TIMEOUT  = 30.0f;   // 登录超时 30s
 static constexpr float JOIN_TIMEOUT   = 20.0f;   // 加入地图超时 20s
 
