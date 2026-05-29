@@ -10,6 +10,8 @@
 #include "MuNetwork.h"
 #include "TimerManager.h"
 #include "ProtocolDispatch.h"
+#include "MuConfig.h"
+#include "MuStringTable.h"
 #include "ShaderLoader.h"
 #include "RenderBatcher.h"
 #include "RenderState.h"
@@ -115,6 +117,7 @@ extern float g_fScreenRate_y;
 
 // Keyboard show/hide (defined in MuBridge.cpp, overrides weak symbol from UIControls.cpp)
 extern void Android_ShowKeyboard(bool show);
+extern void Android_BgmSetVolume(float volume);
 
 // ImGui text delivery helper (exposed for MuBridge.cpp to route IME text to ImGui)
 bool ImGui_DeliverText(const char* utf8) {
@@ -1083,24 +1086,53 @@ static void renderLoop() {
                 ImGui::End();
             }
 
-            // Performance: only show debug overlay in MAIN_SCENE (not during login)
+            // Settings + Debug panel (MAIN_SCENE only)
             if (SceneFlag == MAIN_SCENE) {
+                static bool showSettings = false;
                 ImGui::SetNextWindowPos(ImVec2(10, 10), ImGuiCond_FirstUseEver);
-                ImGui::SetNextWindowSize(ImVec2(180, 80), ImGuiCond_FirstUseEver);
+                ImGui::SetNextWindowSize(ImVec2(220, 100), ImGuiCond_FirstUseEver);
                 ImGui::Begin("Debug", nullptr,
                              ImGuiWindowFlags_NoTitleBar | ImGuiWindowFlags_NoResize |
                              ImGuiWindowFlags_NoCollapse);
                 ImGui::Text("FPS: %d (%.1f ms)", g_currentFPS, g_deltaTime * 1000.0f);
-                ImGui::Text("Scene: %d", static_cast<int>(SceneFlag));
-                ImGui::Text("Net: %s", MuNetwork::isConnected() ? "OK" : "--");
-                ImGui::Separator();
-                if (ImGui::Button("\xe6\x88\xaa\xe5\x9b\xbe", ImVec2(80, 30))) { // 截图
-                    LOGI("Screenshot requested");
-                    // Call JNI: save current frame
-                    FILE* fp = (fopen)("/data/user/0/com.mu.client/files/screenshot.txt", "w");
-                    if (fp) { fprintf(fp, "1"); fclose(fp); }
+                ImGui::Text("Scene: %d | Net: %s", SceneFlag,
+                            MuNetwork::isConnected() ? "OK" : "--");
+                if (ImGui::Button("\xe6\x88\xaa\xe5\x9b\xbe", ImVec2(70, 25))) { // 截图
+                    LOGI("Screenshot triggered");
                 }
+                ImGui::SameLine();
+                ImGui::Button(showSettings ? "\xe5\x85\xb3\xe9\x97\xad" : "\xe8\xae\xbe\xe7\xbd\xae", ImVec2(70, 25));
+                if (ImGui::IsItemClicked()) showSettings = !showSettings;
                 ImGui::End();
+
+                // Settings window
+                if (showSettings) {
+                    ImGui::SetNextWindowPos(ImVec2(10, 110), ImGuiCond_Once);
+                    ImGui::SetNextWindowSize(ImVec2(360, 260), ImGuiCond_Once);
+                    if (ImGui::Begin("\xe8\xae\xbe\xe7\xbd\xae", &showSettings, ImGuiWindowFlags_NoCollapse)) {
+                        static GameConfig cfg; static bool cfgLoaded = false;
+                        if (!cfgLoaded) { config_load(cfg, g_internalPath.c_str()); cfgLoaded = true; }
+                        int lang = cfg.language;
+                        if (ImGui::Combo("\xe8\xaf\xad\xe8\xa8\x80", &lang, "English\0\xe4\xb8\xad\xe6\x96\x87\0")) { // 语言
+                            cfg.language = lang; muSetLanguage((MuLanguage)lang);
+                        }
+                        int bgm = cfg.bgmVolume;
+                        if (ImGui::SliderInt("BGM", &bgm, 0, 100, "%d%%")) cfg.bgmVolume = bgm;
+                        int sfx = cfg.sfxVolume;
+                        if (ImGui::SliderInt("SFX", &sfx, 0, 100, "%d%%")) cfg.sfxVolume = sfx;
+                        bool ar = cfg.autoReconnect != 0;
+                        if (ImGui::Checkbox("\xe8\x87\xaa\xe5\x8a\xa8\xe9\x87\x8d\xe8\xbf\x9e", &ar)) { // 自动重连
+                            cfg.autoReconnect = ar ? 1 : 0;
+                            ProtocolDispatch::enableAutoReconnect(ar);
+                        }
+                        ImGui::Separator();
+                        if (ImGui::Button("\xe4\xbf\x9d\xe5\xad\x98", ImVec2(200, 36))) { // 保存
+                            config_save(cfg, g_internalPath.c_str());
+                            LOGI("Settings saved");
+                        }
+                        ImGui::End();
+                    }
+                }
             }
 
             // Touch overlay: show joystick + button indicators in MAIN_SCENE
