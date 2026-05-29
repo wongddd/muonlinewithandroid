@@ -1,0 +1,97 @@
+14:41:03 [ServerInfo] CashShop loaded successfully
+14:41:03 [ServerInfo] ChaosMix loaded successfully
+14:41:03 [ServerInfo] Character loaded successfully
+14:41:03 [ServerInfo] Custom loaded successfully
+14:41:03 [ServerInfo] Command loaded successfully
+14:41:03 [ServerInfo] Common loaded successfully
+14:41:04 [ServerInfo] Event loaded successfully
+14:41:04 [ServerInfo] EventItemBag loaded successfully
+14:41:04 [ServerInfo] Hack loaded successfully
+14:41:04 [ServerInfo] Item loaded successfully
+14:41:06 [ServerInfo] Monster loaded successfully
+14:41:06 [ServerInfo] Move loaded successfully
+14:41:06 [ServerInfo] Quest loaded successfully
+14:41:06 [ServerInfo] Shop loaded successfully
+14:41:06 [ServerInfo] Skill loaded successfully
+14:41:06 [ServerInfo] Util loaded successfully
+14:41:06 [ReadBotInfo] BotSystem loaded successfully
+14:41:40 [Obj][12500] AddClient (192.168.1.135)
+14:41:41 [Obj][12500] AddAccount (vlxx)
+14:41:42 [Obj][12500] LogInCharacter (MGMG)
+14:48:17 [Obj][12500] LogOutCharacter (MGMG)
+14:48:17 [Obj][12500] DelAccount (vlxx)
+14:48:17 [Obj][12500] DelClient (192.168.1.135)
+14:50:00 [Invasion Manager] Index(7) Boss Position (Map: 0 X: 148 Y: 58)
+14:53:39 [Obj][12500] AddClient (192.168.1.135)
+14:53:41 [Obj][12500] AddAccount (vlxx)
+14:53:42 [Obj][12500] LogInCharacter (MGMG)
+14:56:52 [Obj][12500] LogOutCharacter (MGMG)
+14:56:52 [Obj][12500] DelAccount (vlxx)
+14:56:52 [Obj][12500] DelClient (192.168.1.135)
+14:57:14 [Obj][12500] AddClient (192.168.1.135)
+14:57:15 [Obj][12500] AddAccount (vlxx)
+14:57:17 [Obj][12500] LogInCharacter (MGMG)
+14:58:17 [Obj][12500] LogOutCharacter (MGMG)
+14:58:17 [Obj][12500] DelAccount (vlxx)
+14:58:17 [Obj][12500] DelClient (192.168.1.135)
+14:58:32 [Obj][12500] AddClient (192.168.1.135)
+14:58:35 [Obj][12500] AddAccount (vlxx)
+14:58:36 [Obj][12500] LogInCharacter (MGMG)
+14:59:16 [Obj][12500] LogOutCharacter (MGMG)
+14:59:16 [Obj][12500] DelAccount (vlxx)
+14:59:16 [Obj][12500] DelClient (192.168.1.135)
+14:59:30 [Obj][12500] AddClient (192.168.1.135)
+14:59:32 [Obj][12500] AddAccount (vlxx)
+14:59:33 [Obj][12500] LogInCharacter (MGMG)
+15:00:37 [Obj][12500] LogOutCharacter (MGMG)
+15:00:37 [Obj][12500] DelAccount (vlxx)
+15:00:37 [Obj][12500] DelClient (192.168.1.135)
+15:00:56 [Obj][12500] AddClient (192.168.1.135)
+15:00:57 [Obj][12500] AddAccount (vlxx)
+15:00:58 [Obj][12500] LogInCharacter (MGMG)
+15:02:49 [Obj][12500] LogOutCharacter (MGMG)
+15:02:49 [Obj][12500] DelAccount (vlxx)
+15:02:49 [Obj][12500] DelClient (192.168.1.135)
+15:02:58 [Obj][12501] AddClient (192.168.1.135)
+15:03:00 [Obj][12501] AddAccount (vlxx)
+15:03:01 [Obj][12501] LogInCharacter (MGMG)
+15:07:12 [Obj][12501] LogOutCharacter (MGMG)
+15:07:12 [Obj][12501] DelAccount (vlxx)
+15:07:12 [Obj][12501] DelClient (192.168.1.135)
+15:07:31 [Obj][12500] AddClient (192.168.1.135)
+15:07:32 [Obj][12500] AddAccount (vlxx)
+15:07:34 [Obj][12500] LogInCharacter (MGMG)
+15:09:04 [Obj][12500] LogOutCharacter (MGMG)
+15:09:04 [Obj][12500] DelAccount (vlxx)
+15:09:04 [Obj][12500] DelClient (192.168.1.135)
+15:31:00 [ServerInfo] CashShop loaded successfully
+15:31:00 [ServerInfo] ChaosMix loaded successfully
+15:31:00 [ServerInfo] Character loaded successfully
+15:31:00 [ServerInfo] Custom loaded successfully
+15:31:00 [ServerInfo] Command loaded successfully
+15:31:00 [ServerInfo] Common loaded successfully
+15:31:00 [ServerInfo] Event loaded successfully
+15:31:01 [ServerInfo] EventItemBag loaded successfully
+15:31:01 [ServerInfo] Hack loaded successfully
+15:31:01 [ServerInfo] Item loaded successfully
+15:31:03 [ServerInfo] Monster loaded successfully
+15:31:03 [ServerInfo] Move loaded successfully
+15:31:03 [ServerInfo] Quest loaded successfully
+15:31:03 [ServerInfo] Shop loaded successfully
+15:31:03 [ServerInfo] Skill loaded successfully
+15:31:03 [ServerInfo] Util loaded successfully
+15:31:03 [ReadBotInfo] BotSystem loaded successfully
+15:32:15 [Obj][12500] AddClient (192.168.1.135)
+15:32:17 [Obj][12500] AddAccount (vlxx)
+15:32:18 [Obj][12500] LogInCharacter (MGMG)
+15:33:04 [Obj][12501] AddClient (192.168.1.135)
+15:33:06 [Obj][12501] AddAccount (vlxx3)
+15:33:07 [Obj][12501] LogInCharacter (33222)
+15:34:16 GCReqEventTime1
+15:34:33 GCReqEventTime1
+15:35:02 [Obj][12500] LogOutCharacter (MGMG)
+15:35:02 [Obj][12500] DelAccount (vlxx)
+15:35:02 [Obj][12500] DelClient (192.168.1.135)
+15:35:06 [Obj][12501] LogOutCharacter (33222)
+15:35:06 [Obj][12501] DelAccount (vlxx3)
+15:35:06 [Obj][12501] DelClient (192.168.1.135)

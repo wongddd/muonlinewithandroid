@@ -1,0 +1,108 @@
+04:03:45 [ServerInfo] CashShop loaded successfully
+04:03:45 [ServerInfo] ChaosMix loaded successfully
+04:03:45 [ServerInfo] Character loaded successfully
+04:03:45 [ServerInfo] Custom loaded successfully
+04:03:45 [ServerInfo] Command loaded successfully
+04:03:45 [ServerInfo] Common loaded successfully
+04:03:45 [ServerInfo] Event loaded successfully
+04:03:45 [ServerInfo] EventItemBag loaded successfully
+04:03:45 [ServerInfo] Hack loaded successfully
+04:03:45 [ServerInfo] Item loaded successfully
+04:03:45 [ServerInfo] Monster loaded successfully
+04:03:45 [ServerInfo] Move loaded successfully
+04:03:45 [ServerInfo] Quest loaded successfully
+04:03:45 [ServerInfo] Shop loaded successfully
+04:03:45 [ServerInfo] Skill loaded successfully
+04:03:45 [ServerInfo] Util loaded successfully
+04:03:45 [ReadBotInfo] BotSystem loaded successfully
+04:05:00 [Invasion Manager] Index(0) Boss Position (Map: 3 X: 204 Y: 73)
+04:10:00 [CustomQuiz] Start
+04:13:00 [CustomQuiz] Finish
+04:15:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 30 Y: 31)
+04:25:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 113 Y: 100)
+04:32:37 [Obj][12500] AddClient (192.168.1.127)
+04:32:37 [Obj][12500] DelClient (192.168.1.127)
+04:36:01 [OnlineLoterry] No Winner
+04:42:31 [Obj][12500] AddClient (192.168.1.127)
+04:42:31 [Obj][12500] DelClient (192.168.1.127)
+04:44:38 [Obj][12500] AddClient (192.168.1.127)
+04:44:38 [Obj][12500] DelClient (192.168.1.127)
+04:50:00 [Invasion Manager] Index(3) Boss Position (Map: 2 X: 160 Y: 12)
+05:00:00 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 178 Y: 118)
+05:10:00 [CustomQuiz] Start
+05:12:37 [Obj][12500] AddClient (192.168.1.127)
+05:12:37 [Obj][12500] DelClient (192.168.1.127)
+05:13:00 [CustomQuiz] Finish
+05:14:22 [Obj][12500] AddClient (192.168.1.127)
+05:14:22 [Obj][12500] DelClient (192.168.1.127)
+05:16:20 [Obj][12500] AddClient (192.168.1.127)
+05:16:20 [Obj][12500] DelClient (192.168.1.127)
+05:17:39 [Obj][12500] AddClient (192.168.1.127)
+05:17:39 [Obj][12500] DelClient (192.168.1.127)
+05:36:01 [OnlineLoterry] No Winner
+05:58:37 [Obj][12500] AddClient (192.168.1.127)
+05:58:37 [Obj][12500] DelClient (192.168.1.127)
+06:10:00 [CustomQuiz] Start
+06:10:26 [Obj][12500] AddClient (192.168.1.127)
+06:10:57 [Obj][12500] DelClient (192.168.1.127)
+06:10:57 Response error after connection causes conclusion [12500][][][192.168.1.127]
+06:13:00 [CustomQuiz] Finish
+06:13:24 [Obj][12500] AddClient (192.168.1.127)
+06:13:55 [Obj][12500] DelClient (192.168.1.127)
+06:13:55 Response error after connection causes conclusion [12500][][][192.168.1.127]
+06:21:15 [Obj][12500] AddClient (192.168.1.127)
+06:21:16 [Obj][12500] DelClient (192.168.1.127)
+06:23:05 [Obj][12500] AddClient (192.168.1.127)
+06:23:35 [Obj][12500] DelClient (192.168.1.127)
+06:23:35 Response error after connection causes conclusion [12500][][][192.168.1.127]
+06:34:54 [Obj][12500] AddClient (192.168.1.127)
+06:35:25 [Obj][12500] DelClient (192.168.1.127)
+06:35:25 Response error after connection causes conclusion [12500][][][192.168.1.127]
+06:36:01 [OnlineLoterry] No Winner
+06:50:00 [Invasion Manager] Index(7) Boss Position (Map: 3 X: 203 Y: 78)
+06:52:33 [Obj][12500] AddClient (192.168.1.127)
+06:53:04 [Obj][12500] DelClient (192.168.1.127)
+06:53:04 Response error after connection causes conclusion [12500][][][192.168.1.127]
+06:55:06 [Obj][12500] AddClient (192.168.1.127)
+06:55:36 [Obj][12500] DelClient (192.168.1.127)
+06:55:36 Response error after connection causes conclusion [12500][][][192.168.1.127]
+13:56:35 [ServerInfo] CashShop loaded successfully
+13:56:35 [ServerInfo] ChaosMix loaded successfully
+13:56:35 [ServerInfo] Character loaded successfully
+13:56:35 [ServerInfo] Custom loaded successfully
+13:56:35 [ServerInfo] Command loaded successfully
+13:56:35 [ServerInfo] Common loaded successfully
+13:56:35 [ServerInfo] Event loaded successfully
+13:56:35 [ServerInfo] EventItemBag loaded successfully
+13:56:35 [ServerInfo] Hack loaded successfully
+13:56:35 [ServerInfo] Item loaded successfully
+13:56:35 [ServerInfo] Monster loaded successfully
+13:56:35 [ServerInfo] Move loaded successfully
+13:56:35 [ServerInfo] Quest loaded successfully
+13:56:35 [ServerInfo] Shop loaded successfully
+13:56:35 [ServerInfo] Skill loaded successfully
+13:56:35 [ServerInfo] Util loaded successfully
+13:56:35 [ReadBotInfo] BotSystem loaded successfully
+14:10:00 [CustomQuiz] Start
+14:13:00 [CustomQuiz] Finish
+14:36:03 [OnlineLoterry] No Winner
+14:50:00 [Invasion Manager] Index(7) Boss Position (Map: 0 X: 158 Y: 48)
+15:10:02 [CustomQuiz] Start
+15:13:05 [CustomQuiz] Finish
+23:44:39 [ServerInfo] CashShop loaded successfully
+23:44:39 [ServerInfo] ChaosMix loaded successfully
+23:44:39 [ServerInfo] Character loaded successfully
+23:44:39 [ServerInfo] Custom loaded successfully
+23:44:39 [ServerInfo] Command loaded successfully
+23:44:39 [ServerInfo] Common loaded successfully
+23:44:39 [ServerInfo] Event loaded successfully
+23:44:39 [ServerInfo] EventItemBag loaded successfully
+23:44:39 [ServerInfo] Hack loaded successfully
+23:44:39 [ServerInfo] Item loaded successfully
+23:44:39 [ServerInfo] Monster loaded successfully
+23:44:39 [ServerInfo] Move loaded successfully
+23:44:39 [ServerInfo] Quest loaded successfully
+23:44:39 [ServerInfo] Shop loaded successfully
+23:44:39 [ServerInfo] Skill loaded successfully
+23:44:39 [ServerInfo] Util loaded successfully
+23:44:39 [ReadBotInfo] BotSystem loaded successfully

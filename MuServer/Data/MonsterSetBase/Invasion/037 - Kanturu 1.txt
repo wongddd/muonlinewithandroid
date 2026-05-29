@@ -1,0 +1,8 @@
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction     Quantity      Value      Comment
+497            37             30         010            010            240          240          1             03            0          //Golden Satyros
+501            37             30         010            010            240          240          2             01            0          //Great Golden Dragon
+365            37             30         010            010            240          240          6             10            0          //Pouch of Blessing
+413            37             30         010            010            240          240          5             10            0          //Lunar Rabbit
+463            37             30         010            010            240          240          1             10            0          //Fire Flame Ghost
+end

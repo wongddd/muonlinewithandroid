@@ -1,0 +1,2 @@
+18:54:52 [SocketManager] bind() failed with error: 10048
+18:54:52 [ServerVersion] ServerVersion loaded successfully

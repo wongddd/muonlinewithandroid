@@ -1,0 +1,85 @@
+//===================================================================================
+//EventName:		Tên sự kiện									Ví dụ như Blood Castle, Chaos Castle, Halloween Event...
+//DropZen:			Tỷ lệ rơi Zen								Xác suất rơi Zen khi tiêu diệt quái.
+//ItemDropRate:		Tỷ lệ rơi vật phẩm							Xác suất rơi đồ khi quái chết.
+//ItemDropCount:	Số lượng vật phẩm rơi						Số lượng tối đa mỗi lần rơi.
+//SetItemDropRate:	Tỷ lệ rơi đồ hoàn hảo (Set Item)			Phần trăm rơi đồ thần.
+//ItemDropType:		Loại vật phẩm rơi							Dùng để chỉ loại item hoặc nhóm item cụ thể.
+//Fireworks:		Pháo hoa 									Có hiệu ứng pháo hoa khi rơi vật phẩm hay không (0 = không, 1 = có).
+//===================================================================================
+//Group				Nhóm vật phẩm								Dựa theo nhóm item trong server (sword, armor…)
+//Type				Loại vật phẩm								Có thể là mã số nội bộ đại diện cho loại
+//MinLevel			Cấp độ thấp nhất của item					Item sẽ có cấp độ ít nhất là mức này
+//MaxLevel			Cấp độ cao nhất của item					Item sẽ có cấp độ tối đa là mức này
+//Skill				Có kỹ năng hay không						1 = Có skill, 0 = Không có
+//Luck				Có dòng may mắn hay không					1 = Có luck, 0 = Không có
+//Option			Tùy chọn cộng thêm (option life +4 ~ +28)	Giá trị từ 0 đến 7 (tùy option)
+//Excellent			Dòng hoàn hảo (option xanh)					Giá trị từ 0~63 (tổ hợp bit các dòng Excellent)
+//===================================================================================
+
+
+0
+//TênSựKiện       #TỷLệRơiZen #TỷLệRơiItem  #SốLượng       #TỷLệRơiĐồThần   #LoạiRơi      #PháoHoa  
+//EventName       #DropZen    #ItemDropRate #ItemDropCount #SetItemDropRate #ItemDropType #Fireworks
+"Box of Kundun 1" 1000        100           1              0                0             0         
+end
+
+1
+//Nhóm  #Type #LvThấpNhất #LvCaoNhất #TuyệtChiêu #MayMắn #OpLife #DòngExc  
+//Group #Type #MinLevel   #MaxLevel  #Skill      #Luck   #Option #Excellent
+0       0     0           0          1           1       1       1         
+0       3     0           0          1           1       1       1         
+0       13    0           0          1           1       1       1         
+0       9     0           0          1           1       1       1         
+0       12    0           0          1           1       1       1         
+1       3     0           0          1           1       1       1         
+4       2     0           0          1           1       1       1         
+4       4     0           0          1           1       1       1         
+4       10    0           0          1           1       1       1         
+4       13    0           0          1           1       1       1         
+5       1     0           0          1           1       1       1         
+5       4     0           0          1           1       1       1         
+2       8     0           0          1           1       1       1         
+5       14    0           0          1           1       1       1         
+6       4     0           0          1           1       1       1         
+6       6     0           0          1           1       1       1         
+6       7     0           0          1           1       1       1         
+7       5     0           0          1           1       1       1         
+8       5     0           0          1           1       1       1         
+9       5     0           0          1           1       1       1         
+10      5     0           0          1           1       1       1         
+11      5     0           0          1           1       1       1         
+7       9     0           0          1           1       1       1         
+8       9     0           0          1           1       1       1         
+9       9     0           0          1           1       1       1         
+10      9     0           0          1           1       1       1         
+11      9     0           0          1           1       1       1         
+7       2     0           0          1           1       1       1         
+8       2     0           0          1           1       1       1         
+9       2     0           0          1           1       1       1         
+10      2     0           0          1           1       1       1         
+11      2     0           0          1           1       1       1         
+7       7     0           0          1           1       1       1         
+8       7     0           0          1           1       1       1         
+9       7     0           0          1           1       1       1         
+10      7     0           0          1           1       1       1         
+11      7     0           0          1           1       1       1         
+7       10    0           0          1           1       1       1         
+8       10    0           0          1           1       1       1         
+9       10    0           0          1           1       1       1         
+10      10    0           0          1           1       1       1         
+11      10    0           0          1           1       1       1         
+7       13    0           0          1           1       1       1         
+8       13    0           0          1           1       1       1         
+9       13    0           0          1           1       1       1         
+10      13    0           0          1           1       1       1         
+11      13    0           0          1           1       1       1         
+7       39    0           0          1           1       1       1         
+8       39    0           0          1           1       1       1         
+9       39    0           0          1           1       1       1         
+10      39    0           0          1           1       1       1         
+11      39    0           0          1           1       1       1         
+14      19    1           1          0           0       0       0         
+13      18    1           1          0           0       0       0         
+14      28    1           1          0           0       0       0         
+end

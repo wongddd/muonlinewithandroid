@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<MoveMap>
+	<info Index="1" MainName="Arena" SubName="Arena" Money="2000" MinLevel="50" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="50" />
+	<info Index="2" MainName="Lorencia" SubName="Lorencia" Money="2000" MinLevel="10" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="17" />
+	<info Index="3" MainName="Noria" SubName="Noria" Money="2000" MinLevel="10" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="27" />
+	<info Index="4" MainName="Devias" SubName="Devias" Money="2000" MinLevel="20" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="22" />
+	<info Index="5" MainName="Devias2" SubName="Devias2" Money="2500" MinLevel="20" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="72" />
+	<info Index="6" MainName="Devias3" SubName="Devias3" Money="3000" MinLevel="20" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="73" />
+	<info Index="7" MainName="Devias4" SubName="Devias4" Money="3500" MinLevel="20" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="74" />
+	<info Index="8" MainName="Dungeon" SubName="Dungeon" Money="3000" MinLevel="30" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="2" />
+	<info Index="9" MainName="Dungeon2" SubName="Dungeon2" Money="3500" MinLevel="40" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="6" />
+	<info Index="10" MainName="Dungeon3" SubName="Dungeon3" Money="4000" MinLevel="50" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="10" />
+	<info Index="11" MainName="Atlans" SubName="Atlans" Money="4000" MinLevel="70" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="49" />
+	<info Index="12" MainName="Atlans2" SubName="Atlans2" Money="4500" MinLevel="80" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="75" />
+	<info Index="13" MainName="Atlans3" SubName="Atlans3" Money="5000" MinLevel="90" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="76" />
+	<info Index="14" MainName="LostTower" SubName="LostTower" Money="5000" MinLevel="50" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="42" />
+	<info Index="15" MainName="LostTower2" SubName="LostTower2" Money="5500" MinLevel="50" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="31" />
+	<info Index="16" MainName="LostTower3" SubName="LostTower3" Money="6000" MinLevel="50" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="33" />
+	<info Index="17" MainName="LostTower4" SubName="LostTower4" Money="6500" MinLevel="60" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="35" />
+	<info Index="18" MainName="LostTower5" SubName="LostTower5" Money="7000" MinLevel="60" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="37" />
+	<info Index="19" MainName="LostTower6" SubName="LostTower6" Money="7500" MinLevel="70" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="39" />
+	<info Index="20" MainName="LostTower7" SubName="LostTower7" Money="8000" MinLevel="70" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="41" />
+	<info Index="21" MainName="Tarkan" SubName="Tarkan" Money="8000" MinLevel="140" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="57" />
+	<info Index="22" MainName="Tarkan2" SubName="Tarkan2" Money="8500" MinLevel="140" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="77" />
+	<info Index="23" MainName="Icarus" SubName="Icarus" Money="10000" MinLevel="170" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="63" />
+	<info Index="24" MainName="LorenDeep" SubName="LorenDeep" Money="0" MinLevel="10" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="106" />
+	<info Index="25" MainName="Aida1" SubName="Aida1" Money="8500" MinLevel="150" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="119" />
+	<info Index="26" MainName="Crywolf" SubName="Crywolf" Money="0" MinLevel="10" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="118" />
+	<info Index="27" MainName="Aida2" SubName="Aida2" Money="8500" MinLevel="150" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="140" />
+	<info Index="28" MainName="Kanturu1" SubName="Kanturu_ruin1" Money="9000" MinLevel="160" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="138" />
+	<info Index="29" MainName="Kanturu2" SubName="Kanturu_ruin2" Money="9000" MinLevel="160" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="141" />
+	<info Index="30" MainName="Kanturu Remain" SubName="Kanturu_Remain" Money="12000" MinLevel="230" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="139" />
+	<info Index="31" MainName="Elbeland" SubName="Elbeland" Money="2000" MinLevel="10" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="267" />
+	<info Index="32" MainName="Elbeland2" SubName="Elbeland2" Money="2500" MinLevel="10" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="268" />
+	<info Index="33" MainName="Swamp of Calmness" SubName="Swamp_of_Calmness" Money="15000" MinLevel="400" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="273" />
+	<info Index="34" MainName="Raklion" SubName="Raklion" Money="15000" MinLevel="280" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="287" />
+	<info Index="42" MainName="Vulcanus" SubName="Vulcanus" Money="15000" MinLevel="30" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="294" />
+	<info Index="43" MainName="Elbeland3" SubName="Elbeland3" Money="3000" MinLevel="10" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="269" />
+	<info Index="45" MainName="Kanturu3" SubName="Kanturu_ruin_island" Money="15000" MinLevel="160" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="334" />
+	<info Index="46" MainName="Karutan1" SubName="Karutan1" Money="13000" MinLevel="170" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="335" />
+	<info Index="47" MainName="Karutan2" SubName="Karutan2" Money="14000" MinLevel="170" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="344" />
+	<info Index="48" MainName="Arkaina" SubName="Arkaina" Money="15000" MinLevel="10" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="345" />
+	<info Index="49" MainName="Arena" SubName="Arena" Money="15000" MinLevel="10" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="346" />
+	<info Index="50" MainName="Abyss" SubName="Abyss" Money="15000" MinLevel="10" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="355" />
+	<info Index="51" MainName="Dunes" SubName="Dunes" Money="15000" MinLevel="10" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="356" />
+	<info Index="52" MainName="Acheron" SubName="Acheron" Money="15000" MinLevel="10" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="417" />
+	<info Index="53" MainName="Team Vs Team" SubName="Team_Team" Money="15000" MinLevel="10" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="383" />
+	<info Index="54" MainName="Survivor" SubName="Survivor" Money="2000" MinLevel="0" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="450" />
+	<info Index="55" MainName="DMxDM" SubName="DMxDM" Money="2000" MinLevel="0" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="451" />
+	<info Index="56" MainName="GMxGM" SubName="GMxGM" Money="2000" MinLevel="0" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="452" />
+	<info Index="57" MainName="BKxBK" SubName="BKxBK" Money="2000" MinLevel="0" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="453" />
+	<info Index="58" MainName="RFxRF" SubName="RFxRF" Money="2000" MinLevel="0" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="454" />
+	<info Index="59" MainName="LExLE" SubName="LExLE" Money="2000" MinLevel="0" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="455" />
+	<info Index="60" MainName="ELFxELF" SubName="ELFxELF" Money="2000" MinLevel="0" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="456" />
+	<info Index="61" MainName="SUMxSUM" SubName="SUMxSUM" Money="2000" MinLevel="0" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" Gate="457" />
+</MoveMap>

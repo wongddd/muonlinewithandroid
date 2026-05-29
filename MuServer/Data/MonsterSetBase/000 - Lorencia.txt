@@ -1,0 +1,80 @@
+0
+//Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
+//226            00             00         122            110            03             //Trainer
+//230            00             00         062            130            03             //Wandering Merchant Alex
+//250            00             00         183            137            02             //Wandering Merchant
+//253            00             00         127            086            02             //Potion Girl Amy
+//251            00             00         116            141            03             //Hanzo the Blacksmith
+//255            00             00         123            135            01             //Lumen the Barmaid
+//254            00             00         118            113            03             //Pasi the Mage
+//249            00             10         131            088            01             //Guard
+//249            00             20         173            125            03             //Guard
+//249            00             20         094            130            07             //Guard
+//249            00             20         094            125            07             //Guard
+//249            00             30         131            148            01             //Guard
+//240            00             00         147            145            01             //Safety Guardian
+//240            00             00         146            110            03             //Safety Guardian
+//257            00             00         096            129            01             //Shadow Phantom Soldier
+//375            00             00         132            161            03             //Chaos Card Master
+//257            00             00         132            165            03             //Shadow Phantom Soldier
+//257            00             00         132            090            03             //Shadow Phantom Soldier
+//257            00             00         170            129            01             //Shadow Phantom Soldier
+//547            00             00         139            138            03             //Market Union Member Julia
+//543            00             00         137            121            03             //Gens Duprian Steward
+//544            00             00         137            133            03             //Gens Vanert Steward
+//540            00             00         130            128            03             //Lugard
+//522            00             00         130            126            03             //Jerint the Assistant
+//580            00             00         130            121            03             //Robot
+
+
+226				00				00			122				110			03    //Nhà huấn luyện thú
+230				00				00			062				130			03    //Alex
+230				00				00			130				137			03    //Alex
+250				00				00			183				137			02    //Người bán dạo Harold
+251				00				00			116				141			03    //Thợ rèn Hanzo
+255				00				00			123				135			01    //Chủ quán Liaman
+244				00				00			125				135			01    //Chủ quán Lumen
+253				00				00			121				133			02    //Cô gái bán dạo Amy
+254				00				00			118				113			03    //Pháp sư Pasi
+249				00				00			131				088			01    //Lính canh
+249				00				00			173				125			03    //Lính canh
+249				00				00			094				130			07    //Lính canh
+249				00				00			094				125			07    //Lính canh
+249				00				00			131				148			01    //Lính canh
+240				00				00			147				145			01    //Ngưới giữ đồ, Bas
+240				00				00			146				110			03    //Ngưới giữ đồ, Bas
+257				00				00			096				129			01    //Linh hồn Thánh Nữ
+375				00				00			132				161			03    //Thương nhân thẻ bài
+257				00				00			132				165			03    //Linh hồn Thánh Nữ
+257				00				00			132				090			03    //Linh hồn Thánh Nữ
+257				00				00			170				129			01    //Linh hồn Thánh Nữ
+547				00				00			129				146			03    //Thương nhân Julia
+543				00				00			137				121			03    //Người quản lý Duprion
+544				00				00			137				133			03    //Người quản lý Baneruter
+568				00				00			130				135			03    //Thương nhân Gyro
+379				00				00			130				127			03    //Thương nhân Natasha
+256				00				00			129				118			03    //Lahap
+406				00				00			139				119			03    //Mục sư Delbin
+479				00				00			130				134			03    //Người gác cổng Titus
+246				00				00			130				140			03    //Nhà buôn Zienna
+
+end
+
+
+1
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment
+003            00             30         180            090            226          244          2             45            //Spider
+002            00             30         180            090            226          244          6             40            //Budge Dragon
+002            00             30         135            020            240          088          0             20            //Budge Dragon
+000            00             30         135            020            240          088          4             45            //Bull Fighter
+006            00             30         095            168            175          244          6             20            //LIch
+014            00             30         095            168            175          244          0             15            //Skeleton
+001            00             30         008            011            094          244          1             45            //Hound
+004            00             30         008            011            094          244          0             45            //Elite Bull Fighter
+007            00             30         008            011            060          080          1             15            //Giant
+end
+
+
+2
+//Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
+end

@@ -1,0 +1,193 @@
+//==================================================== Update =======================================================================//
+
+// Bronze Coin
+// Type  Index 	Red	  Green  Blue   Group  RenderEffect  EffectType  TimeEffectType  TextureID  TimeTextureID  LevelGlow  Comment																							   
+   13	 166	1.0	  1.0	 1.0	0	   2	         -1	         1.0		     -1	        -1	           0          // render coin
+   13	 166	0.78  0.58	 0.20   0	   70	         -1	         1.0		     -1	        -1	           0          // effect glow Gold
+
+// Silver Coin
+// Type  Index 	Red	  Green  Blue   Group  RenderEffect  EffectType  TimeEffectType  TextureID  TimeTextureID  LevelGlow  Comment																							   
+   13	 167	1.0	  1.0	 1.0	0	   2	         -1	         1.0		     -1	        -1	           0          // render coin
+   13	 167	0.75  0.75	 0.75   0	   70	         -1	         1.0		     -1	        -1	           0          // effect glow Silver
+
+// Gold Coin
+// Type  Index 	Red	  Green  Blue   Group  RenderEffect  EffectType  TimeEffectType  TextureID  TimeTextureID  LevelGlow  Comment																							   
+   13	 168	1.0	  1.0	 1.0	0	   2	         -1	         1.0		     -1	        -1	           0          // render coin
+   13	 168	1.27  0.90	 0.20   0	   70	         -1	         1.0		     -1	        -1	           0          // effect glow Gold
+
+// Jewel of Additional
+// Type  Index 	Red	  Green  Blue   Group  RenderEffect  EffectType  TimeEffectType  TextureID  TimeTextureID  LevelGlow  Comment
+   14	 180	1.0   1.0	 1.0	0	   2	         -1	         1.0		     -1	        -1	           0          // render jewel
+   14	 180	1.96  0.69	 0.0	0	   70	         -1	         1.0		     -1	        -1	           0          // effect glow jewel
+   14	 180	1.0	  1.0	 1.0	1	   2	         -1	         1.0		     -1	        -1	           0          // render detail
+   14	 180	0.78  0.58	 0.20   1	   70	         -1	         1.0		     -1	        -1	           0          // effect glow gold
+
+// Jewel of Skill
+// Type  Index 	Red	  Green  Blue   Group  RenderEffect  EffectType  TimeEffectType  TextureID  TimeTextureID  LevelGlow  Comment
+   14	 181	1.0   1.0	 1.0	0	   2	         -1	         1.0		     -1	        -1	           0          // render jewel
+   14	 181	0.0   0.71	 1.59	0	   70	         -1	         1.0		     -1	        -1	           0          // effect glow jewel
+   14	 181	1.0	  1.0	 1.0	1	   2	         -1	         1.0		     -1	        -1	           0          // render detail
+   14	 181	0.78  0.58	 0.20   1	   70	         -1	         1.0		     -1	        -1	           0          // effect glow gold
+
+// Jewel of Luck
+// Type  Index 	Red	  Green  Blue   Group  RenderEffect  EffectType  TimeEffectType  TextureID  TimeTextureID  LevelGlow  Comment
+   14	 182	1.0   1.0	 1.0	0	   2	         -1	         1.0		     -1	        -1	           0          // render jewel
+   14	 182	2.55  2.58	 0.0	0	   70	         -1	         1.0		     -1	        -1	           0          // effect glow jewel
+   14	 182	1.0	  1.0	 1.0	1	   2	         -1	         1.0		     -1	        -1	           0          // render detail
+   14	 182	0.78  0.58	 0.20   1	   70	         -1	         1.0		     -1	        -1	           0          // effect glow gold
+
+// Jewel of Socket
+// Type  Index 	Red	  Green  Blue   Group  RenderEffect  EffectType  TimeEffectType  TextureID  TimeTextureID  LevelGlow  Comment
+   14	 183	1.0   1.0	 1.0	0	   2	         -1	         1.0		     -1	        -1	           0          // render jewel
+   14	 183	0.37  0.37	 2.25	0	   70	         -1	         1.0		     -1	        -1	           0          // effect glow jewel
+   14	 183	1.0	  1.0	 1.0	1	   2	         -1	         1.0		     -1	        -1	           0          // render detail
+   14	 183	0.78  0.58	 0.20   1	   70	         -1	         1.0		     -1	        -1	           0          // effect glow gold
+
+// Jewel of Excelent
+// Type  Index 	Red	  Green  Blue   Group  RenderEffect  EffectType  TimeEffectType  TextureID  TimeTextureID  LevelGlow  Comment
+   14	 184	1.0   1.0	 1.0	0	   2	         -1	         1.0		     -1	        -1	           0          // render jewel
+   14	 184	0.0   1.08	 0.10	0	   70	         -1	         1.0		     -1	        -1	           0          // effect glow jewel
+   14	 184	1.0	  1.0	 1.0	1	   2	         -1	         1.0		     -1	        -1	           0          // render detail
+   14	 184	0.78  0.58	 0.20   1	   70	         -1	         1.0		     -1	        -1	           0          // effect glow gold
+
+// Jewel of Random Options
+// Type  Index 	Red	  Green  Blue   Group  RenderEffect  EffectType  TimeEffectType  TextureID  TimeTextureID  LevelGlow  Comment
+   14	 185	1.0   1.0	 1.0	0	   2	         -1	         1.0		     -1	        -1	           0          // render jewel
+   14	 185	2.19  2.19	 2.19	0	   70	         -1	         1.0		     -1	        -1	           0          // effect glow jewel
+   14	 185	1.0	  1.0	 1.0	1	   2	         -1	         1.0		     -1	        -1	           0          // render detail
+   14	 185	0.78  0.58	 0.20   1	   70	         -1	         1.0		     -1	        -1	           0          // effect glow gold
+
+// Jewel of Random Rank
+// Type  Index 	Red	  Green  Blue   Group  RenderEffect  EffectType  TimeEffectType  TextureID  TimeTextureID  LevelGlow  Comment
+   14	 186	1.0   1.0	 1.0	0	   2	         -1	         1.0		     -1	        -1	           0          // render jewel
+   14	 186	0.70  0.70	 0.70	0	   70	         -1	         1.0		     -1	        -1	           0          // effect glow jewel
+   14	 186	1.0	  1.0	 1.0	1	   2	         -1	         1.0		     -1	        -1	           0          // render detail
+   14	 186	0.78  0.58	 0.20   1	   70	         -1	         1.0		     -1	        -1	           0          // effect glow gold
+
+// Jewel of Max Harmony
+// Type  Index 	Red	  Green  Blue   Group  RenderEffect  EffectType  TimeEffectType  TextureID  TimeTextureID  LevelGlow  Comment
+   14	 187	1.0   1.0	 1.0	0	   2	         -1	         1.0		     -1	        -1	           0          // render jewel
+   14	 187	0.0   2.10	 2.55	0	   70	         -1	         1.0		     -1	        -1	           0          // effect glow jewel
+   14	 187	1.0	  1.0	 1.0	1	   2	         -1	         1.0		     -1	        -1	           0          // render detail
+   14	 187	0.78  0.58	 0.20   1	   70	         -1	         1.0		     -1	        -1	           0          // effect glow gold
+
+// Jewel of 380 PvP
+// Type  Index 	Red	  Green  Blue   Group  RenderEffect  EffectType  TimeEffectType  TextureID  TimeTextureID  LevelGlow  Comment
+   14	 188	1.0   1.0	 1.0	0	   2	         -1	         1.0		     -1	        -1	           0          // render jewel
+   14	 188	2.55  0.0	 0.0	0	   70	         -1	         1.0		     -1	        -1	           0          // effect glow jewel
+   14	 188	1.0	  1.0	 1.0	1	   2	         -1	         1.0		     -1	        -1	           0          // render detail
+   14	 188	0.78  0.58	 0.20   1	   70	         -1	         1.0		     -1	        -1	           0          // effect glow gold
+
+// Jewel of Test
+// Type  Index 	Red	  Green  Blue   Group  RenderEffect  EffectType  TimeEffectType  TextureID  TimeTextureID  LevelGlow  Comment
+   14	 189	1.0   1.0	 1.0	0	   2	         -1	         1.0		     -1	        -1	           0          // render jewel
+   14	 189	2.36  0.27	 2.55	0	   70	         -1	         1.0		     -1	        -1	           0          // effect glow jewel
+   14	 189	1.0	  1.0	 1.0	1	   2	         -1	         1.0		     -1	        -1	           0          // render detail
+   14	 189	0.78  0.58	 0.20   1	   70	         -1	         1.0		     -1	        -1	           0          // effect glow gold
+
+//===========================================================================================================================
+//Small Healing Potion
+	14	1	1.0	1.0	1.0	1	2	-1	1.0		-1	-1	0
+	14	1	1.0	1.0	1.0	2	2	-1	1.0		-1	-1	0
+	14	1	1.0	1.0	1.0	3	2	-1	1.0		-1	-1	0
+	14	1	1.0	1.0	1.0	0	66	-1	1.0		-1	-1	0
+	14	1	0.5	0.5	0.5	2	66	2	0.588235	-1	-1	0
+	14	1	0.5	0.5	0.5	2	66	1	0.588235	-1	-1	0
+
+//Healing Potion
+   14	  2	    1.0	 1.0	1.0	  1	         2	           -1	       1.0		       -1	      -1	         0
+   14	  2	    1.0	 1.0	1.0	  2	         2	           -1	       1.0		       -1	      -1	         0
+   14	  2	    1.0	 1.0	1.0	  3	         2	           -1	       1.0		       -1	      -1	         0
+   14	  2	    1.0	 1.0	1.0	  0	         66	           -1	       1.0		       -1	      -1	         0
+   14	  2	    0.5	 0.5	0.5	  2	         66	           2	       0.588235	       -1	      -1	         0
+   14	  2	    0.5	 0.5	0.5	  2	         66	           1	       0.588235	       -1	      -1	         0
+   14	  2	    0.78 0.58	0.20  3	         70	           -1	       1.0		       -1	      -1	         0
+
+//Large Healing Potion
+	14	3	1.0	1.0	1.0	1	2	-1	1.0		-1	-1	0
+	14	3	1.0	1.0	1.0	2	2	-1	1.0		-1	-1	0
+	14	3	1.0	1.0	1.0	3	2	-1	1.0		-1	-1	0
+	14	3	1.0	1.0	1.0	0	66	-1	1.0		-1	-1	0
+	14	3	0.5	0.5	0.5	2	66	2	0.588235	-1	-1	0
+	14	3	0.5	0.5	0.5	2	66	1	0.588235	-1	-1	0
+	14	3	0.78	0.58	0.20	3	70	-1	1.0		-1	-1	0
+//Small Mana Potion
+	14	4	1.0	1.0	1.0	1	2	-1	1.0		-1	-1	0
+	14	4	1.0	1.0	1.0	2	2	-1	1.0		-1	-1	0
+	14	4	1.0	1.0	1.0	3	2	-1	1.0		-1	-1	0
+	14	4	1.0	1.0	1.0	0	66	-1	1.0		-1	-1	0
+	14	4	0.5	0.5	0.5	2	66	2	0.588235	-1	-1	0
+	14	4	0.5	0.5	0.5	2	66	1	0.588235	-1	-1	0
+//Mana Potion
+	14	5	1.0	1.0	1.0	1	2	-1	1.0		-1	-1	0
+	14	5	1.0	1.0	1.0	2	2	-1	1.0		-1	-1	0
+	14	5	1.0	1.0	1.0	3	2	-1	1.0		-1	-1	0
+	14	5	1.0	1.0	1.0	0	66	-1	1.0		-1	-1	0
+	14	5	0.5	0.5	0.5	2	66	2	0.588235	-1	-1	0
+	14	5	0.5	0.5	0.5	2	66	1	0.588235	-1	-1	0
+	14	5	0.78	0.58	0.20	3	70	-1	1.0		-1	-1	0
+//Large Mana Potion
+	14	6	1.0	1.0	1.0	1	2	-1	1.0		-1	-1	0
+	14	6	1.0	1.0	1.0	2	2	-1	1.0		-1	-1	0
+	14	6	1.0	1.0	1.0	3	2	-1	1.0		-1	-1	0
+	14	6	1.0	1.0	1.0	0	66	-1	1.0		-1	-1	0
+	14	6	0.5	0.5	0.5	2	66	2	0.588235	-1	-1	0
+	14	6	0.5	0.5	0.5	2	66	1	0.588235	-1	-1	0
+	14	6	0.78	0.58	0.20	3	70	-1	1.0		-1	-1	0
+//Antidote
+	14	8	1.0	1.0	1.0	1	2	-1	1.0		-1	-1	0
+	14	8	1.0	1.0	1.0	2	2	-1	1.0		-1	-1	0
+	14	8	1.0	1.0	1.0	3	2	-1	1.0		-1	-1	0
+	14	8	1.0	1.0	1.0	0	66	-1	1.0		-1	-1	0
+	14	8	0.5	0.5	0.5	2	66	2	0.588235	-1	-1	0
+	14	8	0.5	0.5	0.5	2	66	1	0.588235	-1	-1	0
+	14	8	0.78	0.58	0.20	3	70	-1	1.0		-1	-1	0
+//Small SD Potion
+	14	35	1.0	1.0	1.0	1	2	-1	1.0		-1	-1	0
+	14	35	1.0	1.0	1.0	2	2	-1	1.0		-1	-1	0
+	14	35	1.0	1.0	1.0	3	2	-1	1.0		-1	-1	0
+	14	35	1.0	1.0	1.0	0	66	-1	1.0		-1	-1	0
+	14	35	0.5	0.5	0.5	2	66	2	0.588235	-1	-1	0
+	14	35	0.5	0.5	0.5	2	66	1	0.588235	-1	-1	0
+	14	35	0.78	0.58	0.20	3	70	-1	1.0		-1	-1	0
+//SD Potion
+	14	36	1.0	1.0	1.0	1	2	-1	1.0		-1	-1	0
+	14	36	1.0	1.0	1.0	2	2	-1	1.0		-1	-1	0
+	14	36	1.0	1.0	1.0	3	2	-1	1.0		-1	-1	0
+	14	36	1.0	1.0	1.0	0	66	-1	1.0		-1	-1	0
+	14	36	0.5	0.5	0.5	2	66	2	0.588235	-1	-1	0
+	14	36	0.5	0.5	0.5	2	66	1	0.588235	-1	-1	0
+	14	36	0.78	0.58	0.20	3	70	-1	1.0		-1	-1	0
+//Large SD Potion
+	14	37	1.0	1.0	1.0	1	2	-1	1.0		-1	-1	0
+	14	37	1.0	1.0	1.0	2	2	-1	1.0		-1	-1	0
+	14	37	1.0	1.0	1.0	3	2	-1	1.0		-1	-1	0
+	14	37	1.0	1.0	1.0	0	66	-1	1.0		-1	-1	0
+	14	37	0.5	0.5	0.5	2	66	2	0.588235	-1	-1	0
+	14	37	0.5	0.5	0.5	2	66	1	0.588235	-1	-1	0
+	14	37	0.78	0.58	0.20	3	70	-1	1.0		-1	-1	0
+//Small Complex Potion
+	14	38	1.0	1.0	1.0	1	2	-1	1.0		-1	-1	0
+	14	38	1.0	1.0	1.0	2	2	-1	1.0		-1	-1	0
+	14	38	1.0	1.0	1.0	3	2	-1	1.0		-1	-1	0
+	14	38	1.0	1.0	1.0	0	66	-1	1.0		-1	-1	0
+	14	38	0.5	0.5	0.5	2	66	2	0.588235	-1	-1	0
+	14	38	0.5	0.5	0.5	2	66	1	0.588235	-1	-1	0
+	14	38	0.78	0.58	0.20	3	70	-1	1.0		-1	-1	0
+//Complex Potion
+	14	39	1.0	1.0	1.0	1	2	-1	1.0		-1	-1	0
+	14	39	1.0	1.0	1.0	2	2	-1	1.0		-1	-1	0
+	14	39	1.0	1.0	1.0	3	2	-1	1.0		-1	-1	0
+	14	39	1.0	1.0	1.0	0	66	-1	1.0		-1	-1	0
+	14	39	0.5	0.5	0.5	2	66	2	0.588235	-1	-1	0
+	14	39	0.5	0.5	0.5	2	66	1	0.588235	-1	-1	0
+	14	39	0.78	0.58	0.20	3	70	-1	1.0		-1	-1	0
+//Large Complex Potion
+	14	40	1.0	1.0	1.0	1	2	-1	1.0		-1	-1	0
+	14	40	1.0	1.0	1.0	2	2	-1	1.0		-1	-1	0
+	14	40	1.0	1.0	1.0	3	2	-1	1.0		-1	-1	0
+	14	40	1.0	1.0	1.0	0	66	-1	1.0		-1	-1	0
+	14	40	0.5	0.5	0.5	2	66	2	0.588235	-1	-1	0
+	14	40	0.5	0.5	0.5	2	66	1	0.588235	-1	-1	0
+	14	40	0.78	0.58	0.20	3	70	-1	1.0		-1	-1	0		
+end

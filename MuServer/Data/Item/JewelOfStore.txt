@@ -1,0 +1,12 @@
+//Jewel  Level  Bundled  Unit  Pack1  Pack2  Pack3 Name
+6159     *      6285     1     10     20     30    "Jewel of Chaos"
+7181     *      6174     1     10     20     30    "Jewel of Bless"
+7182     *      6175     1     10     20     30    "Jewel of Soul"
+7184     *      6280     1     10     20     30    "Jewel of life"
+7190     *      6281     1     10     20     30    "Jewel of Creation"
+7199     *      6282     1     10     20     30    "Jewel of Guardian"
+7210     *      6284     1     10     20     30    "Jewel of Harmony"
+7209     *      6283     1     10     20     30    "Gemstone"
+7211     *      6285     1     10     20     30    "Lower Refining Stone"
+7212     *      6286     1     10     20     30    "Higer Refining Stone"
+end

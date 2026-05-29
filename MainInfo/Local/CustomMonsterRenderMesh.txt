@@ -1,0 +1,40 @@
+//-----------------------------------------------------------------------------------------------------
+// Index: ItemIndex
+// GroupId: Num index mesh model
+// RenderFlag: 
+//   -RENDER_COLOR             1
+//   -RENDER_TEXTURE           2
+//   -RENDER_CHROME            4
+//   -RENDER_METAL             8
+//   -RENDER_LIGHTMAP          16
+//   -RENDER_SHADOWMAP         32
+//   -RENDER_BRIGHT            64     
+//   -RENDER_DARK              128
+//   -RENDER_EXTRA             256
+//   -RENDER_CHROME2           512
+//   -RENDER_WAVE              1024
+//   -RENDER_CHROME3           2048
+//   -RENDER_CHROME4           4096
+//   -RENDER_NODEPTH           8192
+//   -RENDER_CHROME5           16384
+//   -RENDER_OIL               32768
+//   -RENDER_CHROME6           65536
+//   -RENDER_CHROME7           131072
+//   -RENDER_DOPPELGANGER      262144
+//   -RENDER_CHROME8           524288
+// Texture: Image Index value default -1
+// Color RGB: value float (0.0 ~ 1.0) calculate (0 ~ 255) / 255
+// RenderType: render effect movement texture
+//   -Default                  -1
+//   -MovementX                0
+//   -MovementY                1
+//   -MovementX Negative       2
+//   -MovementY Negative       3
+//   -MovementFrameXY          4
+//   -MovementFrameY           5
+// TimeEffect: Time movement effect render texture
+// TimeTexture: Time blend mesh light effect
+//-----------------------------------------------------------------------------------------------------
+//#Index #GroupId #RenderFlag #Texture #ColorR #ColorG #ColorB #RenderT ype #TimeEffect #TimeTexture
+//-----------------------------------------------------------------------------------------------------
+end

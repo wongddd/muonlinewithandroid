@@ -1,0 +1,37 @@
+﻿-=-=-=-=-= Begin write Logs: 03.04.2025 5:50:58 PM =-=-=-=-=-
+[5:50:59 PM] Process tree has been loaded successfully.
+[5:50:59 PM] The process 'ConnectServer.exe' (ID: 1) is ready.
+[5:50:59 PM] The process 'DataServer.exe' (ID: 2) is ready.
+[5:50:59 PM] The process 'JoinServer.exe' (ID: 3) is ready.
+[5:50:59 PM] The process 'GameServer.exe' (ID: 4) is ready.
+[5:50:59 PM] The process 'GameServerCS.exe' (ID: 5) is ready.
+[5:52:51 PM] Processes execution has been initialized.
+[5:52:53 PM] Process 'ConnectServer.exe' (ID: 1) execution has been initialized.
+[5:52:54 PM] Process 'DataServer.exe' (ID: 2) execution has been initialized.
+[5:52:55 PM] Process 'JoinServer.exe' (ID: 3) execution has been initialized.
+[5:53:14 PM] Process 'GameServer.exe' (ID: 4) execution has been initialized by user.
+[5:54:51 PM] Processes execution has been initialized.
+[5:54:51 PM] Process 'ConnectServer.exe' (ID: 1) execution has been terminated.
+[5:54:51 PM] Process 'DataServer.exe' (ID: 2) execution has been terminated.
+[5:54:51 PM] Process 'JoinServer.exe' (ID: 3) execution has been terminated.
+[5:54:51 PM] Process 'GameServer.exe' (ID: 4) execution has been terminated.
+[5:54:51 PM] Processes execution has been terminated.
+[5:55:17 PM] Processes execution has been initialized.
+[5:55:18 PM] Process 'ConnectServer.exe' (ID: 1) execution has been initialized.
+[5:55:20 PM] Process 'DataServer.exe' (ID: 2) execution has been initialized.
+[5:55:21 PM] Process 'JoinServer.exe' (ID: 3) execution has been initialized.
+[5:55:23 PM] Process 'GameServer.exe' (ID: 4) execution has been initialized.
+[11:34:33 PM] Process 'GameServer.exe' (ID: 4) is not active.
+[11:34:42 PM] Process 'GameServer.exe' (ID: 4) execution has been initialized by user.
+[8:34:03 PM] Process 'GameServer.exe' (ID: 4) is not active.
+[8:34:08 PM] Process 'GameServer.exe' (ID: 4) is not active.
+[8:38:35 PM] Process 'GameServer.exe' (ID: 4) execution has been initialized by user.
+[11:51:10 PM] Processes execution has been initialized.
+[11:51:10 PM] Process 'GameServer.exe' (ID: 4) is not active.
+[11:51:11 PM] Process 'ConnectServer.exe' (ID: 1) execution has been terminated.
+[11:51:11 PM] Process 'DataServer.exe' (ID: 2) execution has been terminated.
+[11:51:11 PM] Process 'JoinServer.exe' (ID: 3) execution has been terminated.
+[11:51:11 PM] Processes execution has been terminated.
+-=-=-=-=-= End write Logs: 04.04.2025 11:51:26 PM =-=-=-=-=-
+
+

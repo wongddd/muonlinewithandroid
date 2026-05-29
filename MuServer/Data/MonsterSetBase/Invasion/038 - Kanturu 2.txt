@@ -1,0 +1,5 @@
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction     Quantity      Value      Comment
+498            38             30         010            010            240          240          0             03            0          //Golden Twin Tail
+end
+

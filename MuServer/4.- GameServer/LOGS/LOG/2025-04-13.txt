@@ -1,0 +1,110 @@
+00:05:00 [Invasion Manager] Index(0) Boss Position (Map: 3 X: 196 Y: 74)
+00:10:00 [CustomQuiz] Start
+00:13:00 [CustomQuiz] Finish
+00:15:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 36 Y: 67)
+00:25:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 165 Y: 201)
+00:36:01 [OnlineLoterry] No Winner
+00:50:00 [Invasion Manager] Index(3) Boss Position (Map: 3 X: 195 Y: 84)
+01:00:00 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 156 Y: 14)
+01:10:00 [CustomQuiz] Start
+01:12:48 [Obj][12501] AddClient (14.226.4.216)
+01:12:50 [Obj][12501] DelClient (14.226.4.216)
+01:13:00 [CustomQuiz] Finish
+01:36:01 [OnlineLoterry] No Winner
+02:10:00 [CustomQuiz] Start
+02:13:00 [CustomQuiz] Finish
+02:36:01 [OnlineLoterry] No Winner
+02:50:00 [Invasion Manager] Index(7) Boss Position (Map: 2 X: 158 Y: 15)
+03:10:00 [CustomQuiz] Start
+03:13:00 [CustomQuiz] Finish
+03:36:01 [OnlineLoterry] No Winner
+04:05:00 [Invasion Manager] Index(0) Boss Position (Map: 3 X: 195 Y: 76)
+04:10:00 [CustomQuiz] Start
+04:13:00 [CustomQuiz] Finish
+04:15:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 126 Y: 200)
+04:25:00 [Invasion Manager] Index(2) Boss Position (Map: 57 X: 126 Y: 93)
+04:36:01 [OnlineLoterry] No Winner
+04:50:00 [Invasion Manager] Index(3) Boss Position (Map: 0 X: 150 Y: 50)
+05:00:00 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 56 Y: 110)
+05:10:00 [CustomQuiz] Start
+05:13:00 [CustomQuiz] Finish
+05:36:01 [OnlineLoterry] No Winner
+06:10:00 [CustomQuiz] Start
+06:13:00 [CustomQuiz] Finish
+06:36:01 [OnlineLoterry] No Winner
+06:50:00 [Invasion Manager] Index(7) Boss Position (Map: 2 X: 159 Y: 20)
+07:10:00 [CustomQuiz] Start
+07:13:00 [CustomQuiz] Finish
+07:36:01 [OnlineLoterry] No Winner
+08:05:00 [Invasion Manager] Index(0) Boss Position (Map: 0 X: 135 Y: 192)
+08:10:00 [CustomQuiz] Start
+08:13:00 [CustomQuiz] Finish
+08:15:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 67 Y: 187)
+08:25:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 173 Y: 38)
+08:36:01 [OnlineLoterry] No Winner
+08:50:00 [Invasion Manager] Index(3) Boss Position (Map: 3 X: 203 Y: 72)
+09:00:00 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 130 Y: 166)
+09:10:00 [CustomQuiz] Start
+09:13:00 [CustomQuiz] Finish
+09:36:01 [OnlineLoterry] No Winner
+10:10:00 [CustomQuiz] Start
+10:13:00 [CustomQuiz] Finish
+10:36:01 [OnlineLoterry] No Winner
+10:50:00 [Invasion Manager] Index(7) Boss Position (Map: 0 X: 159 Y: 61)
+11:10:00 [CustomQuiz] Start
+11:13:00 [CustomQuiz] Finish
+11:36:01 [OnlineLoterry] No Winner
+12:05:00 [Invasion Manager] Index(0) Boss Position (Map: 3 X: 202 Y: 79)
+12:10:00 [CustomQuiz] Start
+12:13:00 [CustomQuiz] Finish
+12:15:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 141 Y: 176)
+12:25:00 [Invasion Manager] Index(2) Boss Position (Map: 57 X: 56 Y: 135)
+12:36:01 [OnlineLoterry] No Winner
+12:50:00 [Invasion Manager] Index(3) Boss Position (Map: 3 X: 197 Y: 75)
+13:00:00 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 181 Y: 121)
+13:10:00 [CustomQuiz] Start
+13:13:00 [CustomQuiz] Finish
+13:36:01 [OnlineLoterry] No Winner
+14:10:00 [CustomQuiz] Start
+14:13:00 [CustomQuiz] Finish
+14:36:01 [OnlineLoterry] No Winner
+14:50:00 [Invasion Manager] Index(7) Boss Position (Map: 3 X: 200 Y: 80)
+15:10:00 [CustomQuiz] Start
+15:13:00 [CustomQuiz] Finish
+15:36:01 [OnlineLoterry] No Winner
+16:05:00 [Invasion Manager] Index(0) Boss Position (Map: 0 X: 128 Y: 198)
+16:10:00 [CustomQuiz] Start
+16:13:00 [CustomQuiz] Finish
+16:15:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 115 Y: 220)
+16:25:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 152 Y: 48)
+16:36:01 [OnlineLoterry] No Winner
+16:50:00 [Invasion Manager] Index(3) Boss Position (Map: 2 X: 166 Y: 18)
+17:00:00 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 132 Y: 166)
+17:10:00 [CustomQuiz] Start
+17:13:00 [CustomQuiz] Finish
+17:36:01 [OnlineLoterry] No Winner
+18:10:00 [CustomQuiz] Start
+18:13:00 [CustomQuiz] Finish
+18:36:01 [OnlineLoterry] No Winner
+18:50:00 [Invasion Manager] Index(7) Boss Position (Map: 0 X: 153 Y: 57)
+19:10:00 [CustomQuiz] Start
+19:13:00 [CustomQuiz] Finish
+19:36:01 [OnlineLoterry] No Winner
+20:05:00 [Invasion Manager] Index(0) Boss Position (Map: 0 X: 127 Y: 193)
+20:10:00 [CustomQuiz] Start
+20:13:00 [CustomQuiz] Finish
+20:15:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 99 Y: 125)
+20:25:00 [Invasion Manager] Index(2) Boss Position (Map: 57 X: 33 Y: 115)
+20:36:01 [OnlineLoterry] No Winner
+20:50:00 [Invasion Manager] Index(3) Boss Position (Map: 2 X: 166 Y: 22)
+21:00:00 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 152 Y: 12)
+21:10:00 [CustomQuiz] Start
+21:13:00 [CustomQuiz] Finish
+21:36:01 [OnlineLoterry] No Winner
+22:10:00 [CustomQuiz] Start
+22:13:00 [CustomQuiz] Finish
+22:36:01 [OnlineLoterry] No Winner
+22:50:00 [Invasion Manager] Index(7) Boss Position (Map: 0 X: 154 Y: 63)
+23:10:00 [CustomQuiz] Start
+23:13:00 [CustomQuiz] Finish
+23:36:01 [OnlineLoterry] No Winner

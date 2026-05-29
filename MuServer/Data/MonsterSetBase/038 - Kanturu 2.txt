@@ -1,0 +1,105 @@
+0
+//Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
+367            38             00         141            191            02             //Gateway Machine
+end
+
+
+1
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment
+end
+
+
+2
+//Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
+359            38             30         159            098            3             //Twin Tale
+359            38             30         100            097            1             //Twin Tale
+359            38             30         099            085            1             //Twin Tale
+359            38             30         125            074            2             //Twin Tale
+359            38             30         113            096            2             //Twin Tale
+359            38             30         111            079            1             //Twin Tale
+359            38             30         123            088            3             //Twin Tale
+358            38             30         140            076            4             //Persona
+359            38             30         139            099            3             //Twin Tale
+359            38             30         178            092            2             //Twin Tale
+359            38             30         198            121            0             //Twin Tale
+359            38             30         197            136            3             //Twin Tale
+359            38             30         126            098            0             //Twin Tale
+359            38             30         135            088            7             //Twin Tale
+359            38             30         117            135            5             //Twin Tale
+358            38             30         106            159            2             //Persona
+360            38             30         110            140            2             //Dreadfear
+359            38             30         101            139            2             //Twin Tale
+359            38             30         149            085            3             //Twin Tale
+359            38             30         153            078            1             //Twin Tale
+359            38             30         151            160            1             //Twin Tale
+359            38             30         179            139            0             //Twin Tale
+359            38             30         187            145            2             //Twin Tale
+358            38             30         097            078            4             //Persona
+358            38             30         124            069            5             //Persona
+358            38             30         138            067            2             //Persona
+358            38             30         183            086            3             //Persona
+358            38             30         175            104            7             //Persona
+359            38             30         168            094            6             //Twin Tale
+360            38             30         122            127            5             //Dreadfear
+358            38             30         111            159            0             //Persona
+358            38             30         105            133            7             //Persona
+358            38             30         119            126            3             //Persona
+358            38             30         135            150            4             //Persona
+358            38             30         177            129            4             //Persona
+358            38             30         193            146            7             //Persona
+358            38             30         195            105            6             //Persona
+358            38             30         163            082            0             //Persona
+358            38             30         132            097            0             //Persona
+358            38             30         158            137            4             //Persona
+358            38             30         171            141            4             //Persona
+358            38             30         147            148            6             //Persona
+358            38             30         152            120            7             //Persona
+359            38             30         199            131            2             //Twin Tale
+359            38             30         195            115            0             //Twin Tale
+358            38             30         102            078            5             //Persona
+358            38             30         128            069            6             //Persona
+358            38             30         156            120            0             //Persona
+358            38             30         127            135            6             //Persona
+360            38             30         140            162            4             //Dreadfear
+360            38             30         176            117            6             //Dreadfear
+360            38             30         162            129            7             //Dreadfear
+360            38             30         167            129            7             //Dreadfear
+360            38             30         137            142            1             //Dreadfear
+360            38             30         150            151            2             //Dreadfear
+358            38             30         106            154            3             //Persona
+358            38             30         111            154            5             //Persona
+360            38             30         163            148            0             //Dreadfear
+360            38             30         177            150            0             //Dreadfear
+358            38             30         108            148            2             //Persona
+360            38             30         152            110            5             //Dreadfear
+360            38             30         164            112            7             //Dreadfear
+359            38             30         185            097            7             //Twin Tale
+106            38             30         141            155            8             //Laser Trap
+106            38             30         138            166            8             //Laser Trap
+106            38             30         141            166            8             //Laser Trap
+106            38             30         144            166            8             //Laser Trap
+106            38             30         138            171            8             //Laser Trap
+106            38             30         141            171            8             //Laser Trap
+106            38             30         144            171            8             //Laser Trap
+106            38             30         138            177            8             //Laser Trap
+106            38             30         141            177            8             //Laser Trap
+106            38             30         144            177            8             //Laser Trap
+106            38             30         138            183            8             //Laser Trap
+106            38             30         141            183            8             //Laser Trap
+106            38             30         144            183            8             //Laser Trap
+105            38             30         097            096            8             //Canon Trap
+105            38             30         097            078            8             //Canon Trap
+105            38             30         122            074            8             //Canon Trap
+105            38             30         136            070            8             //Canon Trap
+105            38             30         152            078            8             //Canon Trap
+105            38             30         177            089            8             //Canon Trap
+105            38             30         186            105            8             //Canon Trap
+105            38             30         201            134            8             //Canon Trap
+105            38             30         150            152            8             //Canon Trap
+105            38             30         138            152            8             //Canon Trap
+105            38             30         107            153            8             //Canon Trap
+105            38             30         111            153            8             //Canon Trap
+105            38             30         123            079            8             //Canon Trap
+105            38             30         137            104            8             //Canon Trap
+end
+

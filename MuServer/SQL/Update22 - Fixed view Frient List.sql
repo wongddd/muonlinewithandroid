@@ -1,0 +1,1 @@
+ALTER TABLE [dbo].[T_FriendMail] ALTER COLUMN [Photo] binary(48) NULL

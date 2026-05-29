@@ -1,0 +1,36 @@
+# Build outputs
+SRCMainGS/Source/android/app/build/
+SRCMainGS/Source/android/app/.cxx/
+SRCMainGS/Source/android/app/src/main/jniLibs/
+SRCMainGS/Source/android/app/src/main/assets/Data/Interface/
+SRCMainGS/Source/android/app/src/main/assets/Data/World*/
+SRCMainGS/Source/android/app/src/main/assets/Data/Object*/
+SRCMainGS/Source/android/app/src/main/assets/Data/Player/
+SRCMainGS/Source/android/app/src/main/assets/Data/Monster/
+SRCMainGS/Source/android/app/src/main/assets/Data/Item/
+SRCMainGS/Source/android/app/src/main/assets/Data/Sound/
+SRCMainGS/Source/android/app/src/main/assets/Data/Music/
+SRCMainGS/Source/android/app/src/main/assets/Data/Effect/
+SRCMainGS/Source/android/app/src/main/assets/Data/Custom/
+SRCMainGS/Source/android/app/src/main/assets/Data/Skill/
+SRCMainGS/Source/android/app/src/main/assets/Data/NPC/
+SRCMainGS/Source/android/app/src/main/assets/Data/Logo/
+SRCMainGS/Source/android/app/src/main/assets/Data/InGameShop*/
+SRCMainGS/Source/android/app/src/main/assets/Data/Launcher/
+SRCMainGS/Source/android/app/src/main/assets/Data/*.7z
+SRCMainGS/Source/android/app/src/main/assets/Data/*.bmd
+SRCMainGS/Source/android/app/src/main/assets/Data/*.gld
+SRCMainGS/Source/android/app/src/main/assets/Data/*.txt
+SRCMainGS/Source/android/app/src/main/assets/Data/Local/*.bmd
+SRCMainGS/Source/android/app/src/main/assets/Data/Local/Eng/
+SRCMainGS/Source/android/app/src/main/assets/Data/Local0/
+SRCMainGS/Source/android/app/src/main/assets/Data/LocalS16/
+SRCMainGS/Source/android/app/src/main/assets_Data_backup/
+Client_2/
+# IDE
+.vs/
+*.user
+*.suo
+# OS
+Thumbs.db
+.DS_Store

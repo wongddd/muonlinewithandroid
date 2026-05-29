@@ -1,0 +1,1 @@
+04:20:40 [SocketManager] Protocol header error (Index: 0, Header: 3)

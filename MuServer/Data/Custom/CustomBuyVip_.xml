@@ -1,0 +1,13 @@
+<shopbuyvip>
+	<item Index="1" Exp="10" Drop="10" Days="7" AccountLevel="1" Coin1="10" Coin2="10" Coin3="10" VipName="bronce 7 days" />
+	<item Index="2" Exp="10" Drop="10" Days="15" AccountLevel="1" Coin1="10" Coin2="10" Coin3="10" VipName="bronce 15 days" />
+	<item Index="3" Exp="10" Drop="10" Days="30" AccountLevel="1" Coin1="10" Coin2="10" Coin3="10" VipName="bronce 30 days" />
+
+	<item Index="4" Exp="10" Drop="10" Days="7" AccountLevel="2" Coin1="10" Coin2="10" Coin3="10" VipName="plata 7 days" />
+	<item Index="5" Exp="10" Drop="10" Days="15" AccountLevel="2" Coin1="10" Coin2="10" Coin3="10" VipName="plata 15 days" />
+	<item Index="6" Exp="10" Drop="10" Days="30" AccountLevel="2" Coin1="10" Coin2="10" Coin3="10" VipName="plata 30 days" />
+
+	<item Index="7" Exp="10" Drop="10" Days="7" AccountLevel="3" Coin1="10" Coin2="10" Coin3="10" VipName="oro 7 days" />
+	<item Index="8" Exp="10" Drop="10" Days="15" AccountLevel="3" Coin1="10" Coin2="10" Coin3="10" VipName="oro 15 days" />
+	<item Index="9" Exp="10" Drop="10" Days="30" AccountLevel="3" Coin1="10" Coin2="10" Coin3="10" VipName="oro 30 days" />
+</shopbuyvip>

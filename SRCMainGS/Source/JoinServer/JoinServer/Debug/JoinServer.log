@@ -1,0 +1,21 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  stdafx.cpp
+  Util.cpp
+  SocketManagerUdp.cpp
+  SocketManager.cpp
+  ServerManager.cpp
+  ServerDisplayer.cpp
+  Queue.cpp
+  QueryManager.cpp
+  Protect.cpp
+  MiniDump.cpp
+  MemScript.cpp
+  Log.cpp
+  JoinServerProtocol.cpp
+  JoinServer.cpp
+  CriticalSection.cpp
+  AllowableIpList.cpp
+  AccountManager.cpp
+  MD5.cpp
+  Generating Code...
+  JoinServer.vcxproj -> D:\NewSource5.2Tkm\Build\JoinServer.exe

@@ -1,0 +1,10 @@
+0
+//NotifyTime  EventTime  NpcIndex  HideCoord
+  2           2          465       0
+end
+
+1
+//Year   Month   Day   DoW   Hour   Minute   Second
+ *       *       *     *     0      30       0
+ *       *       *     *     2      30       0
+end

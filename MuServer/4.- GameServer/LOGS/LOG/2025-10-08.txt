@@ -1,0 +1,142 @@
+09:48:44 [CustomQuiz] Start
+09:48:45 [Invasion Manager] Index(0) Boss Position (Map: 0 X: 136 Y: 191)
+09:48:45 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 36 Y: 215)
+09:48:45 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 76 Y: 88)
+09:48:45 [Invasion Manager] Index(3) Boss Position (Map: 0 X: 152 Y: 60)
+09:48:45 [Invasion Manager] Index(7) Boss Position (Map: 0 X: 156 Y: 64)
+09:48:45 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 56 Y: 112)
+09:48:45 [OnlineLoterry] No Winner
+09:51:45 [CustomQuiz] Finish
+10:10:00 [CustomQuiz] Start
+10:13:00 [CustomQuiz] Finish
+10:14:00 [Obj][12500] AddClient (192.168.2.150)
+10:14:02 [Obj][12500] AddAccount (louismk)
+10:14:04 [Obj][12500] LogInCharacter (KmmR)
+10:14:20 [Obj][12500] LogOutCharacter (KmmR)
+10:14:20 [Obj][12500] DelAccount (louismk)
+10:14:20 [Obj][12500] DelClient (192.168.2.150)
+10:36:01 [OnlineLoterry] No Winner
+10:50:00 [Invasion Manager] Index(7) Boss Position (Map: 0 X: 160 Y: 47)
+11:10:00 [CustomQuiz] Start
+11:13:14 [ServerInfo] CashShop loaded successfully
+11:13:14 [ServerInfo] ChaosMix loaded successfully
+11:13:14 [ServerInfo] Character loaded successfully
+11:13:14 [ServerInfo] Custom loaded successfully
+11:13:14 [ServerInfo] Command loaded successfully
+11:13:14 [ServerInfo] Common loaded successfully
+11:13:14 [ServerInfo] Event loaded successfully
+11:13:14 [ServerInfo] EventItemBag loaded successfully
+11:13:14 [ServerInfo] Hack loaded successfully
+11:13:14 [ServerInfo] Item loaded successfully
+11:13:15 [ServerInfo] Monster loaded successfully
+11:13:15 [ServerInfo] Move loaded successfully
+11:13:15 [ServerInfo] Quest loaded successfully
+11:13:15 [ServerInfo] Shop loaded successfully
+11:13:15 [ServerInfo] Skill loaded successfully
+11:13:15 [ServerInfo] Util loaded successfully
+11:13:15 [ReadBotInfo] BotSystem loaded successfully
+11:13:31 [Obj][12500] AddClient (192.168.2.150)
+11:13:33 [Obj][12500] AddAccount (louismk)
+11:13:34 [Obj][12500] LogInCharacter (KmmR)
+11:14:22 [Obj][12500] LogOutCharacter (KmmR)
+11:14:22 [Obj][12500] DelAccount (louismk)
+11:14:22 [Obj][12500] DelClient (192.168.2.150)
+11:36:19 [ServerInfo] CashShop loaded successfully
+11:36:19 [ServerInfo] ChaosMix loaded successfully
+11:36:19 [ServerInfo] Character loaded successfully
+11:36:19 [ServerInfo] Custom loaded successfully
+11:36:19 [ServerInfo] Command loaded successfully
+11:36:19 [ServerInfo] Common loaded successfully
+11:36:19 [ServerInfo] Event loaded successfully
+11:36:19 [ServerInfo] EventItemBag loaded successfully
+11:36:19 [ServerInfo] Hack loaded successfully
+11:36:19 [ServerInfo] Item loaded successfully
+11:36:19 [ServerInfo] Monster loaded successfully
+11:36:19 [ServerInfo] Move loaded successfully
+11:36:19 [ServerInfo] Quest loaded successfully
+11:36:19 [ServerInfo] Shop loaded successfully
+11:36:19 [ServerInfo] Skill loaded successfully
+11:36:19 [ServerInfo] Util loaded successfully
+11:36:19 [ReadBotInfo] BotSystem loaded successfully
+11:58:54 [Obj][12500] AddClient (192.168.2.150)
+11:58:58 [Obj][12500] DelClient (192.168.2.150)
+12:00:07 [Obj][12500] AddClient (192.168.2.150)
+12:00:23 GJSendRegOrLostPass Type : 1 [1] [1] [1234567] [0909777111]
+12:00:29 GJSendRegOrLostPass Type : 1 [1] [1] [1234567] [0909777111]
+12:00:38 [Obj][12500] DelClient (192.168.2.150)
+12:00:38 Response error after connection causes conclusion [12500][][][192.168.2.150]
+12:01:13 [Obj][12500] AddClient (192.168.2.150)
+12:01:15 [Obj][12500] AddAccount (1)
+12:01:19 [Obj][12500] DelAccount (1)
+12:01:19 [Obj][12500] DelClient (192.168.2.150)
+12:05:00 [Invasion Manager] Index(0) Boss Position (Map: 0 X: 137 Y: 190)
+12:07:14 [ServerInfo] CashShop loaded successfully
+12:07:14 [ServerInfo] ChaosMix loaded successfully
+12:07:14 [ServerInfo] Character loaded successfully
+12:07:14 [ServerInfo] Custom loaded successfully
+12:07:14 [ServerInfo] Command loaded successfully
+12:07:14 [ServerInfo] Common loaded successfully
+12:07:14 [ServerInfo] Event loaded successfully
+12:07:14 [ServerInfo] EventItemBag loaded successfully
+12:07:14 [ServerInfo] Hack loaded successfully
+12:07:14 [ServerInfo] Item loaded successfully
+12:07:15 [ServerInfo] Monster loaded successfully
+12:07:15 [ServerInfo] Move loaded successfully
+12:07:15 [ServerInfo] Quest loaded successfully
+12:07:15 [ServerInfo] Shop loaded successfully
+12:07:15 [ServerInfo] Skill loaded successfully
+12:07:15 [ServerInfo] Util loaded successfully
+12:07:15 [ReadBotInfo] BotSystem loaded successfully
+12:07:18 [Obj][12500] AddClient (192.168.2.150)
+12:07:29 [Obj][12500] DelClient (192.168.2.150)
+12:08:30 [Obj][12500] AddClient (192.168.2.150)
+12:08:46 GJSendRegOrLostPass Type : 1 [2] [2] [1234567] [0909777444]
+12:08:46 JGRegAccountKQ 1
+12:08:51 [Obj][12500] DelClient (192.168.2.150)
+12:10:00 [CustomQuiz] Start
+12:10:33 [Obj][12500] AddClient (192.168.2.150)
+12:10:45 GJSendRegOrLostPass Type : 1 [2] [2] [1234567] [0909777444]
+12:10:45 JGRegAccountKQ 2
+12:10:53 GJSendRegOrLostPass Type : 1 [3] [3] [1234567] [0909777444]
+12:10:53 JGRegAccountKQ 1
+12:10:56 [Obj][12500] AddAccount (3)
+12:11:02 [Obj][12500] LogInCharacter (fqfwf)
+12:11:03 GCReqEventTime1
+12:11:20 [Obj][12500] LogOutCharacter (fqfwf)
+12:11:20 [Obj][12500] DelAccount (3)
+12:11:20 [Obj][12500] DelClient (192.168.2.150)
+12:11:22 [Obj][12501] AddClient (192.168.2.150)
+12:11:37 GJSendRegOrLostPass Type : 1 [5] [5] [1234567] [0909777444]
+12:11:37 JGRegAccountKQ 1
+12:11:40 [Obj][12501] DelClient (192.168.2.150)
+12:13:00 [CustomQuiz] Finish
+12:15:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 36 Y: 197)
+13:34:59 [CustomQuiz] Start
+13:34:59 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 162 Y: 21)
+13:34:59 [Invasion Manager] Index(3) Boss Position (Map: 3 X: 197 Y: 74)
+13:34:59 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 54 Y: 108)
+13:35:00 [OnlineLoterry] No Winner
+13:36:01 [OnlineLoterry] No Winner
+13:39:49 [ServerInfo] CashShop loaded successfully
+13:39:49 [ServerInfo] ChaosMix loaded successfully
+13:39:49 [ServerInfo] Character loaded successfully
+13:39:49 [ServerInfo] Custom loaded successfully
+13:39:49 [ServerInfo] Command loaded successfully
+13:39:49 [ServerInfo] Common loaded successfully
+13:39:49 [ServerInfo] Event loaded successfully
+13:39:49 [ServerInfo] EventItemBag loaded successfully
+13:39:49 [ServerInfo] Hack loaded successfully
+13:39:49 [ServerInfo] Item loaded successfully
+13:39:50 [ServerInfo] Monster loaded successfully
+13:39:50 [ServerInfo] Move loaded successfully
+13:39:50 [ServerInfo] Quest loaded successfully
+13:39:50 [ServerInfo] Shop loaded successfully
+13:39:50 [ServerInfo] Skill loaded successfully
+13:39:50 [ServerInfo] Util loaded successfully
+13:39:50 [ReadBotInfo] BotSystem loaded successfully
+13:39:57 [Obj][12500] AddClient (192.168.2.150)
+13:39:59 [Obj][12500] AddAccount (louismk)
+13:40:01 [Obj][12500] LogInCharacter (KmmR)
+13:40:33 [Obj][12500] LogOutCharacter (KmmR)
+13:40:33 [Obj][12500] DelAccount (louismk)
+13:40:33 [Obj][12500] DelClient (192.168.2.150)

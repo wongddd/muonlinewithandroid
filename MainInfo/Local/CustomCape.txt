@@ -1,0 +1,24 @@
+//==============================================================================================
+// #Index: loại (type) vật phẩm section|category
+// #SubIndex: chỉ mục (index) vật phẩm trong section|category
+// #RenderType: Giá trị Render khác 0 sẽ ghi đè các thiết lập còn lại
+//        0 = mặc định
+//        1 = Wings of Angel and Devil
+//        2 = Cloak of Death
+//        3 = Control Cloak
+//        4 = Referre Cloak
+//        5 = Transcendence
+//        6 = Wings Of Power
+//        7 = Cloak of Isolation
+// #IsStrip: Loại áo choàng (cape)
+//        0 = thường
+//        1 = thường + Strip
+//==============================================================================================
+//#Index  #SubIndex  #RenderType  #IsStrip  #Hide1GroupId  #Hide2GroupId  #TextureLayer                      #TextureStrip                      #TextureLayer_R                      #TextureStrip_R
+  12      160        0            1         0              7             "Fifth_Darklord_cape_03.tga"       "Fifth_Darklord_cape_05.tga"       "Fifth_Darklord_cape_Glow1.jpg"      ""
+  12      267        1            1         -1             -1            ""                                  ""                                  ""                                    ""
+  12      262        2            1         -1             -1            ""                                  ""                                  ""                                    ""
+  12      418        3            1         -1             -1            ""                                  ""                                  ""                                    ""
+  12      420        4            1         -1             -1            ""                                  ""                                  ""                                    ""
+  12      480        6            1         -1             -1            ""                                  ""                                  ""                                    ""
+end

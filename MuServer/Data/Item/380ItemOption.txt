@@ -1,0 +1,10 @@
+//Index Name                            Value
+1       "Attack sucess rate increase"   10
+2       "Additional Damage"             200
+3       "Defense success rate increase" 10
+4       "Defensive skill"               200
+5       "Max. HP increase"              200
+6       "Max. SD increase"              700
+7       "SD auto recovery"              1
+8       "SD recovery rate increase"     20
+end

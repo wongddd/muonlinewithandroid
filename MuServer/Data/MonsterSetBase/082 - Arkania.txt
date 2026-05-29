@@ -1,0 +1,80 @@
+0
+//Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
+543            82             00         216            023            00             //Gens Duprian Steward
+240            82             00         214            057            02             //Safety Guardian
+256            82             00         211            054            02             //Lahap
+235            82             00         219            031            00             //Sebina the Priest
+406            82             00         219            037            00             //Apostle Devin
+229            82             00         219            034            00             //Marlon
+241            82             00         219            040            00             //Royal Guard Captain Lorence
+415            82             00         216            059            02             //Silvia
+238            82             00         232            057            01             //Chaos Goblin
+369            82             00         229            058            01             //Osbourne
+370            82             00         230            057            01             //Jerridon
+226            82             00         210            050            03             //Trainer
+231            82             00         209            047            03             //Thompson Kenel
+246            82             00         210            044            03             //Weapons Merchant Zienna
+417            82             00         211            039            02             //Marce
+251            82             00         210            034            03             //Hanzo the Blacksmith
+416            82             00         210            030            02             //Rhea
+230            82             00         212            026            03             //Wandering Merchant Alex
+257            82             00         222            069            03             //Shadow Phantom Soldier
+237            82             00         236            092            01             //Charon
+237            82             00         218            092            01             //Charon
+233            82             00         230            092            01             //Messenger of Archangel
+233            82             00         212            092            01             //Messenger of Archangel
+380            82             00         224            092            01             //Stone Statue
+247            82             00         226            069            00             //Guard
+247            82             00         234            135            02             //Guard
+247            82             00         235            192            02             //Guard
+247            82             00         223            214            02             //Guard
+375            82             00         219            059            01             //Chaos Card Master
+end
+
+
+1
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment
+002            82             30         203            088            218          101          6             20            //Budge Dragon
+003            82             30         225            101            241          111          3             20            //Spider
+022            82             30         229            146            223          147          1             08            //Ice Monster
+003            82             30         223            147            207          151          1             08            //Spider
+022            82             30         207            151            205          168          6             08            //Ice Monster
+024            82             30         205            168            215          180          2             15            //Worm
+003            82             30         205            168            215          180          2             07            //Spider
+022            82             30         215            180            236          186          3             12            //Ice Monster
+024            82             30         215            180            236          186          2             15            //Worm
+003            82             30         215            180            236          186          6             10            //Spider
+002            82             30         237            204            237          204          1             05            //Budge Dragon
+020            82             30         237            204            237          204          2             05            //Elite Yeti
+002            82             30         232            209            232          224          0             07            //Budge Dragon
+003            82             30         232            209            232          224          4             07            //Spider
+022            82             30         232            209            232          224          5             07            //Ice Monster
+024            82             30         232            209            232          224          6             07            //Worm
+020            82             30         232            209            232          224          6             07            //Elite Yeti
+002            82             30         238            239            240          218          4             02            //Budge Dragon
+003            82             30         238            239            240          218          3             02            //Spider
+022            82             30         238            239            240          218          5             02            //Ice Monster
+024            82             30         238            239            240          218          3             02            //Worm
+020            82             30         238            239            240          218          5             02            //Elite Yeti
+027            82             30         238            239            240          218          7             05            //Chain Scorpion
+002            82             30         239            220            241          238          1             02            //Budge Dragon
+003            82             30         239            220            241          238          1             02            //Spider
+022            82             30         239            220            241          238          3             02            //Ice Monster
+024            82             30         239            220            241          238          5             02            //Worm
+020            82             30         239            220            241          238          1             02            //Elite Yeti
+027            82             30         239            220            241          238          1             05            //Chain Scorpion
+027            82             30         219            223            212          235          3             05            //Chain Scorpion
+027            82             30         219            223            212          235          7             05            //Chain Scorpion
+020            82             30         219            223            212          235          0             05            //Elite Yeti
+020            82             30         219            223            212          235          7             05            //Elite Yeti
+027            82             30         204            240            204          240          2             05            //Chain Scorpion
+020            82             30         204            240            204          240          2             05            //Elite Yeti
+027            82             30         218            238            218          238          6             05            //Chain Scorpion
+020            82             30         218            238            218          238          7             05            //Elite Yeti
+end
+
+
+2
+//Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
+end
+

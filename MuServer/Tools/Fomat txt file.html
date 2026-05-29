@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Monster.txt Formatter</title>
+  <style>
+    body {
+      font-family: monospace;
+      padding: 20px;
+    }
+    textarea {
+      width: 100%;
+      height: 300px;
+      margin-bottom: 10px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Monster.txt Column Formatter</h2>
+  <p>Dán nội dung từ file <code>Monster.txt</code> vào ô bên dưới và nhấn <b>Format</b> để căn chỉnh cột (giữ nguyên nội dung trong dấu ").</p>
+
+  <textarea id="input" placeholder="Dán nội dung monster.txt ở đây..."></textarea>
+  <button onclick="formatText()">Format</button>
+  <button onclick="copyOutput()">Copy kết quả</button>
+  <textarea id="output" placeholder="Kết quả sau khi căn cột sẽ hiển thị ở đây..."></textarea>
+
+  <script>
+    function splitPreserveQuoted(line) {
+      const result = [];
+      let current = '';
+      let inQuotes = false;
+
+      for (let i = 0; i < line.length; i++) {
+        const char = line[i];
+
+        if (char === '"') {
+          current += char;
+          inQuotes = !inQuotes;
+        } else if ((char === ' ' || char === '\t') && !inQuotes) {
+          if (current !== '') {
+            result.push(current);
+            current = '';
+          }
+        } else {
+          current += char;
+        }
+      }
+      if (current !== '') {
+        result.push(current);
+      }
+      return result;
+    }
+
+    function formatText() {
+      const input = document.getElementById('input').value.trim();
+      const lines = input.split('\n').filter(line => line.trim().length > 0);
+      const rows = lines.map(splitPreserveQuoted);
+
+      const colWidths = [];
+      rows.forEach(row => {
+        row.forEach((cell, i) => {
+          const displayLength = cell.length; // Dùng độ dài thực tế luôn
+          colWidths[i] = Math.max(colWidths[i] || 0, displayLength);
+        });
+      });
+
+      const formatted = rows.map(row => {
+        return row.map((cell, i) => {
+          return cell.padEnd(colWidths[i], ' ');
+        }).join(' ');
+      }).join('\n');
+
+      document.getElementById('output').value = formatted;
+    }
+
+    function copyOutput() {
+      const output = document.getElementById('output');
+      output.select();
+      output.setSelectionRange(0, 99999);
+      document.execCommand('copy');
+      alert('Đã sao chép nội dung đã format!');
+    }
+  </script>
+</body>
+</html>

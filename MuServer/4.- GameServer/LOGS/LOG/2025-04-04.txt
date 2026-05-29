@@ -1,0 +1,341 @@
+00:01:35 [Obj][12501] LogOutCharacter (LouisSM)
+00:01:35 [Obj][12501] DelAccount (louismk)
+00:01:35 [Obj][12501] DelClient (192.168.1.100)
+00:02:35 [Obj][12500] AddClient (192.168.1.100)
+00:02:36 [Obj][12500] AddAccount (louismk)
+00:02:38 [Obj][12500] LogInCharacter (LouisSM)
+00:05:00 [Invasion Manager] Index(0) Boss Position (Map: 3 X: 198 Y: 71)
+00:10:00 [CustomQuiz] Start
+00:13:00 [CustomQuiz] Finish
+00:15:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 172 Y: 125)
+00:16:33 [Obj][12500] LogOutCharacter (LouisSM)
+00:16:33 [Obj][12500] DelAccount (louismk)
+00:16:33 [Obj][12500] DelClient (192.168.1.100)
+00:16:47 [Obj][12501] AddClient (192.168.1.100)
+00:16:48 [Obj][12501] AddAccount (louismk)
+00:16:51 [Obj][12501] LogInCharacter (KmmR)
+00:25:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 221 Y: 69)
+00:32:35 [Obj][12501] LogOutCharacter (KmmR)
+00:32:35 [Obj][12501] DelAccount (louismk)
+00:32:35 [Obj][12501] DelClient (192.168.1.100)
+00:32:53 [Obj][12500] AddClient (192.168.1.100)
+00:32:54 [Obj][12500] AddAccount (louismk)
+00:32:55 [Obj][12500] LogInCharacter (LouisSM)
+00:36:01 [OnlineLoterry] Add Member (LouisSM)
+00:36:01 [OnlineLoterry] Winner (LouisSM)
+00:36:01 [louismk][LouisSM] WZ_SetCoin(Lottery) Val1: 10, Val2: 0, Val3: 0
+00:36:58 [louismk][LouisSM] vipIndex (Level: 9)
+00:36:58 [louismk][LouisSM] WZ_SetCoin(shop vip) Val1: -20, Val2: 0, Val3: 0
+00:38:49 [Obj][12500] LogOutCharacter (LouisSM)
+00:38:50 [Obj][12500] LogInCharacter (KmmR)
+00:38:54 [Obj][12500] LogOutCharacter (KmmR)
+00:38:55 [Obj][12500] LogInCharacter (LuisADM)
+00:39:02 [Obj][12500] LogOutCharacter (LuisADM)
+00:39:04 [Obj][12500] LogInCharacter (LouisSM)
+00:39:17 [ServerInfo] Util loaded successfully
+00:44:42 [louismk][LouisSM] WZ_SetCoin(CommonShopBuy) Val1: 0, Val2: 0, Val3: -12
+00:44:42 [louismk][LouisSM] WZ_SetCoin(CommonShopBuy) Val1: 0, Val2: 0, Val3: -12
+00:44:42 [louismk][LouisSM] WZ_SetCoin(CommonShopBuy) Val1: 0, Val2: 0, Val3: -12
+00:44:43 [louismk][LouisSM] WZ_SetCoin(CommonShopBuy) Val1: 0, Val2: 0, Val3: -12
+00:44:43 [louismk][LouisSM] WZ_SetCoin(CommonShopBuy) Val1: 0, Val2: 0, Val3: -12
+00:44:43 [louismk][LouisSM] WZ_SetCoin(CommonShopBuy) Val1: 0, Val2: 0, Val3: -12
+00:44:43 [louismk][LouisSM] WZ_SetCoin(CommonShopBuy) Val1: 0, Val2: 0, Val3: -12
+00:44:43 [louismk][LouisSM] WZ_SetCoin(CommonShopBuy) Val1: 0, Val2: 0, Val3: -12
+00:50:00 [Invasion Manager] Index(3) Boss Position (Map: 0 X: 150 Y: 53)
+00:55:28 [Obj][12500] LogOutCharacter (LouisSM)
+00:55:30 [Obj][12500] LogInCharacter (LuisADM)
+01:00:00 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 131 Y: 164)
+01:00:49 [Obj][12500] LogOutCharacter (LuisADM)
+01:00:49 [Obj][12500] DelAccount (louismk)
+01:00:49 [Obj][12500] DelClient (192.168.1.100)
+01:10:00 [CustomQuiz] Start
+01:13:00 [CustomQuiz] Finish
+01:36:01 [OnlineLoterry] No Winner
+02:10:00 [CustomQuiz] Start
+02:13:00 [CustomQuiz] Finish
+02:36:01 [OnlineLoterry] No Winner
+02:50:00 [Invasion Manager] Index(7) Boss Position (Map: 0 X: 157 Y: 62)
+03:10:00 [CustomQuiz] Start
+03:13:00 [CustomQuiz] Finish
+03:36:01 [OnlineLoterry] No Winner
+04:05:00 [Invasion Manager] Index(0) Boss Position (Map: 3 X: 197 Y: 75)
+04:10:00 [CustomQuiz] Start
+04:13:00 [CustomQuiz] Finish
+04:15:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 122 Y: 35)
+04:25:00 [Invasion Manager] Index(2) Boss Position (Map: 57 X: 79 Y: 116)
+04:36:01 [OnlineLoterry] No Winner
+04:50:00 [Invasion Manager] Index(3) Boss Position (Map: 3 X: 201 Y: 85)
+05:00:00 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 52 Y: 111)
+05:10:00 [CustomQuiz] Start
+05:13:00 [CustomQuiz] Finish
+05:36:01 [OnlineLoterry] No Winner
+06:10:00 [CustomQuiz] Start
+06:13:00 [CustomQuiz] Finish
+06:36:01 [OnlineLoterry] No Winner
+06:50:00 [Invasion Manager] Index(7) Boss Position (Map: 2 X: 161 Y: 18)
+07:10:00 [CustomQuiz] Start
+07:13:00 [CustomQuiz] Finish
+07:36:01 [OnlineLoterry] No Winner
+08:05:00 [Invasion Manager] Index(0) Boss Position (Map: 0 X: 130 Y: 202)
+08:10:00 [CustomQuiz] Start
+08:13:00 [CustomQuiz] Finish
+08:15:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 173 Y: 197)
+08:25:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 156 Y: 46)
+08:36:01 [OnlineLoterry] No Winner
+08:50:00 [Invasion Manager] Index(3) Boss Position (Map: 2 X: 159 Y: 17)
+09:00:00 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 130 Y: 162)
+09:10:00 [CustomQuiz] Start
+09:13:00 [CustomQuiz] Finish
+09:36:01 [OnlineLoterry] No Winner
+10:10:00 [CustomQuiz] Start
+10:13:00 [CustomQuiz] Finish
+10:36:01 [OnlineLoterry] No Winner
+10:50:00 [Invasion Manager] Index(7) Boss Position (Map: 0 X: 163 Y: 47)
+11:10:00 [CustomQuiz] Start
+11:13:00 [CustomQuiz] Finish
+11:36:01 [OnlineLoterry] No Winner
+12:05:00 [Invasion Manager] Index(0) Boss Position (Map: 3 X: 196 Y: 83)
+12:10:00 [CustomQuiz] Start
+12:13:00 [CustomQuiz] Finish
+12:15:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 24 Y: 136)
+12:25:00 [Invasion Manager] Index(2) Boss Position (Map: 57 X: 57 Y: 91)
+12:36:01 [OnlineLoterry] No Winner
+12:50:00 [Invasion Manager] Index(3) Boss Position (Map: 0 X: 162 Y: 54)
+13:00:00 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 56 Y: 110)
+13:10:00 [CustomQuiz] Start
+13:13:00 [CustomQuiz] Finish
+13:36:01 [OnlineLoterry] No Winner
+13:38:24 [Obj][12501] AddClient (192.168.1.100)
+13:38:26 [Obj][12501] AddAccount (louismk)
+13:38:29 [Obj][12501] LogInCharacter (KmmR)
+13:41:00 [Obj][12501] LogOutCharacter (KmmR)
+13:41:00 [Obj][12501] DelAccount (louismk)
+13:41:00 [Obj][12501] DelClient (192.168.1.100)
+13:42:19 [Obj][12500] AddClient (192.168.1.100)
+13:42:20 [Obj][12500] AddAccount (louismk)
+13:42:22 [Obj][12500] LogInCharacter (KmmR)
+13:45:28 [Obj][12500] LogOutCharacter (KmmR)
+13:45:28 [Obj][12500] DelAccount (louismk)
+13:45:28 [Obj][12500] DelClient (192.168.1.100)
+13:45:47 [Obj][12501] AddClient (192.168.1.100)
+13:45:49 [Obj][12501] AddAccount (louismk)
+13:45:50 [Obj][12501] LogInCharacter (KmmR)
+13:56:47 [Obj][12501] LogOutCharacter (KmmR)
+13:56:47 [Obj][12501] DelAccount (louismk)
+13:56:47 [Obj][12501] DelClient (192.168.1.100)
+13:57:05 [Obj][12500] AddClient (192.168.1.100)
+13:57:07 [Obj][12500] AddAccount (louismk)
+13:57:08 [Obj][12500] LogInCharacter (KmmR)
+13:58:41 [Obj][12500] LogOutCharacter (KmmR)
+13:58:41 [Obj][12500] DelAccount (louismk)
+13:58:41 [Obj][12500] DelClient (192.168.1.100)
+13:59:24 [Obj][12501] AddClient (192.168.1.100)
+13:59:26 [Obj][12501] AddAccount (louismk)
+13:59:27 [Obj][12501] LogInCharacter (LouisSM)
+13:59:30 [Obj][12501] LogOutCharacter (LouisSM)
+13:59:30 [Obj][12501] DelAccount (louismk)
+13:59:30 [Obj][12501] DelClient (192.168.1.100)
+14:01:21 [Obj][12500] AddClient (192.168.1.100)
+14:01:22 [Obj][12500] AddAccount (louismk)
+14:01:24 [Obj][12500] LogInCharacter (LuisADM)
+14:07:07 [Obj][12500] LogOutCharacter (LuisADM)
+14:07:07 [Obj][12500] DelAccount (louismk)
+14:07:07 [Obj][12500] DelClient (192.168.1.100)
+14:07:30 [Obj][12501] AddClient (192.168.1.100)
+14:07:31 [Obj][12501] AddAccount (louismk)
+14:07:33 [Obj][12501] LogInCharacter (KmmR)
+14:10:00 [CustomQuiz] Start
+14:13:00 [CustomQuiz] Finish
+14:17:17 [Obj][12501] LogOutCharacter (KmmR)
+14:17:17 [Obj][12501] DelAccount (louismk)
+14:17:17 [Obj][12501] DelClient (192.168.1.100)
+14:17:41 [Obj][12500] AddClient (192.168.1.100)
+14:17:43 [Obj][12500] AddAccount (louismk)
+14:17:44 [Obj][12500] LogInCharacter (KmmR)
+14:32:56 [Obj][12500] LogOutCharacter (KmmR)
+14:32:56 [Obj][12500] DelAccount (louismk)
+14:32:56 [Obj][12500] DelClient (192.168.1.100)
+14:33:13 [Obj][12501] AddClient (192.168.1.100)
+14:33:15 [Obj][12501] AddAccount (louismk)
+14:33:16 [Obj][12501] LogInCharacter (KmmR)
+14:36:01 [OnlineLoterry] No Winner
+14:40:11 [Obj][12501] LogOutCharacter (KmmR)
+14:40:11 [Obj][12501] DelAccount (louismk)
+14:40:11 [Obj][12501] DelClient (192.168.1.100)
+14:40:30 [Obj][12500] AddClient (192.168.1.100)
+14:40:31 [Obj][12500] AddAccount (louismk)
+14:40:34 [Obj][12500] LogInCharacter (KmmR)
+14:50:00 [Invasion Manager] Index(7) Boss Position (Map: 2 X: 160 Y: 17)
+15:01:20 [Obj][12500] LogOutCharacter (KmmR)
+15:01:21 [Obj][12500] LogInCharacter (Testeee)
+15:01:49 [Obj][12500] LogOutCharacter (Testeee)
+15:01:49 [Obj][12500] DelAccount (louismk)
+15:01:49 [Obj][12500] DelClient (192.168.1.100)
+15:02:10 [Obj][12501] AddClient (192.168.1.100)
+15:02:11 [Obj][12501] AddAccount (louismk)
+15:02:14 [Obj][12501] LogInCharacter (Testeee)
+15:10:00 [CustomQuiz] Start
+15:13:00 [CustomQuiz] Finish
+15:36:01 [OnlineLoterry] No Winner
+16:05:00 [Invasion Manager] Index(0) Boss Position (Map: 3 X: 197 Y: 82)
+16:10:00 [CustomQuiz] Start
+16:13:00 [CustomQuiz] Finish
+16:15:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 175 Y: 204)
+16:25:00 [Invasion Manager] Index(2) Boss Position (Map: 57 X: 218 Y: 37)
+16:36:01 [OnlineLoterry] No Winner
+16:50:00 [Invasion Manager] Index(3) Boss Position (Map: 0 X: 154 Y: 47)
+17:00:00 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 180 Y: 125)
+17:10:00 [CustomQuiz] Start
+17:13:00 [CustomQuiz] Finish
+17:36:01 [OnlineLoterry] No Winner
+18:10:00 [CustomQuiz] Start
+18:13:00 [CustomQuiz] Finish
+18:36:01 [OnlineLoterry] No Winner
+18:50:00 [Invasion Manager] Index(7) Boss Position (Map: 2 X: 159 Y: 20)
+19:02:29 [Obj][12501] LogOutCharacter (Testeee)
+19:02:29 [Obj][12501] DelAccount (louismk)
+19:02:29 [Obj][12501] DelClient (192.168.1.100)
+19:02:42 [Obj][12500] AddClient (192.168.1.100)
+19:02:43 [Obj][12500] AddAccount (louismk)
+19:02:45 [Obj][12500] LogInCharacter (LuisADM)
+19:04:20 [Obj][12500] LogOutCharacter (LuisADM)
+19:04:20 [Obj][12500] DelAccount (louismk)
+19:04:20 [Obj][12500] DelClient (192.168.1.100)
+19:06:22 [Obj][12501] AddClient (192.168.1.100)
+19:06:23 [Obj][12501] AddAccount (louismk)
+19:06:25 [Obj][12501] LogInCharacter (LuisADM)
+19:10:00 [CustomQuiz] Start
+19:11:02 [Obj][12501] LogOutCharacter (LuisADM)
+19:11:03 [Obj][12501] LogInCharacter (SUMM)
+19:13:00 [CustomQuiz] Finish
+19:36:01 [OnlineLoterry] No Winner
+19:49:10 [ServerInfo] Files to BMD Exported successfully
+19:49:40 [Obj][12501] LogOutCharacter (SUMM)
+19:49:40 [Obj][12501] DelAccount (louismk)
+19:49:40 [Obj][12501] DelClient (192.168.1.100)
+19:49:53 [Obj][12500] AddClient (192.168.1.100)
+19:49:55 [Obj][12500] AddAccount (louismk)
+19:49:56 [Obj][12500] LogInCharacter (LouisSM)
+20:05:00 [Invasion Manager] Index(0) Boss Position (Map: 3 X: 197 Y: 80)
+20:10:00 [CustomQuiz] Start
+20:13:00 [CustomQuiz] Finish
+20:15:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 166 Y: 34)
+20:25:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 34 Y: 81)
+20:34:04 [ServerInfo] CashShop loaded successfully
+20:34:04 [ServerInfo] ChaosMix loaded successfully
+20:34:04 [ServerInfo] Character loaded successfully
+20:34:04 [ServerInfo] Custom loaded successfully
+20:34:04 [ServerInfo] Command loaded successfully
+20:34:04 [ServerInfo] Common loaded successfully
+20:34:04 [ServerInfo] Event loaded successfully
+20:34:04 [ServerInfo] EventItemBag loaded successfully
+20:34:05 [ServerInfo] Hack loaded successfully
+20:34:05 [ServerInfo] Item loaded successfully
+20:38:33 [ServerInfo] CashShop loaded successfully
+20:38:33 [ServerInfo] ChaosMix loaded successfully
+20:38:33 [ServerInfo] Character loaded successfully
+20:38:33 [ServerInfo] Custom loaded successfully
+20:38:33 [ServerInfo] Command loaded successfully
+20:38:33 [ServerInfo] Common loaded successfully
+20:38:33 [ServerInfo] Event loaded successfully
+20:38:33 [ServerInfo] EventItemBag loaded successfully
+20:38:33 [ServerInfo] Hack loaded successfully
+20:38:33 [ServerInfo] Item loaded successfully
+20:38:33 [ServerInfo] Monster loaded successfully
+20:38:33 [ServerInfo] Move loaded successfully
+20:38:33 [ServerInfo] Quest loaded successfully
+20:38:33 [ServerInfo] Shop loaded successfully
+20:38:33 [ServerInfo] Skill loaded successfully
+20:38:33 [ServerInfo] Util loaded successfully
+20:38:33 [ReadBotInfo] BotSystem loaded successfully
+20:38:35 [Obj][12500] AddClient (192.168.1.100)
+20:38:45 [Obj][12500] AddAccount (louismk)
+20:38:46 [Obj][12500] LogInCharacter (LouisSM)
+20:39:24 [ServerInfo] Files to BMD Exported successfully
+20:42:11 [ServerInfo] Files to BMD Exported successfully
+20:47:13 [ServerInfo] Files to BMD Exported successfully
+20:50:00 [Invasion Manager] Index(3) Boss Position (Map: 2 X: 165 Y: 14)
+20:55:21 [Obj][12500] LogOutCharacter (LouisSM)
+20:56:36 [Obj][12500] LogInCharacter (LuisADM)
+21:00:00 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 51 Y: 111)
+21:01:35 [Obj][12501] AddClient (192.168.1.100)
+21:01:37 [Obj][12501] AddAccount (louismk2)
+21:01:39 [Obj][12501] LogInCharacter (LouisMK)
+21:01:53 [louismk][LuisADM] Kill [louismk2][LouisMK]
+21:02:56 [Obj][12501] LogOutCharacter (LouisMK)
+21:02:58 [Obj][12501] LogInCharacter (LouisMK)
+21:03:00 [Obj][12500] LogOutCharacter (LuisADM)
+21:03:12 [Obj][12500] LogInCharacter (Testeee)
+21:06:25 [louismk2][LouisMK] Kill [louismk][Testeee]
+21:06:33 [Obj][12500] LogOutCharacter (Testeee)
+21:06:33 [Obj][12500] DelAccount (louismk)
+21:06:33 [Obj][12500] DelClient (192.168.1.100)
+21:10:00 [CustomQuiz] Start
+21:10:01 [ServerInfo] Files to BMD Exported successfully
+21:10:24 [Obj][12501] LogOutCharacter (LouisMK)
+21:10:24 [Obj][12501] DelAccount (louismk2)
+21:10:24 [Obj][12501] DelClient (192.168.1.100)
+21:11:42 [Obj][12500] AddClient (192.168.1.100)
+21:11:44 [Obj][12500] AddAccount (louismk)
+21:11:47 [Obj][12500] LogInCharacter (SUMM)
+21:13:00 [CustomQuiz] Finish
+21:14:04 [Obj][12500] LogOutCharacter (SUMM)
+21:14:04 [Obj][12500] DelAccount (louismk)
+21:14:04 [Obj][12500] DelClient (192.168.1.100)
+21:15:43 [Obj][12501] AddClient (192.168.1.100)
+21:15:44 [Obj][12501] AddAccount (louismk)
+21:15:45 [Obj][12501] LogInCharacter (LouisSM)
+21:23:09 [ServerInfo] Custom loaded successfully
+21:23:13 [Obj][12501] LogOutCharacter (LouisSM)
+21:23:14 [Obj][12501] LogInCharacter (SUMM)
+21:36:01 [OnlineLoterry] No Winner
+22:10:00 [CustomQuiz] Start
+22:13:00 [CustomQuiz] Finish
+22:36:01 [OnlineLoterry] No Winner
+22:50:00 [Invasion Manager] Index(7) Boss Position (Map: 0 X: 156 Y: 57)
+23:08:24 [Obj][12501] LogOutCharacter (SUMM)
+23:08:24 [Obj][12501] DelAccount (louismk)
+23:08:24 [Obj][12501] DelClient (192.168.1.100)
+23:08:52 [Obj][12500] AddClient (192.168.1.100)
+23:08:55 [Obj][12500] AddAccount (louismk)
+23:08:57 [Obj][12500] LogInCharacter (SUMM)
+23:10:00 [CustomQuiz] Start
+23:10:22 [Obj][12500] LogOutCharacter (SUMM)
+23:10:22 [Obj][12500] DelAccount (louismk)
+23:10:22 [Obj][12500] DelClient (192.168.1.100)
+23:10:47 [Obj][12501] AddClient (192.168.1.100)
+23:10:48 [Obj][12501] AddAccount (louismk)
+23:10:50 [Obj][12501] LogInCharacter (SUMM)
+23:13:00 [CustomQuiz] Finish
+23:14:18 [Obj][12501] LogOutCharacter (SUMM)
+23:14:18 [Obj][12501] DelAccount (louismk)
+23:14:18 [Obj][12501] DelClient (192.168.1.100)
+23:14:38 [Obj][12500] AddClient (192.168.1.100)
+23:14:40 [Obj][12500] AddAccount (louismk)
+23:14:41 [Obj][12500] LogInCharacter (LouisSM)
+23:22:57 [Obj][12500] LogOutCharacter (LouisSM)
+23:22:57 [Obj][12500] DelAccount (louismk)
+23:22:57 [Obj][12500] DelClient (192.168.1.100)
+23:23:21 [Obj][12501] AddClient (192.168.1.100)
+23:23:23 [Obj][12501] AddAccount (louismk)
+23:23:24 [Obj][12501] LogInCharacter (SUMM)
+23:25:07 [Obj][12501] LogOutCharacter (SUMM)
+23:25:07 [Obj][12501] DelAccount (louismk)
+23:25:07 [Obj][12501] DelClient (192.168.1.100)
+23:26:03 [Obj][12500] AddClient (192.168.1.100)
+23:26:04 [Obj][12500] AddAccount (louismk)
+23:26:05 [Obj][12500] LogInCharacter (LouisSM)
+23:29:12 [Obj][12500] LogOutCharacter (LouisSM)
+23:29:13 [Obj][12500] LogInCharacter (SUMM)
+23:29:18 [Obj][12500] LogOutCharacter (SUMM)
+23:29:18 [Obj][12500] DelAccount (louismk)
+23:29:18 [Obj][12500] DelClient (192.168.1.100)
+23:29:20 [Obj][12501] AddClient (192.168.1.100)
+23:29:21 [Obj][12501] AddAccount (louismk)
+23:29:23 [Obj][12501] LogInCharacter (Testeee)
+23:36:01 [OnlineLoterry] Add Member (Testeee)
+23:36:01 [OnlineLoterry] Winner (Testeee)
+23:36:01 [louismk][Testeee] WZ_SetCoin(Lottery) Val1: 10, Val2: 0, Val3: 0
+23:50:44 [Obj][12501] LogOutCharacter (Testeee)
+23:50:44 [Obj][12501] DelAccount (louismk)
+23:50:44 [Obj][12501] DelClient (192.168.1.100)

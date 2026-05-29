@@ -1,0 +1,36 @@
+//=============================================================
+//-- Bắt đầu chỉ mục hình ảnh từ 33001
+//-- Đường dẫn mặc định: Data/Item/Texture/
+//  GL_NEAREST  = 9728
+//  GL_LINEAR   = 9729
+//  GL_CLAMP    = 10496
+//  GL_REPEAT   = 10497
+//=============================================================
+// Texture   #Wrap     #Type     #ĐườngDẫn
+//=============================================================
+33001     9728       10497      "absolute02_swordrender.JPG"
+33002     9728       10497      "hs_soularcherbowA01_render.jpg"
+33003     9728       10497      "flame_chrome.jpg"
+33004     9728       10497      "Blue_eyebow02r.jpg"
+33005     9728       10497      "black_gold_crom04.jpg"
+33006     9728       10497      "bowmastery07_render.jpg"
+33007     9728       10497      "MMsSs_r.jpg"
+33008     9728       10497      "black_gold_crom02.jpg"
+33009     9728       10497      "ground_wind2.jpg"
+33010     9728       10497      "black_gold_crom05.jpg"
+33011     9728       10497      "dknightwing4db_render.jpg"
+33012     9728       10497      "black_gold_crom02_mono.jpg"
+//-- Phát sáng hiếm có
+33013     9728       10497      "rare_shiningtails_1_render.jpg"
+33014     9728       10497      "rare_shiningtails_2_render.jpg"
+33015     9728       10497      "rare_shiningtails_3_render.jpg"
+33016     9728       10497      "rare_shiningtails_4_render.jpg"
+//-- Phát sáng
+33017     9728       10497      "shiningtails_render.jpg"
+33018     9728       10497      "shiningtails_2_render.jpg"
+33019     9728       10497      "shiningtails_3_render.jpg"
+33020     9728       10497      "shiningtails_4_render.jpg"
+//-- Vàng đen
+33021     9728       10497      "black_gold_crom04_mono.jpg"
+33022     9728       10497      "lightning_claw_02_r.jpg"
+end

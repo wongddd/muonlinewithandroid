@@ -1,0 +1,27 @@
+//Index #Npc #Map #X  #Y  #Comment   
+0       251  *    *   *   //Thợ rèn Hanzo
+1       255  *    *   *   //Chủ quán Liaman
+2       254  *    *   *   //Pháp sư Pasi
+3       250  *    *   *   //Người bán dạo Harold
+4       248  *    *   *   //Người bán dạo Martin
+5       253  *    *   *   //Cô gái bán dạo Amy
+6       244  *    *   *   //Chủ quán Lumen
+7       245  *    *   *   //Phù thủy Isabel
+8       246  *    *   *   //Nhà buôn Zienna
+9       243  *    *   *   //Yêu tinh Ellio
+10      242  *    *   *   //Tiên nữ Lala
+11      230  *    *   *   //Alex
+12      231  *    *   *   //Nhà buôn Thompson
+13      376  *    *   *   //Cửa hàng Pamela
+14      377  *    *   *   //Cửa hàng Angella
+15      379  *    *   *   //Thương nhân Natasha
+16      415  *    *   *   //Sylvia
+17      416  *    *   *   //Leah
+18      417  *    *   *   //Marseille
+19      492  *    *   *   //Thương gia Moss
+20      545  *    *   *   //Cửa hàng Christine
+21      239  *    *   *   //Lính canh Arena
+22      259  *    *   *   //Phù Thủy Reina
+23      577  *    *   *   //Thương nhân Rehina
+24      578  *    *   *   //Thương nhân Volo
+end    

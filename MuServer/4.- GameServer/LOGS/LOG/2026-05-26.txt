@@ -1,0 +1,15 @@
+00:05:00 [Invasion Manager] Index(0) Boss Position (Map: 0 X: 135 Y: 200)
+00:10:00 [CustomQuiz] Start
+00:13:00 [CustomQuiz] Finish
+00:15:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 89 Y: 27)
+00:21:59 [Obj][12502] AddClient (127.0.0.1)
+00:21:59 [Obj][12502] DelClient (127.0.0.1)
+00:24:03 [Obj][12503] AddClient (127.0.0.1)
+00:24:03 [Obj][12503] DelClient (127.0.0.1)
+00:25:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 44 Y: 33)
+00:33:35 [Obj][12500] AddClient (127.0.0.1)
+00:33:35 [Obj][12500] DelClient (127.0.0.1)
+00:36:01 [OnlineLoterry] No Winner
+00:50:00 [Invasion Manager] Index(3) Boss Position (Map: 3 X: 203 Y: 84)
+00:52:59 [Obj][12504] AddClient (127.0.0.1)
+00:52:59 [Obj][12504] DelClient (127.0.0.1)

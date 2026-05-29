@@ -1,0 +1,7 @@
+14:57:28 [CommandMake][vlxx][MGMG] - (Section: 0, Type: 18, Level: 15, Skill: 1, Luck: 1, Option: 1, Exc: 1, Set: 1, Sockets: 0, [Amount: 1])
+14:57:38 [CommandMake][vlxx][MGMG] - (Section: 0, Type: 18, Level: 12, Skill: 1, Luck: 1, Option: 1, Exc: 1, Set: 1, Sockets: 0, [Amount: 1])
+14:57:46 [CommandMake][vlxx][MGMG] - (Section: 0, Type: 18, Level: 11, Skill: 1, Luck: 1, Option: 1, Exc: 1, Set: 1, Sockets: 0, [Amount: 1])
+14:58:53 [CommandMake][vlxx][MGMG] - (Section: 0, Type: 0, Level: 18, Skill: 0, Luck: 1, Option: 1, Exc: 1, Set: 1, Sockets: 0, [Amount: 1])
+14:58:57 [CommandMake][vlxx][MGMG] - (Section: 0, Type: 18, Level: 0, Skill: 1, Luck: 1, Option: 1, Exc: 1, Set: 0, Sockets: 0, [Amount: 1])
+15:08:10 [CommandMake][vlxx][MGMG] - (Section: 0, Type: 18, Level: 13, Skill: 1, Luck: 1, Option: 1, Exc: 1, Set: 0, Sockets: 0, [Amount: 1])
+15:08:19 [CommandMake][vlxx][MGMG] - (Section: 0, Type: 18, Level: 14, Skill: 1, Luck: 1, Option: 1, Exc: 1, Set: 0, Sockets: 0, [Amount: 1])

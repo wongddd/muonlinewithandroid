@@ -1,0 +1,172 @@
+//------------------------------------------------------------------------------//
+//EffectIndex:                                                                  //
+//0  -> Blessed Divine Staff      (absolute02_staff.bmd)                        //
+//1  -> Blessed Divine Sword      (absolute02_sword.bmd)                        //
+//2  -> Blessed Divine CrossBow   (absolute_gunbow.bmd)                         //
+//3  -> Blessed Divine Scepter    (absolute_septer.bmd)                         //
+//4  -> Blessed Divine Stick      (absolute_stick.bmd)                          //
+//5  -> Blessed Divine Claw       (Sword42.bmd,Sword42_L.bmd,Sword42_R.bmd)     //
+//6  -> Blessed Divine Lancer     (blessedabsolute_lance.bmd)                   //
+//7  -> Blessed Divine Mace       (Bless_Absolute_Mace.bmd)                     //
+//8  -> Blessed Divine ShortSword (BlessedAbsoluteShortSword.bmd)               //
+//9  -> Heavenly Wings            (Wing401.bmd)                                 //
+//10 -> Avatar Wings              (Wing402.bmd)                                 //
+//11 -> Orb Wings                 (Wing403.bmd)                                 //
+//12 -> Fall Wings                (Wing404.bmd)                                 //
+//13 --                                                                         //
+//14 -> The Wings                 (Wing406.bmd)                                 //
+//15 --                                                                         //
+//16 -> Holyangel Sword           (HolyAngelSword.bmd)                          //
+//17 -> Holyangel Magic Sword     (HolyAngelMagicSword.bmd)                     //
+//18 -> Holyangel Scepter         (HolyAngelSepter.bmd)                         //
+//19 -> Holyangel Staff           (HolyAngelStaff.bmd)                          //
+//20 -> Holyangel Stick           (HolyAngelStick.bmd)                          //
+//21 -> Holyangel Claw            (Sword40.bmd,Sword40_L.bmd,Sword40_R.bmd)     //
+//22 -> Awakening Sword           (soulknightsword.bmd)                         //
+//23 -> Awakening Magic Sword     (SoulmagicSword.bmd)                          //
+//24 -> Awakening Bow             (hs_soularcherbow_s.bmd)                      //
+//25 -> Awakening Staff           (sd_SoulWizardStaff01_max7.bmd)               //
+//26 -> Awakening Stick           (sd_soulsummoner.bmd)                         //
+//27 -> Awakening Claw            (Sword43.bmd,Sword43_L.bmd,Sword43_R.bmd)     //
+//28 -> Blue Eye Sword            (hs_blueeyeknightA.bmd)                       //
+//29 -> Blue Eye Magic Sword      (blue_eye_magicsword01.bmd)                   //
+//30 -> Blue Eye Scepter          (Blue_eye_road_secpter.bmd)                   //
+//31 -> Blue Eye Bow              (blue_eyebow_stand.bmd)                       //
+//32 -> Blue Eye Staff            (blue_eye_ws.bmd)                             //
+//33 -> Blue Eye Stick            (blue_eyebow_stand.bmd)                       //
+//34 -> Blue Eye Claw             (Sword44.bmd,Sword44_L.bmd,Sword44_R.bmd)     //
+//35 -> Darkangel Bow             (Darkangel_Bow.bmd)                           //
+//36 -> Darkangel Lance           (Darkangel_Lance.bmd)                         //
+//37 -> Darkangel Mace            (DarkAngel_Mace.bmd)                          //
+//38 -> Darkangel Staff           (Darkangel_Staff.bmd)                         //
+//39 -> Darkangel Magic Sword     (DarkangelMagicsword.bmd)                     //
+//40 -> Darkangel ShortSword      (DarkAngelShortSword.bmd)                     //
+//41 -> Darkangel Sword           (DarkangelSword.bmd)                          //
+//42 -> Holyangel Mace            (HolyAngel_Mace.bmd)                          //
+//43 -> Holyangel Lance           (HolyAngelLance.bmd)                          //
+//44 -> Holyangel ShortSword      (HolyAngelShortSword.bmd)                     //
+//45 -> Awakening Lance           (sd_soullance01_final.bmd)                    //
+//46 -> Awakening Mace            (Soul_Mace.bmd)                               //
+//47 -> Awakening ShortSword      (SoulShortSword.bmd)                          //
+//48 -> Blue Eye ShortSword       (Blue_eyeShortSword.bmd)                      //
+//49 -> Blue Eye Lance            (hs_blueeyelance.bmd)                         //
+//50 -> Blue Eye Mace             (mace5masterf.bmd)                            //
+//51 -> Wings of Disillusionment  (Wing52.bmd)                                  //
+//52 -> Wings of Fate             (Wing53.bmd)                                  //
+//53 -> Wings of Silence          (Wing54.bmd)                                  //
+//54 -> Wings of Condemnation     (Wing55.bmd)                                  //
+//55 -> Wings of Power            (WingsOfPower.bmd)                            //
+//56 -> Control Cloak             (Utilizar para Custom Cloak Animation)        //
+//57 -> Referre Cloak             (Utilizar para Custom Cloak Animation)        //
+//58 -> Wings of Power            (Utilizar para Custom Cloak Animation)        //
+//59 -> Bloodangel Shield         (Masteryshild_dk01.bmd)                       //
+//60 -> Darkangel Shield          (Masteryshild_dk02.bmd)                       //
+//61 -> Holyangel Shield          (Masteryshild_dk03.bmd)                       //
+//62 -> Awakening Shield          (Masteryshild_dk04.bmd)                       //
+//63 -> Blueeye Shield            (Masteryshild_dk05.bmd)                       //
+//64 -> Silverheart Shield        (Masteryshild_dk06.bmd)                       //
+//65 -> Maya's Wings(MuOrigin)    (MJS_wing_12.bmd)                             //
+//66 -> Trigis Claw               (Sword37.bmd,Sword37_L.bmd,Sword37_R.bmd)     //
+//67 -> Wing of Conqueror         (ConquerorWing.bmd)                           //
+//68 -> Absolute Claw             (Sword41.bmd,Sword41_L.bmd,Sword41_R.bmd)     //
+//69 -> Absolute Mace             (Absolute_Mace.bmd)                           //
+//70 -> CollectorWings Purple(MU2)(KCW_WingP.bmd)                               //
+//71 -> CollectorWings Red(MU2)   (KCW_WingR.bmd)                               //
+//72 -> Kit Of War 2.0(MuAway)    (War2.0_Sword.bmd,War2.0_Shield.bmd)          //
+//73 -> Russell Light Lance       (growlance400weapon.bmd)                      //
+//74 -> Constant Shield           (growlance400shield.bmd)                      //
+//75 -> Bloodangel Sword          (blood_angelsword_s.bmd)                      //
+//76 -> Bloodangel Magic Sword    (blood_anglesword.bmd)                        //
+//77 -> Bloodangel Claw           (BloodangelClo.bmd,BloodangelClo_L~R.bmd)     //
+//78 -> Bloodangel Scepter        (booldangel_sapter.bmd)                       //
+//79 -> Bloodangel Bow            (bloodangel_bow.bmd)                          //
+//80 -> Bloodangel Staff          (bloodangelstaff01.bmd)                       //
+//81 -> Bloodangel Stick          (bloodangelstick01.bmd)                       //
+//82 -> Silver Heart Sword        (mastery_sword6.bmd)                          //
+//83 -> Silver Heart Magic Sword  (mastery_magicsword6.bmd)                     //
+//84 -> Silver Heart Claws        (Sword45.bmd,Sword45_L.bmd,Sword45_R.bmd)     //
+//85 -> Silver Heart ShortSword   (mastery_shortsword6.bmd)                     //
+//86 -> Silver Heart Scepter      (mastery_septera.bmd)                         //
+//87 -> Silver Heart Mace         (Masterymace6cha.bmd)                         //
+//88 -> Silver Heart Lance        (mastery_lance06.bmd)                         //
+//89 -> Silver Heart Bow          (mastery_bow6_stand.bmd)                      //
+//90 -> Silver Heart Staff        (mastery_staff.bmd)                           //
+//91 -> Silver Heart Stick        (Mastery_Stick6.bmd)                          //
+//92 -> Cyclone Sword             (balhalla_sword.bmd)                          //
+//93 -> Blast Break               (blastbreak.bmd)                              //
+//94 -> Horn of Steal             (hornofsteel.bmd)                             //
+//95 -> Magmus Peer               (MagmaSpear.bmd)                              //
+//96 -> Angelic Bow               (Bow26.bmd)                                   //
+//97 -> Miracle Staff             (MiracleStaff.bmd)                            //
+//98 -> Lazy Wind Shield          (CrazyWind.bmd)                               //
+//99 -> Light Lord Shield         (light_road.bmd)                              //
+//100 -> Dark Devil Shield        (darkdevilS.bmd)                              //
+//101 -> Magic Knight Shield      (hellnights.bmd)                              //
+//102 -> Wings of Hit             (GuncrasherWing3rd.bmd)                       //
+//103 -> Kit StylizedMoon(Kapocha)(K_StylizedMoonAxe.bmd,""ShortSword,""Sword)  //
+//104 -> Bloody wings             (GuncrasherWing4th.bmd)                       //
+//105 -> Cloak of Isolation       (Wing408.bmd)                                 //
+//------------------------------------------------------------------------------//             
+//#Type #Index #EffectIndex  #Comment
+//------------------------------------------------------------------------------//
+//-- swords
+0       36     92            //balhalla_sword
+0       42     75            //blood_angelsword_s
+0       44     76            //blood_anglesword
+0       51     1             //absolute02_sword
+0       54     41            //DarkangelSword
+0       55     39            //DarkangelMagicsword
+0       57     16            //HolyAngelSword
+0       58     17            //HolyAngelMagicSword
+0       62     22            //soulknightsword
+0       63     23            //SoulmagicSword
+0       72     40            //DarkAngelShortSword
+0       73     44            //HolyAngelShortSword
+0       74     47            //SoulShortSword
+0       75     48            //Blue_eyeShortSword
+0       78     28            //hs_blueeyeknightA
+0       79     29            //blue_eye_magicsword01
+0       81     82            //mastery_sword6
+0       82     83            //mastery_magicsword6
+0       84     85            //mastery_shortsword6
+//-- claws
+0      46      77            //BloodangelClo
+0      52      66            //sword37
+0      59      21            //Sword40
+0      60      68            //sword41
+0      61      5             //sword42
+0      64      27            //sword43
+0      80      34            //sword44
+0      83      84            //sword45
+//-- bow y crossbow
+4      28      79            //bloodangel_bow
+4      30      2             //absolute_gunbow
+4      31      35            //Darkangel_Bow
+4      38      24            //hs_soularcherbow_s
+4      40      31            //blue_eyebow_stand
+4      56      89            //mastery_bow6_stand
+//-- staff y stick
+5      49      0             //absolute02_staff
+//-- wings y cape
+12     266      67           //ConquerorWing"
+12     268      67           //ConquerorWing"
+12     414      9            //Wing401"
+12     415      10           //Wing402"
+12     416      11           //Wing403"
+12     417      12           //Wing404"
+12     418      56           //Wing405"
+12     419      14           //Wing406"
+12     420      57           //Wing407"
+12     421      105          //Wing408"
+12     467      51           //Wing52"
+12     468      51           //Wing52"
+12     469      52           //Wing53"
+12     472      53           //Wing54"
+12     473      53           //Wing54"
+12     474      54           //Wing55"
+12     480      58           //WingsOfPower"
+
+12     489      102          //guncrasherwing3rd"
+12     490      104          //guncrasherwing4th"
+12     496      102          //guncrasherwing3rd"
+end

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<SeedSphere>
+	<Info Index="0" Seed="1" Level="0" Rate="30" SphereLevel1="20" SphereLevel2="19" SphereLevel3="18" SphereLevel4="17" SphereLevel5="14" Name="(Level type)Attack/Wizardry increase" />
+	<Info Index="1" Seed="1" Level="1" Rate="20" SphereLevel1="7" SphereLevel2="8" SphereLevel3="9" SphereLevel4="10" SphereLevel5="11" Name="Attack speed increase" />
+	<Info Index="2" Seed="1" Level="2" Rate="30" SphereLevel1="30" SphereLevel2="32" SphereLevel3="35" SphereLevel4="40" SphereLevel5="50" Name="Maximum attack/Wizardry increase" />
+	<Info Index="3" Seed="1" Level="3" Rate="40" SphereLevel1="20" SphereLevel2="22" SphereLevel3="25" SphereLevel4="30" SphereLevel5="35" Name="Minimum attack/Wizardry increase" />
+	<Info Index="4" Seed="1" Level="4" Rate="20" SphereLevel1="20" SphereLevel2="22" SphereLevel3="25" SphereLevel4="30" SphereLevel5="35" Name="Attack/Wizardry increase" />
+	<Info Index="5" Seed="1" Level="5" Rate="30" SphereLevel1="40" SphereLevel2="41" SphereLevel3="42" SphereLevel4="43" SphereLevel5="44" Name="AG cost decrease" />
+	<Info Index="10" Seed="2" Level="0" Rate="10" SphereLevel1="10" SphereLevel2="11" SphereLevel3="12" SphereLevel4="13" SphereLevel5="14" Name="Block rating increase" />
+	<Info Index="11" Seed="2" Level="1" Rate="30" SphereLevel1="30" SphereLevel2="33" SphereLevel3="36" SphereLevel4="39" SphereLevel5="42" Name="Defense increase" />
+	<Info Index="12" Seed="2" Level="2" Rate="50" SphereLevel1="1" SphereLevel2="2" SphereLevel3="3" SphereLevel4="4" SphereLevel5="5" Name="Shield protection increase" />
+	<Info Index="13" Seed="2" Level="3" Rate="20" SphereLevel1="4" SphereLevel2="5" SphereLevel3="6" SphereLevel4="7" SphereLevel5="8" Name="Damage reduction" />
+	<Info Index="14" Seed="2" Level="4" Rate="40" SphereLevel1="5" SphereLevel2="6" SphereLevel3="7" SphereLevel4="8" SphereLevel5="9" Name="Damage Reflect" />
+	<Info Index="16" Seed="3" Level="0" Rate="30" SphereLevel1="8" SphereLevel2="7" SphereLevel3="6" SphereLevel4="5" SphereLevel5="4" Name="Monster destruction for the Life increase" />
+	<Info Index="17" Seed="3" Level="1" Rate="20" SphereLevel1="8" SphereLevel2="7" SphereLevel3="6" SphereLevel4="5" SphereLevel5="4" Name="Monster destruction for the Mana increase" />
+	<Info Index="18" Seed="3" Level="2" Rate="10" SphereLevel1="37" SphereLevel2="40" SphereLevel3="45" SphereLevel4="50" SphereLevel5="60" Name="Skill attack increase" />
+	<Info Index="19" Seed="3" Level="3" Rate="50" SphereLevel1="25" SphereLevel2="27" SphereLevel3="30" SphereLevel4="35" SphereLevel5="40" Name="Attack rating increase" />
+	<Info Index="20" Seed="3" Level="4" Rate="30" SphereLevel1="30" SphereLevel2="32" SphereLevel3="34" SphereLevel4="36" SphereLevel5="38" Name="Item durability increase" />
+	<Info Index="21" Seed="4" Level="0" Rate="40" SphereLevel1="8" SphereLevel2="10" SphereLevel3="13" SphereLevel4="16" SphereLevel5="20" Name="Automatic Life recovery increase" />
+	<Info Index="22" Seed="4" Level="1" Rate="30" SphereLevel1="4" SphereLevel2="5" SphereLevel3="6" SphereLevel4="7" SphereLevel5="8" Name="Maximum Life increase" />
+	<Info Index="23" Seed="4" Level="2" Rate="40" SphereLevel1="4" SphereLevel2="5" SphereLevel3="6" SphereLevel4="7" SphereLevel5="8" Name="Maximum Mana increase" />
+	<Info Index="24" Seed="4" Level="3" Rate="50" SphereLevel1="7" SphereLevel2="14" SphereLevel3="21" SphereLevel4="28" SphereLevel5="35" Name="Automatic Mana recovery increase" />
+	<Info Index="25" Seed="4" Level="4" Rate="40" SphereLevel1="25" SphereLevel2="30" SphereLevel3="35" SphereLevel4="40" SphereLevel5="50" Name="Maximum AG increase" />
+	<Info Index="26" Seed="4" Level="5" Rate="50" SphereLevel1="3" SphereLevel2="5" SphereLevel3="7" SphereLevel4="10" SphereLevel5="15" Name="AG value increase" />
+	<Info Index="29" Seed="5" Level="0" Rate="20" SphereLevel1="15" SphereLevel2="20" SphereLevel3="25" SphereLevel4="30" SphereLevel5="40" Name="Excellent damage increase" />
+	<Info Index="30" Seed="5" Level="1" Rate="10" SphereLevel1="10" SphereLevel2="11" SphereLevel3="12" SphereLevel4="13" SphereLevel5="14" Name="Excellent damage rate increase" />
+	<Info Index="31" Seed="5" Level="2" Rate="30" SphereLevel1="30" SphereLevel2="32" SphereLevel3="35" SphereLevel4="40" SphereLevel5="50" Name="Critical damage increase" />
+	<Info Index="32" Seed="5" Level="3" Rate="10" SphereLevel1="8" SphereLevel2="9" SphereLevel3="10" SphereLevel4="11" SphereLevel5="12" Name="Critical damage rate increase" />
+	<Info Index="34" Seed="6" Level="0" Rate="0" SphereLevel1="30" SphereLevel2="32" SphereLevel3="34" SphereLevel4="36" SphereLevel5="38" Name="Strength increase" />
+	<Info Index="35" Seed="6" Level="1" Rate="0" SphereLevel1="30" SphereLevel2="32" SphereLevel3="34" SphereLevel4="36" SphereLevel5="38" Name="Dexterity increase" />
+	<Info Index="36" Seed="6" Level="2" Rate="10" SphereLevel1="30" SphereLevel2="32" SphereLevel3="34" SphereLevel4="36" SphereLevel5="38" Name="Health increase" />
+	<Info Index="37" Seed="6" Level="3" Rate="0" SphereLevel1="30" SphereLevel2="32" SphereLevel3="34" SphereLevel4="36" SphereLevel5="38" Name="Energy increase" />
+</SeedSphere>
+<BonusSocket>
+	<Info Index="0" MinItemSection="0" MaxItemSection="4" Value="11" ReqSeed1="1" ReqSeed2="5" ReqSeed3="3" ReqSeed4="0" ReqSeed5="0" Name="Attack power increase" />
+	<Info Index="1" MinItemSection="0" MaxItemSection="4" Value="11" ReqSeed1="5" ReqSeed2="3" ReqSeed3="1" ReqSeed4="0" ReqSeed5="0" Name="Skill attack increase" />
+	<Info Index="2" MinItemSection="5" MaxItemSection="5" Value="5" ReqSeed1="1" ReqSeed2="5" ReqSeed3="3" ReqSeed4="0" ReqSeed5="0" Name="Attack/Wizardry increase" />
+	<Info Index="3" MinItemSection="5" MaxItemSection="5" Value="11" ReqSeed1="5" ReqSeed2="3" ReqSeed3="1" ReqSeed4="0" ReqSeed5="0" Name="Skill attack increase" />
+	<Info Index="4" MinItemSection="6" MaxItemSection="12" Value="24" ReqSeed1="2" ReqSeed2="6" ReqSeed3="4" ReqSeed4="0" ReqSeed5="0" Name="Defense increase" />
+	<Info Index="5" MinItemSection="6" MaxItemSection="12" Value="29" ReqSeed1="6" ReqSeed2="4" ReqSeed3="2" ReqSeed4="0" ReqSeed5="0" Name="Maximum Life increase" />
+</BonusSocket>
+<PackageOption>
+	<Info Index="0" Value="3" FireLevel="1" WaterLevel="1" IceLevel="1" WindLevel="1" LightningLevel="1" EarthLevel="1" Name="Double damage rate increase" />
+	<Info Index="1" Value="1" FireLevel="1" WaterLevel="3" IceLevel="1" WindLevel="3" LightningLevel="1" EarthLevel="2" Name="Opponent defensibility ignorance attack" />
+</PackageOption>

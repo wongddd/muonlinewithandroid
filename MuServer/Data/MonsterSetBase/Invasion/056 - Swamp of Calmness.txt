@@ -1,0 +1,12 @@
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction     Quantity      Value      Comment
+500            56             30         010            010            240          240          1             03            0          //Golden Napin
+560            56             30         050            103            057          114          0             07            0          //Sapi Queen
+560            56             30         127            162            136          171          1             07            1          //Sapi Queen
+560            56             30         149            010            162          019          0             07            2          //Sapi Queen
+560            56             30         178            114            184          129          2             07            3          //Sapi Queen
+561            56             30         050            103            057          114          5             01            0          //Medusa
+561            56             30         127            162            136          171          6             01            1          //Medusa
+561            56             30         149            010            162          019          7             01            2          //Medusa
+561            56             30         178            114            184          129          2             01            3          //Medusa
+end

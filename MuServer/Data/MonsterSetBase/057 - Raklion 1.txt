@@ -1,0 +1,140 @@
+0
+//Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
+605            57             03         211            208            03             //Mining Area (Small)
+605            57             03         220            203            06             //Mining Area (Small)
+605            57             03         222            208            02             //Mining Area (Small)
+606            57             03         223            203            05             //Mining Area (Medium)
+606            57             03         217            208            04             //Mining Area (Medium)
+607            57             03         224            221            00             //Mining Area (Large)
+end
+
+
+1
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment
+end
+
+
+2
+//Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
+454            57             30         203            204            3             //Ice Walker
+454            57             30         196            203            3             //Ice Walker
+454            57             30         188            203            3             //Ice Walker
+454            57             30         179            204            0             //Ice Walker
+455            57             30         171            207            2             //Giant Mammoth
+455            57             30         174            214            0             //Giant Mammoth
+455            57             30         164            212            0             //Giant Mammoth
+456            57             30         168            217            0             //Ice Giant
+456            57             30         157            217            5             //Ice Giant
+456            57             30         153            210            0             //Ice Giant
+456            57             30         172            188            5             //Ice Giant
+456            57             30         166            187            7             //Ice Giant
+456            57             30         162            182            7             //Ice Giant
+457            57             30         149            197            2             //Coolutin
+457            57             30         153            194            3             //Coolutin
+457            57             30         143            214            1             //Coolutin
+458            57             30         120            181            5             //Iron Knight
+458            57             30         134            184            1             //Iron Knight
+458            57             30         111            219            5             //Iron Knight
+458            57             30         101            217            3             //Iron Knight
+458            57             30         090            213            3             //Iron Knight
+458            57             30         098            178            5             //Iron Knight
+458            57             30         123            142            6             //Iron Knight
+458            57             30         143            135            0             //Iron Knight
+458            57             30         144            107            1             //Iron Knight
+458            57             30         127            099            3             //Iron Knight
+458            57             30         161            135            5             //Iron Knight
+458            57             30         191            144            4             //Iron Knight
+458            57             30         189            102            3             //Iron Knight
+458            57             30         196            104            2             //Iron Knight
+458            57             30         220            092            5             //Iron Knight
+458            57             30         233            113            2             //Iron Knight
+458            57             30         232            140            0             //Iron Knight
+458            57             30         222            081            1             //Iron Knight
+458            57             30         203            028            2             //Iron Knight
+458            57             30         211            033            7             //Iron Knight
+458            57             30         215            042            4             //Iron Knight
+458            57             30         203            049            4             //Iron Knight
+457            57             30         207            026            1             //Coolutin
+457            57             30         210            039            3             //Coolutin
+457            57             30         225            089            0             //Coolutin
+457            57             30         212            095            6             //Coolutin
+457            57             30         196            120            5             //Coolutin
+457            57             30         185            140            7             //Coolutin
+457            57             30         133            099            4             //Coolutin
+457            57             30         130            135            4             //Coolutin
+456            57             30         192            110            7             //Ice Giant
+456            57             30         197            132            6             //Ice Giant
+456            57             30         202            149            2             //Ice Giant
+456            57             30         152            136            1             //Ice Giant
+456            57             30         136            137            1             //Ice Giant
+456            57             30         136            106            2             //Ice Giant
+456            57             30         116            148            2             //Ice Giant
+456            57             30         095            195            2             //Ice Giant
+455            57             30         142            126            5             //Giant Mammoth
+455            57             30         223            150            5             //Giant Mammoth
+454            57             30         204            104            6             //Ice Walker
+454            57             30         154            129            1             //Ice Walker
+454            57             30         141            113            0             //Ice Walker
+562            57             30         114            101            0             //Dark Mammoth
+562            57             30         105            107            6             //Dark Mammoth
+562            57             30         102            109            7             //Dark Mammoth
+562            57             30         109            101            4             //Dark Mammoth
+562            57             30         092            117            6             //Dark Mammoth
+562            57             30         087            116            6             //Dark Mammoth
+563            57             30         033            095            7             //Dark Giant
+563            57             30         034            079            1             //Dark Giant
+563            57             30         037            088            6             //Dark Giant
+563            57             30         058            156            2             //Dark Giant
+563            57             30         065            143            0             //Dark Giant
+563            57             30         038            145            3             //Dark Giant
+563            57             30         070            101            1             //Dark Giant
+563            57             30         062            088            1             //Dark Giant
+563            57             30         073            087            7             //Dark Giant
+563            57             30         033            220            0             //Dark Giant
+563            57             30         047            195            4             //Dark Giant
+563            57             30         098            031            3             //Dark Giant
+563            57             30         123            045            5             //Dark Giant
+563            57             30         140            023            3             //Dark Giant
+563            57             30         039            148            6             //Dark Giant
+563            57             30         068            139            6             //Dark Giant
+563            57             30         057            159            7             //Dark Giant
+563            57             30         032            089            7             //Dark Giant
+564            57             30         123            040            3             //Dark Coolutin
+564            57             30         117            042            2             //Dark Coolutin
+564            57             30         037            222            0             //Dark Coolutin
+564            57             30         052            199            0             //Dark Coolutin
+564            57             30         034            146            2             //Dark Coolutin
+564            57             30         063            159            7             //Dark Coolutin
+564            57             30         062            135            7             //Dark Coolutin
+564            57             30         060            093            6             //Dark Coolutin
+564            57             30         033            115            7             //Dark Coolutin
+564            57             30         059            036            7             //Dark Coolutin
+564            57             30         064            032            0             //Dark Coolutin
+565            57             30         127            043            7             //Dark Iron Knight
+565            57             30         140            032            2             //Dark Iron Knight
+565            57             30         135            029            3             //Dark Iron Knight
+565            57             30         101            023            5             //Dark Iron Knight
+565            57             30         093            026            2             //Dark Iron Knight
+565            57             30         064            039            7             //Dark Iron Knight
+565            57             30         091            031            1             //Dark Iron Knight
+565            57             30         070            095            4             //Dark Iron Knight
+565            57             30         034            121            2             //Dark Iron Knight
+565            57             30         030            119            3             //Dark Iron Knight
+565            57             30         033            224            6             //Dark Iron Knight
+565            57             30         052            191            7             //Dark Iron Knight
+563            57             30         038            227            3             //Dark Giant
+563            57             30         026            216            3             //Dark Giant
+563            57             30         049            219            5             //Dark Giant
+563            57             30         029            195            5             //Dark Giant
+563            57             30         071            120            6             //Dark Giant
+563            57             30         037            133            0             //Dark Giant
+564            57             30         035            068            1             //Dark Coolutin
+564            57             30         046            047            6             //Dark Coolutin
+564            57             30         107            037            7             //Dark Coolutin
+564            57             30         028            199            5             //Dark Coolutin
+565            57             30         032            195            3             //Dark Iron Knight
+565            57             30         031            051            7             //Dark Iron Knight
+565            57             30         037            046            5             //Dark Iron Knight
+565            57             30         066            137            0             //Dark Iron Knight
+end
+

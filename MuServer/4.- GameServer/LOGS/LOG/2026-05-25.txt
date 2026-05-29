@@ -1,0 +1,336 @@
+00:05:00 [Invasion Manager] Index(0) Boss Position (Map: 3 X: 197 Y: 80)
+00:10:00 [CustomQuiz] Start
+00:13:00 [CustomQuiz] Finish
+00:15:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 41 Y: 180)
+00:25:00 [Invasion Manager] Index(2) Boss Position (Map: 57 X: 69 Y: 86)
+00:36:01 [OnlineLoterry] No Winner
+00:50:00 [Invasion Manager] Index(3) Boss Position (Map: 3 X: 200 Y: 76)
+01:00:00 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 51 Y: 103)
+01:10:00 [CustomQuiz] Start
+01:13:00 [CustomQuiz] Finish
+01:36:01 [OnlineLoterry] No Winner
+02:10:00 [CustomQuiz] Start
+02:13:00 [CustomQuiz] Finish
+02:36:01 [OnlineLoterry] No Winner
+02:50:00 [Invasion Manager] Index(7) Boss Position (Map: 2 X: 159 Y: 19)
+03:10:00 [CustomQuiz] Start
+03:13:00 [CustomQuiz] Finish
+03:36:01 [OnlineLoterry] No Winner
+04:05:00 [Invasion Manager] Index(0) Boss Position (Map: 3 X: 199 Y: 80)
+04:10:00 [CustomQuiz] Start
+04:13:00 [CustomQuiz] Finish
+04:15:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 160 Y: 161)
+04:25:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 63 Y: 234)
+04:36:01 [OnlineLoterry] No Winner
+04:50:00 [Invasion Manager] Index(3) Boss Position (Map: 0 X: 153 Y: 53)
+05:00:00 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 56 Y: 112)
+05:10:00 [CustomQuiz] Start
+05:13:00 [CustomQuiz] Finish
+05:36:01 [OnlineLoterry] No Winner
+06:01:37 [Obj][12500] AddClient (192.168.1.127)
+06:01:58 [Obj][12500] DelClient (192.168.1.127)
+06:02:00 [Obj][12501] AddClient (192.168.1.127)
+06:02:30 [Obj][12501] DelClient (192.168.1.127)
+06:02:30 Response error after connection causes conclusion [12501][][][192.168.1.127]
+06:03:43 [Obj][12500] AddClient (192.168.1.127)
+06:04:13 [Obj][12500] DelClient (192.168.1.127)
+06:04:13 Response error after connection causes conclusion [12500][][][192.168.1.127]
+06:07:47 [Obj][12501] AddClient (192.168.1.127)
+06:07:49 [Obj][12501] DelClient (192.168.1.127)
+06:07:50 [Obj][12500] AddClient (192.168.1.127)
+06:07:58 [Obj][12500] DelClient (192.168.1.127)
+06:08:01 [Obj][12501] AddClient (192.168.1.127)
+06:08:17 [Obj][12501] DelClient (192.168.1.127)
+06:08:20 [Obj][12500] AddClient (192.168.1.127)
+06:08:25 [Obj][12500] DelClient (192.168.1.127)
+06:08:27 [Obj][12501] AddClient (192.168.1.127)
+06:08:30 [Obj][12501] DelClient (192.168.1.127)
+06:08:33 [Obj][12502] AddClient (192.168.1.127)
+06:09:04 [Obj][12502] DelClient (192.168.1.127)
+06:09:04 Response error after connection causes conclusion [12502][][][192.168.1.127]
+06:09:42 [Obj][12500] AddClient (192.168.1.127)
+06:10:00 [CustomQuiz] Start
+06:10:13 [Obj][12500] DelClient (192.168.1.127)
+06:10:13 Response error after connection causes conclusion [12500][][][192.168.1.127]
+06:13:00 [CustomQuiz] Finish
+06:16:23 [Obj][12501] AddClient (192.168.1.127)
+06:16:54 [Obj][12501] DelClient (192.168.1.127)
+06:16:54 Response error after connection causes conclusion [12501][][][192.168.1.127]
+06:19:06 [Obj][12502] AddClient (192.168.1.127)
+06:19:06 [Obj][12502] DelClient (192.168.1.127)
+06:21:00 [Obj][12500] AddClient (192.168.1.127)
+06:21:00 [Obj][12500] DelClient (192.168.1.127)
+06:21:39 [Obj][12501] AddClient (192.168.1.127)
+06:21:39 [Obj][12501] DelClient (192.168.1.127)
+06:36:01 [OnlineLoterry] No Winner
+06:50:00 [Invasion Manager] Index(7) Boss Position (Map: 2 X: 159 Y: 23)
+07:10:00 [CustomQuiz] Start
+07:13:00 [CustomQuiz] Finish
+07:36:01 [OnlineLoterry] No Winner
+08:05:00 [Invasion Manager] Index(0) Boss Position (Map: 0 X: 130 Y: 194)
+08:10:00 [CustomQuiz] Start
+08:13:00 [CustomQuiz] Finish
+08:15:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 16 Y: 151)
+08:25:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 125 Y: 101)
+08:36:01 [OnlineLoterry] No Winner
+08:50:00 [Invasion Manager] Index(3) Boss Position (Map: 3 X: 199 Y: 75)
+09:00:00 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 127 Y: 164)
+09:10:00 [CustomQuiz] Start
+09:13:00 [CustomQuiz] Finish
+09:36:01 [OnlineLoterry] No Winner
+10:10:00 [CustomQuiz] Start
+10:13:00 [CustomQuiz] Finish
+10:36:01 [OnlineLoterry] No Winner
+10:50:00 [Invasion Manager] Index(7) Boss Position (Map: 2 X: 165 Y: 15)
+11:10:00 [CustomQuiz] Start
+11:13:00 [CustomQuiz] Finish
+11:36:01 [OnlineLoterry] No Winner
+12:05:00 [Invasion Manager] Index(0) Boss Position (Map: 3 X: 196 Y: 78)
+12:10:00 [CustomQuiz] Start
+12:13:00 [CustomQuiz] Finish
+12:15:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 157 Y: 211)
+12:25:00 [Invasion Manager] Index(2) Boss Position (Map: 57 X: 181 Y: 187)
+12:36:02 [OnlineLoterry] No Winner
+12:50:00 [Invasion Manager] Index(3) Boss Position (Map: 3 X: 203 Y: 71)
+13:00:00 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 129 Y: 168)
+13:10:00 [CustomQuiz] Start
+13:13:00 [CustomQuiz] Finish
+13:36:01 [OnlineLoterry] No Winner
+14:10:00 [CustomQuiz] Start
+14:13:00 [CustomQuiz] Finish
+14:56:14 [Invasion Manager] Index(7) Boss Position (Map: 3 X: 201 Y: 82)
+14:56:14 [OnlineLoterry] No Winner
+14:56:39 [Obj][12502] AddClient (192.168.1.127)
+14:56:39 [Obj][12502] DelClient (192.168.1.127)
+14:56:43 [Obj][12500] AddClient (192.168.1.127)
+14:56:43 [Obj][12500] DelClient (192.168.1.127)
+14:56:56 [Obj][12501] AddClient (192.168.1.127)
+14:56:56 [Obj][12501] DelClient (192.168.1.127)
+14:56:58 [Obj][12502] AddClient (192.168.1.127)
+14:56:58 [Obj][12502] DelClient (192.168.1.127)
+14:57:01 [Obj][12500] AddClient (192.168.1.127)
+14:57:01 [Obj][12500] DelClient (192.168.1.127)
+14:57:02 [Obj][12503] AddClient (192.168.1.127)
+14:57:02 [Obj][12503] DelClient (192.168.1.127)
+14:57:05 [Obj][12504] AddClient (192.168.1.127)
+14:57:05 [Obj][12504] DelClient (192.168.1.127)
+14:59:34 [Obj][12501] AddClient (192.168.1.127)
+14:59:34 [Obj][12501] DelClient (192.168.1.127)
+14:59:36 [Obj][12502] AddClient (192.168.1.127)
+14:59:36 [Obj][12502] DelClient (192.168.1.127)
+14:59:38 [Obj][12500] AddClient (192.168.1.127)
+14:59:38 [Obj][12500] DelClient (192.168.1.127)
+14:59:40 [Obj][12503] AddClient (192.168.1.127)
+14:59:40 [Obj][12503] DelClient (192.168.1.127)
+14:59:43 [Obj][12504] AddClient (192.168.1.127)
+14:59:43 [Obj][12504] DelClient (192.168.1.127)
+14:59:47 [Obj][12501] AddClient (192.168.1.127)
+14:59:47 [Obj][12501] DelClient (192.168.1.127)
+14:59:48 [Obj][12502] AddClient (192.168.1.127)
+14:59:48 [Obj][12502] DelClient (192.168.1.127)
+15:10:00 [CustomQuiz] Start
+15:13:00 [CustomQuiz] Finish
+15:32:03 [Obj][12500] AddClient (192.168.1.127)
+15:32:03 [Obj][12500] DelClient (192.168.1.127)
+15:33:13 [Obj][12503] AddClient (192.168.1.127)
+15:33:16 [Obj][12503] AddAccount (louismk)
+15:33:18 [Obj][12503] LogInCharacter (KmmR)
+15:36:01 [OnlineLoterry] No Winner
+15:43:12 [Obj][12504] AddClient (192.168.1.127)
+15:43:12 [Obj][12504] DelClient (192.168.1.127)
+15:43:15 [Obj][12501] AddClient (192.168.1.127)
+15:43:15 [Obj][12501] DelClient (192.168.1.127)
+15:43:16 [Obj][12502] AddClient (192.168.1.127)
+15:43:16 [Obj][12502] DelClient (192.168.1.127)
+15:43:44 [Obj][12503] LogOutCharacter (KmmR)
+15:43:44 [Obj][12503] DelAccount (louismk)
+15:43:44 [Obj][12503] DelClient (192.168.1.127)
+15:49:07 [Obj][12500] AddClient (192.168.1.127)
+15:49:07 [Obj][12500] DelClient (192.168.1.127)
+15:49:17 [Obj][12504] AddClient (192.168.1.127)
+15:49:17 [Obj][12504] DelClient (192.168.1.127)
+15:49:18 [Obj][12501] AddClient (192.168.1.127)
+15:49:18 [Obj][12501] DelClient (192.168.1.127)
+15:49:19 [Obj][12502] AddClient (192.168.1.127)
+15:49:19 [Obj][12502] DelClient (192.168.1.127)
+15:56:25 [Obj][12503] AddClient (192.168.1.127)
+15:56:25 [Obj][12503] DelClient (192.168.1.127)
+15:56:29 [Obj][12500] AddClient (192.168.1.127)
+15:56:29 [Obj][12500] DelClient (192.168.1.127)
+15:56:30 [Obj][12504] AddClient (192.168.1.127)
+15:56:30 [Obj][12504] DelClient (192.168.1.127)
+15:56:31 [Obj][12501] AddClient (192.168.1.127)
+15:56:31 [Obj][12501] DelClient (192.168.1.127)
+15:56:32 [Obj][12502] AddClient (192.168.1.127)
+15:56:32 [Obj][12502] DelClient (192.168.1.127)
+15:57:54 [Obj][12503] AddClient (192.168.1.127)
+15:57:54 [Obj][12503] DelClient (192.168.1.127)
+15:57:56 [Obj][12500] AddClient (192.168.1.127)
+15:57:56 [Obj][12500] DelClient (192.168.1.127)
+16:05:00 [Invasion Manager] Index(0) Boss Position (Map: 0 X: 132 Y: 199)
+16:10:00 [CustomQuiz] Start
+16:13:00 [CustomQuiz] Finish
+16:15:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 51 Y: 37)
+16:25:00 [Invasion Manager] Index(2) Boss Position (Map: 57 X: 38 Y: 85)
+16:36:01 [OnlineLoterry] No Winner
+16:50:00 [Invasion Manager] Index(3) Boss Position (Map: 0 X: 153 Y: 48)
+17:00:00 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 54 Y: 104)
+17:10:00 [CustomQuiz] Start
+17:13:00 [CustomQuiz] Finish
+17:36:01 [OnlineLoterry] No Winner
+18:10:00 [CustomQuiz] Start
+18:13:00 [CustomQuiz] Finish
+18:36:01 [OnlineLoterry] No Winner
+18:40:37 [Obj][12504] AddClient (192.168.1.127)
+18:40:40 [Obj][12504] DelClient (192.168.1.127)
+18:40:42 [Obj][12501] AddClient (192.168.1.127)
+18:41:12 [Obj][12501] DelClient (192.168.1.127)
+18:41:12 Response error after connection causes conclusion [12501][][][192.168.1.127]
+18:50:00 [Invasion Manager] Index(7) Boss Position (Map: 3 X: 202 Y: 82)
+19:10:00 [CustomQuiz] Start
+19:13:00 [CustomQuiz] Finish
+19:31:59 [Obj][12502] AddClient (192.168.1.127)
+19:31:59 [Obj][12502] DelClient (192.168.1.127)
+19:32:00 [Obj][12503] AddClient (192.168.1.127)
+19:32:00 [Obj][12503] DelClient (192.168.1.127)
+19:32:01 [Obj][12500] AddClient (192.168.1.127)
+19:32:01 [Obj][12500] DelClient (192.168.1.127)
+19:32:02 [Obj][12504] AddClient (192.168.1.127)
+19:32:02 [Obj][12504] DelClient (192.168.1.127)
+19:36:01 [OnlineLoterry] No Winner
+19:37:28 [Obj][12501] AddClient (127.0.0.1)
+19:37:28 [Obj][12501] DelClient (127.0.0.1)
+20:05:00 [Invasion Manager] Index(0) Boss Position (Map: 0 X: 125 Y: 193)
+20:05:06 [Obj][12502] AddClient (127.0.0.1)
+20:05:06 [Obj][12502] DelClient (127.0.0.1)
+20:07:15 [Obj][12503] AddClient (127.0.0.1)
+20:07:15 [Obj][12503] DelClient (127.0.0.1)
+20:10:00 [CustomQuiz] Start
+20:13:00 [CustomQuiz] Finish
+20:15:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 76 Y: 155)
+20:15:44 [Obj][12500] AddClient (127.0.0.1)
+20:15:44 [Obj][12500] DelClient (127.0.0.1)
+20:23:48 [Obj][12504] AddClient (127.0.0.1)
+20:23:48 [Obj][12504] DelClient (127.0.0.1)
+20:25:00 [Invasion Manager] Index(2) Boss Position (Map: 57 X: 210 Y: 20)
+20:27:32 [Obj][12501] AddClient (127.0.0.1)
+20:27:32 [Obj][12501] DelClient (127.0.0.1)
+20:33:27 [Obj][12502] AddClient (127.0.0.1)
+20:33:27 [Obj][12502] DelClient (127.0.0.1)
+20:33:56 [Obj][12503] AddClient (127.0.0.1)
+20:33:56 [Obj][12503] DelClient (127.0.0.1)
+20:36:01 [OnlineLoterry] No Winner
+20:41:48 [Obj][12500] AddClient (127.0.0.1)
+20:42:19 [Obj][12500] DelClient (127.0.0.1)
+20:42:19 Response error after connection causes conclusion [12500][][][127.0.0.1]
+20:50:00 [Invasion Manager] Index(3) Boss Position (Map: 2 X: 165 Y: 19)
+20:53:11 [Obj][12504] AddClient (127.0.0.1)
+20:53:11 [Obj][12504] DelClient (127.0.0.1)
+20:56:08 [Obj][12501] AddClient (127.0.0.1)
+20:56:08 [Obj][12501] AddAccount (louismk)
+20:57:09 [Obj][12501] DelAccount (louismk)
+20:57:09 [Obj][12501] DelClient (127.0.0.1)
+20:57:09 Game response error causes conclusion [12501][][][127.0.0.1]
+20:59:02 [Obj][12502] AddClient (127.0.0.1)
+20:59:02 [Obj][12502] AddAccount (louismk)
+21:00:00 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 155 Y: 15)
+21:00:03 [Obj][12502] DelAccount (louismk)
+21:00:03 [Obj][12502] DelClient (127.0.0.1)
+21:00:03 Game response error causes conclusion [12502][][][127.0.0.1]
+21:00:56 [Obj][12503] AddClient (127.0.0.1)
+21:00:56 [Obj][12503] AddAccount (louismk)
+21:01:57 [Obj][12503] DelAccount (louismk)
+21:01:57 [Obj][12503] DelClient (127.0.0.1)
+21:01:57 Game response error causes conclusion [12503][][][127.0.0.1]
+21:02:15 [Obj][12500] AddClient (127.0.0.1)
+21:02:15 [Obj][12500] AddAccount (louismk)
+21:03:16 [Obj][12500] DelAccount (louismk)
+21:03:16 [Obj][12500] DelClient (127.0.0.1)
+21:03:16 Game response error causes conclusion [12500][][][127.0.0.1]
+21:10:00 [CustomQuiz] Start
+21:13:00 [CustomQuiz] Finish
+21:14:23 [Obj][12504] AddClient (127.0.0.1)
+21:14:23 [Obj][12504] AddAccount (louismk)
+21:14:23 [Obj][12504] DelAccount (louismk)
+21:14:23 [Obj][12504] DelClient (127.0.0.1)
+21:20:09 [Obj][12501] AddClient (127.0.0.1)
+21:20:09 [Obj][12501] AddAccount (louismk)
+21:21:10 [Obj][12501] DelAccount (louismk)
+21:21:10 [Obj][12501] DelClient (127.0.0.1)
+21:21:10 Game response error causes conclusion [12501][][][127.0.0.1]
+21:22:11 [Obj][12502] AddClient (127.0.0.1)
+21:22:11 [Obj][12502] AddAccount (louismk)
+21:23:12 [Obj][12502] DelAccount (louismk)
+21:23:12 [Obj][12502] DelClient (127.0.0.1)
+21:23:12 Game response error causes conclusion [12502][][][127.0.0.1]
+21:24:41 [Obj][12503] AddClient (127.0.0.1)
+21:24:41 [Obj][12503] AddAccount (louismk)
+21:25:16 [Obj][12503] DelAccount (louismk)
+21:25:16 [Obj][12503] DelClient (127.0.0.1)
+21:25:18 [Obj][12500] AddClient (127.0.0.1)
+21:25:18 [Obj][12500] DelClient (127.0.0.1)
+21:25:20 [Obj][12504] AddClient (127.0.0.1)
+21:25:20 [Obj][12504] DelClient (127.0.0.1)
+21:25:24 [Obj][12501] AddClient (127.0.0.1)
+21:25:24 [Obj][12501] DelClient (127.0.0.1)
+21:26:13 [Obj][12502] AddClient (127.0.0.1)
+21:26:13 [Obj][12502] AddAccount (louismk)
+21:27:14 [Obj][12502] DelAccount (louismk)
+21:27:14 [Obj][12502] DelClient (127.0.0.1)
+21:27:14 Game response error causes conclusion [12502][][][127.0.0.1]
+21:36:01 [OnlineLoterry] No Winner
+22:10:00 [CustomQuiz] Start
+22:13:00 [CustomQuiz] Finish
+22:21:40 [Obj][12503] AddClient (127.0.0.1)
+22:21:40 [Obj][12503] DelClient (127.0.0.1)
+22:21:53 [Obj][12500] AddClient (127.0.0.1)
+22:21:53 [Obj][12500] DelClient (127.0.0.1)
+22:21:55 [Obj][12504] AddClient (127.0.0.1)
+22:21:55 [Obj][12504] DelClient (127.0.0.1)
+22:27:38 [Obj][12501] AddClient (192.168.1.127)
+22:27:38 [Obj][12501] DelClient (192.168.1.127)
+22:27:39 [Obj][12502] AddClient (192.168.1.127)
+22:27:39 [Obj][12502] DelClient (192.168.1.127)
+22:27:43 [Obj][12503] AddClient (192.168.1.127)
+22:27:43 [Obj][12503] DelClient (192.168.1.127)
+22:27:44 [Obj][12500] AddClient (192.168.1.127)
+22:27:44 [Obj][12500] DelClient (192.168.1.127)
+22:36:01 [OnlineLoterry] No Winner
+22:50:00 [Invasion Manager] Index(7) Boss Position (Map: 3 X: 196 Y: 73)
+23:02:49 [Obj][12504] AddClient (127.0.0.1)
+23:02:49 [Obj][12504] DelClient (127.0.0.1)
+23:03:26 [Obj][12501] AddClient (127.0.0.1)
+23:03:26 [Obj][12501] DelClient (127.0.0.1)
+23:03:34 [Obj][12502] AddClient (127.0.0.1)
+23:03:35 [Obj][12502] DelClient (127.0.0.1)
+23:05:29 [Obj][12503] AddClient (127.0.0.1)
+23:05:29 [Obj][12503] DelClient (127.0.0.1)
+23:06:12 [Obj][12500] AddClient (127.0.0.1)
+23:06:12 [Obj][12500] DelClient (127.0.0.1)
+23:09:58 [Obj][12504] AddClient (127.0.0.1)
+23:09:58 [Obj][12504] DelClient (127.0.0.1)
+23:09:59 [Obj][12501] AddClient (127.0.0.1)
+23:09:59 [Obj][12501] DelClient (127.0.0.1)
+23:10:00 [CustomQuiz] Start
+23:13:00 [CustomQuiz] Finish
+23:18:22 [Obj][12502] AddClient (127.0.0.1)
+23:18:22 [Obj][12502] DelClient (127.0.0.1)
+23:18:30 [Obj][12503] AddClient (127.0.0.1)
+23:18:30 [Obj][12503] DelClient (127.0.0.1)
+23:18:52 [Obj][12500] AddClient (127.0.0.1)
+23:18:53 [Obj][12500] DelClient (127.0.0.1)
+23:18:56 [Obj][12504] AddClient (127.0.0.1)
+23:18:56 [Obj][12504] DelClient (127.0.0.1)
+23:36:01 [OnlineLoterry] No Winner
+23:46:19 [Obj][12501] AddClient (127.0.0.1)
+23:46:19 [Obj][12501] DelClient (127.0.0.1)
+23:53:21 [Obj][12502] AddClient (127.0.0.1)
+23:53:21 [Obj][12502] DelClient (127.0.0.1)
+23:53:23 [Obj][12503] AddClient (127.0.0.1)
+23:53:23 [Obj][12503] DelClient (127.0.0.1)
+23:54:40 [Obj][12500] AddClient (127.0.0.1)
+23:54:40 [Obj][12500] DelClient (127.0.0.1)
+23:54:44 [Obj][12504] AddClient (127.0.0.1)
+23:54:44 [Obj][12504] DelClient (127.0.0.1)
+23:54:57 [Obj][12501] AddClient (127.0.0.1)
+23:54:57 [Obj][12501] DelClient (127.0.0.1)

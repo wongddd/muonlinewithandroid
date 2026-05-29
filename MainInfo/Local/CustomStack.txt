@@ -1,0 +1,62 @@
+// Tuỳ chỉnh item được xếp chồng
+// Đồng bộ với file trong Server đường dẫn:
+// Server:	MuServer\Data\Item\ItemStack.txt
+// Clien:	MainInfo\Local\CustomStack.txt
+
+//Index   Level  MaxStack   CreateIndex   BreakUp  Comment
+2055      *      255        *             0        //Tên Nỏ
+2063      *      255        *             0        //Tên Cung
+6688      *      20         *             0        //Mảnh Vỡ Áo Giáp
+6689      *      20         *             0        //Bảo Hộ Nữ Thần
+6690      *      10         *             0        //Nanh Sói
+6288      *      5          6292          0        //Mithril Fragment
+6290      *      5          6293          0        //Elixir Fragment
+6801      *      5          6802          0        //Spirit Map Fragment
+6803      *      10         *             0        //Trophies of Battle
+7168      *      255        *             0        //Táo
+7169      *      255        *             0        //Bình Máu Nhỏ
+7170      *      255        *             0        //Sách Vật Ngã
+7171      *      255        *             0        //Sách Ảo Ảnh Liên Hoàn
+7172      *      255        *             0        //Bình Mana nhỏ
+7173      *      255        *             0        //Bình Phép
+7174      *      255        *             0        //Bình Phép To
+7175      *      255        *             0        //Bình Thuốc
+7176      *      255        *             0        //Liều Giải Độc
+7189      *      255        *             0        //Huy Hiệu Rena
+7197      *      5          7196          0        //Huy Hiệu Kundun
+7203      *      255        *             0        //Bình SD Nhỏ
+7204      *      255        *             0        //Bình SD Vừa
+7205      *      255        *             0        //Bình SD Lớn
+7206      *      255        *             0        //Bình Thuốc Nhỏ
+7207      *      255        *             0        //Bình Thuốc Vừa
+7208      *      255        *             0        //Bình Thuốc Lớn
+7214      *      3          *             0        //Thần Chú Halloween
+7215      *      3          *             0        //Jack O'Lantern Wrath
+7216      *      3          *             0        //Sức Mạnh Halloween
+7217      *      3          *             0        //Jack O'Lantern Food
+7218      *      3          *             0        //Đùi Gà Tăng Trưởng
+7238      *      255        *             0        //Bình HP Cao Cấp
+7239      *      255        *             0        //Bình Mana Cao Cấp
+7253      *      3          *             0        //Rượu Xuân
+7254      *      3          *             0        //Bánh Xuân
+7255      *      3          *             0        //Cánh Hoa Xuân
+7256      *      10         *             0        //Hoa Mai Trắng
+7257      *      30         *             0        //Hoa Mai Đỏ
+7258      *      255        *             0        //Hoa Mai Vàng
+7268      *      255        *             0        //Đồng Xu May Mắn
+7269      *      5          7270          0        //Lời Chú Giải
+7278      *      5          7279          0        //Biểu Tượng Dopple
+7301      *      255        *             0        //Bình Hồi SD Cao Cấp
+7383      *      24         7384          0        //Card Piece
+7181      *      255        *             1        //Ngọc Ước Nguyện
+7182      *      255        *             1        //Ngọc Tâm Linh
+7184      *      255        *             1        //Ngọc Sinh Mệnh
+7190      *      255        *             1        //Ngọc Sáng Tạo
+7199      *      255        *             1        //Đá Hộ Mệnh
+7210      *      255        *             1        //Đá Tạo Hóa
+7179      8      255        *             1        //Hộp Kundun 1
+7179      9      255        *             1        //Hộp Kundun 2
+7179      10     255        *             1        //Hộp Kundun 3
+7179      11     255        *             1        //Hộp Kundun 4
+7179      12     255        *             1        //Hộp Kundun 5
+end

@@ -1,0 +1,8 @@
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction     Quantity      Value      Comment
+080            07             30         010            010            240          240          0             03            0          //Golden Lizard King
+081            07             30         010            010            240          240          6             05            0          //Golden Vepar
+365            07             30         010            010            240          240          3             10            0          //Pouch of Blessing
+413            07             30         010            010            240          240          5             10            0          //Lunar Rabbit
+463            07             30         010            010            240          240          5             10            0          //Fire Flame Ghost
+end

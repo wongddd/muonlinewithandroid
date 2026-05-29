@@ -1,0 +1,54 @@
+0
+//Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
+408            41             00         119            168            02             //Gatekeeper
+end
+
+
+1
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment
+end
+
+
+2
+//Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
+409            41             30         039            101            5             //Balram
+409            41             30         044            110            0             //Balram
+409            41             30         052            134            5             //Balram
+409            41             30         067            112            5             //Balram
+409            41             30         087            090            3             //Balram
+409            41             30         090            067            2             //Balram
+409            41             30         090            078            3             //Balram
+409            41             30         071            101            0             //Balram
+409            41             30         071            101            1             //Balram
+409            41             30         064            132            2             //Balram
+409            41             30         109            101            3             //Balram
+410            41             30         098            096            1             //Death Spirit
+410            41             30         122            090            2             //Death Spirit
+410            41             30         125            099            6             //Death Spirit
+410            41             30         137            140            6             //Death Spirit
+410            41             30         140            150            0             //Death Spirit
+410            41             30         044            127            4             //Death Spirit
+410            41             30         057            123            0             //Death Spirit
+410            41             30         079            086            7             //Death Spirit
+410            41             30         101            069            5             //Death Spirit
+410            41             30         121            118            5             //Death Spirit
+411            41             30         127            127            0             //Soram
+411            41             30         126            164            5             //Soram
+411            41             30         123            160            4             //Soram
+411            41             30         132            156            7             //Soram
+411            41             30         132            136            2             //Soram
+411            41             30         116            103            1             //Soram
+411            41             30         129            146            5             //Soram
+end
+
+
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction     Quantity      Value      Comment
+end
+
+
+4
+//Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
+end
+
+

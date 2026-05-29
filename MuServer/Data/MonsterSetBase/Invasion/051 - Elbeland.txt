@@ -1,0 +1,5 @@
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction     Quantity      Value      Comment
+079            51             30         010            010            240          240          5             01            0          //Golden Derkon
+502            51             30         010            010            240          240          7             05            0          //Golden Rabbit
+end

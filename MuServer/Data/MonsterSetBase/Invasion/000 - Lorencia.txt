@@ -1,0 +1,13 @@
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction     Quantity      Value      Comment
+055            00             30         125            190            140          203          0             01            0          //Death King
+056            00             30         125            190            140          203          3             10            0          //Death Bone
+042            00             30         010            010            240          240          5             01            0          //Red Dragon
+043            00             30         010            010            240          240          6             05            0          //Golden Budge Dragon
+079            00             30         010            010            240          240          0             01            0          //Golden Derkon
+135            00             30         148            047            164          065          7             01            0          //White wizard
+136            00             30         148            047            164          065          3             10            0          //Destructive ogre soldier
+137            00             30         148            047            164          065          7             10            0          //Destructive ogre archer
+466            00             30         148            047            164          065          6             10            0          //Cursed Goblin
+476            00             30         148            047            164          065          7             01            0          //Cursed Santa
+end

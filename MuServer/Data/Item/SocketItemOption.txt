@@ -1,0 +1,55 @@
+0
+//Index   Type   SubIndex   Name                                 		Rate   Value1   Value2   Value3   Value4   Value5
+//-- Fire
+0         1      0          "(Level type)Attack/Wizardry increase"		30     20       19       18       17       14
+1         1      1          "Attack speed increase"				        20     7        8        9        10       11
+2         1      2          "Maximum attack/Wizardry increase"			30     30       32       35       40       50
+3         1      3          "Minimum attack/Wizardry increase"			40     20       22       25       30       35
+4         1      4          "Attack/Wizardry increase"				    20     20       22       25       30       35
+5         1      5          "AG cost decrease"					        30     40       41       42       43       44
+//-- Water
+10        2      0          "Block rating increase"				        10     10       11       12       13       14
+11        2      1          "Defense increase"					        30     30       33       36       39       42
+12        2      2          "Shield protection increase"			    50     1        2        3        4        5
+13        2      3          "Damage reduction"					        20     4        5        6        7        8
+14        2      4          "Damage Reflect"					        40     5        6        7        8        9
+//-- Ice
+16        3      0          "Monster destruction for the Life increase" 30     8        7        6        5        4
+17        3      1          "Monster destruction for the Mana increase" 20     8        7        6        5        4
+18        3      2          "Skill attack increase"				        10     37       40       45       50       60
+19        3      3          "Attack rating increase"	                50     25       27       30       35       40
+20        3      4          "Item durability increase"                  30     30       32       34       36       38
+//-- Wind
+21        4      0          "Automatic Life recovery increase"			40     8        10       13       16       20
+22        4      1          "Maximum Life increase"				        30     4        5        6        7        8
+23        4      2          "Maximum Mana increase"				        40     4        5        6        7        8
+24        4      3          "Automatic Mana recovery increase"			50     7        14       21       28       35
+25        4      4          "Maximum AG increase"				        40     25       30       35       40       50
+26        4      5          "AG value increase"					        50     3        5        7        10       15
+//-- Lightning
+29        5      0          "Excellent damage increase"				    20     15       20       25       30       40
+30        5      1          "Excellent damage rate increase"			10     10       11       12       13       14
+31        5      2          "Critical damage increase"				    30     30       32       35       40       50
+32        5      3          "Critical damage rate increase"			    10     8        9        10       11       12
+//-- Earth
+34        6      0          "Strength increase"					        00     30       32       34       36       38
+35        6      1          "Dexterity increase"				        00     30       32       34       36       38
+36        6      2          "Health increase"					        10     30       32       34       36       38
+37        6      3          "Energy increase"					        00     30       32       34       36       38
+end
+
+1
+//Index  MinItemSection  MaxItemSection Name                                 Value   ReqSocket1   ReqSocket2   ReqSocket3   ReqSocket4   ReqSocket5
+0        0               4              "Attack power increase"              11      1            5            3            0            0
+1        0               4              "Skill attack increase"              11      5            3            1            0            0
+2        5               5              "Attack/Wizardry increase"           5       1            5            3            0            0
+3        5               5              "Skill attack increase"              11      5            3            1            0            0
+4        6               12             "Defense increase"                   24      2            6            4            0            0
+5        6               12             "Maximum Life increase"              29      6            4            2            0            0
+end
+
+2
+//Index   Name                                 		  Value   FireReq   WaterReq   IceReq   WindReq   LightReq   EarthReq
+0         "Double damage rate increase"               3       1         1          1        1         1          1
+1         "Opponent defensibility ignorance attack"   1       1         3          1        3         1          2
+end

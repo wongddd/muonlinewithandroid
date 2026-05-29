@@ -1,0 +1,8 @@
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction     Quantity      Value      Comment
+082            08             30         010            010            240          240          0             03            0          //Golden Tantalos
+083            08             30         010            010            240          240          1             05            0          //Golden Wheel
+365            08             30         010            010            240          240          6             10            0          //Pouch of Blessing
+413            08             30         010            010            240          240          4             10            0          //Lunar Rabbit
+463            08             30         010            010            240          240          7             10            0          //Fire Flame Ghost
+end

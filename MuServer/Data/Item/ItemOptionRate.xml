@@ -1,0 +1,178 @@
+<?xml version="1.0"?>
+<Option0>
+	<info Index="0" Rate0="7000" Rate1="1500" Rate2="1000" Rate3="500" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Rate8="0" Rate9="0" Rate10="0" Rate11="0" Rate12="0" Rate13="0" Rate14="0" Rate15="0" Comment=" " />
+	<info Index="1" Rate0="10000" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Rate8="0" Rate9="0" Rate10="0" Rate11="0" Rate12="0" Rate13="0" Rate14="0" Rate15="0" Comment=" " />
+	<info Index="2" Rate0="10000" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Rate8="0" Rate9="0" Rate10="0" Rate11="0" Rate12="0" Rate13="0" Rate14="0" Rate15="0" Comment=" " />
+	<info Index="3" Rate0="2000" Rate1="2000" Rate2="2000" Rate3="2000" Rate4="2000" Rate5="0" Rate6="0" Rate7="0" Rate8="0" Rate9="0" Rate10="0" Rate11="0" Rate12="0" Rate13="0" Rate14="0" Rate15="0" Comment=" " />
+	<info Index="9" Rate0="2500" Rate1="2000" Rate2="1500" Rate3="1500" Rate4="1000" Rate5="500" Rate6="500" Rate7="500" Rate8="0" Rate9="0" Rate10="0" Rate11="0" Rate12="0" Rate13="0" Rate14="0" Rate15="0" Comment=" " />
+	<info Index="10" Rate0="1000" Rate1="2000" Rate2="1700" Rate3="1400" Rate4="1200" Rate5="900" Rate6="700" Rate7="500" Rate8="300" Rate9="100" Rate10="70" Rate11="50" Rate12="35" Rate13="20" Rate14="15" Rate15="10" Comment=" " />
+	<info Index="11" Rate0="10000" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Rate8="0" Rate9="0" Rate10="0" Rate11="0" Rate12="0" Rate13="0" Rate14="0" Rate15="0" Comment=" " />
+	<info Index="12" Rate0="0" Rate1="10000" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Rate8="0" Rate9="0" Rate10="0" Rate11="0" Rate12="0" Rate13="0" Rate14="0" Rate15="0" Comment=" " />
+	<info Index="13" Rate0="0" Rate1="0" Rate2="10000" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Rate8="0" Rate9="0" Rate10="0" Rate11="0" Rate12="0" Rate13="0" Rate14="0" Rate15="0" Comment=" " />
+	<info Index="14" Rate0="0" Rate1="0" Rate2="0" Rate3="10000" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Rate8="0" Rate9="0" Rate10="0" Rate11="0" Rate12="0" Rate13="0" Rate14="0" Rate15="0" Comment=" " />
+	<info Index="15" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="10000" Rate5="0" Rate6="0" Rate7="0" Rate8="0" Rate9="0" Rate10="0" Rate11="0" Rate12="0" Rate13="0" Rate14="0" Rate15="0" Comment=" " />
+	<info Index="16" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="10000" Rate6="0" Rate7="0" Rate8="0" Rate9="0" Rate10="0" Rate11="0" Rate12="0" Rate13="0" Rate14="0" Rate15="0" Comment=" " />
+	<info Index="17" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="10000" Rate7="0" Rate8="0" Rate9="0" Rate10="0" Rate11="0" Rate12="0" Rate13="0" Rate14="0" Rate15="0" Comment=" " />
+	<info Index="18" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Rate7="10000" Rate8="0" Rate9="0" Rate10="0" Rate11="0" Rate12="0" Rate13="0" Rate14="0" Rate15="0" Comment=" " />
+	<info Index="19" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Rate8="10000" Rate9="0" Rate10="0" Rate11="0" Rate12="0" Rate13="0" Rate14="0" Rate15="0" Comment=" " />
+	<info Index="20" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Rate8="0" Rate9="10000" Rate10="0" Rate11="0" Rate12="0" Rate13="0" Rate14="0" Rate15="0" Comment=" " />
+	<info Index="21" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Rate8="0" Rate9="0" Rate10="10000" Rate11="0" Rate12="0" Rate13="0" Rate14="0" Rate15="0" Comment=" " />
+	<info Index="22" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Rate8="0" Rate9="0" Rate10="0" Rate11="10000" Rate12="0" Rate13="0" Rate14="0" Rate15="0" Comment=" " />
+	<info Index="23" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Rate8="0" Rate9="0" Rate10="0" Rate11="0" Rate12="10000" Rate13="0" Rate14="0" Rate15="0" Comment=" " />
+	<info Index="24" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Rate8="0" Rate9="0" Rate10="0" Rate11="0" Rate12="0" Rate13="10000" Rate14="0" Rate15="0" Comment=" " />
+	<info Index="25" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Rate8="0" Rate9="0" Rate10="0" Rate11="0" Rate12="0" Rate13="0" Rate14="10000" Rate15="0" Comment=" " />
+	<info Index="26" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Rate8="0" Rate9="0" Rate10="0" Rate11="0" Rate12="0" Rate13="0" Rate14="0" Rate15="10000" Comment=" " />
+	<info Index="27" Rate0="3334" Rate1="3333" Rate2="3333" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Rate8="0" Rate9="0" Rate10="0" Rate11="0" Rate12="0" Rate13="0" Rate14="0" Rate15="0" Comment=" " />
+	<info Index="28" Rate0="2500" Rate1="2500" Rate2="2500" Rate3="2500" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Rate8="0" Rate9="0" Rate10="0" Rate11="0" Rate12="0" Rate13="0" Rate14="0" Rate15="0" Comment=" " />
+	<info Index="29" Rate0="0" Rate1="3334" Rate2="3333" Rate3="3333" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Rate8="0" Rate9="0" Rate10="0" Rate11="0" Rate12="0" Rate13="0" Rate14="0" Rate15="0" Comment=" " />
+	<info Index="30" Rate0="0" Rate1="2500" Rate2="2500" Rate3="2500" Rate4="2500" Rate5="0" Rate6="0" Rate7="0" Rate8="0" Rate9="0" Rate10="0" Rate11="0" Rate12="0" Rate13="0" Rate14="0" Rate15="0" Comment=" " />
+	<info Index="31" Rate0="0" Rate1="0" Rate2="3334" Rate3="3333" Rate4="3333" Rate5="0" Rate6="0" Rate7="0" Rate8="0" Rate9="0" Rate10="0" Rate11="0" Rate12="0" Rate13="0" Rate14="0" Rate15="0" Comment=" " />
+	<info Index="32" Rate0="0" Rate1="0" Rate2="2500" Rate3="2500" Rate4="2500" Rate5="2500" Rate6="0" Rate7="0" Rate8="0" Rate9="0" Rate10="0" Rate11="0" Rate12="0" Rate13="0" Rate14="0" Rate15="0" Comment=" " />
+	<info Index="33" Rate0="0" Rate1="0" Rate2="0" Rate3="3334" Rate4="3333" Rate5="3333" Rate6="0" Rate7="0" Rate8="0" Rate9="0" Rate10="0" Rate11="0" Rate12="0" Rate13="0" Rate14="0" Rate15="0" Comment=" " />
+	<info Index="34" Rate0="0" Rate1="0" Rate2="0" Rate3="2500" Rate4="2500" Rate5="2500" Rate6="2500" Rate7="0" Rate8="0" Rate9="0" Rate10="0" Rate11="0" Rate12="0" Rate13="0" Rate14="0" Rate15="0" Comment=" " />
+	<info Index="35" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="3334" Rate5="3333" Rate6="3333" Rate7="0" Rate8="0" Rate9="0" Rate10="0" Rate11="0" Rate12="0" Rate13="0" Rate14="0" Rate15="0" Comment=" " />
+	<info Index="36" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="2500" Rate5="2500" Rate6="2500" Rate7="2500" Rate8="0" Rate9="0" Rate10="0" Rate11="0" Rate12="0" Rate13="0" Rate14="0" Rate15="0" Comment=" " />
+	<info Index="37" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="3334" Rate6="3333" Rate7="3333" Rate8="0" Rate9="0" Rate10="0" Rate11="0" Rate12="0" Rate13="0" Rate14="0" Rate15="0" Comment=" " />
+	<info Index="38" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="2500" Rate6="2500" Rate7="2500" Rate8="2500" Rate9="0" Rate10="0" Rate11="0" Rate12="0" Rate13="0" Rate14="0" Rate15="0" Comment=" " />
+	<info Index="39" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="3334" Rate7="3333" Rate8="3333" Rate9="0" Rate10="0" Rate11="0" Rate12="0" Rate13="0" Rate14="0" Rate15="0" Comment=" " />
+	<info Index="40" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="2500" Rate7="2500" Rate8="2500" Rate9="2500" Rate10="0" Rate11="0" Rate12="0" Rate13="0" Rate14="0" Rate15="0" Comment=" " />
+	<info Index="41" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Rate7="3334" Rate8="3333" Rate9="3333" Rate10="0" Rate11="0" Rate12="0" Rate13="0" Rate14="0" Rate15="0" Comment=" " />
+	<info Index="42" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Rate7="2500" Rate8="2500" Rate9="2500" Rate10="2500" Rate11="0" Rate12="0" Rate13="0" Rate14="0" Rate15="0" Comment=" " />
+	<info Index="43" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Rate8="3334" Rate9="3333" Rate10="3333" Rate11="0" Rate12="0" Rate13="0" Rate14="0" Rate15="0" Comment=" " />
+	<info Index="44" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Rate8="2500" Rate9="2500" Rate10="2500" Rate11="2500" Rate12="0" Rate13="0" Rate14="0" Rate15="0" Comment=" " />
+	<info Index="45" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Rate8="0" Rate9="3334" Rate10="3333" Rate11="3333" Rate12="0" Rate13="0" Rate14="0" Rate15="0" Comment=" " />
+	<info Index="46" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Rate8="0" Rate9="2500" Rate10="2500" Rate11="2500" Rate12="2500" Rate13="0" Rate14="0" Rate15="0" Comment=" " />
+	<info Index="47" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Rate8="0" Rate9="0" Rate10="3334" Rate11="3333" Rate12="3333" Rate13="0" Rate14="0" Rate15="0" Comment=" " />
+	<info Index="48" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Rate8="0" Rate9="0" Rate10="2500" Rate11="2500" Rate12="2500" Rate13="2500" Rate14="0" Rate15="0" Comment=" " />
+	<info Index="49" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Rate8="0" Rate9="0" Rate10="0" Rate11="3334" Rate12="3333" Rate13="3333" Rate14="0" Rate15="0" Comment=" " />
+	<info Index="50" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Rate8="0" Rate9="0" Rate10="0" Rate11="2500" Rate12="2500" Rate13="2500" Rate14="2500" Rate15="0" Comment=" " />
+	<info Index="51" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Rate8="0" Rate9="0" Rate10="0" Rate11="0" Rate12="3334" Rate13="3333" Rate14="3333" Rate15="0" Comment=" " />
+	<info Index="52" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Rate8="0" Rate9="0" Rate10="0" Rate11="0" Rate12="2500" Rate13="2500" Rate14="2500" Rate15="2500" Comment=" " />
+	<info Index="53" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Rate8="0" Rate9="0" Rate10="0" Rate11="0" Rate12="0" Rate13="3334" Rate14="3333" Rate15="3333" Comment=" " />
+</Option0>
+<Option1>
+	<info Index="0" Rate0="9400" Rate1="600" Comment=" " />
+	<info Index="1" Rate0="0" Rate1="10000" Comment=" " />
+	<info Index="2" Rate0="0" Rate1="10000" Comment=" " />
+	<info Index="3" Rate0="7500" Rate1="2500" Comment=" " />
+	<info Index="9" Rate0="9500" Rate1="500" Comment=" " />
+	<info Index="10" Rate0="10000" Rate1="0" Comment=" " />
+	<info Index="11" Rate0="10000" Rate1="0" Comment=" " />
+	<info Index="12" Rate0="0" Rate1="10000" Comment=" " />
+	<info Index="13" Rate0="5000" Rate1="5000" Comment=" " />
+</Option1>
+<Option2>
+	<info Index="0" Rate0="9600" Rate1="400" Comment=" " />
+	<info Index="1" Rate0="9900" Rate1="100" Comment=" " />
+	<info Index="2" Rate0="9900" Rate1="100" Comment=" " />
+	<info Index="3" Rate0="8000" Rate1="2000" Comment=" " />
+	<info Index="4" Rate0="8000" Rate1="2000" Comment=" " />
+	<info Index="5" Rate0="8000" Rate1="2000" Comment=" " />
+	<info Index="6" Rate0="8000" Rate1="2000" Comment=" " />
+	<info Index="7" Rate0="8000" Rate1="2000" Comment=" " />
+	<info Index="8" Rate0="8000" Rate1="2000" Comment=" " />
+	<info Index="9" Rate0="9500" Rate1="500" Comment=" " />
+	<info Index="10" Rate0="10000" Rate1="0" Comment=" " />
+	<info Index="11" Rate0="10000" Rate1="0" Comment=" " />
+	<info Index="12" Rate0="0" Rate1="10000" Comment=" " />
+	<info Index="13" Rate0="5000" Rate1="5000" Comment=" " />
+</Option2>
+<Option3>
+	<info Index="0" Rate0="9600" Rate1="150" Rate2="100" Rate3="50" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Comment=" " />
+	<info Index="1" Rate0="10000" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Comment=" " />
+	<info Index="2" Rate0="10000" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Comment=" " />
+	<info Index="3" Rate0="7900" Rate1="1200" Rate2="600" Rate3="300" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Comment=" " />
+	<info Index="4" Rate0="7900" Rate1="1200" Rate2="600" Rate3="300" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Comment=" " />
+	<info Index="5" Rate0="7900" Rate1="1200" Rate2="600" Rate3="300" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Comment=" " />
+	<info Index="6" Rate0="7900" Rate1="1200" Rate2="600" Rate3="300" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Comment=" " />
+	<info Index="7" Rate0="7900" Rate1="1200" Rate2="600" Rate3="300" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Comment=" " />
+	<info Index="9" Rate0="8800" Rate1="1000" Rate2="150" Rate3="50" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Comment=" " />
+	<info Index="10" Rate0="4000" Rate1="3000" Rate2="2000" Rate3="1000" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Comment=" " />
+	<info Index="11" Rate0="10000" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Comment=" " />
+	<info Index="12" Rate0="0" Rate1="10000" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Comment=" " />
+	<info Index="13" Rate0="0" Rate1="0" Rate2="10000" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Comment=" " />
+	<info Index="14" Rate0="0" Rate1="0" Rate2="0" Rate3="10000" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Comment=" " />
+	<info Index="15" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="10000" Rate5="0" Rate6="0" Rate7="0" Comment=" " />
+	<info Index="16" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="10000" Rate6="0" Rate7="0" Comment=" " />
+	<info Index="17" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="10000" Rate7="0" Comment=" " />
+	<info Index="18" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Rate7="10000" Comment=" " />
+	<info Index="19" Rate0="5000" Rate1="5000" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Comment=" " />
+	<info Index="20" Rate0="3334" Rate1="3333" Rate2="3333" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Comment=" " />
+	<info Index="21" Rate0="0" Rate1="5000" Rate2="5000" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Comment=" " />
+	<info Index="22" Rate0="0" Rate1="3334" Rate2="3333" Rate3="3333" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Comment=" " />
+	<info Index="23" Rate0="0" Rate1="0" Rate2="5000" Rate3="5000" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Comment=" " />
+	<info Index="24" Rate0="0" Rate1="0" Rate2="3334" Rate3="3333" Rate4="3333" Rate5="0" Rate6="0" Rate7="0" Comment=" " />
+	<info Index="25" Rate0="0" Rate1="0" Rate2="0" Rate3="5000" Rate4="5000" Rate5="0" Rate6="0" Rate7="0" Comment=" " />
+	<info Index="26" Rate0="0" Rate1="0" Rate2="0" Rate3="3334" Rate4="3333" Rate5="3333" Rate6="0" Rate7="0" Comment=" " />
+	<info Index="27" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="5000" Rate5="5000" Rate6="0" Rate7="0" Comment=" " />
+	<info Index="28" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="3334" Rate5="3333" Rate6="3333" Rate7="0" Comment=" " />
+	<info Index="29" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="5000" Rate6="5000" Rate7="0" Comment=" " />
+	<info Index="30" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="3334" Rate6="3333" Rate7="3333" Comment=" " />
+	<info Index="31" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="5000" Rate7="5000" Comment=" " />
+</Option3>
+<Option4>
+	<info Index="0" Rate0="10000" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Comment=" " />
+	<info Index="1" Rate0="0" Rate1="7500" Rate2="2500" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Comment=" " />
+	<info Index="2" Rate0="10000" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Comment=" " />
+	<info Index="3" Rate0="7000" Rate1="2400" Rate2="600" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Comment=" " />
+	<info Index="4" Rate0="8000" Rate1="2000" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Comment=" " />
+	<info Index="5" Rate0="8000" Rate1="2000" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Comment=" " />
+	<info Index="6" Rate0="8000" Rate1="2000" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Comment=" " />
+	<info Index="7" Rate0="8800" Rate1="1200" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Comment=" " />
+	<info Index="9" Rate0="9000" Rate1="800" Rate2="200" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Comment=" " />
+	<info Index="10" Rate0="10000" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Comment=" " />
+	<info Index="11" Rate0="10000" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Comment=" " />
+	<info Index="12" Rate0="0" Rate1="10000" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Comment=" " />
+	<info Index="13" Rate0="0" Rate1="0" Rate2="10000" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Comment=" " />
+	<info Index="14" Rate0="0" Rate1="0" Rate2="0" Rate3="10000" Rate4="0" Rate5="0" Rate6="0" Comment=" " />
+	<info Index="15" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="10000" Rate5="0" Rate6="0" Comment=" " />
+	<info Index="16" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="10000" Rate6="0" Comment=" " />
+	<info Index="17" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="10000" Comment=" " />
+	<info Index="18" Rate0="5000" Rate1="5000" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Comment=" " />
+	<info Index="19" Rate0="3334" Rate1="3333" Rate2="3333" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Comment=" " />
+	<info Index="20" Rate0="0" Rate1="5000" Rate2="5000" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Comment=" " />
+	<info Index="21" Rate0="0" Rate1="3334" Rate2="3333" Rate3="3333" Rate4="0" Rate5="0" Rate6="0" Comment=" " />
+	<info Index="22" Rate0="0" Rate1="0" Rate2="5000" Rate3="5000" Rate4="0" Rate5="0" Rate6="0" Comment=" " />
+	<info Index="23" Rate0="0" Rate1="0" Rate2="3334" Rate3="3333" Rate4="3333" Rate5="0" Rate6="0" Comment=" " />
+	<info Index="24" Rate0="0" Rate1="0" Rate2="0" Rate3="5000" Rate4="5000" Rate5="0" Rate6="0" Comment=" " />
+	<info Index="25" Rate0="0" Rate1="0" Rate2="0" Rate3="3334" Rate4="3333" Rate5="3333" Rate6="0" Comment=" " />
+	<info Index="26" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="5000" Rate5="5000" Rate6="0" Comment=" " />
+	<info Index="27" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="3334" Rate5="3333" Rate6="3333" Comment=" " />
+	<info Index="28" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="5000" Rate6="5000" Comment=" " />
+</Option4>
+<Option5>
+	<info Index="0" Rate0="10000" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Comment=" " />
+	<info Index="1" Rate0="10000" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Comment=" " />
+	<info Index="2" Rate0="0" Rate1="8000" Rate2="2000" Rate3="2000" Rate4="2000" Rate5="2000" Rate6="2000" Comment=" " />
+	<info Index="9" Rate0="10000" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Comment=" " />
+	<info Index="10" Rate0="0" Rate1="7000" Rate2="3000" Rate3="3000" Rate4="3000" Rate5="3000" Rate6="3000" Comment=" " />
+	<info Index="11" Rate0="10000" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Comment=" " />
+	<info Index="12" Rate0="0" Rate1="10000" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Comment=" " />
+	<info Index="13" Rate0="0" Rate1="0" Rate2="10000" Rate3="10000" Rate4="10000" Rate5="10000" Rate6="10000" Comment=" " />
+	<info Index="14" Rate0="0" Rate1="5000" Rate2="5000" Rate3="5000" Rate4="5000" Rate5="5000" Rate6="5000" Comment=" " />
+</Option5>
+<Option6>
+	<info Index="0" Rate0="10000" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Comment=" " />
+	<info Index="1" Rate0="10000" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Comment=" " />
+	<info Index="2" Rate0="10000" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Comment=" " />
+	<info Index="3" Rate0="0" Rate1="8400" Rate2="1550" Rate3="50" Rate4="0" Rate5="0" Comment=" " />
+	<info Index="4" Rate0="0" Rate1="8000" Rate2="1000" Rate3="700" Rate4="250" Rate5="50" Comment=" " />
+	<info Index="5" Rate0="0" Rate1="4000" Rate2="3000" Rate3="2000" Rate4="1000" Rate5="0" Comment=" " />
+	<info Index="6" Rate0="0" Rate1="6000" Rate2="3000" Rate3="1000" Rate4="0" Rate5="0" Comment=" " />
+	<info Index="7" Rate0="0" Rate1="3000" Rate2="2500" Rate3="2000" Rate4="1500" Rate5="1000" Comment=" " />
+	<info Index="9" Rate0="10000" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Comment=" " />
+	<info Index="10" Rate0="10000" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Comment=" " />
+	<info Index="11" Rate0="10000" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Comment=" " />
+	<info Index="12" Rate0="0" Rate1="10000" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Comment=" " />
+	<info Index="13" Rate0="0" Rate1="0" Rate2="10000" Rate3="0" Rate4="0" Rate5="0" Comment=" " />
+	<info Index="14" Rate0="0" Rate1="0" Rate2="0" Rate3="10000" Rate4="0" Rate5="0" Comment=" " />
+	<info Index="15" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="10000" Rate5="0" Comment=" " />
+	<info Index="16" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="10000" Comment=" " />
+	<info Index="17" Rate0="0" Rate1="5000" Rate2="5000" Rate3="0" Rate4="0" Rate5="0" Comment=" " />
+	<info Index="18" Rate0="0" Rate1="3334" Rate2="3333" Rate3="3333" Rate4="0" Rate5="0" Comment=" " />
+	<info Index="19" Rate0="0" Rate1="0" Rate2="5000" Rate3="5000" Rate4="0" Rate5="0" Comment=" " />
+	<info Index="20" Rate0="0" Rate1="0" Rate2="3334" Rate3="3333" Rate4="3333" Rate5="0" Comment=" " />
+	<info Index="21" Rate0="0" Rate1="0" Rate2="0" Rate3="5000" Rate4="5000" Rate5="0" Comment=" " />
+	<info Index="22" Rate0="0" Rate1="0" Rate2="0" Rate3="3334" Rate4="3333" Rate5="3333" Comment=" " />
+	<info Index="23" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="5000" Rate5="5000" Comment=" " />
+</Option6>

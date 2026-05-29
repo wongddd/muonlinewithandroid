@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<ItemMove>
+	<Info Index="6144" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Wings of Elf" />
+	<Info Index="6145" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Wings of Heaven" />
+	<Info Index="6146" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Wings of Satan" />
+	<Info Index="6147" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Wings of Spirits" />
+	<Info Index="6148" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Wings of Soul" />
+	<Info Index="6149" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Wings of Dragon" />
+	<Info Index="6150" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Wings of Darkness" />
+	<Info Index="6159" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Jewel of Chaos" />
+	<Info Index="6174" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Bundled Jewel of Bless" />
+	<Info Index="6175" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Bundled Jewel of Soul" />
+	<Info Index="6180" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Wing of Storm" />
+	<Info Index="6181" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Wing of Eternal" />
+	<Info Index="6182" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Wing of Illusion" />
+	<Info Index="6183" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Wing of Ruin" />
+	<Info Index="6184" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Cape of Emperor" />
+	<Info Index="6185" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Wing of Curse" />
+	<Info Index="6186" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Wing of Despair" />
+	<Info Index="6187" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Wing of Dimension" />
+	<Info Index="6204" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Seed [Fire]" />
+	<Info Index="6205" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Seed [Water]" />
+	<Info Index="6206" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Seed [Ice]" />
+	<Info Index="6207" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Seed [Wind]" />
+	<Info Index="6208" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Seed [Lightning]" />
+	<Info Index="6209" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Seed [Earth]" />
+	<Info Index="6214" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Sphere" />
+	<Info Index="6215" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Sphere [Di]" />
+	<Info Index="6216" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Sphere [Tri]" />
+	<Info Index="6217" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Sphere [Tetra]" />
+	<Info Index="6218" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="No Name" />
+	<Info Index="6244" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Seed Sphere [Fire] [Lvl. 1]" />
+	<Info Index="6245" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Seed Sphere [Water] [Lvl. 1]" />
+	<Info Index="6246" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Seed Sphere [Ice] [Lvl. 1]" />
+	<Info Index="6247" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Seed Sphere [Wind] [Lvl. 1]" />
+	<Info Index="6248" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Seed Sphere [Lightning] [Lvl. 1]" />
+	<Info Index="6249" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Seed Sphere [Earth] [Lvl. 1]" />
+	<Info Index="6250" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Seed Sphere [Fire] [Lvl. 2]" />
+	<Info Index="6251" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Seed Sphere [Water] [Lvl. 2]" />
+	<Info Index="6252" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Seed Sphere [Ice] [Lvl. 2]" />
+	<Info Index="6253" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Seed Sphere [Wind] [Lvl. 2]" />
+	<Info Index="6254" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Seed Sphere [Lightning] [Lvl. 2]" />
+	<Info Index="6255" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Seed Sphere [Earth] [Lvl. 2]" />
+	<Info Index="6256" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Seed Sphere [Fire] [Lvl. 3]" />
+	<Info Index="6257" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Seed Sphere [Water] [Lvl. 3]" />
+	<Info Index="6258" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Seed Sphere [Ice] [Lvl. 3]" />
+	<Info Index="6259" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Seed Sphere [Wind] [Lvl. 3]" />
+	<Info Index="6260" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Seed Sphere [Lightning] [Lvl. 3]" />
+	<Info Index="6261" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Seed Sphere [Earth] [Lvl. 3]" />
+	<Info Index="6262" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Seed Sphere [Fire] [Lvl. 4]" />
+	<Info Index="6263" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Seed Sphere [Water] [Lvl. 4]" />
+	<Info Index="6264" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Seed Sphere [Ice] [Lvl. 4]" />
+	<Info Index="6265" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Seed Sphere [Wind] [Lvl. 4]" />
+	<Info Index="6266" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Seed Sphere [Lightning] [Lvl. 4]" />
+	<Info Index="6267" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Seed Sphere [Earth] [Lvl. 4]" />
+	<Info Index="6268" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Seed Sphere [Fire] [Lvl. 5]" />
+	<Info Index="6269" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Seed Sphere [Water] [Lvl. 5]" />
+	<Info Index="6270" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Seed Sphere [Ice] [Lvl. 5]" />
+	<Info Index="6271" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Seed Sphere [Wind] [Lvl. 5]" />
+	<Info Index="6272" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Seed Sphere [Lightning] [Lvl. 5]" />
+	<Info Index="6273" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Seed Sphere [Earth] [Lvl. 5]" />
+	<Info Index="6274" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Small Cape of Lord" />
+	<Info Index="6275" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Small Wing of Curse" />
+	<Info Index="6276" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Small Wings of Elf" />
+	<Info Index="6277" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Small Wings of Heaven" />
+	<Info Index="6278" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Small Wings of Satan" />
+	<Info Index="6279" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Small Warrior's Cloak" />
+	<Info Index="6280" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Bundled Jewel of Life" />
+	<Info Index="6281" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Bundled Jewel of Creation" />
+	<Info Index="6282" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Bundled Jewel of Guardian" />
+	<Info Index="6283" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Bundled Gemstone" />
+	<Info Index="6284" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Bundled Jewel of Harmony" />
+	<Info Index="6285" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Bundled Jewel of Chaos" />
+	<Info Index="6286" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Bundled Lower Refining Stone" />
+	<Info Index="6287" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Bundled Higer Refining Stone" />
+	<Info Index="6406" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Cloak of Death" />
+	<Info Index="6407" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Wings of Chaos" />
+	<Info Index="6408" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Wings of Magic" />
+	<Info Index="6409" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Wings of Life" />
+	<Info Index="6410" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Wings of Conqueror" />
+	<Info Index="6411" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Wings of Angel and Devil" />
+	<Info Index="6656" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Guardian Angel" />
+	<Info Index="6657" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Imp" />
+	<Info Index="6658" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Horn of Uniria" />
+	<Info Index="6659" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Horn of Dinorant" />
+	<Info Index="6675" BanDrop="1" BanSell="0" BanTrade="0" BanVaul="0" Comment="Absolute Archangel Weapon" />
+	<Info Index="6676" BanDrop="1" BanSell="1" BanTrade="0" BanVaul="0" Comment="Wizard's Ring" />
+	<Info Index="6693" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Horn of Fenrir" />
+	<Info Index="6694" BanDrop="1" BanSell="1" BanTrade="0" BanVaul="1" Comment="Moonstone Pendant" />
+	<Info Index="6695" BanDrop="1" BanSell="1" BanTrade="0" BanVaul="1" Comment="Elite Skeleton Transformation Ring" />
+	<Info Index="6710" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Reset Fruit Strength" />
+	<Info Index="6711" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Reset Fruit Speed" />
+	<Info Index="6712" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Reset Fruit Health" />
+	<Info Index="6713" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Reset Fruit Energy" />
+	<Info Index="6714" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Reset Fruit Control" />
+	<Info Index="6720" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Demon" />
+	<Info Index="6721" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Spirit of Guardian" />
+	<Info Index="6723" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Pet Rudolph" />
+	<Info Index="6736" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Pet Panda" />
+	<Info Index="7181" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Jewel of Bless" />
+	<Info Index="7182" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Jewel of Soul" />
+	<Info Index="7184" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Jewel of Life" />
+	<Info Index="7190" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Jewel of Creation" />
+	<Info Index="7209" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Gemstone" />
+	<Info Index="7210" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Jewel of Harmony" />
+	<Info Index="7211" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Lower refining stone" />
+	<Info Index="7212" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Higher refining stone" />
+	<Info Index="7221" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Talisman of Luck" />
+	<Info Index="7232" BanDrop="1" BanSell="0" BanTrade="0" BanVaul="0" Comment="Cursed Hallow" />
+	<Info Index="7264" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Talisman of Chaos Assembly" />
+	<Info Index="7357" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Elemental Talisman of Luck" />
+	<Info Index="7358" BanDrop="0" BanSell="1" BanTrade="1" BanVaul="1" Comment="Elemental Chaos Assembly Talisman" />
+</ItemMove>

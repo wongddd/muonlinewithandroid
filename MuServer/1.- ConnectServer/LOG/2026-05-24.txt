@@ -1,0 +1,19 @@
+04:03:40 [SocketManager] Server started at port [44404]
+04:03:40 [ServerList] ServerList loaded successfully
+04:03:40 [ServerVersion] ServerVersion loaded successfully
+04:03:44 [ServerList] JoinServer online
+04:03:46 [ServerList] GameServer online (GameServer) (20)
+04:14:10 [SocketManager] Protocol header error (Index: 0, Header: 21)
+04:35:22 [ServerList] ServerList loaded successfully
+04:35:22 [ServerList] GameServer online (GameServer) (20)
+04:35:23 [ServerVersion] ServerVersion loaded successfully
+13:56:31 [SocketManager] Server started at port [44404]
+13:56:31 [ServerList] ServerList loaded successfully
+13:56:31 [ServerVersion] ServerVersion loaded successfully
+13:56:34 [ServerList] JoinServer online
+13:56:36 [ServerList] GameServer online (GameServer) (20)
+23:44:35 [SocketManager] Server started at port [44404]
+23:44:35 [ServerList] ServerList loaded successfully
+23:44:35 [ServerVersion] ServerVersion loaded successfully
+23:44:38 [ServerList] JoinServer online
+23:44:40 [ServerList] GameServer online (GameServer) (20)

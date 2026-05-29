@@ -1,0 +1,93 @@
+//--Index		Text
+//-- Sét đồ classic
+1        "+10:Tăng: 5.000HP - GST: 5%"
+2        "+11:Tăng 6.000HP - GST: 2% - Kháng STHH: +5%"
+3        "+12:Tăng 7.000HP - GST: 2% - Kháng ST chí mạng: +5%"
+4        "+13:Tăng 8.000HP - GST: 2% - Kháng Bỏ qua phòng thủ: +5%"
+5        "+14:Tăng 9.000HP - GST: 3% - Kháng dame x2: +5%"
+6        "+15:Tăng 10.000HP - GST: 5% - Kháng dame x3: +5%"
+13     "[+11] Tăng 8%% ST, 8%% ST Chí Mạng , 8%% ST hoàn hảo"
+14     "[+13] Tăng 9%% ST, 9%% ST Chí Mạng , 9%% ST hoàn hảo"
+15     "[+14] Tăng 11%% ST, 11%% ST Chí Mạng , 11%% ST hoàn hảo"
+16     "[+15] Tăng 15%% ST, 15%% ST Chí Mạng , 15%% ST hoàn hảo"
+//-- Vũ Khí Classic
+20     "+10:Tăng sát thương: +5%"
+21     "+11:Tăng sát thương: +6% - ST hoàn hảo: +2%"
+22     "+12:tăng sát thương: +7% - ST chí mạng: +2%"
+23     "+13:Tăng sát thương: +8% - Bỏ qua phòng thủ: +2%"
+24     "+14:Tăng sát thương: +9% - dame x2: +2%"
+25     "+15:Tăng sát thương: +10 - dame x3: +2%"
+//-- Cung Nỏ classic
+30     "+10:Tăng sát thương: +10%"
+31     "+11:Tăng sát thương: +12% - ST hoàn hảo: +4%"
+32     "+12:tăng sát thương: +14% - ST chí mạng: +4%"
+33     "+13:Tăng sát thương: +16% - Bỏ qua phòng thủ: +4%"
+34     "+14:Tăng sát thương: +18% - dame x2: +4%"
+35     "+15:Tăng sát thương: +20% - dame x3: +4%"
+//-- wing 1
+40     "+10:Tăng 5.000 HP - Tăng ST: +3%"
+41     "+11:Tăng 5.000 HP - Tăng ST: +3% - ST hoàn hảo: +2%"
+42     "+12:Tăng 5.000 HP - Tăng ST: +3% - ST chí mạng: +2%"
+43     "+13:Tăng 5.000 HP - Tăng ST: +3% - Bỏ qua phòng thủ: +2%"
+44     "+14:Tăng 5.000 HP - Tăng ST: +3% - dame x2: +2%"
+45     "+15:Tăng 5.000 HP - Tăng ST: +3% - dame x3: +2%"
+//-- wing 2
+50      "+10:Tăng 5.000 HP - Tăng ST: +3%"
+51      "+11:Tăng 7.000 HP - Tăng ST: +5% - ST hoàn hảo: +3%"
+52      "+12:Tăng 9.000 HP - Tăng ST: +7% - ST chí mạng: +3%"
+53      "+13:Tăng 11.000 HP - Tăng ST: +9% - Bỏ qua phòng thủ: +3%"
+54      "+14:Tăng 13.000 HP - Tăng ST: +11% - dame x2: +3%"
+55      "+15:Tăng 15.000 HP - Tăng ST: +13% - dame x3: +3%"
+
+//-- Ring 
+60      "Gia Tăng Lượng HP: +2.000 HP - GST: +3%"
+
+//-- pen
+70      "Gia Tăng Lượng HP: +3.000 HP - Tăng ST: +3%"
+
+//-- pét Sói đỏ - SPT - STC
+80		"Sói Đỏ Tăng 10.000HP - ST: +20% - Tôc Đô Đánh: +20"
+81		"STC/SPT/SHK Tăng: +30.000HP - Tôc Đô Đánh: +20"
+//-- Pét Tiêu Quỷ 
+82		"Tăng: +10.000HP - Tôc Đô Đánh: +20"
+//-- Pét Đại Quỷ - Thần bảo hộ
+83		"Tăng: +30.000HP - Tôc Đô Đánh: +10"
+//-- Thần mã
+84		"Gia Tăng Lượng HP: +30.000"
+85		"Tăng Sát Thương PVP: +50%"
+86		"Hấp thụ sát thương: +20%"
+87		"Tăng Tốc Độ Tấn Công: +20"	
+
+//-- Box Hộp Quà Đỏ
+210     "50% rơi ra item không có LUCK"
+211     "50% rơi ra item có Có LUCK:"
+212     "- 35% rơi ra vũ khí cấp 6 có LUCK"
+213     "- 35% rơi ra đồ cấp 6 có LUCK"
+214     "- 10% rơi ra vũ khí cấp 7 có LUCK"
+215     "- 10% rơi ra đồ cấp 7 có LUCK"
+216     "- 10% rơi ra ringpen"
+217     "Hộp Quà Đỏ có được khi săn boss và có trong thương nhân thẻ bài"
+// Item
+320		"Công Thức Chế Tạo Pét Câp I"
+321		"1 Lông Vũ Ác Ma"
+322		"1 Sừng Gãy"
+323		"Ngọc Sinh Mênh 3 cái"
+324		"Ngọc Hôn Nguyên 1 Cái"
+325		"Drop tại map icarus tỉ lệ 10%"
+326		"Có được khi chế tạo tại máy chaos noria"
+327		"Tiểu Quỷ = lông vũ ác ma + 3 life + 1 chaos"
+328		"Đai Quỷ = tiểu quỷ + 5 life + 1 chaos + 1 vũ khí +4 trở lên có op life"
+329		"Nữ Thần Bảo Hộ = tiểu quỷ + 5 life + 1 chaos + 1 item thủ +4trở lên có op life"
+330		"SHK = linh hồn sói tinh + STC + SPT"
+331		"Thần Mã = Tiểu quỷ + đại quỷ + nữ thần bảo hộ"
+
+//Thông báo cuối item
+2000     	"..::MUONLINE::.."
+2001		"..::Update::.."
+2002		"Option Kích Hoạt Khi Vũ Khí Có EX + LUCK +16.Op"
+2003		"Option Kích Hoạt Khi Sét Đồ Có EX + LUCK +16.Op"
+2004		"Option Kích Hoạt Khi Ring Có TĐPHHP/MANA + EX"
+2005		"Option Kích Hoạt Khi Pen Có TĐPHHP/MANA + EX"
+2006		"Option Kích Hoạt Khi Wing Có EX + LUCK +16.Op/TĐPHHP 5%"
+2007		"Option Kích Hoạt Khi Wing Có LUCK +16.Op/TĐPHHP 5%"
+end

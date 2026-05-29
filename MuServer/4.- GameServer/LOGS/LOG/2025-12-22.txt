@@ -1,0 +1,102 @@
+13:42:07 [ServerInfo] CashShop loaded successfully
+13:42:07 [ServerInfo] ChaosMix loaded successfully
+13:42:07 [ServerInfo] Character loaded successfully
+13:42:07 [ServerInfo] Custom loaded successfully
+13:42:07 [ServerInfo] Command loaded successfully
+13:42:07 [ServerInfo] Common loaded successfully
+13:42:07 [ServerInfo] Event loaded successfully
+13:42:07 [ServerInfo] EventItemBag loaded successfully
+13:42:07 [ServerInfo] Hack loaded successfully
+13:42:08 [ServerInfo] Item loaded successfully
+13:42:08 [ServerInfo] Monster loaded successfully
+13:42:08 [ServerInfo] Move loaded successfully
+13:42:08 [ServerInfo] Quest loaded successfully
+13:42:08 [ServerInfo] Shop loaded successfully
+13:42:08 [ServerInfo] Skill loaded successfully
+13:42:08 [ServerInfo] Util loaded successfully
+13:42:08 [ReadBotInfo] BotSystem loaded successfully
+13:48:15 [ServerInfo] CashShop loaded successfully
+13:48:15 [ServerInfo] ChaosMix loaded successfully
+13:48:15 [ServerInfo] Character loaded successfully
+13:48:15 [ServerInfo] Custom loaded successfully
+13:48:15 [ServerInfo] Command loaded successfully
+13:48:15 [ServerInfo] Common loaded successfully
+13:48:15 [ServerInfo] Event loaded successfully
+13:48:15 [ServerInfo] EventItemBag loaded successfully
+13:48:15 [ServerInfo] Hack loaded successfully
+13:48:15 [ServerInfo] Item loaded successfully
+13:48:15 [ServerInfo] Monster loaded successfully
+13:48:15 [ServerInfo] Move loaded successfully
+13:48:15 [ServerInfo] Quest loaded successfully
+13:48:15 [ServerInfo] Shop loaded successfully
+13:48:15 [ServerInfo] Skill loaded successfully
+13:48:15 [ServerInfo] Util loaded successfully
+13:48:15 [ReadBotInfo] BotSystem loaded successfully
+13:48:42 [ServerInfo] CashShop loaded successfully
+13:48:42 [ServerInfo] ChaosMix loaded successfully
+13:48:42 [ServerInfo] Character loaded successfully
+13:48:42 [ServerInfo] Custom loaded successfully
+13:48:42 [ServerInfo] Command loaded successfully
+13:48:42 [ServerInfo] Common loaded successfully
+13:48:42 [ServerInfo] Event loaded successfully
+13:48:42 [ServerInfo] EventItemBag loaded successfully
+13:48:42 [ServerInfo] Hack loaded successfully
+13:48:42 [ServerInfo] Item loaded successfully
+13:48:42 [ServerInfo] Monster loaded successfully
+13:48:42 [ServerInfo] Move loaded successfully
+13:48:42 [ServerInfo] Quest loaded successfully
+13:48:42 [ServerInfo] Shop loaded successfully
+13:48:42 [ServerInfo] Skill loaded successfully
+13:48:42 [ServerInfo] Util loaded successfully
+13:48:42 [ReadBotInfo] BotSystem loaded successfully
+13:54:26 [ServerInfo] CashShop loaded successfully
+13:54:26 [ServerInfo] ChaosMix loaded successfully
+13:54:26 [ServerInfo] Character loaded successfully
+13:54:26 [ServerInfo] Custom loaded successfully
+13:54:26 [ServerInfo] Command loaded successfully
+13:54:26 [ServerInfo] Common loaded successfully
+13:54:26 [ServerInfo] Event loaded successfully
+13:54:26 [ServerInfo] EventItemBag loaded successfully
+13:54:26 [ServerInfo] Hack loaded successfully
+13:54:26 [ServerInfo] Item loaded successfully
+13:54:26 [ServerInfo] Monster loaded successfully
+13:54:26 [ServerInfo] Move loaded successfully
+13:54:26 [ServerInfo] Quest loaded successfully
+13:54:26 [ServerInfo] Shop loaded successfully
+13:54:26 [ServerInfo] Skill loaded successfully
+13:54:26 [ServerInfo] Util loaded successfully
+13:54:26 [ReadBotInfo] BotSystem loaded successfully
+13:54:40 [Obj][12500] AddClient (192.168.1.135)
+13:54:57 GJSendRegOrLostPass Type : 1 [3456] [3456] [1234567] [0378763456]
+13:54:57 JGRegAccountKQ 1
+13:55:00 [Obj][12500] AddAccount (3456)
+13:55:44 [Obj][12500] LogInCharacter (QuyKiem)
+13:58:21 GCReqEventTime1
+14:00:50 [Obj][12500] LogOutCharacter (QuyKiem)
+14:00:50 [Obj][12500] DelAccount (3456)
+14:00:50 [Obj][12500] DelClient (192.168.1.135)
+14:01:49 [Obj][12500] AddClient (192.168.1.135)
+14:01:54 [Obj][12500] AddAccount (3456)
+14:02:05 [Obj][12500] LogInCharacter (QuyKiem)
+14:02:09 [Obj][12500] LogOutCharacter (QuyKiem)
+14:02:09 [Obj][12500] DelAccount (3456)
+14:02:09 [Obj][12500] DelClient (192.168.1.135)
+14:02:48 [Obj][12500] AddClient (192.168.1.135)
+14:02:51 [Obj][12500] AddAccount (3456)
+14:02:57 [Obj][12500] LogInCharacter (QuyKiem)
+14:10:00 [CustomQuiz] Start
+14:10:57 [Obj][12500] LogOutCharacter (QuyKiem)
+14:10:57 [Obj][12500] DelAccount (3456)
+14:10:57 [Obj][12500] DelClient (192.168.1.135)
+14:11:00 [Obj][12501] AddClient (192.168.1.135)
+14:11:05 [Obj][12501] AddAccount (louismk)
+14:11:12 [Obj][12501] LogInCharacter (LouisSM)
+14:11:36 [Obj][12501] LogOutCharacter (LouisSM)
+14:11:38 [Obj][12501] LogInCharacter (LuisADM)
+14:12:44 [louismk][LuisADM] vipIndex (Level: 9)
+14:12:44 [louismk][LuisADM] WZ_SetCoin(shop vip) Val1: -20, Val2: 0, Val3: 0
+14:13:00 [CustomQuiz] Finish
+14:14:22 GCReqEventTime1
+14:20:54 [Obj][12501] LogOutCharacter (LuisADM)
+14:20:54 [Obj][12501] DelAccount (louismk)
+14:20:54 [Obj][12501] DelClient (192.168.1.135)

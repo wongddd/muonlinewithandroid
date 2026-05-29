@@ -1,0 +1,206 @@
+[GameServerInfo]
+;==================================================
+; Announce Chaos Mix Settings
+; AnnounceChaosMixLevel: 0 ~ 5
+;==================================================
+AnnounceChaosMix = 1
+AnnounceChaosMixLevel = 5
+AnnounceChaosMixSuccess = Chúc mừng %s. Vật phẩm %s đã nâng cấp thành công lên cấp +%d.
+AnnounceChaosMixFailure = %s rất tiếc! Vật phẩm %s đã thất bại khi nâng lên cấp +%d.
+
+;==================================================
+; Custom Arena Settings
+;==================================================
+CustomArenaSwitch = 1
+CustomArenaVictimScoreDecrease = 10
+CustomArenaKillerScoreIncrease = 100
+CustomArenaText1 = [%s] sẽ đóng trong %d phút.
+CustomArenaText2 = [%s] đã đóng.
+CustomArenaText3 = [%s] sẽ bắt đầu sau %d phút.
+CustomArenaText4 = [%s] đã bắt đầu.
+CustomArenaText5 = [%s] đã hoàn thành.
+CustomArenaText6 = [%s] %s là người chiến thắng.
+CustomArenaText7 = [%s] Bạn đã đạt vị trí thứ %d với %d điểm.
+CustomArenaText8 = Bạn không thể vào đấu trường.
+CustomArenaText9 = Đấu trường hiện tại chưa mở.
+CustomArenaText10 = Vượt quá số lượng người chơi tối đa.
+CustomArenaText11 = Bạn phải đạt ít nhất cấp độ %d.
+CustomArenaText12 = Bạn phải có cấp độ tối đa là %d.
+CustomArenaText13 = Bạn phải đạt ít nhất Master Level %d.
+CustomArenaText14 = Bạn phải có Master Level tối đa là %d.
+CustomArenaText15 = Bạn phải có ít nhất %d lần Reset.
+CustomArenaText16 = Bạn chỉ được có tối đa %d lần Reset.
+CustomArenaText17 = Bạn phải có ít nhất %d lần Master Reset.
+CustomArenaText18 = Bạn chỉ được có tối đa %d lần Master Reset.
+CustomArenaText19 = Lớp nhân vật của bạn không được phép vào đấu trường.
+
+;==================================================
+; Custom Mix Expansion
+;==================================================
+GoblinMixNpc= 238
+GoblinMixNpcX= 185
+GoblinMixNpcY= 105
+GoblinMixNpcMap= 3
+
+;==================================================
+; Custom Event Drop Settings
+;==================================================
+CustomEventDropSwitch = 1
+CustomEventDropText1 = [%s] sẽ bắt đầu sau %d phút.
+CustomEventDropText2 = [%s] đã bắt đầu.
+CustomEventDropText3 = [%s] đã kết thúc.
+
+;==================================================
+; Custom Store Settings
+;==================================================
+CustomStoreTime_AL0 = 0
+CustomStoreTime_AL1 = 0
+CustomStoreTime_AL2 = 0
+CustomStoreTime_AL3 = 0
+CustomStoreCommandJoBSyntax = bless
+CustomStoreCommandJoSSyntax = soul
+CustomStoreCommandJoCSyntax = chaos
+CustomStoreCommandWCCSyntax = wcc
+CustomStoreCommandWCPSyntax = wcp
+CustomStoreCommandWCGSyntax = wcg
+CustomStoreJoBName = .::BLESS STORE::.
+CustomStoreJoSName = .::SOUL STORE::.
+CustomStoreJoCName = .::CHAOS STORE::.
+CustomStoreWCCName = .::WCC STORE::.
+CustomStoreWCPName = .::WCP STORE::.
+CustomStoreWCGName = .::WCG STORE::.
+
+;==================================================
+; Custom Attack Settings
+;==================================================
+CustomAttackTime_AL0 = 0
+CustomAttackTime_AL1 = 0
+CustomAttackTime_AL2 = 0
+CustomAttackTime_AL3 = 0
+CustomAttackDelay = 0
+CustomAttackAutoPotionDelay = 0
+CustomAttackAutoBuff_AL0 = 1
+CustomAttackAutoBuff_AL1 = 1
+CustomAttackAutoBuff_AL2 = 1
+CustomAttackAutoBuff_AL3 = 1
+CustomAttackAutoBuffDelay = 10000
+CustomAttackAutoResume_AL0 = 1
+CustomAttackAutoResume_AL1 = 1
+CustomAttackAutoResume_AL2 = 1
+CustomAttackAutoResume_AL3 = 1
+
+;==================================================
+; Custom Online Lottery Settings
+;==================================================
+CustomOnlineLotterySwitch = 1
+CustomOnlineLotteryText1 = %s sẽ diễn ra sau %d phút.
+CustomOnlineLotteryText2 = %s là người chiến thắng trong đợt quay số. Xin chúc mừng!
+CustomOnlineLotteryText3 = %s không có người chiến thắng.
+CustomOnlineLotteryNoOff = 1
+
+;==================================================
+; Custom Quest Settings
+;==================================================
+CustomQuestSwitch = 1
+
+;==================================================
+; Custom RankUser Settings (CustomRankUser.txt)
+; Type Reset = 0, Type Master Reset = 1, Type Level = 2
+;==================================================
+CustomRankUserSwitch = 1
+CustomRankUserType = 2
+CustomRankUserRewardSwitch = 1
+CustomRankUserNoticeToAll = 1
+CustomRankUserNoticeToUser = 1
+
+;==================================================
+; Custom Death Message
+;==================================================
+CustomDeathMessageSwitch = 1
+
+;==================================================
+; Custom Quiz
+;==================================================
+CustomQuizSwitch = 1
+
+;==================================================
+; Custom NpcCollector Settings (CustomNpcCollector.txt)
+;==================================================
+CustomNpcCollectorSwitch = 1
+
+;==================================================
+; Custom Pick Command (CustomPick.txt) 
+;==================================================
+CustomPickSwitch = 1
+CustomPickEnable_AL0 = 1
+CustomPickEnable_AL1 = 1
+CustomPickEnable_AL2 = 1
+CustomPickEnable_AL3 = 1
+CustomPickRequireLevel_AL0 = 0
+CustomPickRequireLevel_AL1 = 0
+CustomPickRequireLevel_AL2 = 0
+CustomPickRequireLevel_AL3 = 0
+CustomPickRequireReset_AL0 = 0
+CustomPickRequireReset_AL1 = 0
+CustomPickRequireReset_AL2 = 0
+CustomPickRequireReset_AL3 = 0
+CustomPickRequireMoney_AL0 = 0
+CustomPickRequireMoney_AL1 = 0
+CustomPickRequireMoney_AL2 = 0
+CustomPickRequireMoney_AL3 = 200000
+
+;==================================================
+; Custom Ranking Settings (CustomRanking.txt) F8 in game
+;==================================================
+CustomRankingSwitch = 1
+
+;==================================================
+; Custom EventTime Settings H in game
+;==================================================
+CustomEventTimeSwitch = 1
+
+;==================================================
+; Custom Guild Warehouse
+; Member Status to use: 
+; 0 All Members
+; 32 Battle Master+
+; 64 Guild Assistente+ 
+; 128 Guild Master+
+;==================================================
+GuildWarehouseEnable = 1
+GuildWarehouseStatus = 0
+
+;==================================================
+; Custom Shop MessageBox
+;==================================================
+; Types:
+; 0: Disabled
+; 1: Only for coins
+; 2: All purchases
+;==================================================
+CustomShopMessageBox = 0
+
+;==================================================
+; Custom Quest Settings (CustomNpcQuest.txt)
+;==================================================
+CustomNpcQuestSwitch = 1
+
+;==================================================
+; Buy Inventory Extension Slot
+;==================================================
+SwitchBuyInventoryExt = 1
+PriceInventoryExt1 = 100
+PriceInventoryExt2 = 100
+PriceInventoryExt3 = 100
+PriceInventoryExt4 = 100
+message_success = 0
+message_failed = 0
+message_error = 0
+
+;==================================================
+; Chat System Anti Spam Settings
+;==================================================
+EnableAntiSpam = 1
+TimeBlockedChat = 1
+LimitMaxMessage = 3
+LimitMaxTimeMessageCheck = 60

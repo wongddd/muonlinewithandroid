@@ -1,0 +1,236 @@
+17:54:25 [ServerInfo] CashShop loaded successfully
+17:54:25 [ServerInfo] ChaosMix loaded successfully
+17:54:25 [ServerInfo] Character loaded successfully
+17:54:25 [ServerInfo] Custom loaded successfully
+17:54:25 [ServerInfo] Command loaded successfully
+17:54:25 [ServerInfo] Common loaded successfully
+17:54:25 [ServerInfo] Event loaded successfully
+17:54:25 [ServerInfo] EventItemBag loaded successfully
+17:54:25 [ServerInfo] Hack loaded successfully
+17:54:25 [ServerInfo] Item loaded successfully
+17:54:25 [ServerInfo] Monster loaded successfully
+17:54:25 [ServerInfo] Move loaded successfully
+17:54:25 [ServerInfo] Quest loaded successfully
+17:54:25 [ServerInfo] Shop loaded successfully
+17:54:25 [ServerInfo] Skill loaded successfully
+17:54:25 [ServerInfo] Util loaded successfully
+17:54:25 [ReadBotInfo] BotSystem loaded successfully
+18:01:33 [ServerInfo] CashShop loaded successfully
+18:01:33 [ServerInfo] ChaosMix loaded successfully
+18:01:33 [ServerInfo] Character loaded successfully
+18:01:33 [ServerInfo] Custom loaded successfully
+18:01:33 [ServerInfo] Command loaded successfully
+18:01:33 [ServerInfo] Common loaded successfully
+18:01:33 [ServerInfo] Event loaded successfully
+18:01:33 [ServerInfo] EventItemBag loaded successfully
+18:01:33 [ServerInfo] Hack loaded successfully
+18:01:33 [ServerInfo] Item loaded successfully
+18:01:34 [ServerInfo] Monster loaded successfully
+18:01:34 [ServerInfo] Move loaded successfully
+18:01:34 [ServerInfo] Quest loaded successfully
+18:01:34 [ServerInfo] Shop loaded successfully
+18:01:34 [ServerInfo] Skill loaded successfully
+18:01:34 [ServerInfo] Util loaded successfully
+18:01:34 [ReadBotInfo] BotSystem loaded successfully
+18:04:16 [Obj][12500] AddClient (14.232.102.31)
+18:04:38 [Obj][12501] AddClient (14.232.102.31)
+18:04:45 [Obj][12502] AddClient (14.232.102.31)
+18:04:46 [Obj][12500] DelClient (14.232.102.31)
+18:04:46 Response error after connection causes conclusion [12500][][][14.232.102.31]
+18:04:46 [Obj][12502] DelClient (14.232.102.31)
+18:04:48 [Obj][12501] DelClient (14.232.102.31)
+18:05:02 [Obj][12500] AddClient (14.232.102.31)
+18:05:14 [Obj][12500] AddAccount (louismk)
+18:05:16 [Obj][12500] LogInCharacter (KmmR)
+18:05:57 [Obj][12500] LogOutCharacter (KmmR)
+18:05:57 [Obj][12500] DelAccount (louismk)
+18:05:57 [Obj][12500] DelClient (14.232.102.31)
+18:10:00 [CustomQuiz] Start
+18:13:00 [CustomQuiz] Finish
+18:15:25 [Obj][12502] AddClient (1.53.155.235)
+18:15:33 [Obj][12501] AddClient (1.53.155.235)
+18:15:36 [Obj][12501] AddAccount (louismk3)
+18:15:40 [Obj][12501] LogInCharacter (SuperLouis)
+18:16:01 [Obj][12502] DelClient (1.53.155.235)
+18:16:01 Response error after connection causes conclusion [12502][][][1.53.155.235]
+18:16:01 [Obj][12501] LogOutCharacter (SuperLouis)
+18:16:01 [Obj][12501] DelAccount (louismk3)
+18:16:01 [Obj][12501] DelClient (1.53.155.235)
+18:16:31 [Obj][12500] AddClient (1.53.155.235)
+18:16:41 [Obj][12500] AddAccount (louismk3)
+18:16:41 [Obj][12500] LogInCharacter (SuperLouis)
+18:22:58 [Obj][12500] LogOutCharacter (SuperLouis)
+18:22:58 [Obj][12500] DelAccount (louismk3)
+18:22:58 [Obj][12500] DelClient (1.53.155.235)
+18:23:42 [Obj][12501] AddClient (1.53.155.235)
+18:23:46 [Obj][12501] AddAccount (louismk3)
+18:23:49 [Obj][12501] LogInCharacter (SuperLouis)
+18:24:51 [Obj][12502] AddClient (14.232.102.31)
+18:24:53 [Obj][12502] AddAccount (louismk)
+18:24:55 [Obj][12502] LogInCharacter (KmmR)
+18:35:00 [ServerInfo] Event loaded successfully
+18:35:04 [Obj][12500] AddClient (1.53.155.235)
+18:35:10 [Obj][12501] LogOutCharacter (SuperLouis)
+18:35:10 [Obj][12501] DelAccount (louismk3)
+18:35:10 [Obj][12501] DelClient (1.53.155.235)
+18:35:11 [Obj][12500] AddAccount (louismk3)
+18:35:12 [Obj][12500] LogInCharacter (SuperLouis)
+18:35:16 [Set Drop Start] At 18:37:00
+18:36:01 [OnlineLoterry] Add Member (SuperLouis)
+18:36:01 [OnlineLoterry] Winner (SuperLouis)
+18:36:01 [louismk3][SuperLouis] WZ_SetCoin(Lottery) Val1: 10, Val2: 0, Val3: 0
+18:36:10 [ServerInfo] Event loaded successfully
+18:36:12 [Set Drop Start] At 18:38:00
+18:36:22 [ServerInfo] Custom loaded successfully
+18:36:24 [ServerInfo] CashShop loaded successfully
+18:36:24 [ServerInfo] ChaosMix loaded successfully
+18:36:24 [ServerInfo] Character loaded successfully
+18:36:24 [ServerInfo] Command loaded successfully
+18:36:24 [ServerInfo] Common loaded successfully
+18:36:24 [ServerInfo] Custom loaded successfully
+18:36:24 [ServerInfo] Event loaded successfully
+18:36:24 [ServerInfo] EventItemBag loaded successfully
+18:36:24 [ServerInfo] Hack loaded successfully
+18:36:25 [ServerInfo] Monster loaded successfully
+18:36:25 [ServerInfo] Move loaded successfully
+18:36:25 [ServerInfo] Quest loaded successfully
+18:36:25 [ServerInfo] Shop loaded successfully
+18:36:25 [ServerInfo] Skill loaded successfully
+18:36:25 [ServerInfo] Util loaded successfully
+18:36:25 [ReadBotInfo] BotSystem loaded successfully
+18:36:27 [Set Drop Start] At 18:38:00
+18:36:42 [Obj][12501] AddClient (14.226.4.216)
+18:36:46 [Obj][12500] LogOutCharacter (SuperLouis)
+18:36:46 [Obj][12500] DelAccount (louismk3)
+18:36:46 [Obj][12500] DelClient (1.53.155.235)
+18:36:56 [Obj][12501] AddAccount (louismk6)
+18:36:58 [Obj][12501] LogInCharacter (LouisTeste)
+18:36:59 [Obj][12500] AddClient (1.53.155.235)
+18:37:10 [Obj][12500] AddAccount (louismk3)
+18:37:12 [Obj][12500] LogInCharacter (SuperLouis)
+18:38:47 [louismk6][LouisTeste] WZ_SetCoin(CommonShopBuy) Val1: -30, Val2: 0, Val3: 0
+18:41:13 [ServerInfo] Custom loaded successfully
+18:43:51 [Obj][12502] LogOutCharacter (KmmR)
+18:43:51 [Obj][12502] DelAccount (louismk)
+18:43:51 [Obj][12502] DelClient (14.232.102.31)
+18:44:06 [Obj][12502] AddClient (14.232.102.31)
+18:44:08 [Obj][12502] AddAccount (louismk)
+18:44:10 [Obj][12502] LogInCharacter (KmmR)
+18:44:11 [Obj][12502] LogOutCharacter (KmmR)
+18:44:11 [Obj][12502] DelAccount (louismk)
+18:44:11 [Obj][12502] DelClient (14.232.102.31)
+18:45:26 [Obj][12502] AddClient (14.232.102.31)
+18:45:28 [Obj][12502] AddAccount (louismk)
+18:45:29 [Obj][12502] LogInCharacter (SUMM)
+18:45:31 [Obj][12502] LogOutCharacter (SUMM)
+18:45:31 [Obj][12502] DelAccount (louismk)
+18:45:31 [Obj][12502] DelClient (14.232.102.31)
+18:45:52 [Obj][12502] AddClient (14.232.102.31)
+18:45:54 [Obj][12502] AddAccount (louismk)
+18:45:57 [Obj][12502] LogInCharacter (LuisADM)
+18:46:17 [Obj][12502] LogOutCharacter (LuisADM)
+18:46:19 [Obj][12502] LogInCharacter (KmmR)
+18:48:19 [Obj][12502] LogOutCharacter (KmmR)
+18:48:19 [Obj][12502] DelAccount (louismk)
+18:48:19 [Obj][12502] DelClient (14.232.102.31)
+18:49:06 [Obj][12500] LogOutCharacter (SuperLouis)
+18:49:06 [Obj][12500] DelAccount (louismk3)
+18:49:06 [Obj][12500] DelClient (1.53.155.235)
+18:49:50 [Obj][12502] AddClient (14.232.102.31)
+18:49:51 [Obj][12502] AddAccount (louismk)
+18:50:00 [Invasion Manager] Index(7) Boss Position (Map: 3 X: 196 Y: 84)
+18:50:03 [Obj][12502] LogInCharacter (KmmR)
+19:00:10 [Obj][12500] AddClient (14.232.102.31)
+19:00:17 [Obj][12502] LogOutCharacter (KmmR)
+19:00:17 [Obj][12502] DelAccount (louismk)
+19:00:17 [Obj][12502] DelClient (14.232.102.31)
+19:00:17 [Obj][12500] DelClient (14.232.102.31)
+19:00:35 [Obj][12502] AddClient (14.232.102.31)
+19:00:37 [Obj][12502] AddAccount (louismk)
+19:00:38 [Obj][12502] LogInCharacter (KmmR)
+19:08:09 [Obj][12501] LogOutCharacter (LouisTeste)
+19:08:09 [Obj][12501] DelAccount (louismk6)
+19:08:09 [Obj][12501] DelClient (14.226.4.216)
+19:08:15 [Obj][12500] AddClient (14.226.4.216)
+19:08:45 [Obj][12500] DelClient (14.226.4.216)
+19:08:45 Response error after connection causes conclusion [12500][][][14.226.4.216]
+19:10:00 [CustomQuiz] Start
+19:13:00 [CustomQuiz] Finish
+19:25:36 [Obj][12501] AddClient (1.53.155.235)
+19:25:41 [Obj][12501] AddAccount (louismk2)
+19:25:44 [Obj][12501] LogInCharacter (LouisMK)
+19:26:20 [Obj][12501] LogOutCharacter (LouisMK)
+19:26:20 [Obj][12501] DelAccount (louismk2)
+19:26:20 [Obj][12501] DelClient (1.53.155.235)
+19:27:13 [Obj][12500] AddClient (1.53.155.235)
+19:27:18 [Obj][12500] AddAccount (louismk2)
+19:27:20 [Obj][12500] LogInCharacter (MGTeste)
+19:28:38 [louismk2][MGTeste] WZ_SetCoin(Buy Inventory Ext) Val1: -100, Val2: 0, Val3: 0
+19:28:40 [louismk2][MGTeste] WZ_SetCoin(Buy Inventory Ext) Val1: -100, Val2: 0, Val3: 0
+19:33:46 [Obj][12500] LogOutCharacter (MGTeste)
+19:33:46 [Obj][12500] DelAccount (louismk2)
+19:33:46 [Obj][12500] DelClient (1.53.155.235)
+19:34:01 [Obj][12501] AddClient (1.53.155.235)
+19:34:08 [Obj][12501] AddAccount (louismk2)
+19:34:10 [Obj][12501] LogInCharacter (MGTeste)
+19:34:11 [Obj][12501] LogOutCharacter (MGTeste)
+19:34:11 [Obj][12501] DelAccount (louismk2)
+19:34:11 [Obj][12501] DelClient (1.53.155.235)
+19:34:31 [Obj][12500] AddClient (1.53.155.235)
+19:34:35 [Obj][12501] AddClient (1.53.155.235)
+19:35:02 [Obj][12500] DelClient (1.53.155.235)
+19:35:02 Response error after connection causes conclusion [12500][][][1.53.155.235]
+19:35:02 [Obj][12501] DelClient (1.53.155.235)
+19:35:44 [Obj][12500] AddClient (1.53.155.235)
+19:35:51 [Obj][12500] AddAccount (louismk2)
+19:35:53 [Obj][12500] LogInCharacter (LouisMK)
+19:36:01 [OnlineLoterry] Add Member (KmmR)
+19:36:01 [OnlineLoterry] Winner (KmmR)
+19:36:01 [louismk][KmmR] WZ_SetCoin(Lottery) Val1: 10, Val2: 0, Val3: 0
+20:05:00 [Invasion Manager] Index(0) Boss Position (Map: 3 X: 200 Y: 83)
+20:10:00 [CustomQuiz] Start
+20:13:00 [CustomQuiz] Finish
+20:15:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 135 Y: 94)
+20:25:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 180 Y: 12)
+20:36:01 [OnlineLoterry] Add Member (KmmR)
+20:36:01 [OnlineLoterry] Winner (KmmR)
+20:36:01 [louismk][KmmR] WZ_SetCoin(Lottery) Val1: 10, Val2: 0, Val3: 0
+20:50:00 [Invasion Manager] Index(3) Boss Position (Map: 3 X: 198 Y: 75)
+21:00:00 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 50 Y: 112)
+21:10:00 [CustomQuiz] Start
+21:13:00 [CustomQuiz] Finish
+21:36:01 [OnlineLoterry] Add Member (KmmR)
+21:36:01 [OnlineLoterry] Winner (KmmR)
+21:36:01 [louismk][KmmR] WZ_SetCoin(Lottery) Val1: 10, Val2: 0, Val3: 0
+21:40:03 [Obj][12501] AddClient (14.232.102.31)
+21:40:13 [Obj][12502] LogOutCharacter (KmmR)
+21:40:13 [Obj][12502] DelAccount (louismk)
+21:40:13 [Obj][12502] DelClient (14.232.102.31)
+21:40:13 Game response error causes conclusion [12502][][][14.232.102.31]
+21:40:23 [Obj][12501] AddAccount (louismk)
+21:40:23 [Obj][12501] LogInCharacter (KmmR)
+22:10:00 [CustomQuiz] Start
+22:13:00 [CustomQuiz] Finish
+22:23:13 [Obj][12501] LogOutCharacter (KmmR)
+22:23:13 [Obj][12501] DelAccount (louismk)
+22:23:13 [Obj][12501] DelClient (14.232.102.31)
+22:23:40 [Obj][12500] LogOutCharacter (LouisMK)
+22:23:40 [Obj][12500] DelAccount (louismk2)
+22:23:40 [Obj][12500] DelClient (1.53.155.235)
+22:23:40 Game response error causes conclusion [12500][][][1.53.155.235]
+22:23:41 [Obj][12502] AddClient (1.53.155.235)
+22:23:43 [Obj][12501] AddClient (14.232.102.31)
+22:23:51 [Obj][12502] AddAccount (louismk2)
+22:23:51 [Obj][12502] LogInCharacter (LouisMK)
+22:23:53 [Obj][12501] AddAccount (louismk)
+22:23:53 [Obj][12501] LogInCharacter (KmmR)
+22:36:01 [OnlineLoterry] Add Member (KmmR)
+22:36:01 [OnlineLoterry] Winner (KmmR)
+22:36:01 [louismk][KmmR] WZ_SetCoin(Lottery) Val1: 10, Val2: 0, Val3: 0
+22:39:05 [Obj][12502] LogOutCharacter (LouisMK)
+22:39:05 [Obj][12502] DelAccount (louismk2)
+22:39:05 [Obj][12502] DelClient (1.53.155.235)
+22:50:00 [Invasion Manager] Index(7) Boss Position (Map: 3 X: 203 Y: 84)
+23:04:44 [Obj][12501] LogOutCharacter (KmmR)
+23:04:44 [Obj][12501] DelAccount (louismk)
+23:04:44 [Obj][12501] DelClient (14.232.102.31)

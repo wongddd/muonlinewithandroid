@@ -1,0 +1,5 @@
+// Hiệu ứng tên nhân vật phát sáng 7 màu
+
+1		"LouisSM"
+2		"ImpELF"
+end

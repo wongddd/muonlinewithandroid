@@ -1,0 +1,351 @@
+0
+//Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
+end
+
+
+1
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment
+end
+
+
+2
+//Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
+048            07             30         236            177            6             //Lizard King
+051            07             30         212            096            0             //Great Bahamut
+045            07             30         021            041            3             //Bahamut
+045            07             30         023            033            0             //Bahamut
+045            07             30         031            031            4             //Bahamut
+045            07             30         039            023            0             //Bahamut
+045            07             30         041            011            2             //Bahamut
+045            07             30         021            048            4             //Bahamut
+045            07             30         047            041            3             //Bahamut
+045            07             30         039            063            6             //Bahamut
+045            07             30         072            042            0             //Bahamut
+045            07             30         023            056            1             //Bahamut
+045            07             30         023            064            5             //Bahamut
+045            07             30         035            070            6             //Bahamut
+045            07             30         029            075            5             //Bahamut
+045            07             30         062            021            3             //Bahamut
+045            07             30         078            019            0             //Bahamut
+045            07             30         067            036            5             //Bahamut
+045            07             30         024            086            1             //Bahamut
+045            07             30         048            057            6             //Bahamut
+045            07             30         045            070            1             //Bahamut
+045            07             30         019            125            6             //Bahamut
+045            07             30         049            008            3             //Bahamut
+045            07             30         046            020            6             //Bahamut
+045            07             30         039            035            1             //Bahamut
+045            07             30         037            050            1             //Bahamut
+045            07             30         020            075            1             //Bahamut
+045            07             30         063            044            1             //Bahamut
+045            07             30         068            052            7             //Bahamut
+045            07             30         049            064            4             //Bahamut
+045            07             30         029            052            6             //Bahamut
+046            07             30         046            021            3             //Vepar
+046            07             30         048            009            6             //Vepar
+046            07             30         050            065            4             //Vepar
+046            07             30         051            070            2             //Vepar
+046            07             30         080            033            5             //Vepar
+046            07             30         062            017            4             //Vepar
+046            07             30         061            011            5             //Vepar
+046            07             30         069            019            2             //Vepar
+046            07             30         075            015            5             //Vepar
+046            07             30         083            015            1             //Vepar
+046            07             30         084            021            1             //Vepar
+046            07             30         067            027            0             //Vepar
+046            07             30         059            034            2             //Vepar
+046            07             30         086            037            7             //Vepar
+046            07             30         078            044            3             //Vepar
+046            07             30         071            052            1             //Vepar
+046            07             30         065            059            6             //Vepar
+046            07             30         065            051            0             //Vepar
+046            07             30         055            044            2             //Vepar
+046            07             30         040            048            3             //Vepar
+046            07             30         031            053            0             //Vepar
+046            07             30         024            090            7             //Vepar
+046            07             30         021            100            7             //Vepar
+046            07             30         025            105            0             //Vepar
+046            07             30         030            110            4             //Vepar
+046            07             30         021            118            5             //Vepar
+046            07             30         038            117            2             //Vepar
+046            07             30         141            011            1             //Vepar
+046            07             30         127            017            3             //Vepar
+046            07             30         114            026            7             //Vepar
+046            07             30         107            018            5             //Vepar
+046            07             30         104            013            0             //Vepar
+046            07             30         115            012            0             //Vepar
+046            07             30         089            062            5             //Vepar
+046            07             30         075            076            5             //Vepar
+046            07             30         069            087            3             //Vepar
+046            07             30         050            093            3             //Vepar
+046            07             30         023            072            3             //Vepar
+046            07             30         078            023            1             //Vepar
+046            07             30         070            038            6             //Vepar
+046            07             30         055            025            7             //Vepar
+046            07             30         030            122            1             //Vepar
+046            07             30         017            126            6             //Vepar
+046            07             30         122            029            2             //Vepar
+046            07             30         108            040            5             //Vepar
+048            07             30         066            222            6             //Lizard King
+048            07             30         063            218            3             //Lizard King
+048            07             30         057            225            5             //Lizard King
+048            07             30         171            162            2             //Lizard King
+048            07             30         175            169            6             //Lizard King
+048            07             30         178            174            7             //Lizard King
+048            07             30         173            179            5             //Lizard King
+048            07             30         171            187            1             //Lizard King
+048            07             30         165            193            1             //Lizard King
+048            07             30         159            198            7             //Lizard King
+048            07             30         152            201            5             //Lizard King
+048            07             30         144            201            5             //Lizard King
+048            07             30         137            205            2             //Lizard King
+048            07             30         124            206            5             //Lizard King
+048            07             30         115            210            0             //Lizard King
+048            07             30         104            211            3             //Lizard King
+048            07             30         094            210            2             //Lizard King
+048            07             30         087            214            3             //Lizard King
+048            07             30         076            215            6             //Lizard King
+048            07             30         047            224            1             //Lizard King
+048            07             30         046            217            7             //Lizard King
+048            07             30         029            226            1             //Lizard King
+048            07             30         022            213            7             //Lizard King
+048            07             30         024            204            6             //Lizard King
+048            07             30         034            200            0             //Lizard King
+048            07             30         035            209            0             //Lizard King
+048            07             30         040            210            7             //Lizard King
+048            07             30         045            205            2             //Lizard King
+048            07             30         047            211            7             //Lizard King
+048            07             30         037            232            5             //Lizard King
+048            07             30         226            052            2             //Lizard King
+048            07             30         022            230            3             //Lizard King
+048            07             30         041            224            6             //Lizard King
+048            07             30         082            215            3             //Lizard King
+048            07             30         167            156            1             //Lizard King
+048            07             30         177            146            0             //Lizard King
+052            07             30         156            156            5             //Silver Valkyrie
+052            07             30         162            149            4             //Silver Valkyrie
+052            07             30         152            169            6             //Silver Valkyrie
+052            07             30         072            128            7             //Silver Valkyrie
+052            07             30         070            138            1             //Silver Valkyrie
+052            07             30         061            147            6             //Silver Valkyrie
+052            07             30         049            158            1             //Silver Valkyrie
+052            07             30         033            169            6             //Silver Valkyrie
+052            07             30         022            173            3             //Silver Valkyrie
+052            07             30         055            181            7             //Silver Valkyrie
+052            07             30         067            186            7             //Silver Valkyrie
+052            07             30         073            180            5             //Silver Valkyrie
+052            07             30         089            184            3             //Silver Valkyrie
+052            07             30         101            183            7             //Silver Valkyrie
+052            07             30         111            183            1             //Silver Valkyrie
+052            07             30         122            178            0             //Silver Valkyrie
+052            07             30         129            171            6             //Silver Valkyrie
+052            07             30         138            167            0             //Silver Valkyrie
+052            07             30         147            164            5             //Silver Valkyrie
+052            07             30         170            145            0             //Silver Valkyrie
+052            07             30         163            138            0             //Silver Valkyrie
+052            07             30         053            220            4             //Silver Valkyrie
+052            07             30         041            222            6             //Silver Valkyrie
+052            07             30         029            231            5             //Silver Valkyrie
+052            07             30         022            232            0             //Silver Valkyrie
+052            07             30         027            209            0             //Silver Valkyrie
+052            07             30         036            205            4             //Silver Valkyrie
+052            07             30         109            211            0             //Silver Valkyrie
+052            07             30         131            207            3             //Silver Valkyrie
+052            07             30         155            196            2             //Silver Valkyrie
+052            07             30         167            154            4             //Silver Valkyrie
+052            07             30         177            019            0             //Silver Valkyrie
+052            07             30         118            167            0             //Silver Valkyrie
+052            07             30         111            175            7             //Silver Valkyrie
+052            07             30         063            178            1             //Silver Valkyrie
+052            07             30         162            141            4             //Silver Valkyrie
+052            07             30         138            176            3             //Silver Valkyrie
+047            07             30         041            109            3             //Valkyrie
+047            07             30         049            100            0             //Valkyrie
+047            07             30         054            089            1             //Valkyrie
+047            07             30         062            087            1             //Valkyrie
+047            07             30         071            082            1             //Valkyrie
+047            07             30         079            070            6             //Valkyrie
+047            07             30         085            064            3             //Valkyrie
+047            07             30         094            060            2             //Valkyrie
+047            07             30         101            050            6             //Valkyrie
+047            07             30         106            048            4             //Valkyrie
+047            07             30         112            045            2             //Valkyrie
+047            07             30         109            038            2             //Valkyrie
+047            07             30         118            037            2             //Valkyrie
+047            07             30         122            029            6             //Valkyrie
+047            07             30         119            020            1             //Valkyrie
+047            07             30         124            014            2             //Valkyrie
+047            07             30         133            014            0             //Valkyrie
+047            07             30         150            014            7             //Valkyrie
+047            07             30         161            011            1             //Valkyrie
+047            07             30         166            016            1             //Valkyrie
+047            07             30         171            018            6             //Valkyrie
+047            07             30         182            014            1             //Valkyrie
+047            07             30         190            024            6             //Valkyrie
+047            07             30         196            027            5             //Valkyrie
+047            07             30         200            017            3             //Valkyrie
+047            07             30         208            009            1             //Valkyrie
+047            07             30         218            047            0             //Valkyrie
+047            07             30         222            014            3             //Valkyrie
+047            07             30         117            074            4             //Valkyrie
+047            07             30         139            061            2             //Valkyrie
+047            07             30         152            061            4             //Valkyrie
+047            07             30         172            055            0             //Valkyrie
+047            07             30         189            056            4             //Valkyrie
+047            07             30         226            046            4             //Valkyrie
+047            07             30         240            011            4             //Valkyrie
+047            07             30         227            016            1             //Valkyrie
+047            07             30         152            022            0             //Valkyrie
+047            07             30         142            015            6             //Valkyrie
+047            07             30         128            022            0             //Valkyrie
+047            07             30         116            009            0             //Valkyrie
+047            07             30         113            027            7             //Valkyrie
+047            07             30         033            108            6             //Valkyrie
+047            07             30         035            118            3             //Valkyrie
+051            07             30         228            016            0             //Great Bahamut
+051            07             30         237            017            6             //Great Bahamut
+051            07             30         237            026            0             //Great Bahamut
+051            07             30         238            040            4             //Great Bahamut
+051            07             30         235            048            2             //Great Bahamut
+051            07             30         251            051            1             //Great Bahamut
+051            07             30         206            055            2             //Great Bahamut
+051            07             30         200            049            0             //Great Bahamut
+051            07             30         193            052            4             //Great Bahamut
+051            07             30         184            052            2             //Great Bahamut
+051            07             30         178            058            4             //Great Bahamut
+051            07             30         170            061            6             //Great Bahamut
+051            07             30         156            059            2             //Great Bahamut
+051            07             30         144            063            6             //Great Bahamut
+051            07             30         133            061            7             //Great Bahamut
+051            07             30         133            070            6             //Great Bahamut
+051            07             30         125            078            3             //Great Bahamut
+051            07             30         118            085            2             //Great Bahamut
+051            07             30         124            090            5             //Great Bahamut
+051            07             30         116            098            0             //Great Bahamut
+051            07             30         106            101            3             //Great Bahamut
+051            07             30         099            108            2             //Great Bahamut
+051            07             30         091            115            7             //Great Bahamut
+051            07             30         081            123            7             //Great Bahamut
+051            07             30         126            167            3             //Great Bahamut
+051            07             30         111            174            3             //Great Bahamut
+051            07             30         090            177            6             //Great Bahamut
+051            07             30         076            180            0             //Great Bahamut
+051            07             30         062            178            7             //Great Bahamut
+051            07             30         042            178            2             //Great Bahamut
+051            07             30         027            161            2             //Great Bahamut
+051            07             30         042            152            0             //Great Bahamut
+051            07             30         019            159            0             //Great Bahamut
+051            07             30         062            140            1             //Great Bahamut
+051            07             30         070            133            4             //Great Bahamut
+051            07             30         168            054            6             //Great Bahamut
+051            07             30         007            052            5             //Great Bahamut
+051            07             30         225            045            2             //Great Bahamut
+051            07             30         207            009            3             //Great Bahamut
+051            07             30         154            069            1             //Great Bahamut
+051            07             30         111            082            3             //Great Bahamut
+051            07             30         081            116            0             //Great Bahamut
+051            07             30         072            125            5             //Great Bahamut
+051            07             30         122            066            4             //Great Bahamut
+049            07             30         019            230            2             //Hydra
+049            07             30         024            227            7             //Hydra
+051            07             30         219            056            3             //Great Bahamut
+051            07             30         215            065            0             //Great Bahamut
+051            07             30         232            055            5             //Great Bahamut
+051            07             30         231            064            0             //Great Bahamut
+051            07             30         238            071            1             //Great Bahamut
+051            07             30         229            074            0             //Great Bahamut
+051            07             30         217            075            0             //Great Bahamut
+051            07             30         225            081            6             //Great Bahamut
+051            07             30         215            086            4             //Great Bahamut
+051            07             30         223            089            4             //Great Bahamut
+051            07             30         218            101            1             //Great Bahamut
+051            07             30         232            095            1             //Great Bahamut
+052            07             30         223            070            1             //Silver Valkyrie
+052            07             30         211            059            5             //Silver Valkyrie
+052            07             30         232            086            0             //Silver Valkyrie
+052            07             30         208            104            5             //Silver Valkyrie
+052            07             30         235            106            1             //Silver Valkyrie
+052            07             30         224            108            5             //Silver Valkyrie
+048            07             30         219            124            6             //Lizard King
+051            07             30         225            117            4             //Great Bahamut
+048            07             30         227            123            7             //Lizard King
+048            07             30         219            133            4             //Lizard King
+048            07             30         226            134            5             //Lizard King
+052            07             30         224            142            0             //Silver Valkyrie
+048            07             30         226            154            7             //Lizard King
+048            07             30         221            150            4             //Lizard King
+048            07             30         220            168            6             //Lizard King
+048            07             30         232            166            1             //Lizard King
+048            07             30         231            176            1             //Lizard King
+048            07             30         217            197            6             //Lizard King
+048            07             30         215            182            5             //Lizard King
+049            07             30         211            192            3             //Hydra
+049            07             30         229            203            3             //Hydra
+052            07             30         208            183            2             //Silver Valkyrie
+052            07             30         215            174            2             //Silver Valkyrie
+048            07             30         222            190            2             //Lizard King
+048            07             30         229            190            2             //Lizard King
+052            07             30         230            181            4             //Silver Valkyrie
+052            07             30         226            161            2             //Silver Valkyrie
+052            07             30         208            198            2             //Silver Valkyrie
+048            07             30         232            206            3             //Lizard King
+048            07             30         231            196            3             //Lizard King
+048            07             30         223            202            0             //Lizard King
+048            07             30         224            184            5             //Lizard King
+048            07             30         230            171            5             //Lizard King
+048            07             30         221            158            3             //Lizard King
+048            07             30         233            124            5             //Lizard King
+048            07             30         232            102            2             //Lizard King
+052            07             30         200            103            1             //Silver Valkyrie
+052            07             30         192            101            4             //Silver Valkyrie
+052            07             30         179            092            0             //Silver Valkyrie
+052            07             30         187            094            6             //Silver Valkyrie
+052            07             30         177            101            4             //Silver Valkyrie
+052            07             30         166            117            2             //Silver Valkyrie
+052            07             30         159            112            6             //Silver Valkyrie
+052            07             30         156            122            1             //Silver Valkyrie
+052            07             30         173            109            2             //Silver Valkyrie
+052            07             30         167            107            6             //Silver Valkyrie
+052            07             30         150            120            1             //Silver Valkyrie
+052            07             30         142            125            3             //Silver Valkyrie
+051            07             30         136            129            6             //Great Bahamut
+052            07             30         129            130            5             //Silver Valkyrie
+052            07             30         117            130            7             //Silver Valkyrie
+052            07             30         121            135            7             //Silver Valkyrie
+052            07             30         144            109            1             //Silver Valkyrie
+052            07             30         122            144            4             //Silver Valkyrie
+052            07             30         112            137            4             //Silver Valkyrie
+052            07             30         101            147            2             //Silver Valkyrie
+052            07             30         097            142            2             //Silver Valkyrie
+052            07             30         144            132            7             //Silver Valkyrie
+052            07             30         093            136            2             //Silver Valkyrie
+052            07             30         090            148            0             //Silver Valkyrie
+052            07             30         124            125            7             //Silver Valkyrie
+052            07             30         087            132            1             //Silver Valkyrie
+052            07             30         086            140            4             //Silver Valkyrie
+052            07             30         078            145            5             //Silver Valkyrie
+052            07             30         079            136            7             //Silver Valkyrie
+052            07             30         067            147            6             //Silver Valkyrie
+052            07             30         071            140            5             //Silver Valkyrie
+052            07             30         105            137            3             //Silver Valkyrie
+051            07             30         083            155            1             //Great Bahamut
+052            07             30         081            164            1             //Silver Valkyrie
+052            07             30         070            168            6             //Silver Valkyrie
+052            07             30         076            174            4             //Silver Valkyrie
+052            07             30         085            185            1             //Silver Valkyrie
+052            07             30         087            175            1             //Silver Valkyrie
+051            07             30         065            187            5             //Great Bahamut
+051            07             30         064            159            4             //Great Bahamut
+051            07             30         186            099            6             //Great Bahamut
+051            07             30         185            090            0             //Great Bahamut
+051            07             30         147            114            5             //Great Bahamut
+051            07             30         084            170            4             //Great Bahamut
+048            07             30         015            234            0             //Lizard King
+048            07             30         020            237            0             //Lizard King
+048            07             30         034            237            1             //Lizard King
+048            07             30         047            231            4             //Lizard King
+048            07             30         054            232            7             //Lizard King
+048            07             30         020            218            4             //Lizard King
+048            07             30         034            176            3             //Lizard King
+end
+

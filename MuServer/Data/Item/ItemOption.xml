@@ -1,0 +1,416 @@
+<?xml version="1.0"?>
+<ItemOption>
+	<Option Index="0">
+		<Info OptionIndex="0" OptionValue="0" ItemMinIndex="0" ItemMaxIndex="2559" ItemOption1="1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment=" " />
+		<Info OptionIndex="0" OptionValue="0" ItemMinIndex="2580" ItemMaxIndex="2589" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment=" " />
+		<Info OptionIndex="0" OptionValue="0" ItemMinIndex="3072" ItemMaxIndex="3583" ItemOption1="1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment=" " />
+		<Info OptionIndex="49" OptionValue="0" ItemMinIndex="6659" ItemMaxIndex="6659" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Horn of Dinorant" />
+		<Info OptionIndex="62" OptionValue="0" ItemMinIndex="6660" ItemMaxIndex="6660" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Dark Horse" />
+		<Info OptionIndex="76" OptionValue="0" ItemMinIndex="6693" ItemMaxIndex="6693" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Horn of Fenrir" />
+		<Info OptionIndex="62" OptionValue="0" ItemMinIndex="6615" ItemMaxIndex="6615" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Phantasmal Steed" />
+	</Option>
+	<Option Index="1">
+		<Info OptionIndex="84" OptionValue="5" ItemMinIndex="0" ItemMaxIndex="2559" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemOptionExe="-1" Comment=" " />
+		<Info OptionIndex="84" OptionValue="5" ItemMinIndex="2560" ItemMaxIndex="2579" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemOptionExe="-1" Comment=" " />
+		<Info OptionIndex="84" OptionValue="5" ItemMinIndex="2580" ItemMaxIndex="2589" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemOptionExe="-1" Comment=" " />
+		<Info OptionIndex="84" OptionValue="5" ItemMinIndex="2590" ItemMaxIndex="3071" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemOptionExe="-1" Comment=" " />
+		<Info OptionIndex="84" OptionValue="5" ItemMinIndex="3072" ItemMaxIndex="3583" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemOptionExe="-1" Comment=" " />
+		<Info OptionIndex="84" OptionValue="5" ItemMinIndex="3584" ItemMaxIndex="6143" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemOptionExe="-1" Comment=" " />
+		<Info OptionIndex="84" OptionValue="5" ItemMinIndex="6144" ItemMaxIndex="6144" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemOptionExe="-1" Comment="Wings of Elf" />
+		<Info OptionIndex="84" OptionValue="5" ItemMinIndex="6145" ItemMaxIndex="6145" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemOptionExe="-1" Comment="Wings of Heaven" />
+		<Info OptionIndex="84" OptionValue="5" ItemMinIndex="6146" ItemMaxIndex="6146" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemOptionExe="-1" Comment="Wings of Satan" />
+		<Info OptionIndex="84" OptionValue="5" ItemMinIndex="6147" ItemMaxIndex="6147" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemOptionExe="-1" Comment="Wings of Spirits" />
+		<Info OptionIndex="84" OptionValue="5" ItemMinIndex="6148" ItemMaxIndex="6148" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemOptionExe="-1" Comment="Wings of Soul" />
+		<Info OptionIndex="84" OptionValue="5" ItemMinIndex="6149" ItemMaxIndex="6149" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemOptionExe="-1" Comment="Wings of Dragon" />
+		<Info OptionIndex="84" OptionValue="5" ItemMinIndex="6150" ItemMaxIndex="6150" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemOptionExe="-1" Comment="Wings of Darkness" />
+		<Info OptionIndex="84" OptionValue="5" ItemMinIndex="6180" ItemMaxIndex="6180" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemOptionExe="-1" Comment="Wing of Storm" />
+		<Info OptionIndex="84" OptionValue="5" ItemMinIndex="6181" ItemMaxIndex="6181" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemOptionExe="-1" Comment="Wing of Eternal" />
+		<Info OptionIndex="84" OptionValue="5" ItemMinIndex="6182" ItemMaxIndex="6182" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemOptionExe="-1" Comment="Wing of Illusion" />
+		<Info OptionIndex="84" OptionValue="5" ItemMinIndex="6183" ItemMaxIndex="6183" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemOptionExe="-1" Comment="Wing of Ruin" />
+		<Info OptionIndex="84" OptionValue="5" ItemMinIndex="6184" ItemMaxIndex="6184" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemOptionExe="-1" Comment="Cape of Emperor" />
+		<Info OptionIndex="84" OptionValue="5" ItemMinIndex="6185" ItemMaxIndex="6185" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemOptionExe="-1" Comment="Wing of Curse" />
+		<Info OptionIndex="84" OptionValue="5" ItemMinIndex="6186" ItemMaxIndex="6186" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemOptionExe="-1" Comment="Wing of Despair" />
+		<Info OptionIndex="84" OptionValue="5" ItemMinIndex="6187" ItemMaxIndex="6187" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemOptionExe="-1" Comment="Wing of Dimension" />
+		<Info OptionIndex="84" OptionValue="5" ItemMinIndex="6193" ItemMaxIndex="6193" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemOptionExe="-1" Comment="Cape of Fighter" />
+		<Info OptionIndex="84" OptionValue="5" ItemMinIndex="6194" ItemMaxIndex="6194" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemOptionExe="-1" Comment="Cape of Overrule" />
+		<Info OptionIndex="84" OptionValue="5" ItemMinIndex="6686" ItemMaxIndex="6686" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemOptionExe="-1" Comment="Cape of Lord" />
+		<Info OptionIndex="84" OptionValue="5" ItemMinIndex="6406" ItemMaxIndex="6406" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemOptionExe="-1" Comment="Cloak of Death" />
+		<Info OptionIndex="84" OptionValue="5" ItemMinIndex="6407" ItemMaxIndex="6407" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemOptionExe="-1" Comment="Wings of Chaos" />
+		<Info OptionIndex="84" OptionValue="5" ItemMinIndex="6408" ItemMaxIndex="6408" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemOptionExe="-1" Comment="Wings of Magic" />
+		<Info OptionIndex="84" OptionValue="5" ItemMinIndex="6409" ItemMaxIndex="6409" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemOptionExe="-1" Comment="Wings of Life" />
+		<Info OptionIndex="84" OptionValue="5" ItemMinIndex="6410" ItemMaxIndex="6410" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemOptionExe="-1" Comment="Wings of Conqueror" />
+		<Info OptionIndex="84" OptionValue="5" ItemMinIndex="6411" ItemMaxIndex="6411" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemOptionExe="-1" Comment="Wings of Angel and Devil" />
+	</Option>
+	<Option Index="2">
+		<Info OptionIndex="80" OptionValue="4" ItemMinIndex="0" ItemMaxIndex="2559" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="-1" Comment=" " />
+		<Info OptionIndex="81" OptionValue="4" ItemMinIndex="2560" ItemMaxIndex="2579" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="-1" Comment=" " />
+		<Info OptionIndex="113" OptionValue="4" ItemMinIndex="2580" ItemMaxIndex="2589" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="-1" Comment=" " />
+		<Info OptionIndex="81" OptionValue="4" ItemMinIndex="2590" ItemMaxIndex="3071" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="-1" Comment=" " />
+		<Info OptionIndex="82" OptionValue="5" ItemMinIndex="3072" ItemMaxIndex="3583" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="-1" Comment=" " />
+		<Info OptionIndex="83" OptionValue="4" ItemMinIndex="3584" ItemMaxIndex="6143" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="-1" Comment=" " />
+		<Info OptionIndex="85" OptionValue="1" ItemMinIndex="6144" ItemMaxIndex="6144" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="-1" Comment="Wings of Elf" />
+		<Info OptionIndex="81" OptionValue="4" ItemMinIndex="6145" ItemMaxIndex="6145" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="-1" Comment="Wings of Heaven" />
+		<Info OptionIndex="80" OptionValue="4" ItemMinIndex="6146" ItemMaxIndex="6146" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="-1" Comment="Wings of Satan" />
+		<Info OptionIndex="80" OptionValue="4" ItemMinIndex="6147" ItemMaxIndex="6147" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="-1" Comment="Wings of Spirits" />
+		<Info OptionIndex="85" OptionValue="1" ItemMinIndex="6147" ItemMaxIndex="6147" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="32" Comment="Wings of Spirits" />
+		<Info OptionIndex="85" OptionValue="1" ItemMinIndex="6148" ItemMaxIndex="6148" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="-1" Comment="Wings of Soul" />
+		<Info OptionIndex="81" OptionValue="4" ItemMinIndex="6148" ItemMaxIndex="6148" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="32" Comment="Wings of Soul" />
+		<Info OptionIndex="85" OptionValue="1" ItemMinIndex="6149" ItemMaxIndex="6149" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="-1" Comment="Wings of Dragon" />
+		<Info OptionIndex="80" OptionValue="4" ItemMinIndex="6149" ItemMaxIndex="6149" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="32" Comment="Wings of Dragon" />
+		<Info OptionIndex="81" OptionValue="4" ItemMinIndex="6150" ItemMaxIndex="6150" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="-1" Comment="Wings of Darkness" />
+		<Info OptionIndex="80" OptionValue="4" ItemMinIndex="6150" ItemMaxIndex="6150" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="32" Comment="Wings of Darkness" />
+		<Info OptionIndex="85" OptionValue="1" ItemMinIndex="6180" ItemMaxIndex="6180" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="-1" Comment="Wing of Storm" />
+		<Info OptionIndex="80" OptionValue="4" ItemMinIndex="6180" ItemMaxIndex="6180" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="16" Comment="Wing of Storm" />
+		<Info OptionIndex="83" OptionValue="4" ItemMinIndex="6180" ItemMaxIndex="6180" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="32" Comment="Wing of Storm" />
+		<Info OptionIndex="85" OptionValue="1" ItemMinIndex="6181" ItemMaxIndex="6181" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="-1" Comment="Wing of Eternal" />
+		<Info OptionIndex="81" OptionValue="4" ItemMinIndex="6181" ItemMaxIndex="6181" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="16" Comment="Wing of Eternal" />
+		<Info OptionIndex="83" OptionValue="4" ItemMinIndex="6181" ItemMaxIndex="6181" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="32" Comment="Wing of Eternal" />
+		<Info OptionIndex="85" OptionValue="1" ItemMinIndex="6182" ItemMaxIndex="6182" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="-1" Comment="Wing of Illusion" />
+		<Info OptionIndex="80" OptionValue="4" ItemMinIndex="6182" ItemMaxIndex="6182" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="16" Comment="Wing of Illusion" />
+		<Info OptionIndex="83" OptionValue="4" ItemMinIndex="6182" ItemMaxIndex="6182" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="32" Comment="Wing of Illusion" />
+		<Info OptionIndex="85" OptionValue="1" ItemMinIndex="6183" ItemMaxIndex="6183" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="-1" Comment="Wing of Ruin" />
+		<Info OptionIndex="80" OptionValue="4" ItemMinIndex="6183" ItemMaxIndex="6183" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="16" Comment="Wing of Ruin" />
+		<Info OptionIndex="81" OptionValue="4" ItemMinIndex="6183" ItemMaxIndex="6183" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="32" Comment="Wing of Ruin" />
+		<Info OptionIndex="85" OptionValue="1" ItemMinIndex="6184" ItemMaxIndex="6184" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="-1" Comment="Cape of Emperor" />
+		<Info OptionIndex="80" OptionValue="4" ItemMinIndex="6184" ItemMaxIndex="6184" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="16" Comment="Cape of Emperor" />
+		<Info OptionIndex="83" OptionValue="4" ItemMinIndex="6184" ItemMaxIndex="6184" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="32" Comment="Cape of Emperor" />
+		<Info OptionIndex="81" OptionValue="4" ItemMinIndex="6185" ItemMaxIndex="6185" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="-1" Comment="Wing of Curse" />
+		<Info OptionIndex="81" OptionValue="4" ItemMinIndex="6186" ItemMaxIndex="6186" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="-1" Comment="Wing of Despair" />
+		<Info OptionIndex="113" OptionValue="4" ItemMinIndex="6186" ItemMaxIndex="6186" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="32" Comment="Wing of Despair" />
+		<Info OptionIndex="85" OptionValue="1" ItemMinIndex="6187" ItemMaxIndex="6187" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="-1" Comment="Wing of Dimension" />
+		<Info OptionIndex="81" OptionValue="4" ItemMinIndex="6187" ItemMaxIndex="6187" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="16" Comment="Wing of Dimension" />
+		<Info OptionIndex="113" OptionValue="4" ItemMinIndex="6187" ItemMaxIndex="6187" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="32" Comment="Wing of Dimension" />
+		<Info OptionIndex="80" OptionValue="4" ItemMinIndex="6193" ItemMaxIndex="6193" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="-1" Comment="Cape of Fighter" />
+		<Info OptionIndex="85" OptionValue="1" ItemMinIndex="6194" ItemMaxIndex="6194" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="-1" Comment="Cape of Overrule" />
+		<Info OptionIndex="80" OptionValue="4" ItemMinIndex="6194" ItemMaxIndex="6194" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="16" Comment="Cape of Overrule" />
+		<Info OptionIndex="83" OptionValue="4" ItemMinIndex="6194" ItemMaxIndex="6194" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="32" Comment="Cape of Overrule" />
+		<Info OptionIndex="85" OptionValue="1" ItemMinIndex="6406" ItemMaxIndex="6406" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="-1" Comment="Cloak of Death" />
+		<Info OptionIndex="80" OptionValue="4" ItemMinIndex="6406" ItemMaxIndex="6406" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="16" Comment="Cloak of Death" />
+		<Info OptionIndex="85" OptionValue="1" ItemMinIndex="6407" ItemMaxIndex="6407" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="-1" Comment="Wings of Chaos" />
+		<Info OptionIndex="80" OptionValue="4" ItemMinIndex="6407" ItemMaxIndex="6407" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="16" Comment="Wings of Chaos" />
+		<Info OptionIndex="113" OptionValue="4" ItemMinIndex="6408" ItemMaxIndex="6408" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="-1" Comment="Wings of Magic" />
+		<Info OptionIndex="81" OptionValue="4" ItemMinIndex="6408" ItemMaxIndex="6408" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="16" Comment="Wings of Magic" />
+		<Info OptionIndex="85" OptionValue="1" ItemMinIndex="6409" ItemMaxIndex="6409" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="-1" Comment="Wings of Life" />
+		<Info OptionIndex="80" OptionValue="4" ItemMinIndex="6409" ItemMaxIndex="6409" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="16" Comment="Wings of Life" />
+		<Info OptionIndex="85" OptionValue="1" ItemMinIndex="6410" ItemMaxIndex="6410" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="-1" Comment="Wings of Conqueror" />
+		<Info OptionIndex="85" OptionValue="1" ItemMinIndex="6664" ItemMaxIndex="6664" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="-1" Comment="Ring of Ice" />
+		<Info OptionIndex="85" OptionValue="1" ItemMinIndex="6665" ItemMaxIndex="6665" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="-1" Comment="Ring of Poison" />
+		<Info OptionIndex="85" OptionValue="1" ItemMinIndex="6677" ItemMaxIndex="6677" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="-1" Comment="Ring of Fire" />
+		<Info OptionIndex="85" OptionValue="1" ItemMinIndex="6678" ItemMaxIndex="6678" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="-1" Comment="Ring of Earth" />
+		<Info OptionIndex="85" OptionValue="1" ItemMinIndex="6679" ItemMaxIndex="6679" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="-1" Comment="Ring of Wind" />
+		<Info OptionIndex="90" OptionValue="1" ItemMinIndex="6680" ItemMaxIndex="6680" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="-1" Comment="Ring of Magic" />
+		<Info OptionIndex="85" OptionValue="1" ItemMinIndex="6668" ItemMaxIndex="6668" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="-1" Comment="Pendant of Lightning" />
+		<Info OptionIndex="85" OptionValue="1" ItemMinIndex="6669" ItemMaxIndex="6669" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="-1" Comment="Pendant of Fire" />
+		<Info OptionIndex="85" OptionValue="1" ItemMinIndex="6681" ItemMaxIndex="6681" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="-1" Comment="Pendant of Ice" />
+		<Info OptionIndex="85" OptionValue="1" ItemMinIndex="6682" ItemMaxIndex="6682" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="-1" Comment="Pendant of Wind" />
+		<Info OptionIndex="85" OptionValue="1" ItemMinIndex="6683" ItemMaxIndex="6683" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="-1" Comment="Pendant of Water" />
+		<Info OptionIndex="104" OptionValue="1" ItemMinIndex="6684" ItemMaxIndex="6684" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="-1" Comment="Pendant of Ability" />
+		<Info OptionIndex="80" OptionValue="4" ItemMinIndex="6686" ItemMaxIndex="6686" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="-1" Comment="Cape of Lord" />
+		<Info OptionIndex="85" OptionValue="1" ItemMinIndex="6765" ItemMaxIndex="6771" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemOptionExe="-1" Comment=" " />
+	</Option>
+	<Option Index="3">
+		<Info OptionIndex="99" OptionValue="12" ItemMinIndex="0" ItemMaxIndex="2559" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="1" Comment=" " />
+		<Info OptionIndex="99" OptionValue="12" ItemMinIndex="2560" ItemMaxIndex="2579" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="1" Comment=" " />
+		<Info OptionIndex="99" OptionValue="12" ItemMinIndex="2580" ItemMaxIndex="2589" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="1" Comment=" " />
+		<Info OptionIndex="99" OptionValue="12" ItemMinIndex="2590" ItemMaxIndex="3071" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="1" Comment=" " />
+		<Info OptionIndex="86" OptionValue="30" ItemMinIndex="3072" ItemMaxIndex="3583" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="1" Comment=" " />
+		<Info OptionIndex="86" OptionValue="30" ItemMinIndex="3584" ItemMaxIndex="6143" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="1" Comment=" " />
+		<Info OptionIndex="86" OptionValue="30" ItemMinIndex="6664" ItemMaxIndex="6664" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="1" Comment="Ring of Ice" />
+		<Info OptionIndex="86" OptionValue="30" ItemMinIndex="6665" ItemMaxIndex="6665" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="1" Comment="Ring of Poison" />
+		<Info OptionIndex="86" OptionValue="30" ItemMinIndex="6677" ItemMaxIndex="6677" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="1" Comment="Ring of Fire" />
+		<Info OptionIndex="86" OptionValue="30" ItemMinIndex="6678" ItemMaxIndex="6678" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="1" Comment="Ring of Earth" />
+		<Info OptionIndex="86" OptionValue="30" ItemMinIndex="6679" ItemMaxIndex="6679" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="1" Comment="Ring of Wind" />
+		<Info OptionIndex="86" OptionValue="30" ItemMinIndex="6680" ItemMaxIndex="6680" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="1" Comment="Ring of Magic" />
+		<Info OptionIndex="86" OptionValue="30" ItemMinIndex="6825" ItemMaxIndex="6825" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="1" Comment="Decoration Ring" />
+		<Info OptionIndex="86" OptionValue="30" ItemMinIndex="6826" ItemMaxIndex="6826" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="1" Comment="Blessed Decoration Ring" />
+		<Info OptionIndex="86" OptionValue="30" ItemMinIndex="6829" ItemMaxIndex="6829" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="1" Comment="Ring of Ultimatum" />
+		<Info OptionIndex="86" OptionValue="30" ItemMinIndex="6832" ItemMaxIndex="6832" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="1" Comment="Protection Ring II" />
+		<Info OptionIndex="99" OptionValue="12" ItemMinIndex="6668" ItemMaxIndex="6668" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="1" Comment="Pendant of Lightning" />
+		<Info OptionIndex="99" OptionValue="12" ItemMinIndex="6669" ItemMaxIndex="6669" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="1" Comment="Pendant of Fire" />
+		<Info OptionIndex="99" OptionValue="12" ItemMinIndex="6681" ItemMaxIndex="6681" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="1" Comment="Pendant of Ice" />
+		<Info OptionIndex="99" OptionValue="12" ItemMinIndex="6682" ItemMaxIndex="6682" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="1" Comment="Pendant of Wind" />
+		<Info OptionIndex="99" OptionValue="12" ItemMinIndex="6683" ItemMaxIndex="6683" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="1" Comment="Pendant of Water" />
+		<Info OptionIndex="99" OptionValue="12" ItemMinIndex="6684" ItemMaxIndex="6684" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="1" Comment="Pendant of Ability" />
+		<Info OptionIndex="99" OptionValue="12" ItemMinIndex="6827" ItemMaxIndex="6827" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="1" Comment="Necklace of Agony" />
+		<Info OptionIndex="99" OptionValue="12" ItemMinIndex="6828" ItemMaxIndex="6828" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="1" Comment="Solid Symbol" />
+		<Info OptionIndex="100" OptionValue="5" ItemMinIndex="6147" ItemMaxIndex="6147" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="1" Comment="Wings of Spirits" />
+		<Info OptionIndex="100" OptionValue="5" ItemMinIndex="6148" ItemMaxIndex="6148" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="1" Comment="Wings of Soul" />
+		<Info OptionIndex="100" OptionValue="5" ItemMinIndex="6149" ItemMaxIndex="6149" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="1" Comment="Wings of Dragon" />
+		<Info OptionIndex="100" OptionValue="5" ItemMinIndex="6150" ItemMaxIndex="6150" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="1" Comment="Wings of Darkness" />
+		<Info OptionIndex="100" OptionValue="5" ItemMinIndex="6186" ItemMaxIndex="6186" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="1" Comment="Wing of Despair" />
+		<Info OptionIndex="100" OptionValue="5" ItemMinIndex="6193" ItemMaxIndex="6193" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="1" Comment="Cape of Fighter" />
+		<Info OptionIndex="100" OptionValue="5" ItemMinIndex="6686" ItemMaxIndex="6686" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="1" Comment="Cape of Lord" />
+		<Info OptionIndex="102" OptionValue="5" ItemMinIndex="6180" ItemMaxIndex="6180" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="1" Comment="Wing of Storm" />
+		<Info OptionIndex="102" OptionValue="5" ItemMinIndex="6181" ItemMaxIndex="6181" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="1" Comment="Wing of Eternal" />
+		<Info OptionIndex="102" OptionValue="5" ItemMinIndex="6182" ItemMaxIndex="6182" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="1" Comment="Wing of Illusion" />
+		<Info OptionIndex="102" OptionValue="5" ItemMinIndex="6183" ItemMaxIndex="6183" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="1" Comment="Wing of Ruin" />
+		<Info OptionIndex="102" OptionValue="5" ItemMinIndex="6184" ItemMaxIndex="6184" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="1" Comment="Cape of Emperor" />
+		<Info OptionIndex="102" OptionValue="5" ItemMinIndex="6187" ItemMaxIndex="6187" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="1" Comment="Wing of Dimension" />
+		<Info OptionIndex="102" OptionValue="5" ItemMinIndex="6194" ItemMaxIndex="6194" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="1" Comment="Cape of Overrule" />
+		<Info OptionIndex="102" OptionValue="3" ItemMinIndex="6406" ItemMaxIndex="6406" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="1" Comment="Cloak of Death" />
+		<Info OptionIndex="102" OptionValue="3" ItemMinIndex="6407" ItemMaxIndex="6407" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="1" Comment="Wings of Chaos" />
+		<Info OptionIndex="102" OptionValue="3" ItemMinIndex="6408" ItemMaxIndex="6408" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="1" Comment="Wings of Magic" />
+		<Info OptionIndex="102" OptionValue="3" ItemMinIndex="6409" ItemMaxIndex="6409" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="1" Comment="Wings of Life" />
+		<Info OptionIndex="102" OptionValue="5" ItemMinIndex="6410" ItemMaxIndex="6410" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="1" Comment="Wings of Conqueror" />
+		<Info OptionIndex="116" OptionValue="4" ItemMinIndex="6411" ItemMaxIndex="6411" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="1" Comment="Wings of Angel and Devil" />
+		<Info OptionIndex="112" OptionValue="0" ItemMinIndex="6659" ItemMaxIndex="6659" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="1" Comment="Horn of Dinorant" />
+		<Info OptionIndex="106" OptionValue="0" ItemMinIndex="6693" ItemMaxIndex="6693" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="1" Comment="Horn of Fenrir" />
+		<Info OptionIndex="90" OptionValue="4" ItemMinIndex="6765" ItemMaxIndex="6765" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Sapphire Ring" />
+		<Info OptionIndex="91" OptionValue="4" ItemMinIndex="6766" ItemMaxIndex="6766" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Ruby Ring" />
+		<Info OptionIndex="86" OptionValue="30" ItemMinIndex="6767" ItemMaxIndex="6767" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Topaz Ring" />
+		<Info OptionIndex="89" OptionValue="4" ItemMinIndex="6768" ItemMaxIndex="6768" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Amethyst Ring" />
+		<Info OptionIndex="92" OptionValue="10" ItemMinIndex="6769" ItemMaxIndex="6769" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Ruby Necklace" />
+		<Info OptionIndex="97" OptionValue="7" ItemMinIndex="6770" ItemMaxIndex="6770" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Emerald Necklace" />
+		<Info OptionIndex="99" OptionValue="12" ItemMinIndex="6771" ItemMaxIndex="6771" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Sapphire Necklace" />
+	</Option>
+	<Option Index="4">
+		<Info OptionIndex="99" OptionValue="12" ItemMinIndex="0" ItemMaxIndex="2559" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="2" Comment=" " />
+		<Info OptionIndex="98" OptionValue="12" ItemMinIndex="2560" ItemMaxIndex="2579" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="2" Comment=" " />
+		<Info OptionIndex="98" OptionValue="12" ItemMinIndex="2580" ItemMaxIndex="2589" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="2" Comment=" " />
+		<Info OptionIndex="98" OptionValue="12" ItemMinIndex="2590" ItemMaxIndex="3071" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="2" Comment=" " />
+		<Info OptionIndex="87" OptionValue="10" ItemMinIndex="3072" ItemMaxIndex="3583" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="2" Comment=" " />
+		<Info OptionIndex="87" OptionValue="10" ItemMinIndex="3584" ItemMaxIndex="6143" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="2" Comment=" " />
+		<Info OptionIndex="87" OptionValue="10" ItemMinIndex="6664" ItemMaxIndex="6664" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="2" Comment="Ring of Ice" />
+		<Info OptionIndex="87" OptionValue="10" ItemMinIndex="6665" ItemMaxIndex="6665" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="2" Comment="Ring of Poison" />
+		<Info OptionIndex="87" OptionValue="10" ItemMinIndex="6677" ItemMaxIndex="6677" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="2" Comment="Ring of Fire" />
+		<Info OptionIndex="87" OptionValue="10" ItemMinIndex="6678" ItemMaxIndex="6678" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="2" Comment="Ring of Earth" />
+		<Info OptionIndex="87" OptionValue="10" ItemMinIndex="6679" ItemMaxIndex="6679" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="2" Comment="Ring of Wind" />
+		<Info OptionIndex="87" OptionValue="10" ItemMinIndex="6680" ItemMaxIndex="6680" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="2" Comment="Ring of Magic" />
+		<Info OptionIndex="87" OptionValue="10" ItemMinIndex="6825" ItemMaxIndex="6825" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="2" Comment="Decoration Ring" />
+		<Info OptionIndex="87" OptionValue="10" ItemMinIndex="6826" ItemMaxIndex="6826" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="2" Comment="Blessed Decoration Ring" />
+		<Info OptionIndex="87" OptionValue="10" ItemMinIndex="6829" ItemMaxIndex="6829" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="2" Comment="Ring of Ultimatum" />
+		<Info OptionIndex="87" OptionValue="10" ItemMinIndex="6832" ItemMaxIndex="6832" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="2" Comment="Protection Ring II" />
+		<Info OptionIndex="98" OptionValue="12" ItemMinIndex="6668" ItemMaxIndex="6668" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="2" Comment="Pendant of Lightning" />
+		<Info OptionIndex="98" OptionValue="12" ItemMinIndex="6669" ItemMaxIndex="6669" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="2" Comment="Pendant of Fire" />
+		<Info OptionIndex="98" OptionValue="12" ItemMinIndex="6681" ItemMaxIndex="6681" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="2" Comment="Pendant of Ice" />
+		<Info OptionIndex="98" OptionValue="12" ItemMinIndex="6682" ItemMaxIndex="6682" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="2" Comment="Pendant of Wind" />
+		<Info OptionIndex="98" OptionValue="12" ItemMinIndex="6683" ItemMaxIndex="6683" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="2" Comment="Pendant of Water" />
+		<Info OptionIndex="98" OptionValue="12" ItemMinIndex="6684" ItemMaxIndex="6684" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="2" Comment="Pendant of Ability" />
+		<Info OptionIndex="98" OptionValue="12" ItemMinIndex="6827" ItemMaxIndex="6827" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="2" Comment="Necklace of Agony" />
+		<Info OptionIndex="98" OptionValue="12" ItemMinIndex="6828" ItemMaxIndex="6828" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="2" Comment="Solid Symbol" />
+		<Info OptionIndex="101" OptionValue="5" ItemMinIndex="6147" ItemMaxIndex="6147" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="2" Comment="Wings of Spirits" />
+		<Info OptionIndex="101" OptionValue="5" ItemMinIndex="6148" ItemMaxIndex="6148" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="2" Comment="Wings of Soul" />
+		<Info OptionIndex="101" OptionValue="5" ItemMinIndex="6149" ItemMaxIndex="6149" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="2" Comment="Wings of Dragon" />
+		<Info OptionIndex="101" OptionValue="5" ItemMinIndex="6150" ItemMaxIndex="6150" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="2" Comment="Wings of Darkness" />
+		<Info OptionIndex="101" OptionValue="5" ItemMinIndex="6186" ItemMaxIndex="6186" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="2" Comment="Wing of Despair" />
+		<Info OptionIndex="101" OptionValue="5" ItemMinIndex="6193" ItemMaxIndex="6193" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="2" Comment="Cape of Fighter" />
+		<Info OptionIndex="101" OptionValue="5" ItemMinIndex="6686" ItemMaxIndex="6686" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="2" Comment="Cape of Lord" />
+		<Info OptionIndex="109" OptionValue="5" ItemMinIndex="6180" ItemMaxIndex="6180" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="2" Comment="Wing of Storm" />
+		<Info OptionIndex="109" OptionValue="5" ItemMinIndex="6181" ItemMaxIndex="6181" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="2" Comment="Wing of Eternal" />
+		<Info OptionIndex="109" OptionValue="5" ItemMinIndex="6182" ItemMaxIndex="6182" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="2" Comment="Wing of Illusion" />
+		<Info OptionIndex="109" OptionValue="5" ItemMinIndex="6183" ItemMaxIndex="6183" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="2" Comment="Wing of Ruin" />
+		<Info OptionIndex="109" OptionValue="5" ItemMinIndex="6184" ItemMaxIndex="6184" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="2" Comment="Cape of Emperor" />
+		<Info OptionIndex="109" OptionValue="5" ItemMinIndex="6187" ItemMaxIndex="6187" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="2" Comment="Wing of Dimension" />
+		<Info OptionIndex="109" OptionValue="5" ItemMinIndex="6194" ItemMaxIndex="6194" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="2" Comment="Cape of Overrule" />
+		<Info OptionIndex="110" OptionValue="5" ItemMinIndex="6406" ItemMaxIndex="6406" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="2" Comment="Cloak of Death" />
+		<Info OptionIndex="110" OptionValue="5" ItemMinIndex="6407" ItemMaxIndex="6407" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="2" Comment="Wings of Chaos" />
+		<Info OptionIndex="110" OptionValue="5" ItemMinIndex="6408" ItemMaxIndex="6408" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="2" Comment="Wings of Magic" />
+		<Info OptionIndex="110" OptionValue="5" ItemMinIndex="6409" ItemMaxIndex="6409" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="2" Comment="Wings of Life" />
+		<Info OptionIndex="109" OptionValue="5" ItemMinIndex="6410" ItemMaxIndex="6410" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="2" Comment="Wings of Conqueror" />
+		<Info OptionIndex="102" OptionValue="4" ItemMinIndex="6411" ItemMaxIndex="6411" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="2" Comment="Wings of Angel and Devil" />
+		<Info OptionIndex="103" OptionValue="50" ItemMinIndex="6659" ItemMaxIndex="6659" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="2" Comment="Horn of Dinorant" />
+		<Info OptionIndex="107" OptionValue="0" ItemMinIndex="6693" ItemMaxIndex="6693" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="2" Comment="Horn of Fenrir" />
+	</Option>
+	<Option Index="5">
+		<Info OptionIndex="97" OptionValue="7" ItemMinIndex="0" ItemMaxIndex="2559" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment=" " />
+		<Info OptionIndex="97" OptionValue="7" ItemMinIndex="2560" ItemMaxIndex="2579" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment=" " />
+		<Info OptionIndex="97" OptionValue="7" ItemMinIndex="2580" ItemMaxIndex="2589" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment=" " />
+		<Info OptionIndex="97" OptionValue="7" ItemMinIndex="2590" ItemMaxIndex="3071" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment=" " />
+		<Info OptionIndex="88" OptionValue="5" ItemMinIndex="3072" ItemMaxIndex="3583" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment=" " />
+		<Info OptionIndex="88" OptionValue="5" ItemMinIndex="3584" ItemMaxIndex="6143" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment=" " />
+		<Info OptionIndex="88" OptionValue="5" ItemMinIndex="6664" ItemMaxIndex="6664" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment="Ring of Ice" />
+		<Info OptionIndex="88" OptionValue="5" ItemMinIndex="6665" ItemMaxIndex="6665" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment="Ring of Poison" />
+		<Info OptionIndex="88" OptionValue="5" ItemMinIndex="6677" ItemMaxIndex="6677" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment="Ring of Fire" />
+		<Info OptionIndex="88" OptionValue="5" ItemMinIndex="6678" ItemMaxIndex="6678" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment="Ring of Earth" />
+		<Info OptionIndex="88" OptionValue="5" ItemMinIndex="6679" ItemMaxIndex="6679" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment="Ring of Wind" />
+		<Info OptionIndex="88" OptionValue="5" ItemMinIndex="6680" ItemMaxIndex="6680" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment="Ring of Magic" />
+		<Info OptionIndex="88" OptionValue="5" ItemMinIndex="6825" ItemMaxIndex="6825" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment="Decoration Ring" />
+		<Info OptionIndex="88" OptionValue="5" ItemMinIndex="6826" ItemMaxIndex="6826" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment="Blessed Decoration Ring" />
+		<Info OptionIndex="88" OptionValue="5" ItemMinIndex="6829" ItemMaxIndex="6829" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment="Ring of Ultimatum" />
+		<Info OptionIndex="88" OptionValue="5" ItemMinIndex="6832" ItemMaxIndex="6832" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment="Protection Ring II" />
+		<Info OptionIndex="97" OptionValue="7" ItemMinIndex="6668" ItemMaxIndex="6668" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment="Pendant of Lightning" />
+		<Info OptionIndex="97" OptionValue="7" ItemMinIndex="6669" ItemMaxIndex="6669" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment="Pendant of Fire" />
+		<Info OptionIndex="97" OptionValue="7" ItemMinIndex="6681" ItemMaxIndex="6681" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment="Pendant of Ice" />
+		<Info OptionIndex="97" OptionValue="7" ItemMinIndex="6682" ItemMaxIndex="6682" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment="Pendant of Wind" />
+		<Info OptionIndex="97" OptionValue="7" ItemMinIndex="6683" ItemMaxIndex="6683" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment="Pendant of Water" />
+		<Info OptionIndex="97" OptionValue="7" ItemMinIndex="6684" ItemMaxIndex="6684" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment="Pendant of Ability" />
+		<Info OptionIndex="97" OptionValue="7" ItemMinIndex="6827" ItemMaxIndex="6827" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment="Necklace of Agony" />
+		<Info OptionIndex="97" OptionValue="7" ItemMinIndex="6828" ItemMaxIndex="6828" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment="Solid Symbol" />
+		<Info OptionIndex="102" OptionValue="3" ItemMinIndex="6147" ItemMaxIndex="6147" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment="Wings of Spirits" />
+		<Info OptionIndex="102" OptionValue="3" ItemMinIndex="6148" ItemMaxIndex="6148" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment="Wings of Soul" />
+		<Info OptionIndex="102" OptionValue="3" ItemMinIndex="6149" ItemMaxIndex="6149" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment="Wings of Dragon" />
+		<Info OptionIndex="102" OptionValue="3" ItemMinIndex="6150" ItemMaxIndex="6150" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment="Wings of Darkness" />
+		<Info OptionIndex="102" OptionValue="3" ItemMinIndex="6186" ItemMaxIndex="6186" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment="Wing of Despair" />
+		<Info OptionIndex="102" OptionValue="3" ItemMinIndex="6193" ItemMaxIndex="6193" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment="Cape of Fighter" />
+		<Info OptionIndex="102" OptionValue="3" ItemMinIndex="6686" ItemMaxIndex="6686" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment="Cape of Lord" />
+		<Info OptionIndex="110" OptionValue="5" ItemMinIndex="6180" ItemMaxIndex="6180" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment="Wing of Storm" />
+		<Info OptionIndex="110" OptionValue="5" ItemMinIndex="6181" ItemMaxIndex="6181" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment="Wing of Eternal" />
+		<Info OptionIndex="110" OptionValue="5" ItemMinIndex="6182" ItemMaxIndex="6182" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment="Wing of Illusion" />
+		<Info OptionIndex="110" OptionValue="5" ItemMinIndex="6183" ItemMaxIndex="6183" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment="Wing of Ruin" />
+		<Info OptionIndex="110" OptionValue="5" ItemMinIndex="6184" ItemMaxIndex="6184" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment="Cape of Emperor" />
+		<Info OptionIndex="110" OptionValue="5" ItemMinIndex="6187" ItemMaxIndex="6187" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment="Wing of Dimension" />
+		<Info OptionIndex="110" OptionValue="5" ItemMinIndex="6194" ItemMaxIndex="6194" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment="Cape of Overrule" />
+		<Info OptionIndex="110" OptionValue="5" ItemMinIndex="6410" ItemMaxIndex="6410" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment="Wings of Conqueror" />
+		<Info OptionIndex="110" OptionValue="4" ItemMinIndex="6411" ItemMaxIndex="6411" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment="Wings of Angel and Devil" />
+		<Info OptionIndex="97" OptionValue="5" ItemMinIndex="6659" ItemMaxIndex="6659" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment="Horn of Dinorant" />
+		<Info OptionIndex="108" OptionValue="0" ItemMinIndex="6693" ItemMaxIndex="6693" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment="Horn of Fenrir" />
+	</Option>
+	<Option Index="6">
+		<Info OptionIndex="94" OptionValue="2" ItemMinIndex="0" ItemMaxIndex="2559" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="8" Comment=" " />
+		<Info OptionIndex="96" OptionValue="2" ItemMinIndex="2560" ItemMaxIndex="2579" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="8" Comment=" " />
+		<Info OptionIndex="115" OptionValue="2" ItemMinIndex="2580" ItemMaxIndex="2589" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="8" Comment=" " />
+		<Info OptionIndex="96" OptionValue="2" ItemMinIndex="2590" ItemMaxIndex="3071" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="8" Comment=" " />
+		<Info OptionIndex="89" OptionValue="4" ItemMinIndex="3072" ItemMaxIndex="3583" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="8" Comment=" " />
+		<Info OptionIndex="89" OptionValue="4" ItemMinIndex="3584" ItemMaxIndex="6143" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="8" Comment=" " />
+		<Info OptionIndex="89" OptionValue="4" ItemMinIndex="6664" ItemMaxIndex="6664" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="8" Comment="Ring of Ice" />
+		<Info OptionIndex="89" OptionValue="4" ItemMinIndex="6665" ItemMaxIndex="6665" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="8" Comment="Ring of Poison" />
+		<Info OptionIndex="89" OptionValue="4" ItemMinIndex="6677" ItemMaxIndex="6677" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="8" Comment="Ring of Fire" />
+		<Info OptionIndex="89" OptionValue="4" ItemMinIndex="6678" ItemMaxIndex="6678" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="8" Comment="Ring of Earth" />
+		<Info OptionIndex="89" OptionValue="4" ItemMinIndex="6679" ItemMaxIndex="6679" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="8" Comment="Ring of Wind" />
+		<Info OptionIndex="89" OptionValue="4" ItemMinIndex="6680" ItemMaxIndex="6680" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="8" Comment="Ring of Magic" />
+		<Info OptionIndex="89" OptionValue="4" ItemMinIndex="6825" ItemMaxIndex="6825" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="8" Comment="Decoration Ring" />
+		<Info OptionIndex="89" OptionValue="4" ItemMinIndex="6826" ItemMaxIndex="6826" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="8" Comment="Blessed Decoration Ring" />
+		<Info OptionIndex="89" OptionValue="4" ItemMinIndex="6829" ItemMaxIndex="6829" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="8" Comment="Ring of Ultimatum" />
+		<Info OptionIndex="89" OptionValue="4" ItemMinIndex="6832" ItemMaxIndex="6832" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="8" Comment="Protection Ring II" />
+		<Info OptionIndex="96" OptionValue="2" ItemMinIndex="6668" ItemMaxIndex="6668" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="8" Comment="Pendant of Lightning" />
+		<Info OptionIndex="94" OptionValue="2" ItemMinIndex="6669" ItemMaxIndex="6669" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="8" Comment="Pendant of Fire" />
+		<Info OptionIndex="96" OptionValue="2" ItemMinIndex="6681" ItemMaxIndex="6681" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="8" Comment="Pendant of Ice" />
+		<Info OptionIndex="94" OptionValue="2" ItemMinIndex="6682" ItemMaxIndex="6682" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="8" Comment="Pendant of Wind" />
+		<Info OptionIndex="96" OptionValue="2" ItemMinIndex="6683" ItemMaxIndex="6683" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="8" Comment="Pendant of Water" />
+		<Info OptionIndex="94" OptionValue="2" ItemMinIndex="6684" ItemMaxIndex="6684" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="8" Comment="Pendant of Ability" />
+		<Info OptionIndex="94" OptionValue="2" ItemMinIndex="6827" ItemMaxIndex="6827" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="8" Comment="Necklace of Agony" />
+		<Info OptionIndex="94" OptionValue="2" ItemMinIndex="6828" ItemMaxIndex="6828" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="8" Comment="Solid Symbol" />
+		<Info OptionIndex="103" OptionValue="50" ItemMinIndex="6147" ItemMaxIndex="6147" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="8" Comment="Wings of Spirits" />
+		<Info OptionIndex="103" OptionValue="50" ItemMinIndex="6148" ItemMaxIndex="6148" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="8" Comment="Wings of Soul" />
+		<Info OptionIndex="103" OptionValue="50" ItemMinIndex="6149" ItemMaxIndex="6149" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="8" Comment="Wings of Dragon" />
+		<Info OptionIndex="103" OptionValue="50" ItemMinIndex="6150" ItemMaxIndex="6150" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="8" Comment="Wings of Darkness" />
+		<Info OptionIndex="103" OptionValue="50" ItemMinIndex="6186" ItemMaxIndex="6186" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="8" Comment="Wing of Despair" />
+		<Info OptionIndex="103" OptionValue="50" ItemMinIndex="6193" ItemMaxIndex="6193" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="8" Comment="Cape of Fighter" />
+		<Info OptionIndex="105" OptionValue="5" ItemMinIndex="6686" ItemMaxIndex="6686" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="8" Comment="Cape of Lord" />
+		<Info OptionIndex="111" OptionValue="5" ItemMinIndex="6180" ItemMaxIndex="6180" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="8" Comment="Wing of Storm" />
+		<Info OptionIndex="111" OptionValue="5" ItemMinIndex="6181" ItemMaxIndex="6181" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="8" Comment="Wing of Eternal" />
+		<Info OptionIndex="111" OptionValue="5" ItemMinIndex="6182" ItemMaxIndex="6182" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="8" Comment="Wing of Illusion" />
+		<Info OptionIndex="111" OptionValue="5" ItemMinIndex="6183" ItemMaxIndex="6183" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="8" Comment="Wing of Ruin" />
+		<Info OptionIndex="111" OptionValue="5" ItemMinIndex="6184" ItemMaxIndex="6184" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="8" Comment="Cape of Emperor" />
+		<Info OptionIndex="111" OptionValue="5" ItemMinIndex="6187" ItemMaxIndex="6187" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="8" Comment="Wing of Dimension" />
+		<Info OptionIndex="111" OptionValue="5" ItemMinIndex="6194" ItemMaxIndex="6194" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="8" Comment="Cape of Overrule" />
+	</Option>
+	<Option Index="7">
+		<Info OptionIndex="93" OptionValue="20" ItemMinIndex="0" ItemMaxIndex="2559" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="16" Comment=" " />
+		<Info OptionIndex="95" OptionValue="20" ItemMinIndex="2560" ItemMaxIndex="2579" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="16" Comment=" " />
+		<Info OptionIndex="114" OptionValue="20" ItemMinIndex="2580" ItemMaxIndex="2589" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="16" Comment=" " />
+		<Info OptionIndex="95" OptionValue="20" ItemMinIndex="2590" ItemMaxIndex="3071" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="16" Comment=" " />
+		<Info OptionIndex="90" OptionValue="4" ItemMinIndex="3072" ItemMaxIndex="3583" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="16" Comment=" " />
+		<Info OptionIndex="90" OptionValue="4" ItemMinIndex="3584" ItemMaxIndex="6143" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="16" Comment=" " />
+		<Info OptionIndex="90" OptionValue="4" ItemMinIndex="6664" ItemMaxIndex="6664" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="16" Comment="Ring of Ice" />
+		<Info OptionIndex="90" OptionValue="4" ItemMinIndex="6665" ItemMaxIndex="6665" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="16" Comment="Ring of Poison" />
+		<Info OptionIndex="90" OptionValue="4" ItemMinIndex="6677" ItemMaxIndex="6677" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="16" Comment="Ring of Fire" />
+		<Info OptionIndex="90" OptionValue="4" ItemMinIndex="6678" ItemMaxIndex="6678" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="16" Comment="Ring of Earth" />
+		<Info OptionIndex="90" OptionValue="4" ItemMinIndex="6679" ItemMaxIndex="6679" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="16" Comment="Ring of Wind" />
+		<Info OptionIndex="90" OptionValue="4" ItemMinIndex="6680" ItemMaxIndex="6680" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="16" Comment="Ring of Magic" />
+		<Info OptionIndex="90" OptionValue="4" ItemMinIndex="6825" ItemMaxIndex="6825" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="16" Comment="Decoration Ring" />
+		<Info OptionIndex="90" OptionValue="4" ItemMinIndex="6826" ItemMaxIndex="6826" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="16" Comment="Blessed Decoration Ring" />
+		<Info OptionIndex="90" OptionValue="4" ItemMinIndex="6829" ItemMaxIndex="6829" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="16" Comment="Ring of Ultimatum" />
+		<Info OptionIndex="90" OptionValue="4" ItemMinIndex="6832" ItemMaxIndex="6832" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="16" Comment="Protection Ring II" />
+		<Info OptionIndex="95" OptionValue="20" ItemMinIndex="6668" ItemMaxIndex="6668" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="16" Comment="Pendant of Lightning" />
+		<Info OptionIndex="93" OptionValue="20" ItemMinIndex="6669" ItemMaxIndex="6669" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="16" Comment="Pendant of Fire" />
+		<Info OptionIndex="95" OptionValue="20" ItemMinIndex="6681" ItemMaxIndex="6681" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="16" Comment="Pendant of Ice" />
+		<Info OptionIndex="93" OptionValue="20" ItemMinIndex="6682" ItemMaxIndex="6682" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="16" Comment="Pendant of Wind" />
+		<Info OptionIndex="95" OptionValue="20" ItemMinIndex="6683" ItemMaxIndex="6683" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="16" Comment="Pendant of Water" />
+		<Info OptionIndex="93" OptionValue="20" ItemMinIndex="6684" ItemMaxIndex="6684" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="16" Comment="Pendant of Ability" />
+		<Info OptionIndex="93" OptionValue="20" ItemMinIndex="6827" ItemMaxIndex="6827" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="16" Comment="Necklace of Agony" />
+		<Info OptionIndex="93" OptionValue="20" ItemMinIndex="6828" ItemMaxIndex="6828" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="16" Comment="Solid Symbol" />
+		<Info OptionIndex="97" OptionValue="5" ItemMinIndex="6147" ItemMaxIndex="6147" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="16" Comment="Wings of Spirits" />
+		<Info OptionIndex="97" OptionValue="5" ItemMinIndex="6148" ItemMaxIndex="6148" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="16" Comment="Wings of Soul" />
+		<Info OptionIndex="97" OptionValue="5" ItemMinIndex="6149" ItemMaxIndex="6149" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="16" Comment="Wings of Dragon" />
+		<Info OptionIndex="97" OptionValue="5" ItemMinIndex="6150" ItemMaxIndex="6150" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="16" Comment="Wings of Darkness" />
+		<Info OptionIndex="97" OptionValue="5" ItemMinIndex="6186" ItemMaxIndex="6186" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="16" Comment="Wing of Despair" />
+		<Info OptionIndex="97" OptionValue="5" ItemMinIndex="6193" ItemMaxIndex="6193" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="16" Comment="Cape of Fighter" />
+	</Option>
+	<Option Index="8">
+		<Info OptionIndex="92" OptionValue="10" ItemMinIndex="0" ItemMaxIndex="2559" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="32" Comment=" " />
+		<Info OptionIndex="92" OptionValue="10" ItemMinIndex="2560" ItemMaxIndex="2579" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="32" Comment=" " />
+		<Info OptionIndex="92" OptionValue="10" ItemMinIndex="2580" ItemMaxIndex="2589" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="32" Comment=" " />
+		<Info OptionIndex="92" OptionValue="10" ItemMinIndex="2590" ItemMaxIndex="3071" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="32" Comment=" " />
+		<Info OptionIndex="91" OptionValue="4" ItemMinIndex="3072" ItemMaxIndex="3583" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="32" Comment=" " />
+		<Info OptionIndex="91" OptionValue="4" ItemMinIndex="3584" ItemMaxIndex="6143" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="32" Comment=" " />
+		<Info OptionIndex="91" OptionValue="4" ItemMinIndex="6664" ItemMaxIndex="6664" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="32" Comment="Ring of Ice" />
+		<Info OptionIndex="91" OptionValue="4" ItemMinIndex="6665" ItemMaxIndex="6665" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="32" Comment="Ring of Poison" />
+		<Info OptionIndex="91" OptionValue="4" ItemMinIndex="6677" ItemMaxIndex="6677" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="32" Comment="Ring of Fire" />
+		<Info OptionIndex="91" OptionValue="4" ItemMinIndex="6678" ItemMaxIndex="6678" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="32" Comment="Ring of Earth" />
+		<Info OptionIndex="91" OptionValue="4" ItemMinIndex="6679" ItemMaxIndex="6679" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="32" Comment="Ring of Wind" />
+		<Info OptionIndex="91" OptionValue="4" ItemMinIndex="6680" ItemMaxIndex="6680" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="32" Comment="Ring of Magic" />
+		<Info OptionIndex="91" OptionValue="4" ItemMinIndex="6825" ItemMaxIndex="6825" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="32" Comment="Decoration Ring" />
+		<Info OptionIndex="91" OptionValue="4" ItemMinIndex="6826" ItemMaxIndex="6826" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="32" Comment="Blessed Decoration Ring" />
+		<Info OptionIndex="91" OptionValue="4" ItemMinIndex="6829" ItemMaxIndex="6829" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="32" Comment="Ring of Ultimatum" />
+		<Info OptionIndex="91" OptionValue="4" ItemMinIndex="6832" ItemMaxIndex="6832" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="32" Comment="Protection Ring II" />
+		<Info OptionIndex="92" OptionValue="10" ItemMinIndex="6668" ItemMaxIndex="6668" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="32" Comment="Pendant of Lightning" />
+		<Info OptionIndex="92" OptionValue="10" ItemMinIndex="6669" ItemMaxIndex="6669" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="32" Comment="Pendant of Fire" />
+		<Info OptionIndex="92" OptionValue="10" ItemMinIndex="6681" ItemMaxIndex="6681" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="32" Comment="Pendant of Ice" />
+		<Info OptionIndex="92" OptionValue="10" ItemMinIndex="6682" ItemMaxIndex="6682" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="32" Comment="Pendant of Wind" />
+		<Info OptionIndex="92" OptionValue="10" ItemMinIndex="6683" ItemMaxIndex="6683" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="32" Comment="Pendant of Water" />
+		<Info OptionIndex="92" OptionValue="10" ItemMinIndex="6684" ItemMaxIndex="6684" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="32" Comment="Pendant of Ability" />
+		<Info OptionIndex="92" OptionValue="10" ItemMinIndex="6827" ItemMaxIndex="6827" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="32" Comment="Necklace of Agony" />
+		<Info OptionIndex="92" OptionValue="10" ItemMinIndex="6828" ItemMaxIndex="6828" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="32" Comment="Solid Symbol" />
+	</Option>
+	<Option Index="9">
+		<Info OptionIndex="119" OptionValue="50" ItemMinIndex="6656" ItemMaxIndex="6656" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Guardian Angel" />
+		<Info OptionIndex="125" OptionValue="10" ItemMinIndex="6676" ItemMaxIndex="6676" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Wizard's Ring" />
+		<Info OptionIndex="93" OptionValue="12" ItemMinIndex="6693" ItemMaxIndex="6693" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment="Horn of Fenrir" />
+		<Info OptionIndex="127" OptionValue="10" ItemMinIndex="6695" ItemMaxIndex="6695" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Elite Skeleton Transformation Ring" />
+		<Info OptionIndex="123" OptionValue="20" ItemMinIndex="6697" ItemMaxIndex="6697" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Christmas Transformation Ring" />
+		<Info OptionIndex="97" OptionValue="10" ItemMinIndex="6720" ItemMaxIndex="6720" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Demon" />
+		<Info OptionIndex="119" OptionValue="50" ItemMinIndex="6721" ItemMaxIndex="6721" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Spirit of Guardian" />
+		<Info OptionIndex="123" OptionValue="30" ItemMinIndex="6732" ItemMaxIndex="6732" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Panda Ring" />
+		<Info OptionIndex="123" OptionValue="30" ItemMinIndex="6733" ItemMaxIndex="6733" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Brown Panda Ring" />
+		<Info OptionIndex="123" OptionValue="30" ItemMinIndex="6734" ItemMaxIndex="6734" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Pink Panda Ring" />
+		<Info OptionIndex="83" OptionValue="50" ItemMinIndex="6736" ItemMaxIndex="6736" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Pet Panda" />
+		<Info OptionIndex="83" OptionValue="50" ItemMinIndex="6762" ItemMaxIndex="6762" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Pet Unicorn" />
+		<Info OptionIndex="125" OptionValue="15" ItemMinIndex="6763" ItemMaxIndex="6763" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Lethal Wizard's Ring" />
+		<Info OptionIndex="123" OptionValue="40" ItemMinIndex="6778" ItemMaxIndex="6778" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Skeleton Transformation Ring" />
+		<Info OptionIndex="97" OptionValue="10" ItemMinIndex="6779" ItemMaxIndex="6779" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Pet Skeleton" />
+		<Info OptionIndex="123" OptionValue="30" ItemMinIndex="6819" ItemMaxIndex="6819" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Robot Knight Ring" />
+		<Info OptionIndex="123" OptionValue="30" ItemMinIndex="6820" ItemMaxIndex="6820" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Mini Robot Ring" />
+		<Info OptionIndex="123" OptionValue="40" ItemMinIndex="6821" ItemMaxIndex="6821" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Great Heavenly Mage Ring" />
+		<Info OptionIndex="94" OptionValue="10" ItemMinIndex="6825" ItemMaxIndex="6825" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Decoration Ring" />
+		<Info OptionIndex="94" OptionValue="15" ItemMinIndex="6826" ItemMaxIndex="6826" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Blessed Decoration Ring" />
+	</Option>
+	<Option Index="10">
+		<Info OptionIndex="97" OptionValue="10" ItemMinIndex="6676" ItemMaxIndex="6676" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Wizard's Ring" />
+		<Info OptionIndex="95" OptionValue="25" ItemMinIndex="6693" ItemMaxIndex="6693" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment="Horn of Fenrir" />
+		<Info OptionIndex="121" OptionValue="1" ItemMinIndex="6695" ItemMaxIndex="6695" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Elite Skeleton Transformation Ring" />
+		<Info OptionIndex="86" OptionValue="50" ItemMinIndex="6732" ItemMaxIndex="6732" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Panda Ring" />
+		<Info OptionIndex="86" OptionValue="50" ItemMinIndex="6733" ItemMaxIndex="6733" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Brown Panda Ring" />
+		<Info OptionIndex="86" OptionValue="50" ItemMinIndex="6734" ItemMaxIndex="6734" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Pink Panda Ring" />
+		<Info OptionIndex="117" OptionValue="50" ItemMinIndex="6736" ItemMaxIndex="6736" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Pet Panda" />
+		<Info OptionIndex="86" OptionValue="50" ItemMinIndex="6762" ItemMaxIndex="6762" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Pet Unicorn" />
+		<Info OptionIndex="97" OptionValue="10" ItemMinIndex="6763" ItemMaxIndex="6763" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Lethal Wizard's Ring" />
+		<Info OptionIndex="118" OptionValue="30" ItemMinIndex="6778" ItemMaxIndex="6778" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Skeleton Transformation Ring" />
+		<Info OptionIndex="117" OptionValue="30" ItemMinIndex="6779" ItemMaxIndex="6779" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Pet Skeleton" />
+		<Info OptionIndex="118" OptionValue="30" ItemMinIndex="6819" ItemMaxIndex="6819" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Robot Knight Ring" />
+		<Info OptionIndex="97" OptionValue="7" ItemMinIndex="6820" ItemMaxIndex="6820" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Mini Robot Ring" />
+		<Info OptionIndex="118" OptionValue="30" ItemMinIndex="6821" ItemMaxIndex="6821" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Great Heavenly Mage Ring" />
+		<Info OptionIndex="96" OptionValue="15" ItemMinIndex="6825" ItemMaxIndex="6825" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Decoration Ring" />
+		<Info OptionIndex="96" OptionValue="15" ItemMinIndex="6826" ItemMaxIndex="6826" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Blessed Decoration Ring" />
+	</Option>
+	<Option Index="11">
+		<Info OptionIndex="114" OptionValue="25" ItemMinIndex="6693" ItemMaxIndex="6693" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment="Horn of Fenrir" />
+		<Info OptionIndex="118" OptionValue="30" ItemMinIndex="6732" ItemMaxIndex="6732" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Panda Ring" />
+		<Info OptionIndex="117" OptionValue="30" ItemMinIndex="6733" ItemMaxIndex="6733" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Brown Panda Ring" />
+		<Info OptionIndex="117" OptionValue="50" ItemMinIndex="6734" ItemMaxIndex="6734" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Pink Panda Ring" />
+		<Info OptionIndex="83" OptionValue="10" ItemMinIndex="6819" ItemMaxIndex="6819" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Robot Knight Ring" />
+		<Info OptionIndex="118" OptionValue="30" ItemMinIndex="6820" ItemMaxIndex="6820" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Mini Robot Ring" />
+		<Info OptionIndex="115" OptionValue="15" ItemMinIndex="6825" ItemMaxIndex="6825" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Decoration Ring" />
+		<Info OptionIndex="115" OptionValue="15" ItemMinIndex="6826" ItemMaxIndex="6826" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Blessed Decoration Ring" />
+	</Option>
+	<Option Index="12">
+		<Info OptionIndex="121" OptionValue="2" ItemMinIndex="6693" ItemMaxIndex="6693" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment="Horn of Fenrir" />
+		<Info OptionIndex="118" OptionValue="30" ItemMinIndex="6733" ItemMaxIndex="6733" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Brown Panda Ring" />
+		<Info OptionIndex="118" OptionValue="30" ItemMinIndex="6734" ItemMaxIndex="6734" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Pink Panda Ring" />
+		<Info OptionIndex="97" OptionValue="10" ItemMinIndex="6825" ItemMaxIndex="6825" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Decoration Ring" />
+		<Info OptionIndex="97" OptionValue="10" ItemMinIndex="6826" ItemMaxIndex="6826" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="-1" Comment="Blessed Decoration Ring" />
+	</Option>
+	<Option Index="13">
+		<Info OptionIndex="122" OptionValue="2" ItemMinIndex="6693" ItemMaxIndex="6693" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemOptionExe="4" Comment="Horn of Fenrir" />
+	</Option>
+</ItemOption>

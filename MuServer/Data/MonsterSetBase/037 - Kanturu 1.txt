@@ -1,0 +1,224 @@
+0
+//Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
+end
+
+
+1
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment
+end
+
+
+2
+//Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
+352            37             30         207            187            5             //Iron Rider
+350            37             30         188            011            6             //Berserker
+351            37             30         188            218            6             //Splinter Wolf
+350            37             30         151            011            2             //Berserker
+351            37             30         159            232            6             //Splinter Wolf
+350            37             30         154            041            1             //Berserker
+351            37             30         036            234            6             //Splinter Wolf
+351            37             30         042            235            0             //Splinter Wolf
+351            37             30         118            232            4             //Splinter Wolf
+351            37             30         055            228            2             //Splinter Wolf
+351            37             30         075            231            5             //Splinter Wolf
+351            37             30         069            238            4             //Splinter Wolf
+351            37             30         174            196            6             //Splinter Wolf
+351            37             30         094            234            1             //Splinter Wolf
+351            37             30         100            240            2             //Splinter Wolf
+351            37             30         114            239            4             //Splinter Wolf
+351            37             30         135            223            6             //Splinter Wolf
+351            37             30         143            239            2             //Splinter Wolf
+351            37             30         151            206            3             //Splinter Wolf
+351            37             30         155            196            6             //Splinter Wolf
+351            37             30         180            225            0             //Splinter Wolf
+351            37             30         172            215            5             //Splinter Wolf
+352            37             30         187            205            1             //Iron Rider
+352            37             30         172            205            0             //Iron Rider
+352            37             30         207            195            6             //Iron Rider
+352            37             30         198            179            1             //Iron Rider
+352            37             30         180            164            0             //Iron Rider
+352            37             30         174            170            7             //Iron Rider
+352            37             30         185            148            1             //Iron Rider
+352            37             30         165            157            0             //Iron Rider
+352            37             30         165            165            7             //Iron Rider
+352            37             30         175            150            2             //Iron Rider
+352            37             30         214            143            6             //Iron Rider
+352            37             30         217            145            5             //Iron Rider
+352            37             30         204            137            0             //Iron Rider
+352            37             30         195            156            4             //Iron Rider
+352            37             30         195            148            0             //Iron Rider
+352            37             30         236            135            5             //Iron Rider
+352            37             30         223            132            0             //Iron Rider
+352            37             30         212            125            0             //Iron Rider
+352            37             30         222            113            4             //Iron Rider
+353            37             30         217            141            2             //Satyros
+353            37             30         226            154            6             //Satyros
+353            37             30         218            164            5             //Satyros
+353            37             30         213            165            0             //Satyros
+353            37             30         195            152            1             //Satyros
+353            37             30         193            181            2             //Satyros
+353            37             30         166            162            5             //Satyros
+353            37             30         182            150            2             //Satyros
+353            37             30         233            123            4             //Satyros
+353            37             30         234            132            5             //Satyros
+353            37             30         236            091            1             //Satyros
+353            37             30         231            096            3             //Satyros
+353            37             30         234            101            4             //Satyros
+353            37             30         220            155            0             //Satyros
+353            37             30         178            168            0             //Satyros
+353            37             30         225            086            6             //Satyros
+353            37             30         224            082            5             //Satyros
+353            37             30         230            082            7             //Satyros
+353            37             30         229            058            5             //Satyros
+353            37             30         226            068            4             //Satyros
+353            37             30         206            038            3             //Satyros
+354            37             30         204            035            0             //Blade Hunter
+353            37             30         213            044            5             //Satyros
+353            37             30         214            035            6             //Satyros
+353            37             30         215            037            3             //Satyros
+353            37             30         224            043            3             //Satyros
+354            37             30         221            047            0             //Blade Hunter
+354            37             30         207            040            1             //Blade Hunter
+354            37             30         189            014            0             //Blade Hunter
+354            37             30         187            007            2             //Blade Hunter
+350            37             30         150            056            6             //Berserker
+354            37             30         175            010            0             //Blade Hunter
+350            37             30         158            057            4             //Berserker
+355            37             30         176            041            2             //Kentauros
+350            37             30         165            050            4             //Berserker
+355            37             30         181            015            7             //Kentauros
+355            37             30         153            015            2             //Kentauros
+354            37             30         148            019            5             //Blade Hunter
+354            37             30         155            018            7             //Blade Hunter
+350            37             30         092            034            1             //Berserker
+354            37             30         164            022            5             //Blade Hunter
+355            37             30         163            033            1             //Kentauros
+355            37             30         181            027            6             //Kentauros
+354            37             30         165            040            1             //Blade Hunter
+354            37             30         167            043            6             //Blade Hunter
+354            37             30         152            059            7             //Blade Hunter
+354            37             30         156            059            2             //Blade Hunter
+354            37             30         148            051            1             //Blade Hunter
+350            37             30         137            047            2             //Berserker
+354            37             30         134            039            1             //Blade Hunter
+354            37             30         138            039            1             //Blade Hunter
+354            37             30         142            041            0             //Blade Hunter
+355            37             30         137            042            6             //Kentauros
+355            37             30         136            051            5             //Kentauros
+355            37             30         117            026            6             //Kentauros
+354            37             30         120            028            1             //Blade Hunter
+354            37             30         126            018            2             //Blade Hunter
+354            37             30         124            025            3             //Blade Hunter
+354            37             30         116            043            1             //Blade Hunter
+354            37             30         122            044            0             //Blade Hunter
+355            37             30         119            055            4             //Kentauros
+355            37             30         115            065            2             //Kentauros
+355            37             30         076            053            5             //Kentauros
+355            37             30         072            062            4             //Kentauros
+355            37             30         087            071            5             //Kentauros
+350            37             30         085            061            5             //Berserker
+356            37             30         087            036            1             //Gigantis
+350            37             30         085            021            6             //Berserker
+356            37             30         077            028            1             //Gigantis
+350            37             30         061            031            2             //Berserker
+356            37             30         066            021            7             //Gigantis
+350            37             30         071            020            7             //Berserker
+356            37             30         059            040            0             //Gigantis
+350            37             30         046            034            0             //Berserker
+356            37             30         090            039            3             //Gigantis
+357            37             30         037            059            5             //Genocider
+356            37             30         041            037            4             //Gigantis
+356            37             30         051            032            2             //Gigantis
+357            37             30         045            070            2             //Genocider
+357            37             30         035            069            7             //Genocider
+357            37             30         063            101            1             //Genocider
+350            37             30         064            097            4             //Berserker
+350            37             30         066            099            7             //Berserker
+357            37             30         035            055            2             //Genocider
+357            37             30         032            076            1             //Genocider
+357            37             30         058            104            4             //Genocider
+357            37             30         058            092            1             //Genocider
+357            37             30         046            102            1             //Genocider
+350            37             30         048            103            3             //Berserker
+350            37             30         031            087            6             //Berserker
+357            37             30         047            054            2             //Genocider
+350            37             30         050            049            7             //Berserker
+357            37             30         044            044            7             //Genocider
+356            37             30         077            019            6             //Gigantis
+356            37             30         068            028            2             //Gigantis
+350            37             30         055            104            3             //Berserker
+350            37             30         038            051            2             //Berserker
+350            37             30         056            044            0             //Berserker
+350            37             30         065            035            4             //Berserker
+350            37             30         101            068            0             //Berserker
+350            37             30         122            022            6             //Berserker
+350            37             30         129            019            2             //Berserker
+350            37             30         137            026            6             //Berserker
+350            37             30         117            040            3             //Berserker
+350            37             30         145            047            7             //Berserker
+351            37             30         042            227            1             //Splinter Wolf
+351            37             30         170            224            0             //Splinter Wolf
+351            37             30         157            204            6             //Splinter Wolf
+351            37             30         189            211            4             //Splinter Wolf
+352            37             30         225            141            0             //Iron Rider
+553            37             30         068            164            4             //Berserker Warrior
+553            37             30         077            157            6             //Berserker Warrior
+553            37             30         079            166            5             //Berserker Warrior
+554            37             30         074            162            3             //Kentauros Warrior
+554            37             30         096            156            2             //Kentauros Warrior
+554            37             30         102            150            7             //Kentauros Warrior
+554            37             30         136            161            5             //Kentauros Warrior
+554            37             30         133            127            1             //Kentauros Warrior
+554            37             30         089            124            5             //Kentauros Warrior
+553            37             30         060            156            3             //Berserker Warrior
+553            37             30         058            135            7             //Berserker Warrior
+553            37             30         104            157            5             //Berserker Warrior
+553            37             30         124            165            2             //Berserker Warrior
+553            37             30         093            118            6             //Berserker Warrior
+553            37             30         131            119            2             //Berserker Warrior
+553            37             30         110            140            0             //Berserker Warrior
+553            37             30         098            137            3             //Berserker Warrior
+553            37             30         069            158            4             //Berserker Warrior
+554            37             30         061            131            2             //Kentauros Warrior
+554            37             30         052            153            1             //Kentauros Warrior
+554            37             30         094            128            7             //Kentauros Warrior
+554            37             30         115            162            3             //Kentauros Warrior
+554            37             30         140            152            1             //Kentauros Warrior
+555            37             30         120            160            4             //Gigantis Warrior
+555            37             30         141            159            0             //Gigantis Warrior
+555            37             30         128            130            5             //Gigantis Warrior
+555            37             30         081            125            1             //Gigantis Warrior
+555            37             30         107            103            0             //Gigantis Warrior
+555            37             30         115            104            2             //Gigantis Warrior
+555            37             30         126            109            2             //Gigantis Warrior
+555            37             30         134            107            3             //Gigantis Warrior
+555            37             30         142            127            4             //Gigantis Warrior
+556            37             30         145            133            2             //Genocider Warrior
+556            37             30         148            129            2             //Genocider Warrior
+556            37             30         167            114            7             //Genocider Warrior
+556            37             30         171            106            0             //Genocider Warrior
+556            37             30         191            096            3             //Genocider Warrior
+556            37             30         187            087            1             //Genocider Warrior
+556            37             30         131            081            0             //Genocider Warrior
+556            37             30         119            087            0             //Genocider Warrior
+556            37             30         181            109            2             //Genocider Warrior
+556            37             30         177            089            6             //Genocider Warrior
+556            37             30         141            089            6             //Genocider Warrior
+556            37             30         151            087            4             //Genocider Warrior
+555            37             30         145            091            0             //Gigantis Warrior
+555            37             30         167            090            4             //Gigantis Warrior
+555            37             30         175            113            7             //Gigantis Warrior
+555            37             30         129            114            5             //Gigantis Warrior
+555            37             30         112            098            1             //Gigantis Warrior
+555            37             30         145            153            1             //Gigantis Warrior
+554            37             30         086            119            5             //Kentauros Warrior
+554            37             30         091            164            2             //Kentauros Warrior
+554            37             30         049            140            4             //Kentauros Warrior
+554            37             30         132            111            7             //Kentauros Warrior
+554            37             30         171            111            2             //Kentauros Warrior
+554            37             30         145            087            6             //Kentauros Warrior
+554            37             30         141            133            4             //Kentauros Warrior
+555            37             30         110            106            2             //Gigantis Warrior
+556            37             30         115            098            6             //Genocider Warrior
+end
+

@@ -1,0 +1,23 @@
+0
+//Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
+end
+
+
+1
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment
+end
+
+
+2
+//Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
+412            42             30         097            187            4             //Dark Elf
+411            42             30         092            174            3             //Soram
+411            42             30         111            190            5             //Soram
+411            42             30         094            202            7             //Soram
+411            42             30         082            190            2             //Soram
+410            42             30         104            179            5             //Death Spirit
+410            42             30         104            200            3             //Death Spirit
+410            42             30         085            179            4             //Death Spirit
+410            42             30         086            199            7             //Death Spirit
+end
+

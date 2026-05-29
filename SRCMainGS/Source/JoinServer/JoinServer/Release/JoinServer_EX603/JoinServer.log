@@ -1,0 +1,16 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  AccountManager.cpp
+  AllowableIpList.cpp
+  JoinServer.cpp
+  JoinServerProtocol.cpp
+JoinServerProtocol.cpp(731): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : see declaration of 'strdup'
+  QueryManager.cpp
+  ServerDisplayer.cpp
+  ServerManager.cpp
+  SocketManager.cpp
+  SocketManagerUdp.cpp
+  Util.cpp
+  Generating code
+  Finished generating code
+  JoinServer.vcxproj -> E:\MuOnline\ProjectSRCVVH\safe_03_04_2025\Source\JoinServer\JoinServer\..\..\..\..\MuServerTK\3.- JoinServer\JoinServer.exe

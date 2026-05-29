@@ -1,0 +1,9 @@
+0
+//Index MinMReset MaxMReset Reset_AL0 Reset_AL1 Reset_AL2 Reset_AL3 Level_AL0 Level_AL1 Level_AL2 Level_AL3 Money_AL0   Money_AL1   Money_AL2   Money_AL3  Bless  Soul  Life  Creation  Guardian  Gemstone  Harmony  Chaos  LowerStone  HigherStone
+1		0         4000      400       400       400       400       400       400       400       400       2030630     2030630     2030630     2030630    10     10    10    10         *         *         *        *      *           *
+end
+
+1
+//Index   Point_AL0   Point_AL1   Point_AL2   Point_AL3   ItemBag_AL0   ItemBag_AL1   ItemBag_AL2   ItemBag_AL3
+1         5000        5000        5000        5000        *             *             *             *
+end

@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<ItemStack>
+	<Info Index="2055" Level="-1" MaxStack="255" CreateItemIndex="-1" BreakUp="0" Comment="Bolt" />
+	<Info Index="2063" Level="-1" MaxStack="255" CreateItemIndex="-1" BreakUp="0" Comment="Arrow" />
+	<Info Index="6688" Level="-1" MaxStack="20" CreateItemIndex="-1" BreakUp="0" Comment="Splinter of Armor" />
+	<Info Index="6689" Level="-1" MaxStack="20" CreateItemIndex="-1" BreakUp="0" Comment="Bless of Guardian" />
+	<Info Index="6690" Level="-1" MaxStack="10" CreateItemIndex="-1" BreakUp="0" Comment="Claw of Beast" />
+	<Info Index="6288" Level="-1" MaxStack="5" CreateItemIndex="6292" BreakUp="0" Comment="Mithril Fragment" />
+	<Info Index="6290" Level="-1" MaxStack="5" CreateItemIndex="6293" BreakUp="0" Comment="Elixir Fragment" />
+	<Info Index="6801" Level="-1" MaxStack="5" CreateItemIndex="6802" BreakUp="0" Comment="Spirit Map Fragment" />
+	<Info Index="6803" Level="-1" MaxStack="10" CreateItemIndex="-1" BreakUp="0" Comment="Trophies of Battle" />
+	<Info Index="7168" Level="-1" MaxStack="255" CreateItemIndex="-1" BreakUp="0" Comment="Apple" />
+	<Info Index="7169" Level="-1" MaxStack="255" CreateItemIndex="-1" BreakUp="0" Comment="Small Healing Potion" />
+	<Info Index="7170" Level="-1" MaxStack="255" CreateItemIndex="-1" BreakUp="0" Comment="Healing Potion" />
+	<Info Index="7171" Level="-1" MaxStack="255" CreateItemIndex="-1" BreakUp="0" Comment="Large Healing Potion" />
+	<Info Index="7172" Level="-1" MaxStack="255" CreateItemIndex="-1" BreakUp="0" Comment="Small Mana Potion" />
+	<Info Index="7173" Level="-1" MaxStack="255" CreateItemIndex="-1" BreakUp="0" Comment="Mana Potion" />
+	<Info Index="7174" Level="-1" MaxStack="255" CreateItemIndex="-1" BreakUp="0" Comment="Large Mana Potion" />
+	<Info Index="7175" Level="-1" MaxStack="255" CreateItemIndex="-1" BreakUp="0" Comment="Siege Potion" />
+	<Info Index="7176" Level="-1" MaxStack="255" CreateItemIndex="-1" BreakUp="0" Comment="Antidote" />
+	<Info Index="7189" Level="-1" MaxStack="255" CreateItemIndex="-1" BreakUp="0" Comment="Rena" />
+	<Info Index="7197" Level="-1" MaxStack="5" CreateItemIndex="7196" BreakUp="0" Comment="Symbol of Kundun" />
+	<Info Index="7203" Level="-1" MaxStack="255" CreateItemIndex="-1" BreakUp="0" Comment="Small SD Potion" />
+	<Info Index="7204" Level="-1" MaxStack="255" CreateItemIndex="-1" BreakUp="0" Comment="SD Potion" />
+	<Info Index="7205" Level="-1" MaxStack="255" CreateItemIndex="-1" BreakUp="0" Comment="Large SD Potion" />
+	<Info Index="7206" Level="-1" MaxStack="255" CreateItemIndex="-1" BreakUp="0" Comment="Small Complex Potion" />
+	<Info Index="7207" Level="-1" MaxStack="255" CreateItemIndex="-1" BreakUp="0" Comment="Complex Potion" />
+	<Info Index="7208" Level="-1" MaxStack="255" CreateItemIndex="-1" BreakUp="0" Comment="Large Complex Potion" />
+	<Info Index="7214" Level="-1" MaxStack="3" CreateItemIndex="-1" BreakUp="0" Comment="[Boost] Jack O'Lantern Blessings" />
+	<Info Index="7215" Level="-1" MaxStack="3" CreateItemIndex="-1" BreakUp="0" Comment="[Reinforce] Jack O'Lantern Wrath" />
+	<Info Index="7216" Level="-1" MaxStack="3" CreateItemIndex="-1" BreakUp="0" Comment="[Reinforce] Jack O'Lantern Cry" />
+	<Info Index="7217" Level="-1" MaxStack="3" CreateItemIndex="-1" BreakUp="0" Comment="[Boost] Jack O'Lantern Food" />
+	<Info Index="7218" Level="-1" MaxStack="3" CreateItemIndex="-1" BreakUp="0" Comment="[Boost] Jack O'Lantern Drink" />
+	<Info Index="7238" Level="-1" MaxStack="255" CreateItemIndex="-1" BreakUp="0" Comment="Elite Healing Potion" />
+	<Info Index="7239" Level="-1" MaxStack="255" CreateItemIndex="-1" BreakUp="0" Comment="Elite Mana Potion" />
+	<Info Index="7253" Level="-1" MaxStack="3" CreateItemIndex="-1" BreakUp="0" Comment="[Boost] Cherry Blossom Wine" />
+	<Info Index="7254" Level="-1" MaxStack="3" CreateItemIndex="-1" BreakUp="0" Comment="[Boost] Cherry Blossom Rice Cake" />
+	<Info Index="7255" Level="-1" MaxStack="3" CreateItemIndex="-1" BreakUp="0" Comment="[Reinforce] Cherry Blossom Flower Petal" />
+	<Info Index="7256" Level="-1" MaxStack="10" CreateItemIndex="-1" BreakUp="0" Comment="White Cherry Blossom Branch" />
+	<Info Index="7257" Level="-1" MaxStack="30" CreateItemIndex="-1" BreakUp="0" Comment="Red Cherry Blossom Branch" />
+	<Info Index="7258" Level="-1" MaxStack="255" CreateItemIndex="-1" BreakUp="0" Comment="Golden Cherry Blossom Branch" />
+	<Info Index="7268" Level="-1" MaxStack="255" CreateItemIndex="-1" BreakUp="0" Comment="Lucky Coin" />
+	<Info Index="7269" Level="-1" MaxStack="5" CreateItemIndex="7270" BreakUp="0" Comment="Suspicious Scrap of Paper" />
+	<Info Index="7278" Level="-1" MaxStack="5" CreateItemIndex="7279" BreakUp="0" Comment="Sign of Dimensions" />
+	<Info Index="7301" Level="-1" MaxStack="255" CreateItemIndex="-1" BreakUp="0" Comment="Elite SD Potion" />
+	<Info Index="7383" Level="-1" MaxStack="24" CreateItemIndex="7384" BreakUp="0" Comment="Card Piece" />
+	<Info Index="7181" Level="-1" MaxStack="255" CreateItemIndex="-1" BreakUp="1" Comment="Jewel of Bless" />
+	<Info Index="7182" Level="-1" MaxStack="255" CreateItemIndex="-1" BreakUp="1" Comment="Jewel of Soul" />
+	<Info Index="7184" Level="-1" MaxStack="255" CreateItemIndex="-1" BreakUp="1" Comment="Jewel of Life" />
+	<Info Index="7190" Level="-1" MaxStack="255" CreateItemIndex="-1" BreakUp="1" Comment="Jewel of Creation" />
+	<Info Index="7199" Level="-1" MaxStack="255" CreateItemIndex="-1" BreakUp="1" Comment="Jewel of Guardian" />
+	<Info Index="7210" Level="-1" MaxStack="255" CreateItemIndex="-1" BreakUp="1" Comment="Jewel of Harmony" />
+	<Info Index="7179" Level="8" MaxStack="255" CreateItemIndex="-1" BreakUp="1" Comment="Box of Luck" />
+	<Info Index="7179" Level="9" MaxStack="255" CreateItemIndex="-1" BreakUp="1" Comment="Box of Luck" />
+	<Info Index="7179" Level="10" MaxStack="255" CreateItemIndex="-1" BreakUp="1" Comment="Box of Luck" />
+	<Info Index="7179" Level="11" MaxStack="255" CreateItemIndex="-1" BreakUp="1" Comment="Box of Luck" />
+	<Info Index="7179" Level="12" MaxStack="255" CreateItemIndex="-1" BreakUp="1" Comment="Box of Luck" />
+</ItemStack>

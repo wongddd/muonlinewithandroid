@@ -1,0 +1,39 @@
+// #Danh sách hiệu ứng (Effect):
+// -1: không có hiệu ứng (mặc định)
+// 91: hiệu ứng bản đồ Acheron
+// 95: hiệu ứng bản đồ Debenter
+// 100: hiệu ứng bản đồ Uruk Mountain
+// 110: hiệu ứng bản đồ Nars
+// 112: hiệu ứng bản đồ Ferea
+// 113: hiệu ứng bản đồ Nixie Lake
+
+// ----------------------------------------------------------------------------------
+//#Map  #effect  #IdText #Ext #ImgName         #lpszMp3
+// ----------------------------------------------------------------------------------
+91      91       4000    0    "Acheron.tga"            "None"
+95      95       4001    0    "Debenter.tga"           "None"
+100     100      4002    1    "UrukMountain.tga"       "None"
+101     -1       4002    1    "UrukMountain.tga"       "None"
+110     110      4004    1    "Nars.tga"               "None"
+112     112      4005    1    "Ferea.tga"              "None"
+113     113      4006    0    "NixiesLake.tga"         "None"
+114     -1       4007    0    "Labyrinth.tga"          "None"
+116     -1       4008    0    "DeepDungeon.tga"        "None"
+117     -1       4010    0    "DeepDungeon.tga"        "None"
+118     -1       4011    0    "DeepDungeon.tga"        "None"
+119     -1       4012    0    "DeepDungeon.tga"        "None"
+120     -1       4013    0    "DeepDungeon.tga"        "None"
+122     -1       4016    1    "SwampOfDarkness.tga"    "None"
+123     -1       4017    1    "KuberaMine.tga"         "None"
+124     -1       4017    1    "KuberaMine.tga"         "None"
+125     -1       4017    1    "KuberaMine.tga"         "None"
+126     -1       4017    1    "KuberaMine.tga"         "None"
+127     -1       4017    1    "KuberaMine.tga"         "None"
+128     -1       4018    1    "AtlansAbyss.tga"        "None"
+129     -1       4019    1    "AtlansAbyss.tga"        "None"
+130     -1       4020    1    "AtlansAbyss.tga"        "None"
+131     -1       4021    1    "ScorchedCanyon.tga"     "None"
+132     -1       4022    1    "ScarletIcarus.tga"      "None"
+133     -1       4023    1    "TempleOfArnil.tga"      "None"
+134     -1       4024    1    "AshenAida.tga"          "None"
+end

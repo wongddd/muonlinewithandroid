@@ -1,0 +1,260 @@
+0
+//Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
+479            63             00         122            135            01             //Doorkeeper Titus
+end
+
+
+1
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment
+481            63             30         064            054            124          089          3             03            //Zombie Fighter
+481            63             30         065            012            105          047          0             03            //Zombie Fighter
+481            63             30         022            010            064          098          2             04            //Zombie Fighter
+483            63             30         021            128            077          186          1             04            //Resurrected Gladiator
+483            63             30         028            189            105          232          4             04            //Resurrected Gladiator
+485            63             30         123            186            174          219          2             02            //Ash Slaughterer
+485            63             30         172            215            230          234          7             02            //Ash Slaughterer
+485            63             30         175            171            238          194          0             02            //Ash Slaughterer
+485            63             30         203            195            243          214          0             01            //Ash Slaughterer
+488            63             30         198            106            226          148          0             03            //Cruel Blood Assassin
+488            63             30         228            107            248          133          1             01            //Cruel Blood Assassin
+488            63             30         168            101            198          131          4             01            //Cruel Blood Assassin
+491            63             30         143            008            178          063          3             02            //Ruthless Lava Giant
+491            63             30         182            013            210          070          1             02            //Ruthless Lava Giant
+491            63             30         211            039            244          072          4             01            //Ruthless Lava Giant
+end
+
+
+2
+//Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
+480            63             30         107            060            7             //Zombie Fighter
+480            63             30         115            060            0             //Zombie Fighter
+480            63             30         115            067            7             //Zombie Fighter
+480            63             30         073            078            6             //Zombie Fighter
+480            63             30         078            085            1             //Zombie Fighter
+480            63             30         085            081            4             //Zombie Fighter
+480            63             30         112            084            6             //Zombie Fighter
+480            63             30         118            082            7             //Zombie Fighter
+480            63             30         117            088            6             //Zombie Fighter
+480            63             30         088            059            1             //Zombie Fighter
+480            63             30         091            066            6             //Zombie Fighter
+480            63             30         095            026            6             //Zombie Fighter
+480            63             30         100            030            1             //Zombie Fighter
+480            63             30         079            044            0             //Zombie Fighter
+480            63             30         085            043            2             //Zombie Fighter
+480            63             30         073            020            6             //Zombie Fighter
+480            63             30         079            023            6             //Zombie Fighter
+480            63             30         041            018            3             //Zombie Fighter
+480            63             30         050            014            6             //Zombie Fighter
+480            63             30         033            044            3             //Zombie Fighter
+480            63             30         035            038            3             //Zombie Fighter
+480            63             30         032            062            4             //Zombie Fighter
+480            63             30         037            061            3             //Zombie Fighter
+480            63             30         033            081            6             //Zombie Fighter
+480            63             30         039            088            3             //Zombie Fighter
+480            63             30         033            091            4             //Zombie Fighter
+480            63             30         055            064            7             //Zombie Fighter
+480            63             30         065            068            4             //Zombie Fighter
+480            63             30         100            080            7             //Zombie Fighter
+480            63             30         099            072            3             //Zombie Fighter
+480            63             30         046            042            1             //Zombie Fighter
+480            63             30         055            039            7             //Zombie Fighter
+480            63             30         068            058            7             //Zombie Fighter
+480            63             30         097            020            6             //Zombie Fighter
+482            63             30         079            078            4             //Resurrected Gladiator
+482            63             30         110            065            7             //Resurrected Gladiator
+482            63             30         099            024            2             //Resurrected Gladiator
+482            63             30         081            040            7             //Resurrected Gladiator
+482            63             30         072            024            6             //Resurrected Gladiator
+482            63             30         038            042            1             //Resurrected Gladiator
+482            63             30         028            059            6             //Resurrected Gladiator
+482            63             30         031            086            7             //Resurrected Gladiator
+482            63             30         057            068            6             //Resurrected Gladiator
+482            63             30         062            063            0             //Resurrected Gladiator
+482            63             30         076            063            7             //Resurrected Gladiator
+482            63             30         092            060            5             //Resurrected Gladiator
+482            63             30         082            018            2             //Resurrected Gladiator
+482            63             30         047            054            5             //Resurrected Gladiator
+482            63             30         040            073            1             //Resurrected Gladiator
+482            63             30         044            024            3             //Resurrected Gladiator
+482            63             30         048            019            5             //Resurrected Gladiator
+482            63             30         053            022            7             //Resurrected Gladiator
+482            63             30         027            139            4             //Resurrected Gladiator
+482            63             30         055            145            6             //Resurrected Gladiator
+482            63             30         063            139            0             //Resurrected Gladiator
+482            63             30         064            159            2             //Resurrected Gladiator
+482            63             30         090            180            6             //Resurrected Gladiator
+482            63             30         029            175            3             //Resurrected Gladiator
+482            63             30         036            198            2             //Resurrected Gladiator
+482            63             30         067            185            5             //Resurrected Gladiator
+482            63             30         050            159            5             //Resurrected Gladiator
+484            63             30         029            132            4             //Ash Slaughterer
+484            63             30         035            141            0             //Ash Slaughterer
+484            63             30         033            178            0             //Ash Slaughterer
+484            63             30         035            172            6             //Ash Slaughterer
+484            63             30         034            155            2             //Ash Slaughterer
+484            63             30         056            138            6             //Ash Slaughterer
+484            63             30         060            143            1             //Ash Slaughterer
+484            63             30         063            165            1             //Ash Slaughterer
+484            63             30         069            161            5             //Ash Slaughterer
+484            63             30         068            169            5             //Ash Slaughterer
+484            63             30         072            144            0             //Ash Slaughterer
+484            63             30         097            182            0             //Ash Slaughterer
+484            63             30         093            177            6             //Ash Slaughterer
+484            63             30         059            179            6             //Ash Slaughterer
+484            63             30         084            165            6             //Ash Slaughterer
+484            63             30         035            221            7             //Ash Slaughterer
+484            63             30         044            227            5             //Ash Slaughterer
+484            63             30         046            218            1             //Ash Slaughterer
+484            63             30         041            202            4             //Ash Slaughterer
+484            63             30         059            210            7             //Ash Slaughterer
+484            63             30         069            215            6             //Ash Slaughterer
+484            63             30         082            217            3             //Ash Slaughterer
+484            63             30         080            200            6             //Ash Slaughterer
+484            63             30         084            207            5             //Ash Slaughterer
+484            63             30         086            199            6             //Ash Slaughterer
+484            63             30         094            216            2             //Ash Slaughterer
+484            63             30         101            220            3             //Ash Slaughterer
+484            63             30         072            223            5             //Ash Slaughterer
+484            63             30         037            204            5             //Ash Slaughterer
+484            63             30         032            205            3             //Ash Slaughterer
+484            63             30         064            202            4             //Ash Slaughterer
+484            63             30         073            177            4             //Ash Slaughterer
+484            63             30         140            215            1             //Ash Slaughterer
+484            63             30         147            195            2             //Ash Slaughterer
+484            63             30         165            195            2             //Ash Slaughterer
+484            63             30         179            183            1             //Ash Slaughterer
+484            63             30         190            184            1             //Ash Slaughterer
+484            63             30         182            227            6             //Ash Slaughterer
+484            63             30         208            225            5             //Ash Slaughterer
+484            63             30         229            196            5             //Ash Slaughterer
+484            63             30         232            210            1             //Ash Slaughterer
+484            63             30         218            227            4             //Ash Slaughterer
+484            63             30         222            179            7             //Ash Slaughterer
+486            63             30         137            202            7             //Blood Assassin
+486            63             30         154            204            1             //Blood Assassin
+486            63             30         148            214            4             //Blood Assassin
+486            63             30         133            213            2             //Blood Assassin
+486            63             30         156            188            0             //Blood Assassin
+486            63             30         176            193            0             //Blood Assassin
+486            63             30         185            173            4             //Blood Assassin
+486            63             30         193            178            6             //Blood Assassin
+486            63             30         201            190            2             //Blood Assassin
+486            63             30         228            182            6             //Blood Assassin
+486            63             30         232            191            5             //Blood Assassin
+486            63             30         236            203            4             //Blood Assassin
+486            63             30         226            203            0             //Blood Assassin
+486            63             30         174            228            5             //Blood Assassin
+486            63             30         178            223            7             //Blood Assassin
+486            63             30         189            224            1             //Blood Assassin
+486            63             30         207            219            0             //Blood Assassin
+486            63             30         211            231            7             //Blood Assassin
+486            63             30         218            221            3             //Blood Assassin
+486            63             30         208            208            0             //Blood Assassin
+486            63             30         173            111            7             //Blood Assassin
+486            63             30         179            108            3             //Blood Assassin
+486            63             30         193            125            6             //Blood Assassin
+486            63             30         198            113            7             //Blood Assassin
+486            63             30         199            107            7             //Blood Assassin
+486            63             30         209            132            0             //Blood Assassin
+486            63             30         215            113            0             //Blood Assassin
+486            63             30         234            118            2             //Blood Assassin
+486            63             30         241            126            6             //Blood Assassin
+486            63             30         204            143            2             //Blood Assassin
+487            63             30         178            115            0             //Cruel Blood Assassin
+487            63             30         195            106            1             //Cruel Blood Assassin
+487            63             30         204            124            0             //Cruel Blood Assassin
+487            63             30         216            127            0             //Cruel Blood Assassin
+487            63             30         218            116            1             //Cruel Blood Assassin
+487            63             30         240            119            5             //Cruel Blood Assassin
+487            63             30         236            122            7             //Cruel Blood Assassin
+487            63             30         202            134            2             //Cruel Blood Assassin
+487            63             30         185            123            4             //Cruel Blood Assassin
+487            63             30         219            136            5             //Cruel Blood Assassin
+489            63             30         178            073            3             //Burning Lava Giant
+489            63             30         152            056            5             //Burning Lava Giant
+489            63             30         160            050            1             //Burning Lava Giant
+489            63             30         157            031            3             //Burning Lava Giant
+489            63             30         150            018            0             //Burning Lava Giant
+489            63             30         188            015            3             //Burning Lava Giant
+489            63             30         196            012            5             //Burning Lava Giant
+489            63             30         194            025            5             //Burning Lava Giant
+489            63             30         207            028            4             //Burning Lava Giant
+489            63             30         214            026            5             //Burning Lava Giant
+489            63             30         212            051            1             //Burning Lava Giant
+489            63             30         217            044            0             //Burning Lava Giant
+489            63             30         234            050            3             //Burning Lava Giant
+489            63             30         237            066            2             //Burning Lava Giant
+489            63             30         233            061            4             //Burning Lava Giant
+489            63             30         211            066            5             //Burning Lava Giant
+489            63             30         222            066            6             //Burning Lava Giant
+489            63             30         183            063            4             //Burning Lava Giant
+489            63             30         186            039            6             //Burning Lava Giant
+489            63             30         175            046            1             //Burning Lava Giant
+489            63             30         170            027            7             //Burning Lava Giant
+489            63             30         143            078            1             //Burning Lava Giant
+489            63             30         152            089            2             //Burning Lava Giant
+489            63             30         184            070            4             //Burning Lava Giant
+489            63             30         195            061            2             //Burning Lava Giant
+490            63             30         193            019            0             //Ruthless Lava Giant
+490            63             30         209            023            3             //Ruthless Lava Giant
+490            63             30         216            050            3             //Ruthless Lava Giant
+490            63             30         237            052            5             //Ruthless Lava Giant
+490            63             30         235            058            6             //Ruthless Lava Giant
+490            63             30         205            066            1             //Ruthless Lava Giant
+490            63             30         174            068            5             //Ruthless Lava Giant
+490            63             30         161            057            6             //Ruthless Lava Giant
+490            63             30         154            052            0             //Ruthless Lava Giant
+490            63             30         151            012            1             //Ruthless Lava Giant
+490            63             30         162            032            4             //Ruthless Lava Giant
+490            63             30         191            042            2             //Ruthless Lava Giant
+490            63             30         215            061            4             //Ruthless Lava Giant
+490            63             30         164            078            5             //Ruthless Lava Giant
+484            63             30         106            228            2             //Ash Slaughterer
+484            63             30         143            224            7             //Ash Slaughterer
+484            63             30         199            226            6             //Ash Slaughterer
+484            63             30         184            180            5             //Ash Slaughterer
+480            63             30         065            049            6             //Zombie Fighter
+480            63             30         027            098            3             //Zombie Fighter
+480            63             30         038            055            2             //Zombie Fighter
+480            63             30         097            035            6             //Zombie Fighter
+480            63             30         104            077            2             //Zombie Fighter
+480            63             30         089            087            1             //Zombie Fighter
+480            63             30         071            090            1             //Zombie Fighter
+480            63             30         052            057            7             //Zombie Fighter
+480            63             30         060            076            4             //Zombie Fighter
+480            63             30         073            043            5             //Zombie Fighter
+480            63             30         061            038            7             //Zombie Fighter
+480            63             30         047            085            7             //Zombie Fighter
+480            63             30         082            064            5             //Zombie Fighter
+480            63             30         121            072            4             //Zombie Fighter
+482            63             30         035            132            1             //Resurrected Gladiator
+482            63             30         035            149            1             //Resurrected Gladiator
+482            63             30         051            152            5             //Resurrected Gladiator
+482            63             30         059            132            5             //Resurrected Gladiator
+482            63             30         080            152            6             //Resurrected Gladiator
+482            63             30         053            175            6             //Resurrected Gladiator
+482            63             30         045            164            7             //Resurrected Gladiator
+482            63             30         033            212            0             //Resurrected Gladiator
+482            63             30         039            230            1             //Resurrected Gladiator
+482            63             30         057            203            2             //Resurrected Gladiator
+484            63             30         144            206            6             //Ash Slaughterer
+484            63             30         166            203            4             //Ash Slaughterer
+486            63             30         138            195            7             //Blood Assassin
+486            63             30         218            200            2             //Blood Assassin
+487            63             30         211            149            3             //Cruel Blood Assassin
+489            63             30         179            056            2             //Burning Lava Giant
+489            63             30         195            047            5             //Burning Lava Giant
+489            63             30         166            042            1             //Burning Lava Giant
+489            63             30         165            011            7             //Burning Lava Giant
+489            63             30         154            064            3             //Burning Lava Giant
+489            63             30         158            086            7             //Burning Lava Giant
+487            63             30         198            129            6             //Cruel Blood Assassin
+487            63             30         205            118            5             //Cruel Blood Assassin
+486            63             30         230            125            7             //Blood Assassin
+484            63             30         100            213            6             //Ash Slaughterer
+484            63             30         075            218            2             //Ash Slaughterer
+487            63             30         225            189            0             //Cruel Blood Assassin
+487            63             30         213            183            5             //Cruel Blood Assassin
+482            63             30         091            012            0             //Resurrected Gladiator
+end
+

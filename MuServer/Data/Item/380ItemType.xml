@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<ItemType380>
+	<info Section="0" Index="22" OptionIndex1="2" OptionValue1="-1" OptionIndex2="1" OptionValue2="-1" Comment="Đao Quyền Năng" />
+	<info Section="0" Index="23" OptionIndex1="2" OptionValue1="-1" OptionIndex2="1" OptionValue2="-1" Comment="Đao Hồng Long" />
+	<info Section="0" Index="35" OptionIndex1="2" OptionValue1="-1" OptionIndex2="1" OptionValue2="-1" Comment="Vuốt Phượng Hoàng" />
+	<info Section="2" Index="14" OptionIndex1="2" OptionValue1="-1" OptionIndex2="1" OptionValue2="-1" Comment="Q.Trượng Thái Dương" />
+	<info Section="4" Index="21" OptionIndex1="2" OptionValue1="-1" OptionIndex2="1" OptionValue2="-1" Comment="Sylph Wind Bow" />
+	<info Section="5" Index="12" OptionIndex1="2" OptionValue1="-1" OptionIndex2="1" OptionValue2="-1" Comment="Grand Viper Staff" />
+	<info Section="5" Index="19" OptionIndex1="2" OptionValue1="-1" OptionIndex2="1" OptionValue2="-1" Comment="Storm Blitz Stick" />
+	<info Section="7" Index="29" OptionIndex1="8" OptionValue1="-1" OptionIndex2="3" OptionValue2="-1" Comment="Dragon Knight Helm" />
+	<info Section="7" Index="30" OptionIndex1="8" OptionValue1="-1" OptionIndex2="3" OptionValue2="-1" Comment="Venom Mist Helm" />
+	<info Section="7" Index="31" OptionIndex1="8" OptionValue1="-1" OptionIndex2="3" OptionValue2="-1" Comment="Sylphid Ray Helm" />
+	<info Section="7" Index="33" OptionIndex1="8" OptionValue1="-1" OptionIndex2="3" OptionValue2="-1" Comment="Sunlight Mask" />
+	<info Section="7" Index="43" OptionIndex1="8" OptionValue1="-1" OptionIndex2="3" OptionValue2="-1" Comment="Storm Blitz Helm" />
+	<info Section="7" Index="73" OptionIndex1="8" OptionValue1="-1" OptionIndex2="3" OptionValue2="-1" Comment="Phoenix Soul Helm" />
+	<info Section="8" Index="29" OptionIndex1="7" OptionValue1="-1" OptionIndex2="3" OptionValue2="-1" Comment="Dragon Knight Armor" />
+	<info Section="8" Index="30" OptionIndex1="7" OptionValue1="-1" OptionIndex2="3" OptionValue2="-1" Comment="Venom Mist Armor" />
+	<info Section="8" Index="31" OptionIndex1="7" OptionValue1="-1" OptionIndex2="3" OptionValue2="-1" Comment="Sylphid Ray Armor" />
+	<info Section="8" Index="32" OptionIndex1="7" OptionValue1="-1" OptionIndex2="3" OptionValue2="-1" Comment="Volcano Armor" />
+	<info Section="8" Index="33" OptionIndex1="7" OptionValue1="-1" OptionIndex2="3" OptionValue2="-1" Comment="Sunlight Armor" />
+	<info Section="8" Index="43" OptionIndex1="7" OptionValue1="-1" OptionIndex2="3" OptionValue2="-1" Comment="Storm Blitz Armor" />
+	<info Section="8" Index="73" OptionIndex1="7" OptionValue1="-1" OptionIndex2="3" OptionValue2="-1" Comment="Phoenix Soul Armor" />
+	<info Section="9" Index="29" OptionIndex1="4" OptionValue1="-1" OptionIndex2="3" OptionValue2="-1" Comment="Dragon Knight Pants" />
+	<info Section="9" Index="30" OptionIndex1="4" OptionValue1="-1" OptionIndex2="3" OptionValue2="-1" Comment="Venom Mist Pants" />
+	<info Section="9" Index="31" OptionIndex1="4" OptionValue1="-1" OptionIndex2="3" OptionValue2="-1" Comment="Sylphid Ray Pants" />
+	<info Section="9" Index="32" OptionIndex1="4" OptionValue1="-1" OptionIndex2="3" OptionValue2="-1" Comment="Volcano Pants" />
+	<info Section="9" Index="33" OptionIndex1="4" OptionValue1="-1" OptionIndex2="3" OptionValue2="-1" Comment="Sunlight Pants" />
+	<info Section="9" Index="43" OptionIndex1="4" OptionValue1="-1" OptionIndex2="3" OptionValue2="-1" Comment="Storm Blitz Pants" />
+	<info Section="9" Index="73" OptionIndex1="4" OptionValue1="-1" OptionIndex2="3" OptionValue2="-1" Comment="Phoenix Soul Pants" />
+	<info Section="10" Index="29" OptionIndex1="5" OptionValue1="-1" OptionIndex2="3" OptionValue2="-1" Comment="Dragon Knight Gloves" />
+	<info Section="10" Index="30" OptionIndex1="5" OptionValue1="-1" OptionIndex2="3" OptionValue2="-1" Comment="Venom Mist Gloves" />
+	<info Section="10" Index="31" OptionIndex1="5" OptionValue1="-1" OptionIndex2="3" OptionValue2="-1" Comment="Sylphid Ray Gloves" />
+	<info Section="10" Index="32" OptionIndex1="5" OptionValue1="-1" OptionIndex2="3" OptionValue2="-1" Comment="Volcano Gloves" />
+	<info Section="10" Index="33" OptionIndex1="5" OptionValue1="-1" OptionIndex2="3" OptionValue2="-1" Comment="Sunlight Gloves" />
+	<info Section="10" Index="43" OptionIndex1="5" OptionValue1="-1" OptionIndex2="3" OptionValue2="-1" Comment="Storm Blitz Gloves" />
+	<info Section="11" Index="29" OptionIndex1="6" OptionValue1="-1" OptionIndex2="3" OptionValue2="-1" Comment="Dragon Knight Boots" />
+	<info Section="11" Index="30" OptionIndex1="6" OptionValue1="-1" OptionIndex2="3" OptionValue2="-1" Comment="Venom Mist Boots" />
+	<info Section="11" Index="31" OptionIndex1="6" OptionValue1="-1" OptionIndex2="3" OptionValue2="-1" Comment="Sylphid Ray Boots" />
+	<info Section="11" Index="32" OptionIndex1="6" OptionValue1="-1" OptionIndex2="3" OptionValue2="-1" Comment="Volcano Boots" />
+	<info Section="11" Index="33" OptionIndex1="6" OptionValue1="-1" OptionIndex2="3" OptionValue2="-1" Comment="Sunlight Boots" />
+	<info Section="11" Index="43" OptionIndex1="6" OptionValue1="-1" OptionIndex2="3" OptionValue2="-1" Comment="Storm Blitz Boots" />
+	<info Section="11" Index="73" OptionIndex1="6" OptionValue1="-1" OptionIndex2="3" OptionValue2="-1" Comment="Phoenix Soul Boots" />
+</ItemType380>

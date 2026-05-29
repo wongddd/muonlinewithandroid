@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<EventList>
+	<EventType Index="0" Name="EventGlobal">
+		<info Key="0" Index="0" Name="Blood Castle"		DesString="Sub_1"	NumberGate="50"	/>
+		<info Key="1" Index="1" Name="Devil Square"		DesString="Sub_1"	NumberGate="-1"	/>
+		<info Key="2" Index="2" Name="Chaos Castle"		DesString="Sub_1"	NumberGate="-1"	/>
+		<info Key="3" Index="3" Name="Illus.Temple"		DesString="Sub_1"	NumberGate="-1"	/>
+		<info Key="4" Index="4" Name="Online Lottery"	DesString="Sub_1"	NumberGate="-1"	/>
+		<info Key="5" Index="5" Name="Custom Quiz"		DesString="Sub_1"	NumberGate="-1"	/>
+		<info Key="6" Index="6" Name="Custom Bonus"		DesString="Sub_1"	NumberGate="-1"/>
+		<info Key="7" Index="7" Name="Custom Drop"		DesString="Sub_1"	NumberGate="-1"/>
+		<info Key="8" Index="8" Name="King of mu"		DesString="Sub_1"	NumberGate="-1"/>
+		<info Key="9" Index="9" Name="TVT Event"		DesString="Sub_1"	NumberGate="-1"/>
+		<info Key="10" Index="10" Name="GVG Event"		DesString="Sub_1"	NumberGate="-1"/>
+		<info Key="11" Index="11" Name="Moss Merch"		DesString="Sub_1"	NumberGate="-1"/>
+	</EventType>
+	<EventType Index="1" Name="Invasion">
+		<info Key="0" Index="0" Name="Skeleton King"		DesString="Sub_1"	NumberGate="-1"/>
+		<info Key="1" Index="1" Name="Red Dragon"		DesString="Sub_1"	NumberGate="-1"/>
+		<info Key="2" Index="2" Name="Golden Dragon"		DesString="Sub_1"	NumberGate="-1"/>
+		<info Key="3" Index="3" Name="White Wizzard"		DesString="Sub_1"	NumberGate="-1"/>
+		<info Key="4" Index="4" Name="New Year"		DesString="Sub_1"	NumberGate="-1"/>
+		<info Key="5" Index="5" Name="Rabbits"		DesString="Sub_1"	NumberGate="-1"/>
+		<info Key="6" Index="6" Name="Summer"		DesString="Sub_1"	NumberGate="-1"/>
+		<info Key="7" Index="7" Name="Cursed Santa"		DesString="Sub_1"	NumberGate="-1"/>
+		<info Key="8" Index="8" Name="Medusa(s6)"		DesString="Sub_1"	NumberGate="-1"/>
+		<info Key="9" Index="9" Name="Demons(s8)"		DesString="Sub_1"	NumberGate="-1"/>
+		<info Key="10" Index="10" Name="Eggs(s8)"		DesString="Sub_1"	NumberGate="-1"/>
+		<info Key="11" Index="11" Name="custom 1(s6)"		DesString="Sub_1"	NumberGate="-1"/>
+		<info Key="12" Index="12" Name="custom 2(s6)"		DesString="Sub_1"	NumberGate="-1"/>
+		<info Key="13" Index="13" Name="custom 3(s6)"		DesString="Sub_1"	NumberGate="-1"/>
+		<info Key="14" Index="14" Name="custom 4(s6)"		DesString="Sub_1"	NumberGate="-1"/>
+		<info Key="15" Index="15" Name="custom 5(s6)"		DesString="Sub_1"	NumberGate="-1"/>
+		<info Key="16" Index="16" Name="custom 6(s6)"		DesString="Sub_1"	NumberGate="-1"/>
+	</EventType>
+	<EventType Index="2" Name="Arena(PVP)">
+		<info Key="0" Index="0" Name="Survivor"			DesString="Sub_1"	NumberGate="-1"/>
+		<info Key="1" Index="1" Name="DM vs DM"		DesString="Sub_1"	NumberGate="-1"/>
+		<info Key="2" Index="2" Name="GM vs GM"		DesString="Sub_1"	NumberGate="-1"/>
+		<info Key="3" Index="3" Name="BM vs BM"		DesString="Sub_1"	NumberGate="-1"/>
+		<info Key="4" Index="4" Name="FM vs FM"		DesString="Sub_1"	NumberGate="-1"/>
+		<info Key="5" Index="5" Name="LE vs LE"		DesString="Sub_1"	NumberGate="-1"/>
+		<info Key="6" Index="6" Name="ELF vs ELF"		DesString="Sub_1"	NumberGate="-1"/>
+		<info Key="7" Index="7" Name="SUM vs SUM"		DesString="Sub_1"	NumberGate="-1"/>
+		<info Key="8" Index="8" Name="EMPTY"		DesString="Sub_1"	NumberGate="-1"/>
+		<info Key="9" Index="9" Name="EMPTY"		DesString="Sub_1"	NumberGate="-1"/>
+		<info Key="10" Index="10" Name="EMPTY"		DesString="Sub_1"	NumberGate="-1"/>
+		<info Key="11" Index="11" Name="EMPTY"		DesString="Sub_1"	NumberGate="-1"/>
+		<info Key="12" Index="12" Name="EMPTY"		DesString="Sub_1"	NumberGate="-1"/>
+		<info Key="13" Index="13" Name="EMPTY"		DesString="Sub_1"	NumberGate="-1"/>
+	</EventType>
+</EventList>
+

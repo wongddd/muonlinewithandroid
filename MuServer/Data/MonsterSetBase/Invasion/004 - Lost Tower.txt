@@ -1,0 +1,7 @@
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction     Quantity      Value      Comment
+494            04             30         010            010            240          240          3             03            0          //Golden Devil
+365            04             30         010            010            240          240          1             10            0          //Pouch of Blessing
+413            04             30         010            010            240          240          0             10            0          //Lunar Rabbit
+463            04             30         010            010            240          240          4             10            0          //Fire Flame Ghost
+end

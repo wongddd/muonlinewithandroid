@@ -1,0 +1,61 @@
+<!--
+[SPN]
+Key = clave de registro para identificar el mix
+Name = nombre visual para registrar el mix
+MixRate = porcentaje de probabilidad de exito
+Buy = tipo de monea [0 = zen][1 = coin1][2 = coin2][3 = coin3]
+TalismanOfChaos = Index del item que representa un talisman para evitar que el item sea consumido
+TalismanOfLuck = Index del item que representa un talisman para incrementar el porcentaje de exito
+LuckRate = cantidad de suerte incrementada por cada TalismanOfLuck
+MaxTalisman = numero maximo de TalismanOfLuck permitidos
+
+[POR]
+Key = chave de registro para identificar o mix
+Nome = nome visual para registrar o mix
+MixRate = porcentagem de probabilidade de sucesso
+Comprar = tipo de moeda [0 = zen][1 = moeda1][2 = moeda2][3 = moeda3]
+TalismanOfChaos = Índice do item que representa um talismã para evitar que o item seja consumido
+TalismanOfLuck = Índice do item que representa um talismã para aumentar o percentual de sucesso
+LuckRate = quantidade de sorte aumentada para cada TalismanOfLuck
+MaxTalisman = número máximo de TalismanOfLuck permitido
+
+[ENG]
+Key = registry key to identify the mix
+Name = visual name to register the mix
+MixRate = percentage of probability of success
+Money = Money type [0 = zen][1 = coin1][2 = coin2][3 = coin3]
+TalismanOfChaos = Index of the item that represents a talisman to prevent the item from being consumed
+TalismanOfLuck = Index of the item that represents a talisman to increase the success percentage
+LuckRate = amount of luck increased for each TalismanOfLuck
+MaxTalisman = maximum number of TalismanOfLuck allowed
+-->
+
+<?xml version="1.0"?>
+<MixTemplate Npc="238" Map="3" TX="189" TY="107">
+	<info Key="1" Name="Level +10" MixRateAL0="70" MixRateAL1="70" MixRateAL2="70" MixRateAL3="70" Money="0" ReqMoney="10000000" Main="3"  TalismanOfChaos="7264" TalismanOfLuck="7221" LuckRate="10" TalismanCnt="1" />
+	<info Key="2" Name="Level +11" MixRateAL0="70" MixRateAL1="70" MixRateAL2="70" MixRateAL3="70" Money="0" ReqMoney="10000000" Main="3"  TalismanOfChaos="7264" TalismanOfLuck="7221" LuckRate="10" TalismanCnt="1" />
+</MixTemplate>
+
+<MixRecipient>
+	<MixInfo Key="1" >
+		<item Main="3" MinIndex="0" MaxIndex="6143" MinLevel="9" MaxLevel="9" MinDurability="0" MaxDurability="255" Luck="0" MinOpc="0" MaxOpc="255" Exe="0" Anc="0" MinCnt="1" MaxCnt="1" />
+		<item Main="0" MinIndex="7181" MaxIndex="7181" MinLevel="0" MaxLevel="0" MinDurability="0" MaxDurability="255" Luck="0" MinOpc="0" MaxOpc="255" Exe="0" Anc="0" MinCnt="1" MaxCnt="1" />
+		<item Main="0" MinIndex="7182" MaxIndex="7182" MinLevel="0" MaxLevel="0" MinDurability="0" MaxDurability="255" Luck="0" MinOpc="0" MaxOpc="255" Exe="0" Anc="0" MinCnt="1" MaxCnt="1" />
+		<item Main="0" MinIndex="6159" MaxIndex="6159" MinLevel="0" MaxLevel="0" MinDurability="0" MaxDurability="255" Luck="0" MinOpc="0" MaxOpc="255" Exe="0" Anc="0" MinCnt="1" MaxCnt="1" />
+	</MixInfo>
+	<MixInfo Key="2" >
+		<item Main="3" MinIndex="0" MaxIndex="6143" MinLevel="10" MaxLevel="10" MinDurability="0" MaxDurability="255" Luck="0" MinOpc="0" MaxOpc="255" Exe="0" Anc="0" MinCnt="1" MaxCnt="1" />
+		<item Main="0" MinIndex="7181" MaxIndex="7181" MinLevel="0" MaxLevel="0" MinDurability="0" MaxDurability="255" Luck="0" MinOpc="0" MaxOpc="255" Exe="0" Anc="0" MinCnt="2" MaxCnt="2" />
+		<item Main="0" MinIndex="7182" MaxIndex="7182" MinLevel="0" MaxLevel="0" MinDurability="0" MaxDurability="255" Luck="0" MinOpc="0" MaxOpc="255" Exe="0" Anc="0" MinCnt="2" MaxCnt="2" />
+		<item Main="0" MinIndex="6159" MaxIndex="6159" MinLevel="0" MaxLevel="0" MinDurability="0" MaxDurability="255" Luck="0" MinOpc="0" MaxOpc="255" Exe="0" Anc="0" MinCnt="1" MaxCnt="1" />
+	</MixInfo>
+</MixRecipient>
+
+<MixResult>
+	<MixInfo Key="1" >
+		<item MinIndex="0" MaxIndex="6143" Level="10" Skill="-1" Luck="-1" MinOpc="-1" Exe="-1" Anc="-1" />
+	</MixInfo>
+	<MixInfo Key="2" >
+		<item MinIndex="0" MaxIndex="6143" Level="11" Skill="-1" Luck="-1" MinOpc="-1" Exe="-1" Anc="-1" />
+	</MixInfo>
+</MixResult>

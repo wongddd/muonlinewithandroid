@@ -1,0 +1,94 @@
+0
+//Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
+end
+
+
+1
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment
+end
+
+
+2
+//Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
+077            10             30         034            238            1             //Phoenix of Darkness
+070            10             30         066            068            5             //Queen Rainier
+070            10             30         085            088            0             //Queen Rainier
+070            10             30         080            076            5             //Queen Rainier
+073            10             30         045            072            1             //Drakan
+072            10             30         041            113            1             //Phantom Knight
+072            10             30         042            135            0             //Phantom Knight
+074            10             30         029            104            5             //Alpha Crust
+074            10             30         038            103            5             //Alpha Crust
+074            10             30         035            094            4             //Alpha Crust
+074            10             30         032            087            7             //Alpha Crust
+073            10             30         035            069            0             //Drakan
+073            10             30         026            074            1             //Drakan
+073            10             30         036            079            0             //Drakan
+074            10             30         039            085            1             //Alpha Crust
+072            10             30         051            126            4             //Phantom Knight
+071            10             30         088            070            5             //Mega Crust
+072            10             30         053            138            1             //Phantom Knight
+072            10             30         044            148            3             //Phantom Knight
+072            10             30         033            119            7             //Phantom Knight
+074            10             30         033            111            0             //Alpha Crust
+071            10             30         084            047            7             //Mega Crust
+071            10             30         079            033            5             //Mega Crust
+071            10             30         058            042            7             //Mega Crust
+070            10             30         089            038            3             //Queen Rainier
+071            10             30         070            043            2             //Mega Crust
+071            10             30         064            030            1             //Mega Crust
+071            10             30         053            027            4             //Mega Crust
+070            10             30         091            059            7             //Queen Rainier
+072            10             30         041            157            7             //Phantom Knight
+069            10             30         044            027            3             //Alquamos
+069            10             30         012            027            2             //Alquamos
+069            10             30         013            038            7             //Alquamos
+069            10             30         048            040            1             //Alquamos
+072            10             30         042            122            2             //Phantom Knight
+069            10             30         028            028            3             //Alquamos
+071            10             30         093            047            3             //Mega Crust
+072            10             30         053            150            0             //Phantom Knight
+075            10             30         050            162            7             //Great Drakan
+075            10             30         052            174            7             //Great Drakan
+075            10             30         055            181            3             //Great Drakan
+075            10             30         044            212            1             //Great Drakan
+072            10             30         038            216            3             //Phantom Knight
+075            10             30         047            189            0             //Great Drakan
+075            10             30         059            190            0             //Great Drakan
+075            10             30         048            200            2             //Great Drakan
+075            10             30         057            200            7             //Great Drakan
+075            10             30         027            220            6             //Great Drakan
+069            10             30         066            037            7             //Alquamos
+069            10             30         080            041            5             //Alquamos
+075            10             30         043            238            2             //Great Drakan
+072            10             30         044            221            7             //Phantom Knight
+069            10             30         040            034            7             //Alquamos
+069            10             30         031            037            7             //Alquamos
+069            10             30         018            031            5             //Alquamos
+071            10             30         057            034            6             //Mega Crust
+071            10             30         071            033            5             //Mega Crust
+072            10             30         036            226            0             //Phantom Knight
+075            10             30         048            228            4             //Great Drakan
+070            10             30         084            036            4             //Queen Rainier
+070            10             30         090            048            2             //Queen Rainier
+070            10             30         095            056            4             //Queen Rainier
+070            10             30         074            084            3             //Queen Rainier
+070            10             30         074            072            0             //Queen Rainier
+070            10             30         057            071            6             //Queen Rainier
+073            10             30         028            067            7             //Drakan
+071            10             30         050            033            2             //Mega Crust
+071            10             30         059            027            0             //Mega Crust
+071            10             30         074            038            2             //Mega Crust
+069            10             30         036            029            2             //Alquamos
+069            10             30         037            041            2             //Alquamos
+069            10             30         026            041            0             //Alquamos
+069            10             30         021            024            3             //Alquamos
+075            10             30         032            231            5             //Great Drakan
+075            10             30         045            173            6             //Great Drakan
+075            10             30         059            163            2             //Great Drakan
+075            10             30         052            168            1             //Great Drakan
+069            10             30         021            036            4             //Alquamos
+070            10             30         064            084            2             //Queen Rainier
+070            10             30         069            077            1             //Queen Rainier
+end
+

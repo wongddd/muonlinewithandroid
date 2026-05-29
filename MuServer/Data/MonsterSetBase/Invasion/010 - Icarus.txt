@@ -1,0 +1,4 @@
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction     Quantity      Value      Comment
+496            10             30         010            010            240          240          7             03            0          //Golden Crust
+end

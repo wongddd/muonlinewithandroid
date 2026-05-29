@@ -1,0 +1,26 @@
+13:42:50 [CommandSpot][louismk][KmmR] - (Monster: 275, Qtd: 5)
+13:45:27 [CommandAddPoint][louismk][KmmR] - (Type: 0, Amount: 123)
+13:45:53 [CommandAddPoint][louismk][KmmR] - (Type: 1, Amount: 123)
+13:45:55 [CommandAddPoint][louismk][KmmR] - (Type: 2, Amount: 123)
+13:45:57 [CommandAddPoint][louismk][KmmR] - (Type: 3, Amount: 123)
+13:46:01 [CommandAddPoint][louismk][KmmR] - (Type: 0, Amount: 123)
+14:51:32 [Command Clear Iventory] Use for:[louismk][KmmR]
+14:51:39 [CommandMake][louismk][KmmR] - (Section: 13, Type: 30, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, [Amount: 1])
+14:51:46 [CommandMake][louismk][KmmR] - (Section: 13, Type: 30, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 1, Set: 0, Sockets: 0, [Amount: 1])
+14:51:52 [Command Clear Iventory] Use for:[louismk][KmmR]
+15:01:36 [Command Clear Iventory] Use for:[louismk][Testeee]
+15:02:59 [CommandMake][louismk][Testeee] - (Section: 2, Type: 18, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 1, Set: 0, Sockets: 0, [Amount: 1])
+15:03:09 [CommandMake][louismk][Testeee] - (Section: 2, Type: 18, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 2, Set: 0, Sockets: 0, [Amount: 1])
+15:03:18 [CommandMake][louismk][Testeee] - (Section: 2, Type: 18, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 3, Set: 0, Sockets: 0, [Amount: 1])
+15:03:26 [CommandMake][louismk][Testeee] - (Section: 2, Type: 18, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 4, Set: 0, Sockets: 0, [Amount: 1])
+15:03:38 [CommandMake][louismk][Testeee] - (Section: 2, Type: 18, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 5, Set: 0, Sockets: 0, [Amount: 1])
+15:03:45 [CommandMake][louismk][Testeee] - (Section: 2, Type: 18, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 63, Set: 0, Sockets: 0, [Amount: 1])
+15:03:59 [Command Clear Iventory] Use for:[louismk][Testeee]
+15:04:21 [CommandMake][louismk][Testeee] - (Section: 7, Type: 51, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 1, Set: 0, Sockets: 0, [Amount: 1])
+15:04:29 [CommandMake][louismk][Testeee] - (Section: 7, Type: 51, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 2, Set: 0, Sockets: 0, [Amount: 1])
+19:08:55 [CommandSpot][louismk][LuisADM] - (Monster: 275, Qtd: 1)
+19:50:00 [CommandMake][louismk][LouisSM] - (Section: 1, Type: 1, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, [Amount: 1])
+19:50:11 [CommandMake][louismk][LouisSM] - (Section: 0, Type: 1, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, [Amount: 1])
+19:56:26 [CommandSpot][louismk][LouisSM] - (Monster: 295, Qtd: 1)
+21:09:00 [Command Clear Iventory] Use for:[louismk2][LouisMK]
+21:09:06 [CommandMake][louismk2][LouisMK] - (Section: 0, Type: 1, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, [Amount: 1])

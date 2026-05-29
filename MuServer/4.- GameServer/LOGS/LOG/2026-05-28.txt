@@ -1,0 +1,170 @@
+13:40:28 [ServerInfo] CashShop loaded successfully
+13:40:28 [ServerInfo] ChaosMix loaded successfully
+13:40:28 [ServerInfo] Character loaded successfully
+13:40:28 [ServerInfo] Custom loaded successfully
+13:40:28 [ServerInfo] Command loaded successfully
+13:40:28 [ServerInfo] Common loaded successfully
+13:40:28 [ServerInfo] Event loaded successfully
+13:40:28 [ServerInfo] EventItemBag loaded successfully
+13:40:28 [ServerInfo] Hack loaded successfully
+13:40:28 [ServerInfo] Item loaded successfully
+13:40:28 [ServerInfo] Monster loaded successfully
+13:40:28 [ServerInfo] Move loaded successfully
+13:40:28 [ServerInfo] Quest loaded successfully
+13:40:28 [ServerInfo] Shop loaded successfully
+13:40:28 [ServerInfo] Skill loaded successfully
+13:40:28 [ServerInfo] Util loaded successfully
+13:40:28 [ReadBotInfo] BotSystem loaded successfully
+13:45:50 [ServerInfo] CashShop loaded successfully
+13:45:50 [ServerInfo] ChaosMix loaded successfully
+13:45:50 [ServerInfo] Character loaded successfully
+13:45:50 [ServerInfo] Custom loaded successfully
+13:45:50 [ServerInfo] Command loaded successfully
+13:45:50 [ServerInfo] Common loaded successfully
+13:45:50 [ServerInfo] Event loaded successfully
+13:45:50 [ServerInfo] EventItemBag loaded successfully
+13:45:50 [ServerInfo] Hack loaded successfully
+13:45:50 [ServerInfo] Item loaded successfully
+13:45:50 [ServerInfo] Monster loaded successfully
+13:45:50 [ServerInfo] Move loaded successfully
+13:45:50 [ServerInfo] Quest loaded successfully
+13:45:50 [ServerInfo] Shop loaded successfully
+13:45:50 [ServerInfo] Skill loaded successfully
+13:45:50 [ServerInfo] Util loaded successfully
+13:45:50 [ReadBotInfo] BotSystem loaded successfully
+13:46:34 [Obj][12500] AddClient (197.159.75.59)
+13:47:01 [Obj][12500] AddAccount (louismk)
+13:48:19 [Obj][12500] DelAccount (louismk)
+13:48:19 [Obj][12500] DelClient (197.159.75.59)
+13:50:51 [Obj][12500] AddClient (98.97.77.6)
+13:50:58 [Obj][12500] AddAccount (louismk)
+13:51:02 [Obj][12500] LogInCharacter (LuisADM)
+13:52:03 [Obj][12500] LogOutCharacter (LuisADM)
+13:52:04 [Obj][12500] LogInCharacter (KmmR)
+13:53:10 [Obj][12500] LogOutCharacter (KmmR)
+13:53:10 [Obj][12500] DelAccount (louismk)
+13:53:10 [Obj][12500] DelClient (98.97.77.6)
+13:54:47 [Obj][12500] AddClient (98.97.77.6)
+13:54:50 [Obj][12500] AddAccount (louismk)
+13:54:53 [Obj][12500] LogInCharacter (LouisSM)
+13:59:09 [Obj][12500] LogOutCharacter (LouisSM)
+13:59:09 [Obj][12500] DelAccount (louismk)
+13:59:09 [Obj][12500] DelClient (98.97.77.6)
+14:02:20 [Obj][12500] AddClient (197.159.75.59)
+14:02:29 [Obj][12500] AddAccount (louismk)
+14:03:03 [Obj][12500] LogInCharacter (LouisSM)
+14:03:53 [Obj][12500] LogOutCharacter (LouisSM)
+14:03:53 [Obj][12500] DelAccount (louismk)
+14:03:53 [Obj][12500] DelClient (197.159.75.59)
+14:10:00 [CustomQuiz] Start
+14:13:00 [CustomQuiz] Finish
+14:41:12 [ServerInfo] CashShop loaded successfully
+14:41:12 [ServerInfo] ChaosMix loaded successfully
+14:41:12 [ServerInfo] Character loaded successfully
+14:41:12 [ServerInfo] Custom loaded successfully
+14:41:12 [ServerInfo] Command loaded successfully
+14:41:12 [ServerInfo] Common loaded successfully
+14:41:12 [ServerInfo] Event loaded successfully
+14:41:12 [ServerInfo] EventItemBag loaded successfully
+14:41:12 [ServerInfo] Hack loaded successfully
+14:41:12 [ServerInfo] Item loaded successfully
+14:41:12 [ServerInfo] Monster loaded successfully
+14:41:12 [ServerInfo] Move loaded successfully
+14:41:12 [ServerInfo] Quest loaded successfully
+14:41:12 [ServerInfo] Shop loaded successfully
+14:41:12 [ServerInfo] Skill loaded successfully
+14:41:12 [ServerInfo] Util loaded successfully
+14:41:12 [ReadBotInfo] BotSystem loaded successfully
+14:50:00 [Invasion Manager] Index(7) Boss Position (Map: 2 X: 162 Y: 12)
+15:10:00 [CustomQuiz] Start
+15:13:00 [CustomQuiz] Finish
+15:36:01 [OnlineLoterry] No Winner
+15:45:05 [ServerInfo] CashShop loaded successfully
+15:45:05 [ServerInfo] ChaosMix loaded successfully
+15:45:05 [ServerInfo] Character loaded successfully
+15:45:05 [ServerInfo] Custom loaded successfully
+15:45:05 [ServerInfo] Command loaded successfully
+15:45:05 [ServerInfo] Common loaded successfully
+15:45:05 [ServerInfo] Event loaded successfully
+15:45:05 [ServerInfo] EventItemBag loaded successfully
+15:45:05 [ServerInfo] Hack loaded successfully
+15:45:05 [ServerInfo] Item loaded successfully
+15:45:05 [ServerInfo] Monster loaded successfully
+15:45:05 [ServerInfo] Move loaded successfully
+15:45:05 [ServerInfo] Quest loaded successfully
+15:45:06 [ServerInfo] Shop loaded successfully
+15:45:06 [ServerInfo] Skill loaded successfully
+15:45:06 [ServerInfo] Util loaded successfully
+15:45:06 [ReadBotInfo] BotSystem loaded successfully
+16:05:00 [Invasion Manager] Index(0) Boss Position (Map: 0 X: 136 Y: 190)
+16:10:00 [CustomQuiz] Start
+16:13:00 [CustomQuiz] Finish
+16:15:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 57 Y: 221)
+16:25:00 [Invasion Manager] Index(2) Boss Position (Map: 57 X: 135 Y: 96)
+16:36:01 [OnlineLoterry] No Winner
+16:50:00 [Invasion Manager] Index(3) Boss Position (Map: 0 X: 163 Y: 59)
+17:00:00 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 159 Y: 18)
+17:10:00 [CustomQuiz] Start
+17:13:00 [CustomQuiz] Finish
+17:36:01 [OnlineLoterry] No Winner
+18:10:00 [CustomQuiz] Start
+18:13:00 [CustomQuiz] Finish
+18:36:01 [OnlineLoterry] No Winner
+18:50:00 [Invasion Manager] Index(7) Boss Position (Map: 0 X: 148 Y: 49)
+19:10:00 [CustomQuiz] Start
+19:13:00 [CustomQuiz] Finish
+19:36:01 [OnlineLoterry] No Winner
+20:05:00 [Invasion Manager] Index(0) Boss Position (Map: 3 X: 204 Y: 76)
+20:10:00 [CustomQuiz] Start
+20:13:00 [CustomQuiz] Finish
+20:15:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 91 Y: 51)
+21:08:47 [ServerInfo] CashShop loaded successfully
+21:08:47 [ServerInfo] ChaosMix loaded successfully
+21:08:47 [ServerInfo] Character loaded successfully
+21:08:47 [ServerInfo] Custom loaded successfully
+21:08:47 [ServerInfo] Command loaded successfully
+21:08:47 [ServerInfo] Common loaded successfully
+21:08:47 [ServerInfo] Event loaded successfully
+21:08:47 [ServerInfo] EventItemBag loaded successfully
+21:08:47 [ServerInfo] Hack loaded successfully
+21:08:47 [ServerInfo] Item loaded successfully
+21:08:47 [ServerInfo] Monster loaded successfully
+21:08:47 [ServerInfo] Move loaded successfully
+21:08:47 [ServerInfo] Quest loaded successfully
+21:08:47 [ServerInfo] Shop loaded successfully
+21:08:47 [ServerInfo] Skill loaded successfully
+21:08:47 [ServerInfo] Util loaded successfully
+21:08:47 [ReadBotInfo] BotSystem loaded successfully
+21:09:26 [Obj][12500] AddClient (127.0.0.1)
+21:09:26 [Obj][12500] DelClient (127.0.0.1)
+21:10:00 [CustomQuiz] Start
+21:13:00 [CustomQuiz] Finish
+21:20:14 [Obj][12500] AddClient (127.0.0.1)
+21:20:14 [Obj][12500] DelClient (127.0.0.1)
+21:36:01 [OnlineLoterry] No Winner
+21:54:08 [Obj][12500] AddClient (127.0.0.1)
+21:54:08 [Obj][12500] DelClient (127.0.0.1)
+21:54:58 [Obj][12500] AddClient (127.0.0.1)
+21:54:58 [Obj][12500] DelClient (127.0.0.1)
+22:05:02 [Obj][12500] AddClient (127.0.0.1)
+22:05:02 [Obj][12500] DelClient (127.0.0.1)
+22:05:59 [Obj][12500] AddClient (127.0.0.1)
+22:06:29 [Obj][12500] DelClient (127.0.0.1)
+22:06:29 Response error after connection causes conclusion [12500][][][127.0.0.1]
+22:07:40 [Obj][12500] AddClient (127.0.0.1)
+22:07:40 [Obj][12500] DelClient (127.0.0.1)
+22:10:00 [CustomQuiz] Start
+22:13:00 [CustomQuiz] Finish
+22:17:05 [Obj][12500] AddClient (127.0.0.1)
+22:17:05 [Obj][12500] DelClient (127.0.0.1)
+22:19:33 [Obj][12500] AddClient (127.0.0.1)
+22:19:33 [Obj][12500] DelClient (127.0.0.1)
+22:20:32 [Obj][12500] AddClient (127.0.0.1)
+22:20:32 [Obj][12500] DelClient (127.0.0.1)
+22:36:01 [OnlineLoterry] No Winner
+22:50:00 [Invasion Manager] Index(7) Boss Position (Map: 2 X: 166 Y: 19)
+23:10:00 [CustomQuiz] Start
+23:13:00 [CustomQuiz] Finish
+23:36:01 [OnlineLoterry] No Winner
+23:58:37 [Obj][12500] AddClient (127.0.0.1)
+23:58:37 [Obj][12500] DelClient (127.0.0.1)

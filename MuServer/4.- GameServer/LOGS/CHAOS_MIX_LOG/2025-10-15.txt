@@ -1,0 +1,1 @@
+14:42:10 [PlusItemLevelMix][Success][vlxx][MGMG] - (Type: 0, ChaosSuccessRate: 60, ChaosMoney: 2000000)

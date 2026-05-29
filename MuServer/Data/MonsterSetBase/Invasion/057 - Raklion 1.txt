@@ -1,0 +1,8 @@
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction     Quantity      Value      Comment
+499            57             30         010            010            240          240          5             03            0          //Golden Iron Knight
+501            57             30         010            010            240          240          7             01            0          //Great Golden Dragon
+365            57             30         010            010            240          240          7             10            0          //Pouch of Blessing
+413            57             30         010            010            240          240          2             10            0          //Lunar Rabbit
+463            57             30         010            010            240          240          4             10            0          //Fire Flame Ghost
+end

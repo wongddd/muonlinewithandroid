@@ -1,0 +1,37 @@
+01:36:01 Could not connect to database
+01:38:14 [SocketManager] Server started at port [55972]
+01:38:16 [ServerManager][0] AddServer (127.0.0.1)
+01:38:16 [ServerManager][0] ServerInfo (MuEMU) (55921) (20)
+02:13:17 [ServerManager][0] DelServer (127.0.0.1)
+02:14:39 [SocketManager] Server started at port [55972]
+02:14:41 [ServerManager][0] AddServer (127.0.0.1)
+02:14:41 [ServerManager][0] ServerInfo (MuEMU) (55921) (20)
+02:22:08 [ServerManager][0] DelServer (127.0.0.1)
+02:22:11 [ServerManager][1] AddServer (127.0.0.1)
+02:22:11 [ServerManager][1] ServerInfo (MuEMU) (55921) (20)
+02:34:52 [ServerManager][1] DelServer (127.0.0.1)
+11:20:59 [SocketManager] Server started at port [55972]
+11:21:06 [ServerManager][0] AddServer (127.0.0.1)
+11:21:06 [ServerManager][0] ServerInfo (MuEMU) (55921) (20)
+11:34:46 [SocketManager] Server started at port [55972]
+11:34:48 [ServerManager][0] AddServer (127.0.0.1)
+11:34:48 [ServerManager][0] ServerInfo (MuEMU) (55921) (20)
+11:37:58 [SocketManager] Server started at port [55972]
+11:38:00 [ServerManager][0] AddServer (127.0.0.1)
+11:38:00 [ServerManager][0] ServerInfo (MuEMU) (55921) (20)
+11:40:33 [SocketManager] Server started at port [55972]
+11:40:35 [ServerManager][0] AddServer (127.0.0.1)
+11:40:35 [ServerManager][0] ServerInfo (MuEMU) (55921) (20)
+11:41:08 [SocketManager] Server started at port [55972]
+11:41:09 [ServerManager][0] AddServer (127.0.0.1)
+11:41:09 [ServerManager][0] ServerInfo (MuEMU) (55921) (20)
+12:07:07 [ServerManager][0] DelServer (127.0.0.1)
+14:25:51 [SocketManager] Server started at port [55972]
+14:25:56 [ServerManager][0] AddServer (127.0.0.1)
+14:25:56 [ServerManager][0] ServerInfo (MuEMU) (55921) (20)
+14:40:38 [SocketManager] Server started at port [55972]
+14:41:06 [ServerManager][0] AddServer (127.0.0.1)
+14:41:06 [ServerManager][0] ServerInfo (MuEMU) (55921) (20)
+15:30:56 [SocketManager] Server started at port [55972]
+15:31:03 [ServerManager][0] AddServer (127.0.0.1)
+15:31:03 [ServerManager][0] ServerInfo (MuEMU) (55921) (20)

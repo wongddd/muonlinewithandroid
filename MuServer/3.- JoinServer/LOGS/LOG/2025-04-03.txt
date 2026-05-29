@@ -1,0 +1,9 @@
+17:52:54 [SocketManager] Server started at port [55970]
+17:53:13 [ServerManager][0] AddServer (127.0.0.1)
+17:53:13 [ServerManager][0] ServerInfo (MuEMU) (55901) (0)
+17:55:20 [SocketManager] Server started at port [55970]
+17:55:22 [ServerManager][0] AddServer (127.0.0.1)
+17:55:22 [ServerManager][0] ServerInfo (MuEMU) (55901) (0)
+23:34:30 [ServerManager][0] DelServer (127.0.0.1)
+23:34:41 [ServerManager][0] AddServer (127.0.0.1)
+23:34:41 [ServerManager][0] ServerInfo (MuEMU) (55901) (0)

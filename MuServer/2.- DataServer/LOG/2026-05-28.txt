@@ -1,0 +1,14 @@
+13:40:25 Could not connect to database
+13:45:43 [SocketManager] Server started at port [55962]
+13:45:51 [ServerManager][0] AddServer (127.0.0.1)
+13:45:51 [ServerManager][0] ServerInfo (MuEMU) (55921) (20)
+14:41:05 [SocketManager] Server started at port [55962]
+14:41:13 [ServerManager][0] AddServer (127.0.0.1)
+14:41:13 [ServerManager][0] ServerInfo (MuEMU) (55921) (20)
+15:43:20 [ServerManager][0] DelServer (127.0.0.1)
+15:44:58 [SocketManager] Server started at port [55962]
+15:45:06 [ServerManager][0] AddServer (127.0.0.1)
+15:45:06 [ServerManager][0] ServerInfo (MuEMU) (55921) (20)
+21:08:40 [SocketManager] Server started at port [55962]
+21:08:48 [ServerManager][0] AddServer (127.0.0.1)
+21:08:48 [ServerManager][0] ServerInfo (MuEMU) (55921) (20)

@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+<ItemValue>
+	<Info Index="26" Level="0" Grade="-1" Value="15" Coin1="30" Coin2="0" Coin3="0" Sell="7" Comment="Hỏa Long Kiếm" />
+	<Info Index="26" Level="10" Grade="-1" Value="150000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Hỏa Long Kiếm" />
+	<Info Index="7168" Level="0" Grade="-1" Value="15" Coin1="0" Coin2="0" Coin3="12" Sell="6" Comment="Apple" />
+	<Info Index="2055" Level="0" Grade="-1" Value="100" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Bolt" />
+	<Info Index="2055" Level="1" Grade="-1" Value="1400" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Bolt" />
+	<Info Index="2055" Level="2" Grade="-1" Value="2200" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Bolt" />
+	<Info Index="2055" Level="3" Grade="-1" Value="3000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Bolt" />
+	<Info Index="2063" Level="0" Grade="-1" Value="70" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Arrow" />
+	<Info Index="2063" Level="1" Grade="-1" Value="1200" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Arrow" />
+	<Info Index="2063" Level="2" Grade="-1" Value="2000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Arrow" />
+	<Info Index="2063" Level="3" Grade="-1" Value="2800" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Arrow" />
+	<Info Index="6159" Level="-1" Grade="-1" Value="810000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Jewel of Chaos" />
+	<Info Index="6170" Level="0" Grade="-1" Value="60000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Gem of Secret" />
+	<Info Index="6174" Level="0" Grade="-1" Value="90000000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Bundled Jewel of Bless" />
+	<Info Index="6174" Level="1" Grade="-1" Value="180000000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Bundled Jewel of Bless" />
+	<Info Index="6174" Level="2" Grade="-1" Value="270000000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Bundled Jewel of Bless" />
+	<Info Index="6175" Level="0" Grade="-1" Value="60000000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Bundled Jewel of Soul" />
+	<Info Index="6175" Level="1" Grade="-1" Value="120000000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Bundled Jewel of Soul" />
+	<Info Index="6175" Level="0" Grade="-1" Value="180000000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Bundled Jewel of Soul" />
+	<Info Index="6274" Level="-1" Grade="-1" Value="240" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Small Cape of Lord" />
+	<Info Index="6275" Level="-1" Grade="-1" Value="240" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Small Wing of Curse" />
+	<Info Index="6276" Level="-1" Grade="-1" Value="240" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Small Wings of Elf" />
+	<Info Index="6277" Level="-1" Grade="-1" Value="240" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Small Wings of Heaven" />
+	<Info Index="6278" Level="-1" Grade="-1" Value="240" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Small Wings of Satan" />
+	<Info Index="6279" Level="-1" Grade="-1" Value="240" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Small Warrior's Cloak" />
+	<Info Index="6280" Level="0" Grade="-1" Value="450000000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Bundled Jewel of Life" />
+	<Info Index="6280" Level="1" Grade="-1" Value="900000000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Bundled Jewel of Life" />
+	<Info Index="6280" Level="2" Grade="-1" Value="1350000000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Bundled Jewel of Life" />
+	<Info Index="6281" Level="0" Grade="-1" Value="360000000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Bundled Jewel of Creation" />
+	<Info Index="6281" Level="1" Grade="-1" Value="720000000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Bundled Jewel of Creation" />
+	<Info Index="6281" Level="2" Grade="-1" Value="1080000000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Bundled Jewel of Creation" />
+	<Info Index="6282" Level="0" Grade="-1" Value="600000000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Bundled Jewel of Guardian" />
+	<Info Index="6282" Level="1" Grade="-1" Value="1200000000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Bundled Jewel of Guardian" />
+	<Info Index="6282" Level="2" Grade="-1" Value="1800000000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Bundled Jewel of Guardian" />
+	<Info Index="6285" Level="0" Grade="-1" Value="8100000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Bundled Jewel of Chaos" />
+	<Info Index="6285" Level="1" Grade="-1" Value="16200000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Bundled Jewel of Chaos" />
+	<Info Index="6285" Level="2" Grade="-1" Value="24300000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Bundled Jewel of Chaos" />
+	<Info Index="6288" Level="-1" Grade="-1" Value="300000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Mithril Fragment" />
+	<Info Index="6290" Level="-1" Grade="-1" Value="300000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Elixir Fragment" />
+	<Info Index="6410" Level="-1" Grade="-1" Value="300000000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Wings of Conqueror" />
+	<Info Index="6411" Level="-1" Grade="-1" Value="3000000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Wings of Angel and Devil" />
+	<Info Index="6659" Level="-1" Grade="0" Value="960000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Horn of Dinorant" />
+	<Info Index="6659" Level="-1" Grade="1" Value="1260000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Horn of Dinorant" />
+	<Info Index="6659" Level="-1" Grade="2" Value="1260000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Horn of Dinorant" />
+	<Info Index="6659" Level="-1" Grade="4" Value="1260000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Horn of Dinorant" />
+	<Info Index="6659" Level="-1" Grade="3" Value="1560000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Horn of Dinorant" />
+	<Info Index="6659" Level="-1" Grade="5" Value="1560000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Horn of Dinorant" />
+	<Info Index="6659" Level="-1" Grade="6" Value="1560000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Horn of Dinorant" />
+	<Info Index="6663" Level="0" Grade="-1" Value="1500000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Contract [Summon]" />
+	<Info Index="6663" Level="1" Grade="-1" Value="1200000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Contract [Summon]" />
+	<Info Index="6667" Level="1" Grade="-1" Value="2400000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Order [Guardian/Life Stone]" />
+	<Info Index="6670" Level="0" Grade="-1" Value="180000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Loch's Feather" />
+	<Info Index="6670" Level="1" Grade="-1" Value="7500000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Loch's Feather" />
+	<Info Index="6671" Level="-1" Grade="-1" Value="33000000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Fruit" />
+	<Info Index="6672" Level="1" Grade="-1" Value="15000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Archangel Scroll" />
+	<Info Index="6672" Level="2" Grade="-1" Value="21000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Archangel Scroll" />
+	<Info Index="6672" Level="3" Grade="-1" Value="30000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Archangel Scroll" />
+	<Info Index="6672" Level="4" Grade="-1" Value="39000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Archangel Scroll" />
+	<Info Index="6672" Level="5" Grade="-1" Value="48000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Archangel Scroll" />
+	<Info Index="6672" Level="6" Grade="-1" Value="60000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Archangel Scroll" />
+	<Info Index="6672" Level="7" Grade="-1" Value="75000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Archangel Scroll" />
+	<Info Index="6672" Level="8" Grade="-1" Value="90000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Archangel Scroll" />
+	<Info Index="6673" Level="1" Grade="-1" Value="15000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Blood Bone" />
+	<Info Index="6673" Level="2" Grade="-1" Value="21000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Blood Bone" />
+	<Info Index="6673" Level="3" Grade="-1" Value="30000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Blood Bone" />
+	<Info Index="6673" Level="4" Grade="-1" Value="39000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Blood Bone" />
+	<Info Index="6673" Level="5" Grade="-1" Value="48000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Blood Bone" />
+	<Info Index="6673" Level="6" Grade="-1" Value="60000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Blood Bone" />
+	<Info Index="6673" Level="7" Grade="-1" Value="75000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Blood Bone" />
+	<Info Index="6673" Level="8" Grade="-1" Value="90000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Blood Bone" />
+	<Info Index="6674" Level="1" Grade="-1" Value="150000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Cloak of Invisibility" />
+	<Info Index="6674" Level="2" Grade="-1" Value="660000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Cloak of Invisibility" />
+	<Info Index="6674" Level="3" Grade="-1" Value="720000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Cloak of Invisibility" />
+	<Info Index="6674" Level="4" Grade="-1" Value="780000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Cloak of Invisibility" />
+	<Info Index="6674" Level="5" Grade="-1" Value="840000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Cloak of Invisibility" />
+	<Info Index="6674" Level="6" Grade="-1" Value="900000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Cloak of Invisibility" />
+	<Info Index="6674" Level="7" Grade="-1" Value="960000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Cloak of Invisibility" />
+	<Info Index="6674" Level="8" Grade="-1" Value="1020000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Cloak of Invisibility" />
+	<Info Index="6676" Level="0" Grade="-1" Value="30000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Wizard's Ring" />
+	<Info Index="6685" Level="-1" Grade="-1" Value="5000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Armor of Guardsman" />
+	<Info Index="6687" Level="0" Grade="-1" Value="30000000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Spirit" />
+	<Info Index="6687" Level="1" Grade="-1" Value="15000000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Spirit" />
+	<Info Index="6688" Level="-1" Grade="-1" Value="150" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Splinter of Armor" />
+	<Info Index="6689" Level="-1" Grade="-1" Value="300" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Bless of Guardian" />
+	<Info Index="6690" Level="-1" Grade="-1" Value="3000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Claw of Beast" />
+	<Info Index="6691" Level="-1" Grade="-1" Value="30000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Fragment of Horn" />
+	<Info Index="6692" Level="-1" Grade="-1" Value="90000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Broken Horn" />
+	<Info Index="6693" Level="-1" Grade="-1" Value="150000" Coin1="0" Coin2="50" Coin3="0" Sell="0" Comment="Horn of Fenrir" />
+	<Info Index="6693" Level="-1" Grade="0" Value="150000" Coin1="0" Coin2="100" Coin3="0" Sell="0" Comment="Horn of Fenrir" />
+	<Info Index="6693" Level="-1" Grade="1" Value="150000" Coin1="0" Coin2="200" Coin3="0" Sell="50" Comment="Horn of Fenrir" />
+	<Info Index="6693" Level="-1" Grade="2" Value="150000" Coin1="0" Coin2="300" Coin3="0" Sell="0" Comment="Horn of Fenrir" />
+	<Info Index="6693" Level="-1" Grade="4" Value="150000" Coin1="0" Coin2="400" Coin3="0" Sell="0" Comment="Horn of Fenrir" />
+	<Info Index="6694" Level="-1" Grade="-1" Value="9300" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Moonstone Pendant" />
+	<Info Index="6705" Level="1" Grade="-1" Value="500000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Old Scroll" />
+	<Info Index="6705" Level="2" Grade="-1" Value="600000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Old Scroll" />
+	<Info Index="6705" Level="3" Grade="-1" Value="800000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Old Scroll" />
+	<Info Index="6705" Level="4" Grade="-1" Value="1000000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Old Scroll" />
+	<Info Index="6705" Level="5" Grade="-1" Value="1200000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Old Scroll" />
+	<Info Index="6705" Level="6" Grade="-1" Value="1400000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Old Scroll" />
+	<Info Index="6706" Level="1" Grade="-1" Value="500000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Illusion Sorcerer Covenant" />
+	<Info Index="6706" Level="2" Grade="-1" Value="600000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Illusion Sorcerer Covenant" />
+	<Info Index="6706" Level="3" Grade="-1" Value="800000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Illusion Sorcerer Covenant" />
+	<Info Index="6706" Level="4" Grade="-1" Value="1000000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Illusion Sorcerer Covenant" />
+	<Info Index="6706" Level="5" Grade="-1" Value="1200000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Illusion Sorcerer Covenant" />
+	<Info Index="6706" Level="6" Grade="-1" Value="1400000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Illusion Sorcerer Covenant" />
+	<Info Index="6707" Level="1" Grade="-1" Value="500000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Scroll of Blood" />
+	<Info Index="6707" Level="2" Grade="-1" Value="600000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Scroll of Blood" />
+	<Info Index="6707" Level="3" Grade="-1" Value="800000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Scroll of Blood" />
+	<Info Index="6707" Level="4" Grade="-1" Value="1000000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Scroll of Blood" />
+	<Info Index="6707" Level="5" Grade="-1" Value="1200000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Scroll of Blood" />
+	<Info Index="6707" Level="6" Grade="-1" Value="1400000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Scroll of Blood" />
+	<Info Index="6708" Level="-1" Grade="-1" Value="3000000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Condor Flame" />
+	<Info Index="6709" Level="-1" Grade="-1" Value="3000000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Condor Feather" />
+	<Info Index="6720" Level="-1" Grade="-1" Value="3000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Demon" />
+	<Info Index="6721" Level="-1" Grade="-1" Value="3000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Spirit of Guardian" />
+	<Info Index="6727" Level="-1" Grade="-1" Value="1000000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Sword/Mace/Spear" />
+	<Info Index="6728" Level="-1" Grade="-1" Value="1000000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Staff" />
+	<Info Index="6729" Level="-1" Grade="-1" Value="1000000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Bow/Crossbow" />
+	<Info Index="6730" Level="-1" Grade="-1" Value="1000000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Scepter" />
+	<Info Index="6731" Level="-1" Grade="-1" Value="1000000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Stick" />
+	<Info Index="6732" Level="-1" Grade="-1" Value="3000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Panda Ring" />
+	<Info Index="6733" Level="-1" Grade="-1" Value="3000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Brown Panda Ring" />
+	<Info Index="6734" Level="-1" Grade="-1" Value="3000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Pink Panda Ring" />
+	<Info Index="6736" Level="-1" Grade="-1" Value="3000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Pet Panda" />
+	<Info Index="6765" Level="-1" Grade="-1" Value="3000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Sapphire Ring" />
+	<Info Index="6766" Level="-1" Grade="-1" Value="3000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Ruby Ring" />
+	<Info Index="6767" Level="-1" Grade="-1" Value="3000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Topaz Ring" />
+	<Info Index="6768" Level="-1" Grade="-1" Value="3000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Amethyst Ring" />
+	<Info Index="6769" Level="-1" Grade="-1" Value="3000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Ruby Necklace" />
+	<Info Index="6770" Level="-1" Grade="-1" Value="3000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Emerald Necklace" />
+	<Info Index="6771" Level="-1" Grade="-1" Value="3000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Sapphire Necklace" />
+	<Info Index="6778" Level="-1" Grade="-1" Value="6000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Skeleton Transformation Ring" />
+	<Info Index="6779" Level="-1" Grade="-1" Value="6000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Pet Skeleton" />
+	<Info Index="6819" Level="-1" Grade="-1" Value="6000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Robot Knight Ring" />
+	<Info Index="6820" Level="-1" Grade="-1" Value="6000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Mini Robot Ring" />
+	<Info Index="6821" Level="-1" Grade="-1" Value="6000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Great Heavenly Mage Ring" />
+	<Info Index="6825" Level="-1" Grade="-1" Value="90000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Decoration Ring" />
+	<Info Index="6826" Level="-1" Grade="-1" Value="90000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Blessed Decoration Ring" />
+	<Info Index="6867" Level="-1" Grade="-1" Value="600000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Evolution Stone" />
+	<Info Index="6895" Level="-1" Grade="-1" Value="600000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Muun Energy Converter" />
+	<Info Index="6896" Level="-1" Grade="-1" Value="600000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Wizardry Stone" />
+	<Info Index="7175" Level="0" Grade="-1" Value="900000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Siege Potion" />
+	<Info Index="7175" Level="1" Grade="-1" Value="450000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Siege Potion" />
+	<Info Index="7177" Level="1" Grade="-1" Value="1000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Ale" />
+	<Info Index="7181" Level="-1" Grade="-1" Value="9000000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Jewel of Bless" />
+	<Info Index="7182" Level="-1" Grade="-1" Value="6000000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Jewel of Soul" />
+	<Info Index="7184" Level="-1" Grade="-1" Value="45000000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Jewel of Life" />
+	<Info Index="7185" Level="1" Grade="-1" Value="15000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Devil's Eye" />
+	<Info Index="7185" Level="2" Grade="-1" Value="21000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Devil's Eye" />
+	<Info Index="7185" Level="3" Grade="-1" Value="30000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Devil's Eye" />
+	<Info Index="7185" Level="4" Grade="-1" Value="45000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Devil's Eye" />
+	<Info Index="7185" Level="5" Grade="-1" Value="60000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Devil's Eye" />
+	<Info Index="7185" Level="6" Grade="-1" Value="75000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Devil's Eye" />
+	<Info Index="7185" Level="7" Grade="-1" Value="90000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Devil's Eye" />
+	<Info Index="7186" Level="1" Grade="-1" Value="15000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Devil's Key" />
+	<Info Index="7186" Level="2" Grade="-1" Value="21000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Devil's Key" />
+	<Info Index="7186" Level="3" Grade="-1" Value="30000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Devil's Key" />
+	<Info Index="7186" Level="4" Grade="-1" Value="45000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Devil's Key" />
+	<Info Index="7186" Level="5" Grade="-1" Value="60000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Devil's Key" />
+	<Info Index="7186" Level="6" Grade="-1" Value="75000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Devil's Key" />
+	<Info Index="7186" Level="7" Grade="-1" Value="90000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Devil's Key" />
+	<Info Index="7187" Level="1" Grade="-1" Value="60000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Devil's Invitation" />
+	<Info Index="7187" Level="2" Grade="-1" Value="84000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Devil's Invitation" />
+	<Info Index="7187" Level="3" Grade="-1" Value="120000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Devil's Invitation" />
+	<Info Index="7187" Level="4" Grade="-1" Value="180000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Devil's Invitation" />
+	<Info Index="7187" Level="5" Grade="-1" Value="240000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Devil's Invitation" />
+	<Info Index="7187" Level="6" Grade="-1" Value="300000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Devil's Invitation" />
+	<Info Index="7187" Level="7" Grade="-1" Value="180000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Devil's Invitation" />
+	<Info Index="7188" Level="-1" Grade="-1" Value="900" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Remedy of Love" />
+	<Info Index="7189" Level="0" Grade="-1" Value="9000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Rena" />
+	<Info Index="7189" Level="3" Grade="-1" Value="3900" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Rena" />
+	<Info Index="7190" Level="-1" Grade="-1" Value="36000000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Jewel of Creation" />
+	<Info Index="7191" Level="-1" Grade="-1" Value="9000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Scroll of the Emperor" />
+	<Info Index="7192" Level="-1" Grade="-1" Value="9000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Broken Sword" />
+	<Info Index="7193" Level="-1" Grade="-1" Value="9000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Tear of Elf" />
+	<Info Index="7194" Level="-1" Grade="-1" Value="9000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Soul Shard of Wizard" />
+	<Info Index="7196" Level="-1" Grade="-1" Value="600000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Lost Map" />
+	<Info Index="7197" Level="-1" Grade="-1" Value="30000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Symbol of Kundun" />
+	<Info Index="7199" Level="-1" Grade="-1" Value="60000000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Jewel of Guardian" />
+	<Info Index="7203" Level="-1" Grade="-1" Value="2000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Small SD Potion" />
+	<Info Index="7204" Level="-1" Grade="-1" Value="4000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="SD Potion" />
+	<Info Index="7205" Level="-1" Grade="-1" Value="6000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Large SD Potion" />
+	<Info Index="7206" Level="-1" Grade="-1" Value="2500" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Small Complex Potion" />
+	<Info Index="7207" Level="-1" Grade="-1" Value="5000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Complex Potion" />
+	<Info Index="7208" Level="-1" Grade="-1" Value="7500" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Large Complex Potion" />
+	<Info Index="7213" Level="-1" Grade="-1" Value="150" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Pumpkin of Luck" />
+	<Info Index="7214" Level="-1" Grade="-1" Value="150" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="[Boost] Jack O'Lantern Blessings" />
+	<Info Index="7215" Level="-1" Grade="-1" Value="150" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="[Reinforce] Jack O'Lantern Wrath" />
+	<Info Index="7216" Level="-1" Grade="-1" Value="150" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="[Reinforce] Jack O'Lantern Cry" />
+	<Info Index="7217" Level="-1" Grade="-1" Value="150" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="[Boost] Jack O'Lantern Food" />
+	<Info Index="7218" Level="-1" Grade="-1" Value="150" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="[Boost] Jack O'Lantern Drink" />
+	<Info Index="7219" Level="-1" Grade="-1" Value="200000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Christmas Star" />
+	<Info Index="7223" Level="-1" Grade="-1" Value="9000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Green Chaos Box" />
+	<Info Index="7224" Level="-1" Grade="-1" Value="9000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Red Chaos Box" />
+	<Info Index="7225" Level="-1" Grade="-1" Value="9000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Purple Chaos Box" />
+	<Info Index="7231" Level="-1" Grade="-1" Value="200000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Firecracker" />
+	<Info Index="7232" Level="-1" Grade="-1" Value="9000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Cursed Hallow" />
+	<Info Index="7233" Level="-1" Grade="-1" Value="9000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Death-Beam Knight Flame" />
+	<Info Index="7234" Level="-1" Grade="-1" Value="9000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Hell-Mine Horn" />
+	<Info Index="7235" Level="-1" Grade="-1" Value="9000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Dark Phoenix Feather" />
+	<Info Index="7236" Level="-1" Grade="-1" Value="9000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Abyssal Eye" />
+	<Info Index="7253" Level="-1" Grade="-1" Value="300" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="[Boost] Cherry Blossom Wine" />
+	<Info Index="7254" Level="-1" Grade="-1" Value="300" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="[Boost] Cherry Blossom Rice Cake" />
+	<Info Index="7255" Level="-1" Grade="-1" Value="300" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="[Reinforce] Cherry Blossom Flower Petal" />
+	<Info Index="7256" Level="-1" Grade="-1" Value="300" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="White Cherry Blossom Branch" />
+	<Info Index="7257" Level="-1" Grade="-1" Value="300" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Red Cherry Blossom Branch" />
+	<Info Index="7258" Level="-1" Grade="-1" Value="300" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Golden Cherry Blossom Branch" />
+	<Info Index="7268" Level="-1" Grade="-1" Value="300" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Lucky Coin" />
+	<Info Index="7269" Level="-1" Grade="-1" Value="30000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Suspicious Scrap of Paper" />
+	<Info Index="7270" Level="-1" Grade="-1" Value="30000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Gaion's Order" />
+	<Info Index="7271" Level="-1" Grade="-1" Value="30000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="First Secromicon Fragment" />
+	<Info Index="7272" Level="-1" Grade="-1" Value="30000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Second Secromicon Fragment" />
+	<Info Index="7273" Level="-1" Grade="-1" Value="30000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Third Secromicon Fragment" />
+	<Info Index="7274" Level="-1" Grade="-1" Value="30000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Fourth Secromicon Fragment" />
+	<Info Index="7275" Level="-1" Grade="-1" Value="30000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Fifth Secromicon Fragment" />
+	<Info Index="7276" Level="-1" Grade="-1" Value="30000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Sixth Secromicon Fragment" />
+	<Info Index="7277" Level="-1" Grade="-1" Value="30000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Complete Secromicon" />
+	<Info Index="7278" Level="-1" Grade="-1" Value="30000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Sign of Dimensions" />
+	<Info Index="7279" Level="-1" Grade="-1" Value="600000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Mirror of Dimensions" />
+	<Info Index="7280" Level="-1" Grade="-1" Value="3000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Silver Key" />
+	<Info Index="7281" Level="-1" Grade="-1" Value="3000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Golden Key" />
+	<Info Index="7289" Level="-1" Grade="-1" Value="3000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Sealed Golden Box" />
+	<Info Index="7290" Level="-1" Grade="-1" Value="3000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Sealed Silver Box" />
+	<Info Index="7291" Level="-1" Grade="-1" Value="3000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Golden Box" />
+	<Info Index="7292" Level="-1" Grade="-1" Value="3000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Silver Box" />
+	<Info Index="7309" Level="-1" Grade="-1" Value="672000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Shining Jewelry Case" />
+	<Info Index="7310" Level="-1" Grade="-1" Value="546000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Elegant Jewelry Case" />
+	<Info Index="7311" Level="-1" Grade="-1" Value="471000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Steel Jewelry Case" />
+	<Info Index="7312" Level="-1" Grade="-1" Value="363000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Old Jewelry Case" />
+	<Info Index="7385" Level="-1" Grade="-1" Value="300000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Titan Summon Scroll" />
+	<Info Index="7386" Level="-1" Grade="-1" Value="300000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Tantalose Summon Scroll" />
+	<Info Index="7387" Level="-1" Grade="-1" Value="300000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Erohim Summon Scroll" />
+	<Info Index="7388" Level="-1" Grade="-1" Value="300000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Hell Maine Summon Scroll" />
+	<Info Index="7389" Level="-1" Grade="-1" Value="300000" Coin1="0" Coin2="0" Coin3="0" Sell="0" Comment="Kundun Summon Scroll" />
+</ItemValue>

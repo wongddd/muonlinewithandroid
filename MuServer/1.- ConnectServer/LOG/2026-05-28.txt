@@ -1,0 +1,24 @@
+13:40:24 [SocketManager] Server started at port [44404]
+13:40:24 [ServerList] ServerList loaded successfully
+13:40:24 [ServerVersion] ServerVersion loaded successfully
+13:40:34 [ServerList] GameServer online (GameServer) (20)
+13:45:38 [SocketManager] Server started at port [44404]
+13:45:38 [ServerList] ServerList loaded successfully
+13:45:38 [ServerVersion] ServerVersion loaded successfully
+13:45:49 [ServerList] JoinServer online
+13:45:52 [ServerList] GameServer online (GameServer) (20)
+14:41:00 [SocketManager] Server started at port [44404]
+14:41:00 [ServerList] ServerList loaded successfully
+14:41:00 [ServerVersion] ServerVersion loaded successfully
+14:41:11 [ServerList] JoinServer online
+14:41:14 [ServerList] GameServer online (GameServer) (20)
+15:44:53 [SocketManager] Server started at port [44404]
+15:44:53 [ServerList] ServerList loaded successfully
+15:44:53 [ServerVersion] ServerVersion loaded successfully
+15:45:05 [ServerList] JoinServer online
+15:45:07 [ServerList] GameServer online (GameServer) (20)
+21:08:35 [SocketManager] Server started at port [44404]
+21:08:35 [ServerList] ServerList loaded successfully
+21:08:35 [ServerVersion] ServerVersion loaded successfully
+21:08:46 [ServerList] JoinServer online
+21:08:49 [ServerList] GameServer online (GameServer) (20)
