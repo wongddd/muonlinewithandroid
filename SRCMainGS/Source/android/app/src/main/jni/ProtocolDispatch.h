@@ -79,8 +79,10 @@ void refreshServerList();
 void setCredentials(const char* account, const char* password);
 void sendLogin();
 
-// 记住账号 (Task 3)
+// 记住账号 (Task 3 — 持久化到文件)
+void setCredPath(const char* internalPath);
 void saveCredentials(const char* account, const char* password);
+void loadCredentials();
 const char* getSavedAccount();
 const char* getSavedPassword();
 

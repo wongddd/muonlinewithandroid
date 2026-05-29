@@ -1161,6 +1161,8 @@ void onSurfaceCreated(ANativeWindow* window) {
 
     // Initialize protocol dispatch (state machine)
     ProtocolDispatch::init();
+    ProtocolDispatch::setCredPath(g_internalPath.c_str());
+    ProtocolDispatch::loadCredentials();
     LOGI("ProtocolDispatch initialized");
 
     // Initialize audio (replaces DirectSound)

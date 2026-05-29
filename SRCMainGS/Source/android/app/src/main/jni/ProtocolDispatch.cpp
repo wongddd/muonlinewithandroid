@@ -544,18 +544,54 @@ void selectCharacter(int slotIndex) {
     setState(ProtocolState::REQUEST_JOIN_MAP_SERVER);
 }
 
-// ========== Task 3: 记住账号 ==========
+// ========== Task 3: 记住账号 (持久化到文件) ==========
 
 static std::string g_savedAccount;
 static std::string g_savedPassword;
+static std::string g_credPath;  // 配置文件路径
 
 const char* getSavedAccount() { return g_savedAccount.c_str(); }
 const char* getSavedPassword() { return g_savedPassword.c_str(); }
+
+void setCredPath(const char* internalPath) {
+    if (internalPath) {
+        g_credPath = internalPath;
+        if (!g_credPath.empty() && g_credPath.back() != '/') g_credPath += '/';
+        g_credPath += ".mu_credentials";
+    }
+}
 
 void saveCredentials(const char* account, const char* password) {
     g_savedAccount = account ? account : "";
     g_savedPassword = password ? password : "";
     LOGI("Credentials saved for account: '%s'", g_savedAccount.c_str());
+    // 写入文件
+    if (!g_credPath.empty()) {
+        FILE* fp = (fopen)(g_credPath.c_str(), "w");
+        if (fp) {
+            fprintf(fp, "%s\n%s\n", g_savedAccount.c_str(), g_savedPassword.c_str());
+            fclose(fp);
+        }
+    }
+}
+
+void loadCredentials() {
+    if (g_credPath.empty()) return;
+    FILE* fp = (fopen)(g_credPath.c_str(), "r");
+    if (fp) {
+        char buf[64];
+        if (fgets(buf, sizeof(buf), fp)) {
+            buf[strcspn(buf, "\n")] = '\0';
+            g_savedAccount = buf;
+        }
+        if (fgets(buf, sizeof(buf), fp)) {
+            buf[strcspn(buf, "\n")] = '\0';
+            g_savedPassword = buf;
+        }
+        fclose(fp);
+        if (!g_savedAccount.empty())
+            LOGI("Credentials loaded for account: '%s'", g_savedAccount.c_str());
+    }
 }
 
 // ========== Task 5: 自动重连 ==========

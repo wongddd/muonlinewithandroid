@@ -17,10 +17,10 @@ namespace MuInput {
 // ============================================================================
 
 static constexpr int   MAX_TOUCHES           = 10;
-static constexpr float JOYSTICK_ZONE_FRAC    = 0.40f;   // 左 40% = 摇杆区
-static constexpr float JOYSTICK_DEAD_ZONE    = 20.0f;   // 摇杆死区 (像素)
-static constexpr float JOYSTICK_MAX_RADIUS   = 120.0f;  // 摇杆最大半径
-static constexpr float PINCH_WHEEL_FACTOR    = 0.05f;   // 缩放→滚轮系数
+static constexpr float JOYSTICK_ZONE_FRAC    = 0.50f;   // 左 50% = 摇杆区 (增大)
+static constexpr float JOYSTICK_DEAD_ZONE    = 30.0f;   // 摇杆死区 (像素)
+static constexpr float JOYSTICK_MAX_RADIUS   = 200.0f;  // 摇杆最大半径 (适配高分辨率)
+static constexpr float PINCH_WHEEL_FACTOR    = 0.08f;   // 缩放→滚轮系数 (更灵敏)
 static constexpr float DBL_CLICK_TIME_MS     = 400.0f;  // 双击间隔
 static constexpr float DBL_CLICK_DIST        = 30.0f;   // 双击最大位移
 
@@ -137,18 +137,18 @@ struct TouchButton {
     float heightFrac;   // 按钮高度 (相对行高)
 };
 
-// 右侧按钮面板: 5列 × 4行
-// 面板区域: x=[40%..100%], y=[0..100%]
-// 列宽 = 面板宽 / 5, 行高 = 面板高 / 4
+// 右侧按钮面板: 4列 × 4行 (更少的列 = 更大的按钮)
+// 面板区域: x=[50%..100%], y=[0..100%]
+// 列宽 = 面板宽 / 4, 行高 = 面板高 / 4
 static const TouchButton g_buttonLayout[] = {
-    // Row 0: 技能 1-5
-    { VK::KEY_1, 0, 0 }, { VK::KEY_2, 1, 0 }, { VK::KEY_3, 2, 0 }, { VK::KEY_4, 3, 0 }, { VK::KEY_5, 4, 0 },
-    // Row 1: 技能 6-0
-    { VK::KEY_6, 0, 1 }, { VK::KEY_7, 1, 1 }, { VK::KEY_8, 2, 1 }, { VK::KEY_9, 3, 1 }, { VK::KEY_0, 4, 1 },
-    // Row 2: UI 快捷键
-    { VK::TAB,  0, 2 }, { VK::I,    1, 2 }, { VK::C,    2, 2 }, { VK::M,    3, 2 }, { VK::Q,    4, 2 },
-    // Row 3: 操作键
-    { VK::CONTROL, 0, 3 }, { VK::SPACE, 1, 3 }, { VK::F,   2, 3 }, { VK::P,    3, 3 }, { VK::G,    4, 3 },
+    // Row 0: 技能快捷键
+    { VK::KEY_1, 0, 0 }, { VK::KEY_2, 1, 0 }, { VK::KEY_3, 2, 0 }, { VK::KEY_4, 3, 0 },
+    // Row 1: 技能 + 药水
+    { VK::KEY_5, 0, 1 }, { VK::KEY_6, 1, 1 }, { VK::KEY_7, 2, 1 }, { VK::KEY_8, 3, 1 },
+    // Row 2: UI (I=背包, C=角色, M=地图, Q=指令)
+    { VK::I, 0, 2 }, { VK::C, 1, 2 }, { VK::M, 2, 2 }, { VK::Q, 3, 2 },
+    // Row 3: 操作 (Ctrl=攻击, Space=跳跃/拾取, Tab=小地图, T=组队)
+    { VK::CONTROL, 0, 3 }, { VK::SPACE, 1, 3 }, { VK::TAB, 2, 3 }, { VK::T, 3, 3 },
 };
 
 static constexpr int BUTTON_COUNT = sizeof(g_buttonLayout) / sizeof(g_buttonLayout[0]);
@@ -186,14 +186,14 @@ static int hitTestButton(float x, float y) {
 
     if (x < panelX) return -1; // 不在按钮面板区域
 
-    float colW = panelWidth / 5.0f;
+    float colW = panelWidth / 4.0f;  // 4 columns for bigger buttons
     float rowH = panelHeight / 4.0f;
 
     float relX = x - panelX;
     int   col  = static_cast<int>(relX / colW);
     int   row  = static_cast<int>(y / rowH);
 
-    if (col < 0 || col >= 5 || row < 0 || row >= 4) return -1;
+    if (col < 0 || col >= 4 || row < 0 || row >= 4) return -1;
 
     // 线性查找匹配的按钮
     for (int i = 0; i < BUTTON_COUNT; ++i) {
