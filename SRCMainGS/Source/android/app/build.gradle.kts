@@ -39,12 +39,14 @@ android {
                     "-DANDROID_STL=c++_shared",
                     "-DCMAKE_BUILD_TYPE=Release"
                 )
-                abiFilters += listOf("arm64-v8a", "armeabi-v7a", "x86", "x86_64")
+                // Task 3: APK瘦身 — 发布只保留 arm64-v8a (覆盖 99% 设备)
+                // 模拟器需要 x86, 开发调试时取消注释即可
+                abiFilters += listOf("arm64-v8a")
             }
         }
 
         ndk {
-            abiFilters += listOf("arm64-v8a", "armeabi-v7a", "x86", "x86_64")
+            abiFilters += listOf("arm64-v8a")
         }
     }
 

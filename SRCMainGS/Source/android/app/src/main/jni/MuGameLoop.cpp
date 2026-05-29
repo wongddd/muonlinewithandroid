@@ -323,6 +323,26 @@ static void renderLoop() {
             ImGui_ImplGLES3_NewFrame();
             ImGui::NewFrame();
 
+            // Task 2: 数据提取进度条 (first launch or when extracting)
+            {
+                float prog = mu_asset_extractor_get_progress();
+                if (prog >= 0.0f) {
+                    float scrW = (float)MuGLContext::g_width;
+                    float scrH = (float)MuGLContext::g_height;
+                    ImGui::SetNextWindowPos(ImVec2((scrW - 600) * 0.5f, scrH * 0.45f), ImGuiCond_Once);
+                    ImGui::SetNextWindowSize(ImVec2(600, 120), ImGuiCond_Once);
+                    ImGui::Begin("Extracting", nullptr,
+                                 ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoResize |
+                                 ImGuiWindowFlags_NoTitleBar);
+                    ImGui::TextColored(ImVec4(1,1,0.6f,1),
+                                       "\xe6\xad\xa3\xe5\x9c\xa8\xe6\x8f\x90\xe5\x8f\x96\xe6\xb8\xb8\xe6\x88\x8f\xe6\x95\xb0\xe6\x8d\xae...");
+                    // "正在提取游戏数据..."
+                    ImGui::ProgressBar(prog, ImVec2(560, 30), "");
+                    ImGui::Text("%.0f%%", prog * 100.0f);
+                    ImGui::End();
+                }
+            }
+
             // SENTINEL_NEW_CODE_ACTIVE
             // Login UI — PC-matching three-phase flow:
             //   Phase 1 (LOG_IN_SCENE): Server selection  (CServerSelWin equivalent)

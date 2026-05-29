@@ -159,6 +159,17 @@ static bool extractAsset(const char* assetPath, const char* diskPath) {
 }
 
 // ============================================================================
+// Progress tracking for extraction
+// ============================================================================
+
+static volatile float g_extractProgress = -1.0f;  // -1 = not extracting
+static int g_extractTotalDirs = 0;
+
+float mu_asset_extractor_get_progress() {
+    return g_extractProgress;
+}
+
+// ============================================================================
 // Bulk extraction — extract all game data from APK to disk on first launch
 // ============================================================================
 
@@ -166,6 +177,13 @@ void mu_asset_extractor_extract_all() {
     if (!g_assetMgr || g_basePath.empty()) {
         LOGE("extract_all: not initialized");
         return;
+    }
+
+    // Count total directories for progress
+    if (g_extractTotalDirs == 0) {
+        int count = 0;
+        for (int i = 0; g_dataDirs[i] != nullptr; i++) count++;
+        g_extractTotalDirs = count + 1; // +1 for root Data/
     }
 
     // Sentinel: skip if already extracted
@@ -178,30 +196,40 @@ void mu_asset_extractor_extract_all() {
     }
 
     LOGI("Starting bulk extraction of all game data...");
+    g_extractProgress = 0.0f;
 
     int totalFiles = 0;
     int64_t totalBytes = 0;
+    int dirIndex = 0;
 
     // Extract root-level files in Data/
-    AAssetDir* rootDir = AAssetManager_openDir(g_assetMgr, "Data");
-    if (rootDir) {
-        const char* fname;
-        while ((fname = AAssetDir_getNextFileName(rootDir)) != nullptr) {
-            std::string assetPath = std::string("Data/") + fname;
-            std::string diskPath = g_basePath + assetPath;
-            if (extractAsset(assetPath.c_str(), diskPath.c_str())) {
-                totalFiles++;
-                struct stat st;
-                if (stat(diskPath.c_str(), &st) == 0) totalBytes += st.st_size;
+    {
+        AAssetDir* rootDir = AAssetManager_openDir(g_assetMgr, "Data");
+        if (rootDir) {
+            const char* fname;
+            while ((fname = AAssetDir_getNextFileName(rootDir)) != nullptr) {
+                std::string assetPath = std::string("Data/") + fname;
+                std::string diskPath = g_basePath + assetPath;
+                if (extractAsset(assetPath.c_str(), diskPath.c_str())) {
+                    totalFiles++;
+                    struct stat st;
+                    if (stat(diskPath.c_str(), &st) == 0) totalBytes += st.st_size;
+                }
             }
+            AAssetDir_close(rootDir);
         }
-        AAssetDir_close(rootDir);
+        dirIndex++;
+        g_extractProgress = (float)dirIndex / (float)g_extractTotalDirs;
     }
 
     // Extract files from each known subdirectory
     for (int i = 0; g_dataDirs[i] != nullptr; i++) {
         AAssetDir* dir = AAssetManager_openDir(g_assetMgr, g_dataDirs[i]);
-        if (!dir) continue;
+        if (!dir) {
+            dirIndex++;
+            g_extractProgress = (float)dirIndex / (float)g_extractTotalDirs;
+            continue;
+        }
 
         const char* fname;
         while ((fname = AAssetDir_getNextFileName(dir)) != nullptr) {
@@ -214,6 +242,9 @@ void mu_asset_extractor_extract_all() {
             }
         }
         AAssetDir_close(dir);
+
+        dirIndex++;
+        g_extractProgress = (float)dirIndex / (float)g_extractTotalDirs;
     }
 
     // Write sentinel
@@ -223,6 +254,7 @@ void mu_asset_extractor_extract_all() {
         fclose(sfp);
     }
 
+    g_extractProgress = -1.0f;
     LOGI("Bulk extraction complete: %d files, %lld bytes (%.1f MB)",
          totalFiles, (long long)totalBytes, totalBytes / (1024.0 * 1024.0));
 }
