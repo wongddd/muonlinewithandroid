@@ -51,9 +51,7 @@ extern void MuGameInit_FullInit();
 #include <android/log.h>
 #include <signal.h>
 #include <unistd.h>
-#include <unwind.h>
-#include <dlfcn.h>
-#include <cxxabi.h>
+#include <fcntl.h>
 #include <chrono>
 #include <thread>
 #include <cmath>
@@ -65,34 +63,23 @@ extern void MuGameInit_FullInit();
 #define LOGI(...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__)
 #define LOGE(...) __android_log_print(ANDROID_LOG_ERROR, LOG_TAG, __VA_ARGS__)
 
-// ======== P3-8: 崩溃信号处理器 ========
-static void crash_handler(int sig, siginfo_t* info, void* ctx) {
-    // Save crash info to file
-    FILE* fp = (fopen)("/data/user/0/com.mu.client/files/crash_log.txt", "a");
-    if (fp) {
-        fprintf(fp, "=== CRASH === signal=%d addr=%p pid=%d\n",
-                sig, info->si_addr, getpid());
-        // Demangle backtrace
-        _Unwind_Backtrace([](struct _Unwind_Context* ctx, void* arg) -> _Unwind_Reason_Code {
-            FILE* f = (FILE*)arg;
-            uintptr_t pc = _Unwind_GetIP(ctx);
-            Dl_info dli;
-            if (dladdr((void*)pc, &dli) && dli.dli_sname) {
-                int status;
-                char* demangled = abi::__cxa_demangle(dli.dli_sname, nullptr, nullptr, &status);
-                fprintf(f, "  %s (%s+%p)\n",
-                        demangled ? demangled : dli.dli_sname,
-                        dli.dli_fname ? dli.dli_fname : "?",
-                        (void*)(pc - (uintptr_t)dli.dli_fbase));
-                free(demangled);
-            } else {
-                fprintf(f, "  0x%p\n", (void*)pc);
-            }
-            return _URC_NO_REASON;
-        }, fp);
-        fclose(fp);
+// ======== P3-8: 崩溃信号处理器 (async-signal-safe only) ========
+#include <sys/syscall.h>
+static void crash_handler(int sig, siginfo_t* info, void* /*ctx*/) {
+    // Write crash info via write() which is async-signal-safe
+    char buf[128];
+    int n = snprintf(buf, sizeof(buf), "!!! CRASH sig=%d addr=%p pid=%d\n",
+                     sig, info->si_addr, getpid());
+    write(STDERR_FILENO, buf, n > 0 ? (n < 128 ? n : 128) : 0);
+    // Try to log to crash file (will fail silently if unwritable)
+    int fd = open("/data/user/0/com.mu.client/files/crash_log.txt",
+                  O_WRONLY | O_CREAT | O_APPEND, 0644);
+    if (fd >= 0) {
+        write(fd, buf, n > 0 ? (n < 128 ? n : 128) : 0);
+        close(fd);
     }
-    // Let default handler kill the process (produces tombstone)
+    __android_log_print(ANDROID_LOG_FATAL, "MuCrash", "SIGNAL %d at %p", sig, info->si_addr);
+    // Restore default handler and re-raise to produce tombstone
     signal(sig, SIG_DFL);
     raise(sig);
 }
@@ -101,12 +88,12 @@ static void install_crash_handler() {
     struct sigaction sa;
     sa.sa_sigaction = crash_handler;
     sigemptyset(&sa.sa_mask);
-    sa.sa_flags = SA_SIGINFO;
+    sa.sa_flags = SA_SIGINFO | SA_NODEFER;
     sigaction(SIGSEGV, &sa, nullptr);
     sigaction(SIGABRT, &sa, nullptr);
     sigaction(SIGFPE,  &sa, nullptr);
     sigaction(SIGILL,  &sa, nullptr);
-    LOGI("Crash handler installed (SIGSEGV/SIGABRT/SIGFPE/SIGILL)");
+    LOGI("Crash handler installed (async-signal-safe)");
 }
 
 // External globals (defined in ZzzOpenglUtil.h / ZzzOpenglUtil.cpp)

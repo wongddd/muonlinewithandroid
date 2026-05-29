@@ -103,8 +103,4 @@ tasks.register("copyApkToShare") {
     }
 }
 
-tasks.whenTaskAdded {
-    if (name == "assembleDebug") {
-        finalizedBy("copyApkToShare")
-    }
-}
+
