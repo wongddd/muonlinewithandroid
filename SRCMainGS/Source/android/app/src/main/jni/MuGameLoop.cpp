@@ -380,7 +380,7 @@ static void renderLoop() {
                 // =====================================================================
                 if (state == ProtocolState::DISCONNECTED ||
                     state == ProtocolState::RECEIVE_JOIN_SERVER_FAIL) {
-                    int panelW = 1280;
+                    int panelW = (int)(scrW * 0.56f);
                     ImGui::SetNextWindowPos(ImVec2((scrW - panelW) * 0.5f,
                                                    (scrH - 260) * 0.45f), ImGuiCond_Once);
                     ImGui::SetNextWindowSize(ImVec2((float)panelW, 0.0f), ImGuiCond_Once);
@@ -420,7 +420,7 @@ static void renderLoop() {
                 // =====================================================================
                 else if (state == ProtocolState::RECEIVE_JOIN_SERVER_WAITING) {
                     const auto& groups = ProtocolDispatch::getServerGroups();
-                    int panelW = 1800;
+                    int panelW = (int)(scrW * 0.78f);
 
                     float listH = 80.0f;
                     for (auto& g : groups)
@@ -518,7 +518,7 @@ static void renderLoop() {
                 //   When F1/00 arrives, show login form (PC LoginWin equivalent)
                 // =====================================================================
                 else if (state == ProtocolState::GS_JOIN_REQUESTED) {
-                    int panelW = 1360;
+                    int panelW = (int)(scrW * 0.60f);
                     ImGui::SetNextWindowPos(ImVec2((scrW - panelW) * 0.5f,
                                                    (scrH - 280) * 0.45f), ImGuiCond_Once);
                     ImGui::SetNextWindowSize(ImVec2((float)panelW, 0.0f), ImGuiCond_Once);
@@ -600,8 +600,8 @@ static void renderLoop() {
                          state == ProtocolState::RECEIVE_LOG_IN_SUCCESS ||
                          state == ProtocolState::REQUEST_CHARACTERS_LIST ||
                          state == ProtocolState::RECEIVE_CHARACTERS_LIST) {
-                    ImGui::SetNextWindowPos(ImVec2((scrW - 1200) * 0.5f, scrH * 0.4f), ImGuiCond_Once);
-                    ImGui::SetNextWindowSize(ImVec2(1200, 360), ImGuiCond_Once);
+                    ImGui::SetNextWindowPos(ImVec2((scrW - scrW*0.52f) * 0.5f, scrH * 0.4f), ImGuiCond_Once);
+                    ImGui::SetNextWindowSize(ImVec2(scrW*0.52f, 360), ImGuiCond_Once);
                     ImGui::Begin("Status", nullptr,
                                  ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoResize |
                                  ImGuiWindowFlags_NoTitleBar);
@@ -648,8 +648,8 @@ static void renderLoop() {
                 }
 
                 else if (state == ProtocolState::RECEIVE_JOIN_SERVER_SUCCESS) {
-                    ImGui::SetNextWindowPos(ImVec2((scrW - 1200) * 0.5f, scrH * 0.4f), ImGuiCond_Once);
-                    ImGui::SetNextWindowSize(ImVec2(1200, 240), ImGuiCond_Once);
+                    ImGui::SetNextWindowPos(ImVec2((scrW - scrW*0.52f) * 0.5f, scrH * 0.4f), ImGuiCond_Once);
+                    ImGui::SetNextWindowSize(ImVec2(scrW*0.52f, 240), ImGuiCond_Once);
                     ImGui::Begin("Status", nullptr,
                                  ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoResize |
                                  ImGuiWindowFlags_NoTitleBar);
@@ -737,7 +737,7 @@ static void renderLoop() {
                 const auto& chars = ProtocolDispatch::getCharacterList();
                 float scrW = (float)MuGLContext::g_width;
                 float scrH = (float)MuGLContext::g_height;
-                int panelW = 1140;
+                int panelW = (int)(scrW * 0.50f);
 
                 ImGui::PushStyleVar(ImGuiStyleVar_WindowPadding, ImVec2(48, 42));
                 ImGui::SetNextWindowPos(ImVec2((scrW - panelW) * 0.5f, scrH * 0.35f), ImGuiCond_Once);
@@ -884,7 +884,7 @@ static void renderLoop() {
                 float scrW = (float)MuGLContext::g_width;
                 float scrH = (float)MuGLContext::g_height;
                 ImGui::SetNextWindowPos(ImVec2((scrW - 600) * 0.5f, scrH * 0.4f), ImGuiCond_Once);
-                ImGui::SetNextWindowSize(ImVec2(600, 160), ImGuiCond_Once);
+                ImGui::SetNextWindowSize(ImVec2(scrW*0.26f, 160), ImGuiCond_Once);
                 ImGui::Begin("Loading", nullptr,
                              ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoResize |
                              ImGuiWindowFlags_NoTitleBar);
