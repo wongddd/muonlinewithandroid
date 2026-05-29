@@ -3,6 +3,7 @@
 
 #include <android/log.h>
 #include <cstring>
+#include <cstdio>
 #include <string>
 #include <algorithm>
 #include <ctime>
@@ -440,6 +441,15 @@ void processPacket(const Packet& packet) {
     memcpy(normalized.data, pktData, pktDataSize);
     normalized.size = pktDataSize;
     normalized.encrypted = packet.encrypted;
+
+    // Dump raw F4/06 server list packets for debugging
+    if (headCode == 0xF4 && normalized.size >= 5 && normalized.data[3] == 0x06) {
+        char hexBuf[384] = {0};
+        int dumpLen = (normalized.size < 128) ? (int)normalized.size : 128;
+        for (int di = 0; di < dumpLen; di++)
+            sprintf(hexBuf + di*3, "%02X ", normalized.data[di]);
+        LOGI("Raw F4/06 (norm) [0..%d] sz=%zu: %s", dumpLen-1, normalized.size, hexBuf);
+    }
 
     switch (headCode) {
         case 0xF1: handleProtocol0xF1(normalized); break;
@@ -931,18 +941,31 @@ static void handleProtocol0xF4(const Packet& packet) {
 
             g_serverGroups.clear();
 
-            // Find total server count: offset depends on C1 vs C2
-            // For C1: total starts at offset 4, for C2: at offset 5
-            // We use normalized packet (pktData after normalizeC2 → always C1-like offset)
-            int totalH_offset = 4;  // byte after subcode in 0xC1 format
-            if (packet.data[0] == 0xC2) totalH_offset = 5;
+            // Packet is already normalized to C1-like format:
+            //   [0]=Code [1]=Size [2]=Head(F4) [3]=Sub(06) [4]=CntH [5]=CntL
+            // PC (C1): PHEADER_DEFAULT_SUBCODE → TotalH=Data[4], TotalL=Data[5]
+            // PC (C2): PHEADER_DEFAULT_SUBCODE_WORD → TotalH=Data->Value, TotalL=Value2
+            //          where Value=data[5], Value2=data[6] in ORIGINAL C2,
+            //          but after normalization they're at data[4], data[5]
+            const int totalH_offset = 4;  // C1-like normalized format
 
             if ((int)packet.size < totalH_offset + 2) break;
             uint8_t totalH = packet.data[totalH_offset];
             uint8_t totalL = packet.data[totalH_offset + 1];
             int totalServer = (static_cast<int>(totalH) << 8) | totalL;
 
-            LOGI("Server list: total=%d servers (C1-mode offset=%d)", totalServer, totalH_offset);
+            LOGI("Server list: total=%d servers (C1-mode offset=%d), packet size=%zu",
+                 totalServer, totalH_offset, packet.size);
+
+            // Dump raw header for debugging
+            {
+                char hexBuf[256] = {0};
+                int dumpLen = (packet.size < 64) ? (int)packet.size : 64;
+                for (int di = 0; di < dumpLen; di++) {
+                    sprintf(hexBuf + di*3, "%02X ", packet.data[di]);
+                }
+                LOGI("Raw[0..%d]: %s", dumpLen-1, hexBuf);
+            }
 
             if (totalServer <= 0) break;
 

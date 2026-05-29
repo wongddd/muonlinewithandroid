@@ -15,3 +15,5 @@
 02:50:00 [Invasion Manager] Index(7) Boss Position (Map: 2 X: 158 Y: 19)
 03:10:00 [CustomQuiz] Start
 03:13:00 [CustomQuiz] Finish
+03:30:15 [Obj][12500] AddClient (127.0.0.1)
+03:30:15 [Obj][12500] DelClient (127.0.0.1)
