@@ -229,6 +229,11 @@ adb shell am start -n com.mu.client/.MuActivity
 adb logcat -s MuGameLoop:* MuBGM:* MuNetwork:* MuAssetExtractor:*
 ```
 
+### 工作流程规则
+
+- **每次任务完成后，必须给出下一步工作计划**（列出 1-3 个推荐方向，标记优先级）。
+- **按用户要求顺序执行**：用户可能选择全部或部分推荐项。
+
 ### 已知限制
 
 - **无 GameServer**：模拟器内 10.0.2.2:55921 无服务端运行，登录会连接失败（网络包加解密链路已验证通过）
