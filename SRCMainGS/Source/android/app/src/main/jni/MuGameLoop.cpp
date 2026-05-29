@@ -893,8 +893,8 @@ static void renderLoop() {
                 ImGui::End();
             }
 
-            // NewUI Window Debug Panel — visible when in LOG_IN_SCENE or MAIN_SCENE
-            if (SceneFlag == LOG_IN_SCENE || SceneFlag == MAIN_SCENE) {
+            // NewUI Window Debug Panel — only in MAIN_SCENE (hide during login for performance)
+            if (SceneFlag == MAIN_SCENE) {
                 ImGui::SetNextWindowPos(ImVec2(MuGLContext::g_width - 370.f, 90.f), ImGuiCond_FirstUseEver);
                 ImGui::SetNextWindowSize(ImVec2(360, 520), ImGuiCond_FirstUseEver);
                 ImGui::Begin("NewUI Windows", nullptr, ImGuiWindowFlags_NoCollapse);
@@ -1006,16 +1006,18 @@ static void renderLoop() {
                 ImGui::End();
             }
 
-            // Debug overlay (small FPS monitor in top-left)
-            ImGui::SetNextWindowPos(ImVec2(10, 10), ImGuiCond_FirstUseEver);
-            ImGui::SetNextWindowSize(ImVec2(180, 80), ImGuiCond_FirstUseEver);
-            ImGui::Begin("Debug", nullptr,
-                         ImGuiWindowFlags_NoTitleBar | ImGuiWindowFlags_NoResize |
-                         ImGuiWindowFlags_NoCollapse);
-            ImGui::Text("FPS: %d (%.1f ms)", g_currentFPS, g_deltaTime * 1000.0f);
-            ImGui::Text("Scene: %d", static_cast<int>(SceneFlag));
-            ImGui::Text("Net: %s", MuNetwork::isConnected() ? "OK" : "--");
-            ImGui::End();
+            // Performance: only show debug overlay in MAIN_SCENE (not during login)
+            if (SceneFlag == MAIN_SCENE) {
+                ImGui::SetNextWindowPos(ImVec2(10, 10), ImGuiCond_FirstUseEver);
+                ImGui::SetNextWindowSize(ImVec2(180, 80), ImGuiCond_FirstUseEver);
+                ImGui::Begin("Debug", nullptr,
+                             ImGuiWindowFlags_NoTitleBar | ImGuiWindowFlags_NoResize |
+                             ImGuiWindowFlags_NoCollapse);
+                ImGui::Text("FPS: %d (%.1f ms)", g_currentFPS, g_deltaTime * 1000.0f);
+                ImGui::Text("Scene: %d", static_cast<int>(SceneFlag));
+                ImGui::Text("Net: %s", MuNetwork::isConnected() ? "OK" : "--");
+                ImGui::End();
+            }
 
             // Show/hide soft keyboard based on ImGui text input focus
             {
