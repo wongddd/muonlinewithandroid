@@ -117,6 +117,15 @@ const char* consumeIMEText();
 void pressVirtualKey(int vkCode);    // 模拟按键按下
 void releaseVirtualKey(int vkCode);  // 模拟按键释放
 
+// ============ 触摸覆盖层 (供 UI 渲染) ============
+
+bool  isJoystickActive();
+float getJoystickAngle();
+float getJoystickDistance();
+float getJoystickOriginX();
+float getJoystickOriginY();
+int   getActiveVirtualKeys(int* outKeys, int maxKeys);
+
 // ============ 调试 ============
 
 int  getScreenWidth();

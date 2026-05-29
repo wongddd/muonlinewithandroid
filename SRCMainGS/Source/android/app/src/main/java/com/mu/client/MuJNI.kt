@@ -121,6 +121,97 @@ object MuJNI {
         }
     }
 
+    // ======== 资源下载 (Task 6) ========
+    @Volatile
+    private var downloadProgress: Float = -1f  // -1 = not started, 0-100 = progress
+    private var downloadStatus: String = ""
+    private var isDownloading: Boolean = false
+    private var downloadThread: Thread? = null
+
+    @JvmStatic
+    fun nativeDownloadData(url: String) {
+        if (isDownloading) return
+        isDownloading = true
+        downloadProgress = 0f
+        downloadStatus = "Connecting..."
+
+        downloadThread = Thread {
+            try {
+                val dataDir = java.io.File("/data/user/0/com.mu.client/files/")
+                val zipFile = java.io.File(dataDir, "gamedata.zip")
+                val extractDir = java.io.File(dataDir, "Data")
+
+                val urlObj = java.net.URL(url)
+                val conn = urlObj.openConnection() as java.net.HttpURLConnection
+                conn.connectTimeout = 15000
+                conn.readTimeout = 30000
+                conn.connect()
+
+                val totalSize = conn.contentLengthLong
+                val input = conn.inputStream
+                val output = java.io.FileOutputStream(zipFile)
+                val buffer = ByteArray(8192)
+                var bytesRead: Int
+                var totalRead: Long = 0
+
+                while (input.read(buffer).also { bytesRead = it } != -1) {
+                    output.write(buffer, 0, bytesRead)
+                    totalRead += bytesRead
+                    if (totalSize > 0) {
+                        downloadProgress = (totalRead * 100f / totalSize)
+                    }
+                    downloadStatus = "Downloading ${downloadProgress.toInt()}%"
+                }
+                output.close()
+                input.close()
+                conn.disconnect()
+                downloadProgress = 100f
+                downloadStatus = "Extracting..."
+
+                // Extract ZIP
+                val zip = java.util.zip.ZipFile(zipFile)
+                val entries = zip.entries()
+                var extracted = 0
+                val totalEntries = zip.size()
+                while (entries.hasMoreElements()) {
+                    val entry = entries.nextElement()
+                    val target = java.io.File(extractDir, entry.name)
+                    if (entry.isDirectory) {
+                        target.mkdirs()
+                    } else {
+                        target.parentFile?.mkdirs()
+                        val zis = zip.getInputStream(entry)
+                        val fos = java.io.FileOutputStream(target)
+                        zis.copyTo(fos)
+                        fos.close()
+                        zis.close()
+                    }
+                    extracted++
+                    downloadProgress = 100f + (extracted * 100f / totalEntries)  // 100-200% = extracting
+                }
+                zip.close()
+                zipFile.delete()
+                downloadProgress = 200f
+                downloadStatus = "Complete!"
+                Log.d("MuDownload", "Download + extract complete: $totalEntries files")
+            } catch (e: Exception) {
+                downloadStatus = "Failed: ${e.message}"
+                Log.e("MuDownload", "Download failed: ${e.message}")
+            } finally {
+                isDownloading = false
+            }
+        }.apply { start() }
+    }
+
+    @JvmStatic
+    fun nativeGetDownloadProgress(): Float = downloadProgress
+
+    @JvmStatic
+    fun nativeIsDownloading(): Boolean = isDownloading
+
+    @JvmStatic
+    fun nativeGetDownloadStatus(): String = downloadStatus
+
     private fun bgmStopInternal() {
         bgmPlayer?.apply {
             if (isPlaying) stop()
@@ -152,6 +243,9 @@ object MuJNI {
     // App lifecycle
     external fun nativePause()
     external fun nativeResume()
+
+    // Resource download (pure Kotlin, no native impl needed)
+    // fun downloadData(url: String) — defined below
 
     // Network
     external fun nativeConnectAndLogin(ip: String, port: Int, account: String, password: String)

@@ -274,6 +274,27 @@ static void updatePinchZoom() {
 }
 
 // ============================================================================
+// 触摸状态查询 (供 ImGui 覆盖层显示)
+// ============================================================================
+
+bool isJoystickActive() { return g_joystickActive; }
+float getJoystickAngle() { return g_joystickAngle; }
+float getJoystickDistance() { return g_joystickDistance; }
+float getJoystickOriginX() { return g_joystickOriginX; }
+float getJoystickOriginY() { return g_joystickOriginY; }
+
+// 获取当前按下的虚拟键列表 (用于 UI 显示)
+int getActiveVirtualKeys(int* outKeys, int maxKeys) {
+    int count = 0;
+    for (int i = 0; i < MAX_TOUCHES && count < maxKeys; ++i) {
+        if (g_touches[i].active && g_touches[i].role == ROLE_BUTTON) {
+            outKeys[count++] = g_touches[i].vkCode;
+        }
+    }
+    return count;
+}
+
+// ============================================================================
 // 公开接口实现
 // ============================================================================
 
