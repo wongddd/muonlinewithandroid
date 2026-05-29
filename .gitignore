@@ -34,3 +34,23 @@ Client_2/
 # OS
 Thumbs.db
 .DS_Store
+# Large build artifacts
+SRCMainGS/Source/Encoder/ipch/
+SRCMainGS/Source/GameServer/ipch/
+SRCMainGS/Source/android/.gradle/
+SRCMainGS/Source/Main5.2/Main.sdf
+SRCMainGS/Source/Main5.2/source/Release/
+SRCMainGS/Source/Main5.2/Release/
+SRCMainGS/Source/Main5.2/Debug/
+SRCMainGS/Source/Encoder/Release/
+SRCMainGS/Source/ConnectServer/Debug/
+SRCMainGS/Source/JoinServer/Debug/
+SRCMainGS/Source/DataServer/Debug/
+*.ipch
+*.sdf
+*.pch
+*.obj
+*.tlog
+*.log
+*.lastbuildstate
+*.unsuccessfulbuild

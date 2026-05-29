@@ -22,3 +22,4 @@
 21:08:35 [ServerVersion] ServerVersion loaded successfully
 21:08:46 [ServerList] JoinServer online
 21:08:49 [ServerList] GameServer online (GameServer) (20)
+23:58:12 [SocketManager] Protocol header error (Index: 0, Header: 74)
