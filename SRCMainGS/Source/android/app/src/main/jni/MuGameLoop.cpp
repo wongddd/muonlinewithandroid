@@ -47,6 +47,11 @@ extern void MuGameInit_FullInit();
 
 #include <EGL/egl.h>
 #include <android/log.h>
+#include <signal.h>
+#include <unistd.h>
+#include <unwind.h>
+#include <dlfcn.h>
+#include <cxxabi.h>
 #include <chrono>
 #include <thread>
 #include <cmath>
@@ -57,6 +62,50 @@ extern void MuGameInit_FullInit();
 #define LOG_TAG "MuGameLoop"
 #define LOGI(...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__)
 #define LOGE(...) __android_log_print(ANDROID_LOG_ERROR, LOG_TAG, __VA_ARGS__)
+
+// ======== P3-8: 崩溃信号处理器 ========
+static void crash_handler(int sig, siginfo_t* info, void* ctx) {
+    // Save crash info to file
+    FILE* fp = (fopen)("/data/user/0/com.mu.client/files/crash_log.txt", "a");
+    if (fp) {
+        fprintf(fp, "=== CRASH === signal=%d addr=%p pid=%d\n",
+                sig, info->si_addr, getpid());
+        // Demangle backtrace
+        _Unwind_Backtrace([](struct _Unwind_Context* ctx, void* arg) -> _Unwind_Reason_Code {
+            FILE* f = (FILE*)arg;
+            uintptr_t pc = _Unwind_GetIP(ctx);
+            Dl_info dli;
+            if (dladdr((void*)pc, &dli) && dli.dli_sname) {
+                int status;
+                char* demangled = abi::__cxa_demangle(dli.dli_sname, nullptr, nullptr, &status);
+                fprintf(f, "  %s (%s+%p)\n",
+                        demangled ? demangled : dli.dli_sname,
+                        dli.dli_fname ? dli.dli_fname : "?",
+                        (void*)(pc - (uintptr_t)dli.dli_fbase));
+                free(demangled);
+            } else {
+                fprintf(f, "  0x%p\n", (void*)pc);
+            }
+            return _URC_NO_REASON;
+        }, fp);
+        fclose(fp);
+    }
+    // Let default handler kill the process (produces tombstone)
+    signal(sig, SIG_DFL);
+    raise(sig);
+}
+
+static void install_crash_handler() {
+    struct sigaction sa;
+    sa.sa_sigaction = crash_handler;
+    sigemptyset(&sa.sa_mask);
+    sa.sa_flags = SA_SIGINFO;
+    sigaction(SIGSEGV, &sa, nullptr);
+    sigaction(SIGABRT, &sa, nullptr);
+    sigaction(SIGFPE,  &sa, nullptr);
+    sigaction(SIGILL,  &sa, nullptr);
+    LOGI("Crash handler installed (SIGSEGV/SIGABRT/SIGFPE/SIGILL)");
+}
 
 // External globals (defined in ZzzOpenglUtil.h / ZzzOpenglUtil.cpp)
 extern unsigned int WindowWidth;
@@ -1044,6 +1093,13 @@ static void renderLoop() {
                 ImGui::Text("FPS: %d (%.1f ms)", g_currentFPS, g_deltaTime * 1000.0f);
                 ImGui::Text("Scene: %d", static_cast<int>(SceneFlag));
                 ImGui::Text("Net: %s", MuNetwork::isConnected() ? "OK" : "--");
+                ImGui::Separator();
+                if (ImGui::Button("\xe6\x88\xaa\xe5\x9b\xbe", ImVec2(80, 30))) { // 截图
+                    LOGI("Screenshot requested");
+                    // Call JNI: save current frame
+                    FILE* fp = (fopen)("/data/user/0/com.mu.client/files/screenshot.txt", "w");
+                    if (fp) { fprintf(fp, "1"); fclose(fp); }
+                }
                 ImGui::End();
             }
 
@@ -1141,6 +1197,7 @@ static void renderLoop() {
 // ============================================================================
 
 bool init(AAssetManager* assetManager, const char* internalPath) {
+    install_crash_handler();
     g_assetManager = assetManager;
     g_internalPath = internalPath ? internalPath : "/sdcard/";
     if (!g_internalPath.empty() && g_internalPath.back() != '/') {

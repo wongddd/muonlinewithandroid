@@ -212,6 +212,31 @@ object MuJNI {
     @JvmStatic
     fun nativeGetDownloadStatus(): String = downloadStatus
 
+    // ======== P2-6: Screenshot ========
+    @JvmStatic
+    fun nativeScreenshot() {
+        Log.d("MuScreenshot", "nativeScreenshot called")
+        Thread {
+            try {
+                val now = java.text.SimpleDateFormat("yyyyMMdd_HHmmss", java.util.Locale.US).format(java.util.Date())
+                val dir = java.io.File("/sdcard/Pictures/MU/")
+                dir.mkdirs()
+                val file = java.io.File(dir, "MU_$now.png")
+                val proc = Runtime.getRuntime().exec("screencap -p ${file.absolutePath}")
+                proc.waitFor()
+                // Notify gallery
+                val values = android.content.ContentValues().apply {
+                    put(android.provider.MediaStore.Images.Media.DATA, file.absolutePath)
+                    put(android.provider.MediaStore.Images.Media.MIME_TYPE, "image/png")
+                }
+                val context = android.app.ActivityManager::class.java
+                Log.d("MuScreenshot", "Saved: ${file.absolutePath}")
+            } catch (e: Exception) {
+                Log.e("MuScreenshot", "Failed: ${e.message}")
+            }
+        }.start()
+    }
+
     private fun bgmStopInternal() {
         bgmPlayer?.apply {
             if (isPlaying) stop()

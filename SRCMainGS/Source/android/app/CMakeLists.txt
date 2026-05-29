@@ -490,6 +490,7 @@ add_library(mu-client SHARED
     src/main/jni/ProtocolDispatch.cpp
     # Phase 12A: Global state + compatibility layer
     src/main/jni/MuGlobalState.cpp
+    src/main/jni/MuStringTable.cpp
     # Phase 13: Singleton initialization (uses original stdafx.h include chain)
     src/main/jni/MuGameInit.cpp
     # Phase 12C: CWsctlc stubs (original protocol send/receive bridge)
