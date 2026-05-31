@@ -826,6 +826,12 @@ static void handleProtocol0xF1(const Packet& packet) {
                 // Stay in GS_JOIN_REQUESTED — UI will show login form.
                 // User clicks Login → sendLogin() → transitions to REQUEST_LOG_IN.
                 LOGI("GameServer connection OK — waiting for user login input");
+
+                // Auto-login if pending join map
+                if (g_pendingJoinMap && !g_loginAccount.empty()) {
+                    LOGI("Auto-login for pending join: account='%s'", g_loginAccount.c_str());
+                    setState(ProtocolState::REQUEST_LOG_IN);
+                }
             } else {
                 g_lastError = "游戏服务器拒绝连接";
                 LOGE("Join server failed: result=%u", result);
