@@ -1,6 +1,7 @@
 #include "MuInput.h"
 
 #include <android/log.h>
+#include "imgui.h"
 #include <cstring>
 #include <cmath>
 #include <algorithm>
@@ -407,6 +408,15 @@ void onTouchDown(float x, float y, int pointerId) {
     tp.active    = true;
 
     // --- 分配角色 ---
+    // If ImGui wants mouse (button hovered), route as mouse event
+    if (ImGui::GetIO().WantCaptureMouse) {
+        tp.role = ROLE_MOUSE;
+        if (g_mousePointer < 0) g_mousePointer = pointerId;
+        g_mouseX = (int)x; g_mouseY = (int)y;
+        g_mouseLButtonDn = true; g_mouseLButtonHeld = true;
+        return;
+    }
+
     if (x < g_screenWidth * JOYSTICK_ZONE_FRAC && !g_joystickActive) {
         // 左侧 40% → 虚拟摇杆
         tp.role = ROLE_JOYSTICK;

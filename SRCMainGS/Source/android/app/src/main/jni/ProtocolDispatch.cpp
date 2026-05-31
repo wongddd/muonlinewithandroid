@@ -1076,44 +1076,30 @@ static void handleProtocol0xF3(const Packet& packet) {
             uint8_t count     = (packet.size >= 7) ? packet.data[6] : 0;
             LOGI("Character list: classCode=%d moveCnt=%d count=%d", classCode, moveCnt, count);
 
-            // Check if ExtWarehouse byte exists (some server versions send it)
-            // If ExtWarehouse is present, count is at offset 7
-            // Let's try both layouts
-            int charStart = 7;
-            // Each character entry structure (PC: PRECEIVE_CHARACTER_LIST):
-            //   slot(1) + name(10) + level(2) + ctlCode(1) + class(1) + equipment(13*4?) + ...
-            // Typical size per entry ≈ 32-48 bytes depending on server version
-            const int ENTRY_SIZE = 34; // approximate
+            // Auto-detect entry size from packet body
+            g_characterList.clear();
+            int hdrSize = 7;
+            int body = (int)packet.size - hdrSize;
+            int entrySize = body / count;
+            if (entrySize < 15) entrySize = 34;
 
-            for (int i = 0; i < count; i++) {
-                int pos = charStart + i * ENTRY_SIZE;
-                if (pos + 14 > (int)packet.size) break; // need at least slot+name+level
-
-                CharacterInfo ci;
-                ci.slot = packet.data[pos];
-                // Name: 10 bytes, null-terminated
-                memcpy(ci.name, packet.data + pos + 1, 10);
-                ci.name[10] = '\0';
-                // Level: 2 bytes LE
-                ci.level = packet.data[pos + 11] | (static_cast<int>(packet.data[pos + 12]) << 8);
-                // CtlCode
-                ci.ctlCode = packet.data[pos + 13];
-                // Class
-                ci.classCode = packet.data[pos + 14];
-                // Equipment follows at pos+15 (we don't fully parse here)
-
-                g_characterList.push_back(ci);
-                LOGI("  Character[%d]: slot=%d '%s' Lv.%d class=0x%02X",
-                     i, ci.slot, ci.name, ci.level, ci.classCode);
-            }
-
-            if (g_characterList.empty()) {
-                // Try fallback parsing: raw dump for debugging
-                char hexBuf[256] = {0};
-                for (size_t i = 0; i < packet.size && i < 48; i++) {
-                    sprintf(hexBuf + i*3, "%02X ", packet.data[i]);
+            LOGI("  Auto-detect: body=%d count=%d entrySize=%d", body, count, entrySize);
+            for (int ci = 0; ci < count; ci++) {
+                int pos = hdrSize + ci * entrySize;
+                if (pos + 14 > (int)packet.size) break;
+                CharacterInfo c;
+                c.slot = packet.data[pos];
+                memcpy(c.name, packet.data + pos + 1, 10); c.name[10] = '\0';
+                // Strip non-printable prefix byte from name
+                if (c.name[0] > 0 && c.name[0] < ' ' && c.name[1] >= ' ') {
+                    memmove(c.name, c.name + 1, 9); c.name[9] = '\0';
                 }
-                LOGI("Raw char list[0..47]: %s", hexBuf);
+                c.level    = packet.data[pos + 11] | (packet.data[pos + 12] << 8);
+                c.ctlCode  = packet.data[pos + 13];
+                c.classCode = packet.data[pos + 14];
+                g_characterList.push_back(c);
+                LOGI("  Char[%d]: slot=%d '%s' Lv.%d class=0x%02X",
+                     ci, c.slot, c.name, c.level, c.classCode);
             }
 
             setState(ProtocolState::RECEIVE_CHARACTERS_LIST);
