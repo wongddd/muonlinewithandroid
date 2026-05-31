@@ -25,3 +25,7 @@
 02:10:00 [CustomQuiz] Start
 02:13:00 [CustomQuiz] Finish
 02:36:01 [OnlineLoterry] No Winner
+02:50:00 [Invasion Manager] Index(7) Boss Position (Map: 0 X: 149 Y: 63)
+03:10:00 [CustomQuiz] Start
+03:13:00 [CustomQuiz] Finish
+03:36:01 [OnlineLoterry] No Winner

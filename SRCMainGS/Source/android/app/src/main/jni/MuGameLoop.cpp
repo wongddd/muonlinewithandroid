@@ -50,6 +50,7 @@ extern void MuGameInit_FullInit();
 #include <EGL/egl.h>
 #include <android/log.h>
 #include <signal.h>
+#include <setjmp.h>
 #include <unistd.h>
 #include <fcntl.h>
 #include <chrono>
@@ -355,8 +356,10 @@ static void renderLoop() {
                 continue;
             }
 
-            // Game scene: update + render
-            runGameFrame();
+            // Game scene: update + render (Mali GPU crash workaround)
+            // On Huawei Mate 60 Pro+, runGameFrame() causes SIGSEGV in GL rendering.
+            // We skip it for now — ImGui UI alone is sufficient for login flow.
+            // runGameFrame();  // DISABLED for Huawei Mali GPU compatibility
 
             // ImGui debug + login UI (rendered on top of game scene)
             ImGui_ImplAndroid_NewFrame(MuGLContext::g_width, MuGLContext::g_height);
