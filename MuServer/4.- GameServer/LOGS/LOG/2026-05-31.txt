@@ -20,3 +20,5 @@
 01:00:27 [Obj][12500] AddClient (197.159.75.59)
 01:00:56 [Obj][12500] DelClient (197.159.75.59)
 01:10:00 [CustomQuiz] Start
+01:13:00 [CustomQuiz] Finish
+01:36:01 [OnlineLoterry] No Winner
