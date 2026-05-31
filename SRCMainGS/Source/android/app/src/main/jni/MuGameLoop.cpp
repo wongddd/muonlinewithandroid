@@ -420,7 +420,7 @@ static void renderLoop() {
                 // =====================================================================
                 if (state == ProtocolState::DISCONNECTED ||
                     state == ProtocolState::RECEIVE_JOIN_SERVER_FAIL) {
-                    int panelW = (int)(scrW * 0.40f);
+                    int panelW = (int)(scrW * 0.50f);
                     ImGui::SetNextWindowPos(ImVec2((scrW - panelW) * 0.5f,
                                                    (scrH - 260) * 0.45f), ImGuiCond_Once);
                     ImGui::SetNextWindowSize(ImVec2((float)panelW, 0.0f), ImGuiCond_Once);
@@ -432,15 +432,25 @@ static void renderLoop() {
                     ImGui::Separator();
                     ImGui::Spacing();
 
-                    ImGui::Text("ConnectServer");
-                    ImGui::SameLine(560);
-                    ImGui::PushItemWidth(400);
+                    ImGui::Text("Server");
+                    ImGui::SameLine(panelW * 0.42f);
+                    ImGui::PushItemWidth(panelW * 0.32f);
                     ImGui::InputText("##csip", serverIp, sizeof(serverIp));
                     ImGui::SameLine();
-                    ImGui::PushItemWidth(200);
+                    ImGui::PushItemWidth(panelW * 0.14f);
                     ImGui::InputInt("##csport", &serverPort, 0, 0);
 
                     ImGui::Spacing();
+
+                    // Show current connection status
+                    ProtocolState ps = ProtocolDispatch::getState();
+                    if (ps != ProtocolState::DISCONNECTED && ps != ProtocolState::RECEIVE_JOIN_SERVER_FAIL) {
+                        ImGui::TextColored(ImVec4(0.3f,1,0.3f,1), "Status: %s", ProtocolDispatch::getStateName());
+                    } else if (ps == ProtocolState::RECEIVE_JOIN_SERVER_FAIL) {
+                        const char* err = ProtocolDispatch::getLastError();
+                        ImGui::TextColored(ImVec4(1,0.3f,0.3f,1), "Failed: %s", err && err[0] ? err : "connection error");
+                    }
+
                     if (ImGui::Button("Connect", ImVec2(panelW - 128, 144))) {
                         LOGI("Connecting to CS %s:%d", serverIp, serverPort);
                         ProtocolDispatch::connectToServer(serverIp, (uint16_t)serverPort);
@@ -487,7 +497,7 @@ static void renderLoop() {
                 // =====================================================================
                 else if (state == ProtocolState::RECEIVE_JOIN_SERVER_WAITING) {
                     const auto& groups = ProtocolDispatch::getServerGroups();
-                    int panelW = (int)(scrW * 0.55f);
+                    int panelW = (int)(scrW * 0.65f);
 
                     float listH = 80.0f;
                     for (auto& g : groups)
@@ -585,7 +595,7 @@ static void renderLoop() {
                 //   When F1/00 arrives, show login form (PC LoginWin equivalent)
                 // =====================================================================
                 else if (state == ProtocolState::GS_JOIN_REQUESTED) {
-                    int panelW = (int)(scrW * 0.45f);
+                    int panelW = (int)(scrW * 0.55f);
                     ImGui::SetNextWindowPos(ImVec2((scrW - panelW) * 0.5f,
                                                    (scrH - 280) * 0.45f), ImGuiCond_Once);
                     ImGui::SetNextWindowSize(ImVec2((float)panelW, 0.0f), ImGuiCond_Once);

@@ -8,3 +8,15 @@
 00:45:38 [ServerInfo] EventItemBag loaded successfully
 00:45:38 [ServerInfo] Hack loaded successfully
 00:45:38 [ServerInfo] Item loaded successfully
+00:45:38 [ServerInfo] Monster loaded successfully
+00:45:38 [ServerInfo] Move loaded successfully
+00:45:38 [ServerInfo] Quest loaded successfully
+00:45:38 [ServerInfo] Shop loaded successfully
+00:45:38 [ServerInfo] Skill loaded successfully
+00:45:38 [ServerInfo] Util loaded successfully
+00:45:38 [ReadBotInfo] BotSystem loaded successfully
+00:50:00 [Invasion Manager] Index(3) Boss Position (Map: 3 X: 195 Y: 74)
+01:00:00 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 179 Y: 120)
+01:00:27 [Obj][12500] AddClient (197.159.75.59)
+01:00:56 [Obj][12500] DelClient (197.159.75.59)
+01:10:00 [CustomQuiz] Start
