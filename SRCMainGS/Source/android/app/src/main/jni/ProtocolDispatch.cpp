@@ -377,7 +377,7 @@ void update(float deltaTime) {
         g_timeoutAccum = 0.0f;
     }
 
-    // ======== Task 5: 自动重连 ========
+    // ======== Task 5: 自动重连 (always go through CS) ========
     if (g_autoReconnect &&
         g_currentState == ProtocolState::DISCONNECTED &&
         !g_reconnectIP.empty()) {
@@ -387,13 +387,12 @@ void update(float deltaTime) {
                  g_reconnectIP.c_str(), g_reconnectPort, g_reconnectAccount.c_str());
             g_autoReconnect = false;
             g_reconnectDelay = 0.0f;
-            g_serverIP = g_reconnectIP;
-            g_serverPort = g_reconnectPort;
             if (!g_reconnectAccount.empty()) {
                 g_loginAccount = g_reconnectAccount;
                 g_loginPassword = g_reconnectPassword;
             }
-            ProtocolDispatch::connectToServer(g_serverIP.c_str(), g_serverPort);
+            // Always reconnect to ConnectServer (default 197.159.75.59:44404)
+            ProtocolDispatch::connectToServer(g_reconnectIP.c_str(), g_reconnectPort);
         }
     }
 }
