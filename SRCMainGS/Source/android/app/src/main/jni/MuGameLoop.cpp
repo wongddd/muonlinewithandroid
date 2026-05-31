@@ -850,27 +850,21 @@ static void renderLoop() {
                         snprintf(label, sizeof(label), "%s  Lv.%d  %s",
                                  c.name, c.level, className);
 
-                        if (c.ctlCode != 0) {
-                            ImGui::PushStyleColor(ImGuiCol_Text, ImVec4(0.6f,0.6f,0.6f,1));
-                            ImGui::Text("%s  [\xe5\xb0\x81\xe5\x8f\xb7]", label); // [封号]
-                            ImGui::PopStyleColor();
-                        } else {
-                            // Select character to enter game
-                            if (ImGui::Button(label, ImVec2(panelW - 360, 90))) {
-                                LOGI("Selected character: '%s'", c.name);
-                                ProtocolDispatch::selectCharacter((int)i);
-                            }
-                            // Delete button
-                            ImGui::SameLine();
-                            ImGui::PushStyleColor(ImGuiCol_Button, ImVec4(0.7f,0.2f,0.2f,0.5f));
-                            char delLabel[32];
-                            snprintf(delLabel, sizeof(delLabel), "\xe5\x88\xa0\xe9\x99\xa4##del%zu", i);
-                            if (ImGui::Button(delLabel, ImVec2(180, 90))) {
-                                LOGI("Delete character: '%s'", c.name);
-                                ProtocolDispatch::deleteCharacter((int)i);
-                            }
-                            ImGui::PopStyleColor();
+                        // Always show character as selectable (parsed ctlCode may be offset)
+                        if (ImGui::Button(label, ImVec2(panelW - 360, 90))) {
+                            LOGI("Selected character: '%s'", c.name);
+                            ProtocolDispatch::selectCharacter((int)i);
                         }
+                        // Delete button
+                        ImGui::SameLine();
+                        ImGui::PushStyleColor(ImGuiCol_Button, ImVec4(0.7f,0.2f,0.2f,0.5f));
+                        char delLabel[32];
+                        snprintf(delLabel, sizeof(delLabel), "\xe5\x88\xa0\xe9\x99\xa4##del%zu", i);
+                        if (ImGui::Button(delLabel, ImVec2(180, 90))) {
+                            LOGI("Delete character: '%s'", c.name);
+                            ProtocolDispatch::deleteCharacter((int)i);
+                        }
+                        ImGui::PopStyleColor();
                     }
                 }
 

@@ -120,6 +120,7 @@ static std::vector<CharacterInfo> g_characterList;
 static int g_selectedSlot = 0;
 static char g_selectedCharName[11] = {0};
 static bool g_pendingJoinMap = false;
+static bool g_autoLoginAfterReconnect = false;
 
 // ============================================================================
 // 内部函数声明
@@ -1060,6 +1061,13 @@ static void handleProtocol0xF4(const Packet& packet) {
                     [](const SubServerInfo& a, const SubServerInfo& b) {
                         return a.subIndex < b.subIndex;
                     });
+            }
+
+            // Auto-select first server if pending join map
+            if (g_pendingJoinMap && !g_serverGroups.empty() && !g_serverGroups[0].servers.empty()) {
+                uint16_t idx = g_serverGroups[0].servers[0].connectIndex;
+                sendServerSelectRequest(idx);
+                LOGI("Auto-selecting server %u for pending join", idx);
             }
             break;
         }
