@@ -358,8 +358,12 @@ static void renderLoop() {
 
             // Game scene: update + render (setjmp protected for Mali GPU)
             {
-                // runGameFrame() disabled — Mali GPU SIGSEGV on Huawei Mate 60 Pro+
-                // 3D scene rendering needs GL shader fix for Kirin 9000s
+                // 3D scene rendering with Mali GPU crash protection
+                static bool s_renderAttempted = false;
+                if (!s_renderAttempted) {
+                    s_renderAttempted = true;
+                    runGameFrame();
+                }
             }
 
             // ImGui debug + login UI (rendered on top of game scene)
