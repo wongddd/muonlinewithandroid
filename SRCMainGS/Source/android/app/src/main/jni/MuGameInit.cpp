@@ -41,46 +41,51 @@ extern MapProcessPtr g_MapProcess;
 extern PetProcessPtr g_petProcess;
 
 void MuGameInit_FullInit() {
+    LOGI("ENTER MuGameInit_FullInit");
+
     LOGI("MuGameInit_FullInit: Starting full singleton initialization...");
 
-    // 1. Allocate attribute arrays (must exist before CharacterMachine::Init)
+    LOGI("  Step 1: Gate/Skill arrays");
     GateAttribute = new GATE_ATTRIBUTE[MAX_GATES];
     SkillAttribute = new SKILL_ATTRIBUTE[MAX_SKILLS];
     memset(GateAttribute, 0, sizeof(GATE_ATTRIBUTE) * MAX_GATES);
     memset(SkillAttribute, 0, sizeof(SKILL_ATTRIBUTE) * MAX_SKILLS);
+    LOGI("  Step 1 done");
 
-    // 2. CharacterMachine — core character state
+    LOGI("  Step 2: CharacterMachine");
     CharacterMachine = new CHARACTER_MACHINE;
     memset(CharacterMachine, 0, sizeof(CHARACTER_MACHINE));
     CharacterAttribute = &CharacterMachine->Character;
     CharacterMachine->Init();
+    LOGI("  Step 2 done");
 
-    // 3. Chat room socket list
+    LOGI("  Step 3: ChatRoomSocketList");
     g_pChatRoomSocketList = new CChatRoomSocketList;
 
-    // 4. UI managers
+    LOGI("  Step 4: UI managers");
     g_pUIManager = new CUIManager;
     g_pUIMapName = new CUIMapName;
 
-    // 5. Timer (frame timing)
+    LOGI("  Step 5: Timer");
     g_pTimer = new CTimer();
 
-    // 6. AI controller (static, linked to Hero)
+    LOGI("  Step 6: AI Controller");
     static CAIController pAIController(Hero);
 
-    // 7. Buff system (skill effects, buffs, debuffs)
+    LOGI("  Step 7: Buff system");
     g_BuffSystem = BuffStateSystem::Make();
 
-    // 8. Map process (terrain management, world loading)
+    LOGI("  Step 8: Map process");
     g_MapProcess = MapProcess::Make();
 
-    // 9. Pet process (pet AI, rendering)
-    g_petProcess = PetProcess::Make();
+    LOGI("  Step 9: Pet process (SKIP on ANDROID - hangs on Huawei)");
+    // g_petProcess = PetProcess::Make();  // Hangs on Huawei Mate 60 Pro+
 
-    // 10. UI manager singleton (CNewUIManager via CUIMng wrapper)
+    LOGI("  Step 10: CUIMng Create");
     CUIMng::Instance().Create();
+    LOGI("  Step 10 done");
 
-    // 11. Text client (localized text, menu strings)
+    LOGI("  Step 11: TextClien load");
     gTextClien.Load();
 
     LOGI("MuGameInit_FullInit: Complete (11 subsystems initialized)");

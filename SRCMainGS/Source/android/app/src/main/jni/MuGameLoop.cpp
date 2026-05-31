@@ -389,7 +389,7 @@ static void renderLoop() {
             //   Phase 2 (LOG_IN_SCENE): Login form         (CLoginWin equivalent)
             //   Phase 3 (CHARACTER_SCENE): Char selection   (CCharSelMainWin equivalent)
             if (SceneFlag == LOG_IN_SCENE) {
-                static char serverIp[32] = "10.21.61.173";
+                static char serverIp[32] = "10.21.61.167";
                 static int  serverPort = 44404;
                 static char loginAccount[32] = {};
                 static char loginPassword[32] = {};

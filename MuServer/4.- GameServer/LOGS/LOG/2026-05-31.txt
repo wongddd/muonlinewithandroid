@@ -22,3 +22,6 @@
 01:10:00 [CustomQuiz] Start
 01:13:00 [CustomQuiz] Finish
 01:36:01 [OnlineLoterry] No Winner
+02:10:00 [CustomQuiz] Start
+02:13:00 [CustomQuiz] Finish
+02:36:01 [OnlineLoterry] No Winner
