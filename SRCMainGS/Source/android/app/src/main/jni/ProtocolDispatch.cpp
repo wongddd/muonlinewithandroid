@@ -119,6 +119,7 @@ static std::vector<CharacterInfo> g_characterList;
 // 当前选中角色 (用于 sendJoinMapServerRequestPacket)
 static int g_selectedSlot = 0;
 static char g_selectedCharName[11] = {0};
+static bool g_pendingJoinMap = false;
 
 // ============================================================================
 // 内部函数声明
@@ -284,6 +285,12 @@ static void onEnterState(ProtocolState state) {
                 SelectedHero = g_characterList[0].slot;
                 LOGI("*** Set SelectedHero=%d ('%s') for PC engine",
                      SelectedHero, g_characterList[0].name);
+            }
+            // Auto-join: if user already selected a character (pending join)
+            if (g_pendingJoinMap && g_selectedCharName[0]) {
+                LOGI("*** Auto-joining character '%s' after reconnect", g_selectedCharName);
+                g_pendingJoinMap = false;
+                setState(ProtocolState::REQUEST_JOIN_MAP_SERVER);
             }
             break;
 
@@ -455,6 +462,8 @@ void processPacket(const Packet& packet) {
         case 0xF3: handleProtocol0xF3(normalized); break;
         case 0xF4: handleProtocol0xF4(normalized); break;
         case 0x00: handleProtocol0x00(normalized); break;
+        case 0xDE: // Keepalive/heartbeat from GS — ignore
+            break;
         default:
             LOGI("Unhandled protocol head code: 0x%02X (state: %s)",
                  headCode, stateName(g_currentState));
@@ -541,15 +550,24 @@ const std::vector<CharacterInfo>& getCharacterList() {
 
 void selectCharacter(int slotIndex) {
     if (slotIndex < 0 || slotIndex >= (int)g_characterList.size()) return;
-    if (g_currentState != ProtocolState::RECEIVE_CHARACTERS_LIST) return;
-
-    // Set the selected char name and trigger join map server
+    // Always accept character selection (even if GS disconnected due to idle timeout)
     const CharacterInfo& ci = g_characterList[slotIndex];
     memcpy(g_selectedCharName, ci.name, 10);
     g_selectedCharName[10] = '\0';
     g_selectedSlot = ci.slot;
-    LOGI("Selected character '%s' (slot %d), joining map server", g_selectedCharName, g_selectedSlot);
+    LOGI("Selected character '%s' (slot %d), state=%s", g_selectedCharName, g_selectedSlot, stateName(g_currentState));
 
+    // If disconnected, reconnect through CS first, then enter game
+    if (g_currentState == ProtocolState::DISCONNECTED) {
+        LOGI("GS disconnected — reconnecting before joining map server");
+        g_pendingJoinMap = true;
+        g_autoReconnect = true;
+        g_reconnectIP = "197.159.75.59";
+        g_reconnectPort = 44404; // CS port
+        return;
+    }
+
+    g_pendingJoinMap = false;
     setState(ProtocolState::REQUEST_JOIN_MAP_SERVER);
 }
 
