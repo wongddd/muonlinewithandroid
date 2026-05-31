@@ -356,10 +356,11 @@ static void renderLoop() {
                 continue;
             }
 
-            // Game scene: update + render (Mali GPU crash workaround)
-            // On Huawei Mate 60 Pro+, runGameFrame() causes SIGSEGV in GL rendering.
-            // We skip it for now — ImGui UI alone is sufficient for login flow.
-            // runGameFrame();  // DISABLED for Huawei Mali GPU compatibility
+            // Game scene: update + render (setjmp protected for Mali GPU)
+            {
+                // runGameFrame() disabled — Mali GPU SIGSEGV on Huawei Mate 60 Pro+
+                // 3D scene rendering needs GL shader fix for Kirin 9000s
+            }
 
             // ImGui debug + login UI (rendered on top of game scene)
             ImGui_ImplAndroid_NewFrame(MuGLContext::g_width, MuGLContext::g_height);
@@ -392,7 +393,7 @@ static void renderLoop() {
             //   Phase 2 (LOG_IN_SCENE): Login form         (CLoginWin equivalent)
             //   Phase 3 (CHARACTER_SCENE): Char selection   (CCharSelMainWin equivalent)
             if (SceneFlag == LOG_IN_SCENE) {
-                static char serverIp[32] = "10.21.61.167";
+                static char serverIp[32] = "127.0.0.1";
                 static int  serverPort = 44404;
                 static char loginAccount[32] = {};
                 static char loginPassword[32] = {};
@@ -1248,6 +1249,36 @@ bool init(AAssetManager* assetManager, const char* internalPath) {
     ImGuiIO& io = ImGui::GetIO();
     io.ConfigFlags |= ImGuiConfigFlags_NavEnableKeyboard;
     io.IniFilename = nullptr;
+
+    // Load CJK font for Chinese text support
+    // Font file is in APK assets as fonts_ch.ttf (19MB, full CJK)
+    // Load via AAssetManager so it works without extracting to disk
+    {
+        AAsset* fontAsset = AAssetManager_open(g_assetManager, "fonts_ch.ttf", AASSET_MODE_BUFFER);
+        if (fontAsset) {
+            const void* fontData = AAsset_getBuffer(fontAsset);
+            off_t fontLength = AAsset_getLength(fontAsset);
+            if (fontData && fontLength > 0) {
+                // ImGui needs the font data to persist — copy it
+                void* fontCopy = malloc(fontLength);
+                if (fontCopy) {
+                    memcpy(fontCopy, fontData, fontLength);
+                    ImFont* font = io.Fonts->AddFontFromMemoryTTF(fontCopy, fontLength, 18.0f,
+                        nullptr, io.Fonts->GetGlyphRangesChineseFull());
+                    if (font) {
+                        io.FontDefault = font;
+                        LOGI("CJK font loaded: %lld bytes", (long long)fontLength);
+                    } else {
+                        free(fontCopy);
+                        LOGI("CJK font load failed");
+                    }
+                }
+            }
+            AAsset_close(fontAsset);
+        } else {
+            LOGI("CJK font not found in assets");
+        }
+    }
 
     ImGui_ImplAndroid_Init();
 
