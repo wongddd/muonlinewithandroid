@@ -215,7 +215,7 @@ static float g_deltaTime = 0.0f;
 static int g_frameCount = 0;
 static float g_fpsAccum = 0.0f;
 static int g_currentFPS = 0;
-static constexpr float TARGET_FRAME_TIME = 1.0f / 60.0f;
+static float TARGET_FRAME_TIME = 1.0f / 30.0f;  // 默认30fps (SwiftShader较慢)
 
 // Shader
 static GLuint g_defaultProgram = 0;
@@ -420,7 +420,7 @@ static void renderLoop() {
                 // =====================================================================
                 if (state == ProtocolState::DISCONNECTED ||
                     state == ProtocolState::RECEIVE_JOIN_SERVER_FAIL) {
-                    int panelW = (int)(scrW * 0.56f);
+                    int panelW = (int)(scrW * 0.40f);
                     ImGui::SetNextWindowPos(ImVec2((scrW - panelW) * 0.5f,
                                                    (scrH - 260) * 0.45f), ImGuiCond_Once);
                     ImGui::SetNextWindowSize(ImVec2((float)panelW, 0.0f), ImGuiCond_Once);
@@ -487,7 +487,7 @@ static void renderLoop() {
                 // =====================================================================
                 else if (state == ProtocolState::RECEIVE_JOIN_SERVER_WAITING) {
                     const auto& groups = ProtocolDispatch::getServerGroups();
-                    int panelW = (int)(scrW * 0.78f);
+                    int panelW = (int)(scrW * 0.55f);
 
                     float listH = 80.0f;
                     for (auto& g : groups)
@@ -585,7 +585,7 @@ static void renderLoop() {
                 //   When F1/00 arrives, show login form (PC LoginWin equivalent)
                 // =====================================================================
                 else if (state == ProtocolState::GS_JOIN_REQUESTED) {
-                    int panelW = (int)(scrW * 0.60f);
+                    int panelW = (int)(scrW * 0.45f);
                     ImGui::SetNextWindowPos(ImVec2((scrW - panelW) * 0.5f,
                                                    (scrH - 280) * 0.45f), ImGuiCond_Once);
                     ImGui::SetNextWindowSize(ImVec2((float)panelW, 0.0f), ImGuiCond_Once);

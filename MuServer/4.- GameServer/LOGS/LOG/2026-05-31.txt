@@ -1,0 +1,10 @@
+00:45:38 [ServerInfo] CashShop loaded successfully
+00:45:38 [ServerInfo] ChaosMix loaded successfully
+00:45:38 [ServerInfo] Character loaded successfully
+00:45:38 [ServerInfo] Custom loaded successfully
+00:45:38 [ServerInfo] Command loaded successfully
+00:45:38 [ServerInfo] Common loaded successfully
+00:45:38 [ServerInfo] Event loaded successfully
+00:45:38 [ServerInfo] EventItemBag loaded successfully
+00:45:38 [ServerInfo] Hack loaded successfully
+00:45:38 [ServerInfo] Item loaded successfully
