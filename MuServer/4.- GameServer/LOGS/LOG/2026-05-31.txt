@@ -29,3 +29,311 @@
 03:10:00 [CustomQuiz] Start
 03:13:00 [CustomQuiz] Finish
 03:36:01 [OnlineLoterry] No Winner
+04:05:00 [Invasion Manager] Index(0) Boss Position (Map: 0 X: 125 Y: 195)
+04:10:00 [CustomQuiz] Start
+04:13:00 [CustomQuiz] Finish
+04:15:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 234 Y: 39)
+04:17:28 [Obj][12500] AddClient (129.222.206.4)
+04:17:39 [Obj][12500] DelClient (129.222.206.4)
+04:17:44 [Obj][12501] AddClient (129.222.206.4)
+04:18:07 [Obj][12501] DelClient (129.222.206.4)
+04:18:10 [Obj][12500] AddClient (129.222.206.4)
+04:18:41 [Obj][12500] DelClient (129.222.206.4)
+04:18:41 Response error after connection causes conclusion [12500][][][129.222.206.4]
+04:19:36 [Obj][12501] AddClient (129.222.206.4)
+04:19:44 [Obj][12501] DelClient (129.222.206.4)
+04:19:50 [Obj][12500] AddClient (129.222.206.4)
+04:20:21 [Obj][12500] DelClient (129.222.206.4)
+04:20:21 Response error after connection causes conclusion [12500][][][129.222.206.4]
+04:23:46 [Obj][12501] AddClient (129.222.206.4)
+04:24:16 [Obj][12501] DelClient (129.222.206.4)
+04:24:16 Response error after connection causes conclusion [12501][][][129.222.206.4]
+04:24:48 [Obj][12500] AddClient (129.222.206.4)
+04:25:00 [Invasion Manager] Index(2) Boss Position (Map: 57 X: 85 Y: 28)
+04:25:18 [Obj][12500] DelClient (129.222.206.4)
+04:25:18 Response error after connection causes conclusion [12500][][][129.222.206.4]
+04:25:39 [Obj][12501] AddClient (129.222.206.4)
+04:26:09 [Obj][12501] DelClient (129.222.206.4)
+04:26:09 Response error after connection causes conclusion [12501][][][129.222.206.4]
+04:26:17 [Obj][12500] AddClient (129.222.206.4)
+04:26:47 [Obj][12500] DelClient (129.222.206.4)
+04:26:47 Response error after connection causes conclusion [12500][][][129.222.206.4]
+04:35:01 [Obj][12501] AddClient (129.222.206.4)
+04:35:06 [Obj][12501] DelClient (129.222.206.4)
+04:36:01 [OnlineLoterry] No Winner
+04:36:16 [Obj][12500] AddClient (129.222.206.4)
+04:36:19 [Obj][12500] DelClient (129.222.206.4)
+04:45:58 [Obj][12501] AddClient (129.222.206.4)
+04:46:04 [Obj][12501] DelClient (129.222.206.4)
+04:50:00 [Invasion Manager] Index(3) Boss Position (Map: 3 X: 202 Y: 72)
+04:55:51 [Obj][12500] AddClient (129.222.206.4)
+04:55:53 [Obj][12500] AddAccount (louismk)
+04:56:54 [Obj][12500] DelAccount (louismk)
+04:56:54 [Obj][12500] DelClient (129.222.206.4)
+04:56:54 Game response error causes conclusion [12500][][][129.222.206.4]
+04:59:12 [Obj][12501] AddClient (129.222.206.4)
+04:59:15 [Obj][12501] AddAccount (louismk)
+05:00:00 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 52 Y: 109)
+05:00:15 [Obj][12501] DelAccount (louismk)
+05:00:15 [Obj][12501] DelClient (129.222.206.4)
+05:00:15 Game response error causes conclusion [12501][][][129.222.206.4]
+05:04:39 [Obj][12500] AddClient (129.222.206.4)
+05:04:58 [Obj][12500] DelClient (129.222.206.4)
+05:05:59 [Obj][12501] AddClient (129.222.206.4)
+05:06:29 [Obj][12501] DelClient (129.222.206.4)
+05:06:29 Response error after connection causes conclusion [12501][][][129.222.206.4]
+05:07:01 [Obj][12500] AddClient (129.222.206.4)
+05:07:02 [Obj][12500] AddAccount (louismk)
+05:08:03 [Obj][12500] DelAccount (louismk)
+05:08:03 [Obj][12500] DelClient (129.222.206.4)
+05:08:03 Game response error causes conclusion [12500][][][129.222.206.4]
+05:09:02 [Obj][12501] AddClient (129.222.206.4)
+05:09:19 [Obj][12501] AddAccount (louismk)
+05:09:44 [Obj][12501] DelAccount (louismk)
+05:09:44 [Obj][12501] DelClient (129.222.206.4)
+05:09:47 [Obj][12500] AddClient (129.222.206.4)
+05:10:00 [CustomQuiz] Start
+05:10:17 [Obj][12500] DelClient (129.222.206.4)
+05:10:17 Response error after connection causes conclusion [12500][][][129.222.206.4]
+05:10:41 [Obj][12501] AddClient (129.222.206.4)
+05:10:44 [Obj][12501] DelClient (129.222.206.4)
+05:13:00 [CustomQuiz] Finish
+05:13:05 [Obj][12500] AddClient (129.222.206.4)
+05:13:07 [Obj][12500] AddAccount (louismk)
+05:13:28 [Obj][12500] DelAccount (louismk)
+05:13:28 [Obj][12500] DelClient (129.222.206.4)
+05:13:33 [Obj][12501] AddClient (129.222.206.4)
+05:13:54 [Obj][12501] DelClient (129.222.206.4)
+05:14:41 [Obj][12500] AddClient (129.222.206.4)
+05:14:43 [Obj][12500] AddAccount (louismk)
+05:15:43 [Obj][12500] DelAccount (louismk)
+05:15:43 [Obj][12500] DelClient (129.222.206.4)
+05:15:43 Game response error causes conclusion [12500][][][129.222.206.4]
+05:23:27 [Obj][12501] AddClient (129.222.206.4)
+05:23:28 [Obj][12501] AddAccount (louismk)
+05:24:28 [Obj][12501] DelAccount (louismk)
+05:24:28 [Obj][12501] DelClient (129.222.206.4)
+05:24:28 Game response error causes conclusion [12501][][][129.222.206.4]
+05:34:47 [Obj][12500] AddClient (129.222.206.4)
+05:35:02 [Obj][12500] AddAccount (louismk)
+05:35:27 [Obj][12500] DelAccount (louismk)
+05:35:27 [Obj][12500] DelClient (129.222.206.4)
+05:35:30 [Obj][12501] AddClient (129.222.206.4)
+05:35:39 [Obj][12501] DelClient (129.222.206.4)
+05:36:01 [OnlineLoterry] No Winner
+05:36:58 [Obj][12500] AddClient (129.222.206.4)
+05:37:00 [Obj][12500] AddAccount (louismk2)
+05:37:40 [Obj][12500] DelAccount (louismk2)
+05:37:40 [Obj][12500] DelClient (129.222.206.4)
+05:38:57 [Obj][12501] AddClient (129.222.206.4)
+05:39:03 [Obj][12501] DelClient (129.222.206.4)
+05:39:23 [Obj][12500] AddClient (129.222.206.4)
+05:39:30 [Obj][12500] AddAccount (louismk2)
+05:40:31 [Obj][12500] DelAccount (louismk2)
+05:40:31 [Obj][12500] DelClient (129.222.206.4)
+05:40:31 Game response error causes conclusion [12500][][][129.222.206.4]
+05:40:51 [Obj][12501] AddClient (129.222.206.4)
+05:40:52 [Obj][12501] DelClient (129.222.206.4)
+05:42:24 [Obj][12500] AddClient (129.222.206.4)
+05:42:25 [Obj][12500] AddAccount (louismk2)
+05:42:49 [Obj][12500] DelAccount (louismk2)
+05:42:49 [Obj][12500] DelClient (129.222.206.4)
+05:43:16 [Obj][12501] AddClient (129.222.206.4)
+05:43:17 [Obj][12501] AddAccount (louismk2)
+05:44:11 [Obj][12501] DelAccount (louismk2)
+05:44:11 [Obj][12501] DelClient (129.222.206.4)
+05:44:44 [Obj][12500] AddClient (129.222.206.4)
+05:44:45 [Obj][12500] AddAccount (louismk2)
+05:44:50 [Obj][12500] LogInCharacter (ImpELF)
+05:44:50 [Obj][12500] LogOutCharacter (ImpELF)
+05:44:50 [Obj][12500] DelAccount (louismk2)
+05:44:50 [Obj][12500] DelClient (129.222.206.4)
+05:44:50 [DGQuestKillCountRecv] Invalid Account [12500](louismk2)
+05:44:50 [DGMasterSkillTreeRecv] Invalid Account [12500](louismk2)
+05:44:50 [DGQuestWorldRecv] Invalid Account [12500](louismk2)
+05:44:50 [DGGensSystemMemberRecv] Invalid Account [12500](louismk2)
+05:44:50 [DGHelperDataRecv] Invalid Account [12500](louismk2)
+05:44:50 [DGCashShopPeriodicItemRecv] Invalid Account [12500](louismk2)
+05:44:50 [DGHolyInventoryRecv] Invalid Account [12500](louismk2)
+05:44:50 [DGCashShopPointRecv] Invalid Account [12500](louismk2)
+05:49:00 [Obj][12501] AddClient (129.222.206.4)
+05:49:01 [Obj][12501] AddAccount (louismk2)
+05:49:04 [Obj][12501] LogInCharacter (ImpELF)
+05:49:04 [Obj][12501] LogOutCharacter (ImpELF)
+05:49:04 [Obj][12501] DelAccount (louismk2)
+05:49:04 [Obj][12501] DelClient (129.222.206.4)
+05:50:37 [Obj][12500] AddClient (129.222.206.4)
+05:50:38 [Obj][12500] AddAccount (louismk2)
+05:50:41 [Obj][12500] LogInCharacter (ImpELF)
+05:50:41 [Obj][12500] LogOutCharacter (ImpELF)
+05:50:41 [Obj][12500] DelAccount (louismk2)
+05:50:41 [Obj][12500] DelClient (129.222.206.4)
+05:51:38 [Obj][12501] AddClient (129.222.206.4)
+05:51:54 [Obj][12501] AddAccount (louismk2)
+05:51:57 [Obj][12501] LogInCharacter (Magrela)
+05:51:57 [Obj][12501] LogOutCharacter (Magrela)
+05:51:57 [Obj][12501] DelAccount (louismk2)
+05:51:57 [Obj][12501] DelClient (129.222.206.4)
+05:52:09 [Obj][12500] AddClient (129.222.206.4)
+05:52:11 [Obj][12500] AddAccount (louismk2)
+05:52:13 [Obj][12500] DelAccount (louismk2)
+05:52:13 [Obj][12500] DelClient (129.222.206.4)
+05:54:54 [Obj][12501] AddClient (129.222.206.4)
+05:54:56 [Obj][12501] AddAccount (louismk2)
+05:55:04 [Obj][12501] LogInCharacter (6666666)
+05:55:04 [Obj][12501] LogOutCharacter (6666666)
+05:55:04 [Obj][12501] DelAccount (louismk2)
+05:55:04 [Obj][12501] DelClient (129.222.206.4)
+05:55:22 [Obj][12500] AddClient (129.222.206.4)
+05:55:25 [Obj][12500] AddAccount (louismk2)
+05:56:00 [Obj][12500] LogInCharacter (6666666)
+05:56:01 [Obj][12500] LogOutCharacter (6666666)
+05:56:01 [Obj][12500] DelAccount (louismk2)
+05:56:01 [Obj][12500] DelClient (129.222.206.4)
+05:58:08 [Obj][12501] AddClient (129.222.206.4)
+05:58:10 [Obj][12501] AddAccount (louismk)
+05:58:13 [Obj][12501] DelAccount (louismk)
+05:58:13 [Obj][12501] DelClient (129.222.206.4)
+05:58:16 [Obj][12500] AddClient (129.222.206.4)
+05:58:44 [Obj][12500] DelClient (129.222.206.4)
+05:58:47 [Obj][12501] AddClient (129.222.206.4)
+05:58:56 [Obj][12501] DelClient (129.222.206.4)
+05:59:34 [Obj][12500] AddClient (129.222.206.4)
+05:59:35 [Obj][12500] AddAccount (louismk2)
+05:59:40 [Obj][12500] LogInCharacter (6666666)
+05:59:41 [Obj][12500] LogOutCharacter (6666666)
+05:59:41 [Obj][12500] DelAccount (louismk2)
+05:59:41 [Obj][12500] DelClient (129.222.206.4)
+06:00:26 [Obj][12501] AddClient (129.222.206.4)
+06:00:27 [Obj][12501] AddAccount (louismk2)
+06:00:34 [Obj][12501] DelAccount (louismk2)
+06:00:34 [Obj][12501] DelClient (129.222.206.4)
+06:00:48 [Obj][12500] AddClient (129.222.206.4)
+06:00:49 [Obj][12500] AddAccount (louismk2)
+06:00:50 [Obj][12500] LogInCharacter (ImpELF)
+06:00:51 [Obj][12500] LogOutCharacter (ImpELF)
+06:00:51 [Obj][12500] DelAccount (louismk2)
+06:00:51 [Obj][12500] DelClient (129.222.206.4)
+06:02:17 [Obj][12501] AddClient (129.222.206.4)
+06:02:19 [Obj][12501] AddAccount (louismk2)
+06:02:29 [Obj][12501] LogInCharacter (6666666)
+06:02:29 [Obj][12501] LogOutCharacter (6666666)
+06:02:29 [Obj][12501] DelAccount (louismk2)
+06:02:29 [Obj][12501] DelClient (129.222.206.4)
+06:05:14 [Obj][12500] AddClient (129.222.206.4)
+06:05:15 [Obj][12500] AddAccount (louismk2)
+06:05:19 [Obj][12500] DelAccount (louismk2)
+06:05:19 [Obj][12500] DelClient (129.222.206.4)
+06:05:24 [Obj][12501] AddClient (129.222.206.4)
+06:05:26 [Obj][12501] DelClient (129.222.206.4)
+06:05:34 [Obj][12500] AddClient (129.222.206.4)
+06:05:36 [Obj][12500] AddAccount (louismk2)
+06:05:42 [Obj][12500] LogInCharacter (ImpELF)
+06:05:42 [Obj][12500] LogOutCharacter (ImpELF)
+06:05:42 [Obj][12500] DelAccount (louismk2)
+06:05:42 [Obj][12500] DelClient (129.222.206.4)
+06:08:50 [Obj][12501] AddClient (129.222.206.4)
+06:08:55 [Obj][12501] AddAccount (louismk2)
+06:09:40 [Obj][12501] LogInCharacter (ImpELF)
+06:09:40 [Obj][12501] LogOutCharacter (ImpELF)
+06:09:40 [Obj][12501] DelAccount (louismk2)
+06:09:40 [Obj][12501] DelClient (129.222.206.4)
+06:10:00 [CustomQuiz] Start
+06:13:00 [CustomQuiz] Finish
+06:14:45 [Obj][12500] AddClient (129.222.206.4)
+06:14:46 [Obj][12500] AddAccount (louismk2)
+06:14:48 [Obj][12500] LogInCharacter (ImpELF)
+06:14:48 [Obj][12500] LogOutCharacter (ImpELF)
+06:14:48 [Obj][12500] DelAccount (louismk2)
+06:14:48 [Obj][12500] DelClient (129.222.206.4)
+06:16:13 [Obj][12501] AddClient (129.222.206.4)
+06:16:16 [Obj][12501] AddAccount (louismk2)
+06:16:18 [Obj][12501] DelAccount (louismk2)
+06:16:18 [Obj][12501] DelClient (129.222.206.4)
+06:36:01 [OnlineLoterry] No Winner
+06:50:00 [Invasion Manager] Index(7) Boss Position (Map: 3 X: 195 Y: 76)
+07:10:00 [CustomQuiz] Start
+07:13:00 [CustomQuiz] Finish
+07:36:01 [OnlineLoterry] No Winner
+08:05:00 [Invasion Manager] Index(0) Boss Position (Map: 0 X: 138 Y: 196)
+08:10:00 [CustomQuiz] Start
+08:13:00 [CustomQuiz] Finish
+08:15:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 21 Y: 194)
+08:25:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 230 Y: 88)
+08:36:01 [OnlineLoterry] No Winner
+08:50:00 [Invasion Manager] Index(3) Boss Position (Map: 0 X: 163 Y: 64)
+09:00:00 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 149 Y: 15)
+09:10:00 [CustomQuiz] Start
+09:13:00 [CustomQuiz] Finish
+09:36:01 [OnlineLoterry] No Winner
+10:10:00 [CustomQuiz] Start
+10:13:00 [CustomQuiz] Finish
+10:36:01 [OnlineLoterry] No Winner
+10:50:00 [Invasion Manager] Index(7) Boss Position (Map: 3 X: 197 Y: 80)
+11:10:00 [CustomQuiz] Start
+11:13:00 [CustomQuiz] Finish
+11:36:01 [OnlineLoterry] No Winner
+12:05:00 [Invasion Manager] Index(0) Boss Position (Map: 0 X: 138 Y: 200)
+12:10:00 [CustomQuiz] Start
+12:13:00 [CustomQuiz] Finish
+12:15:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 79 Y: 16)
+12:25:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 156 Y: 28)
+12:36:02 [OnlineLoterry] No Winner
+12:50:00 [Invasion Manager] Index(3) Boss Position (Map: 0 X: 159 Y: 49)
+13:00:00 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 182 Y: 128)
+13:10:00 [CustomQuiz] Start
+13:13:00 [CustomQuiz] Finish
+13:36:01 [OnlineLoterry] No Winner
+14:10:00 [CustomQuiz] Start
+14:13:00 [CustomQuiz] Finish
+14:36:01 [OnlineLoterry] No Winner
+14:50:00 [Invasion Manager] Index(7) Boss Position (Map: 0 X: 149 Y: 49)
+15:10:00 [CustomQuiz] Start
+15:13:00 [CustomQuiz] Finish
+15:36:01 [OnlineLoterry] No Winner
+16:05:00 [Invasion Manager] Index(0) Boss Position (Map: 0 X: 139 Y: 198)
+16:10:00 [CustomQuiz] Start
+16:13:00 [CustomQuiz] Finish
+16:15:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 44 Y: 118)
+16:25:00 [Invasion Manager] Index(2) Boss Position (Map: 57 X: 199 Y: 154)
+16:36:01 [OnlineLoterry] No Winner
+16:50:00 [Invasion Manager] Index(3) Boss Position (Map: 3 X: 200 Y: 79)
+17:00:00 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 135 Y: 167)
+17:10:00 [CustomQuiz] Start
+17:13:00 [CustomQuiz] Finish
+17:36:01 [OnlineLoterry] No Winner
+18:10:00 [CustomQuiz] Start
+18:13:00 [CustomQuiz] Finish
+18:36:01 [OnlineLoterry] No Winner
+18:50:00 [Invasion Manager] Index(7) Boss Position (Map: 0 X: 163 Y: 47)
+19:10:00 [CustomQuiz] Start
+19:13:00 [CustomQuiz] Finish
+19:36:01 [OnlineLoterry] No Winner
+20:05:00 [Invasion Manager] Index(0) Boss Position (Map: 3 X: 197 Y: 82)
+20:10:00 [CustomQuiz] Start
+20:13:00 [CustomQuiz] Finish
+20:15:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 125 Y: 79)
+20:25:00 [Invasion Manager] Index(2) Boss Position (Map: 57 X: 150 Y: 209)
+20:36:01 [OnlineLoterry] No Winner
+20:50:00 [Invasion Manager] Index(3) Boss Position (Map: 3 X: 196 Y: 77)
+21:00:00 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 53 Y: 108)
+21:10:00 [CustomQuiz] Start
+21:13:00 [CustomQuiz] Finish
+21:36:01 [OnlineLoterry] No Winner
+22:03:14 [Obj][12500] AddClient (98.97.77.255)
+22:03:15 [Obj][12500] AddAccount (louismk2)
+22:03:20 [Obj][12500] LogInCharacter (ImpELF)
+22:03:20 [Obj][12500] LogOutCharacter (ImpELF)
+22:03:20 [Obj][12500] DelAccount (louismk2)
+22:03:20 [Obj][12500] DelClient (98.97.77.255)
+22:03:24 [Obj][12501] AddClient (98.97.77.255)
+22:03:25 [Obj][12501] AddAccount (louismk2)
+22:03:26 [Obj][12501] DelAccount (louismk2)
+22:03:26 [Obj][12501] DelClient (98.97.77.255)
+22:10:00 [CustomQuiz] Start
+22:13:00 [CustomQuiz] Finish
+22:36:01 [OnlineLoterry] No Winner
+22:50:00 [Invasion Manager] Index(7) Boss Position (Map: 0 X: 160 Y: 61)
+23:10:00 [CustomQuiz] Start
+23:13:00 [CustomQuiz] Finish
+23:36:01 [OnlineLoterry] No Winner

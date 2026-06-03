@@ -1,0 +1,228 @@
+00:05:00 [Invasion Manager] Index(0) Boss Position (Map: 3 X: 197 Y: 75)
+00:10:00 [CustomQuiz] Start
+00:13:00 [CustomQuiz] Finish
+00:15:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 31 Y: 52)
+00:15:43 [Obj][12500] AddClient (98.97.76.153)
+00:15:45 [Obj][12500] AddAccount (louismk)
+00:15:56 [Obj][12500] DelAccount (louismk)
+00:15:56 [Obj][12500] DelClient (98.97.76.153)
+00:16:00 [Obj][12501] AddClient (98.97.76.153)
+00:16:31 [Obj][12501] DelClient (98.97.76.153)
+00:16:31 Response error after connection causes conclusion [12501][][][98.97.76.153]
+00:25:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 58 Y: 37)
+00:36:01 [OnlineLoterry] No Winner
+00:39:31 [Obj][12500] AddClient (98.97.76.153)
+00:40:02 [Obj][12500] DelClient (98.97.76.153)
+00:40:02 Response error after connection causes conclusion [12500][][][98.97.76.153]
+00:50:00 [Invasion Manager] Index(3) Boss Position (Map: 3 X: 196 Y: 81)
+01:00:00 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 51 Y: 110)
+01:10:00 [CustomQuiz] Start
+01:13:00 [CustomQuiz] Finish
+01:14:43 [Obj][12501] AddClient (98.97.76.153)
+01:14:45 [Obj][12501] AddAccount (louismk)
+01:14:45 [Obj][12501] DelAccount (louismk)
+01:14:45 [Obj][12501] DelClient (98.97.76.153)
+01:32:00 [Obj][12500] AddClient (98.97.76.153)
+01:32:02 [Obj][12500] AddAccount (louismk)
+01:32:07 [Obj][12500] LogInCharacter (KmmR)
+01:32:07 [Obj][12500] LogOutCharacter (KmmR)
+01:32:07 [Obj][12500] DelAccount (louismk)
+01:32:07 [Obj][12500] DelClient (98.97.76.153)
+01:36:01 [OnlineLoterry] No Winner
+01:43:53 [Obj][12501] AddClient (98.97.76.153)
+01:43:54 [Obj][12501] AddAccount (louismk)
+01:44:04 [Obj][12501] DelAccount (louismk)
+01:44:04 [Obj][12501] DelClient (98.97.76.153)
+01:44:14 [Obj][12500] AddClient (98.97.76.153)
+01:44:15 [Obj][12500] AddAccount (louismk)
+01:44:21 [Obj][12500] DelAccount (louismk)
+01:44:21 [Obj][12500] DelClient (98.97.76.153)
+01:44:36 [Obj][12501] AddClient (98.97.76.153)
+01:44:37 [Obj][12501] AddAccount (louismk)
+01:45:28 [Obj][12501] DelAccount (louismk)
+01:45:28 [Obj][12501] DelClient (98.97.76.153)
+01:45:44 [Obj][12500] AddClient (98.97.76.153)
+01:46:05 [Obj][12500] AddAccount (louismk)
+01:46:27 [Obj][12500] DelAccount (louismk)
+01:46:27 [Obj][12500] DelClient (98.97.76.153)
+01:47:27 [Obj][12501] AddClient (98.97.76.153)
+01:47:28 [Obj][12501] AddAccount (louismk)
+01:48:29 [Obj][12501] DelAccount (louismk)
+01:48:29 [Obj][12501] DelClient (98.97.76.153)
+01:48:29 Game response error causes conclusion [12501][][][98.97.76.153]
+01:49:04 [Obj][12500] AddClient (98.97.76.153)
+01:49:06 [Obj][12500] AddAccount (louismk)
+01:50:07 [Obj][12500] DelAccount (louismk)
+01:50:07 [Obj][12500] DelClient (98.97.76.153)
+01:50:07 Game response error causes conclusion [12500][][][98.97.76.153]
+01:53:39 [Obj][12501] AddClient (98.97.76.153)
+01:53:40 [Obj][12501] AddAccount (louismk)
+01:54:41 [Obj][12501] DelAccount (louismk)
+01:54:41 [Obj][12501] DelClient (98.97.76.153)
+01:54:41 Game response error causes conclusion [12501][][][98.97.76.153]
+02:10:00 [CustomQuiz] Start
+02:13:00 [CustomQuiz] Finish
+02:36:01 [OnlineLoterry] No Winner
+02:50:00 [Invasion Manager] Index(7) Boss Position (Map: 2 X: 166 Y: 14)
+03:10:00 [CustomQuiz] Start
+03:13:00 [CustomQuiz] Finish
+03:36:01 [OnlineLoterry] No Winner
+04:05:00 [Invasion Manager] Index(0) Boss Position (Map: 3 X: 196 Y: 76)
+04:10:00 [CustomQuiz] Start
+04:13:00 [CustomQuiz] Finish
+04:15:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 15 Y: 43)
+04:25:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 92 Y: 238)
+04:36:01 [OnlineLoterry] No Winner
+04:50:00 [Invasion Manager] Index(3) Boss Position (Map: 0 X: 152 Y: 55)
+05:00:00 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 181 Y: 124)
+05:10:01 [CustomQuiz] Start
+05:13:01 [CustomQuiz] Finish
+05:36:01 [OnlineLoterry] No Winner
+06:10:00 [CustomQuiz] Start
+06:13:00 [CustomQuiz] Finish
+06:36:01 [OnlineLoterry] No Winner
+06:50:00 [Invasion Manager] Index(7) Boss Position (Map: 2 X: 159 Y: 19)
+07:10:00 [CustomQuiz] Start
+07:13:00 [CustomQuiz] Finish
+07:36:01 [OnlineLoterry] No Winner
+08:05:00 [Invasion Manager] Index(0) Boss Position (Map: 3 X: 197 Y: 84)
+08:10:00 [CustomQuiz] Start
+08:13:00 [CustomQuiz] Finish
+08:15:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 219 Y: 87)
+08:25:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 155 Y: 18)
+08:36:01 [OnlineLoterry] No Winner
+08:50:00 [Invasion Manager] Index(3) Boss Position (Map: 3 X: 202 Y: 76)
+09:00:00 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 155 Y: 10)
+09:10:00 [CustomQuiz] Start
+09:13:00 [CustomQuiz] Finish
+09:36:01 [OnlineLoterry] No Winner
+10:10:00 [CustomQuiz] Start
+10:13:00 [CustomQuiz] Finish
+10:36:01 [OnlineLoterry] No Winner
+10:50:00 [Invasion Manager] Index(7) Boss Position (Map: 3 X: 199 Y: 82)
+11:10:00 [CustomQuiz] Start
+11:13:00 [CustomQuiz] Finish
+11:36:01 [OnlineLoterry] No Winner
+12:05:00 [Invasion Manager] Index(0) Boss Position (Map: 3 X: 199 Y: 70)
+12:10:00 [CustomQuiz] Start
+12:13:00 [CustomQuiz] Finish
+12:15:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 202 Y: 156)
+12:25:00 [Invasion Manager] Index(2) Boss Position (Map: 57 X: 181 Y: 138)
+12:36:01 [OnlineLoterry] No Winner
+12:50:00 [Invasion Manager] Index(3) Boss Position (Map: 0 X: 155 Y: 53)
+13:00:00 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 178 Y: 124)
+13:10:01 [CustomQuiz] Start
+13:13:01 [CustomQuiz] Finish
+13:36:01 [OnlineLoterry] No Winner
+14:10:00 [CustomQuiz] Start
+14:13:00 [CustomQuiz] Finish
+14:19:32 [Obj][12500] AddClient (98.97.76.153)
+14:19:34 [Obj][12500] DelClient (98.97.76.153)
+14:19:47 [Obj][12501] AddClient (98.97.76.153)
+14:20:00 [Obj][12501] DelClient (98.97.76.153)
+14:27:16 [Obj][12500] AddClient (98.97.76.153)
+14:27:22 [Obj][12500] AddAccount (louismk)
+14:27:26 [Obj][12500] LogInCharacter (LuisADM)
+14:28:14 GCReqEventTime1
+14:28:14 GCReqEventTime1
+14:29:58 [Obj][12500] LogOutCharacter (LuisADM)
+14:29:58 [Obj][12500] DelAccount (louismk)
+14:29:58 [Obj][12500] DelClient (98.97.76.153)
+14:30:00 [Obj][12501] AddClient (98.97.76.153)
+14:30:02 [Obj][12501] AddAccount (louismk)
+14:30:05 [Obj][12501] LogInCharacter (LouisSM)
+14:31:13 [Obj][12501] LogOutCharacter (LouisSM)
+14:31:13 [Obj][12501] DelAccount (louismk)
+14:31:13 [Obj][12501] DelClient (98.97.76.153)
+14:36:01 [OnlineLoterry] No Winner
+14:37:49 [Obj][12500] AddClient (98.97.76.153)
+14:37:51 [Obj][12500] AddAccount (louismk)
+14:37:54 [Obj][12500] LogInCharacter (LouisSM)
+14:42:47 [Obj][12500] LogOutCharacter (LouisSM)
+14:42:47 [Obj][12500] DelAccount (louismk)
+14:42:47 [Obj][12500] DelClient (98.97.76.153)
+14:50:00 [Invasion Manager] Index(7) Boss Position (Map: 3 X: 194 Y: 71)
+14:51:33 [Obj][12501] AddClient (98.97.76.153)
+14:51:36 [Obj][12501] DelClient (98.97.76.153)
+14:52:23 [Obj][12500] AddClient (98.97.76.153)
+14:52:25 [Obj][12500] DelClient (98.97.76.153)
+14:55:07 [Obj][12501] AddClient (98.97.76.153)
+14:55:09 [Obj][12501] AddAccount (louismk)
+14:55:12 [Obj][12501] LogInCharacter (LouisSM)
+14:55:17 [Obj][12501] LogOutCharacter (LouisSM)
+14:55:23 [Obj][12501] LogInCharacter (LuisADM)
+14:55:42 [louismk][LuisADM] Guild Request - Dismiss All : amparo
+14:55:48 [Obj][12501] LogOutCharacter (LuisADM)
+14:59:42 [Obj][12501] DelAccount (louismk)
+14:59:42 [Obj][12501] DelClient (98.97.76.153)
+14:59:42 Game response error causes conclusion [12501][][][98.97.76.153]
+15:03:46 [Obj][12500] AddClient (98.97.76.153)
+15:03:48 [Obj][12500] AddAccount (louismk)
+15:04:18 [Obj][12500] LogInCharacter (°×Ã«)
+15:10:00 [CustomQuiz] Start
+15:12:42 [Obj][12500] LogOutCharacter (°×Ã«)
+15:12:42 [Obj][12500] DelAccount (louismk)
+15:12:42 [Obj][12500] DelClient (98.97.76.153)
+15:13:00 [CustomQuiz] Finish
+15:15:57 [Obj][12501] AddClient (98.97.76.153)
+15:16:00 [Obj][12501] AddAccount (louismk)
+15:16:03 [Obj][12501] LogInCharacter (SUMM)
+15:20:10 [Obj][12501] LogOutCharacter (SUMM)
+15:20:10 [Obj][12501] DelAccount (louismk)
+15:20:10 [Obj][12501] DelClient (98.97.76.153)
+15:35:11 [ServerInfo] CashShop loaded successfully
+15:35:11 [ServerInfo] ChaosMix loaded successfully
+15:35:11 [ServerInfo] Character loaded successfully
+15:35:11 [ServerInfo] Custom loaded successfully
+15:35:11 [ServerInfo] Command loaded successfully
+15:35:11 [ServerInfo] Common loaded successfully
+15:35:11 [ServerInfo] Event loaded successfully
+15:35:11 [ServerInfo] EventItemBag loaded successfully
+15:35:11 [ServerInfo] Hack loaded successfully
+15:35:11 [ServerInfo] Item loaded successfully
+15:35:11 [ServerInfo] Monster loaded successfully
+15:35:11 [ServerInfo] Move loaded successfully
+15:35:11 [ServerInfo] Quest loaded successfully
+15:35:11 [ServerInfo] Shop loaded successfully
+15:35:11 [ServerInfo] Skill loaded successfully
+15:35:11 [ServerInfo] Util loaded successfully
+15:35:11 [ReadBotInfo] BotSystem loaded successfully
+15:36:01 [OnlineLoterry] No Winner
+16:05:00 [Invasion Manager] Index(0) Boss Position (Map: 0 X: 132 Y: 196)
+16:10:00 [CustomQuiz] Start
+16:13:00 [CustomQuiz] Finish
+16:15:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 201 Y: 232)
+16:25:00 [Invasion Manager] Index(2) Boss Position (Map: 57 X: 126 Y: 37)
+16:36:01 [OnlineLoterry] No Winner
+16:50:00 [Invasion Manager] Index(3) Boss Position (Map: 2 X: 165 Y: 12)
+17:00:00 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 54 Y: 104)
+17:10:00 [CustomQuiz] Start
+17:13:00 [CustomQuiz] Finish
+17:36:01 [OnlineLoterry] No Winner
+18:10:00 [CustomQuiz] Start
+18:13:00 [CustomQuiz] Finish
+18:36:01 [OnlineLoterry] No Winner
+18:50:00 [Invasion Manager] Index(7) Boss Position (Map: 2 X: 166 Y: 19)
+19:10:00 [CustomQuiz] Start
+19:13:00 [CustomQuiz] Finish
+19:36:01 [OnlineLoterry] No Winner
+20:05:00 [Invasion Manager] Index(0) Boss Position (Map: 0 X: 128 Y: 198)
+20:10:00 [CustomQuiz] Start
+20:13:00 [CustomQuiz] Finish
+20:15:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 24 Y: 45)
+20:25:00 [Invasion Manager] Index(2) Boss Position (Map: 57 X: 108 Y: 213)
+20:36:01 [OnlineLoterry] No Winner
+20:50:00 [Invasion Manager] Index(3) Boss Position (Map: 3 X: 194 Y: 70)
+21:00:00 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 51 Y: 110)
+21:10:00 [CustomQuiz] Start
+21:13:00 [CustomQuiz] Finish
+21:36:01 [OnlineLoterry] No Winner
+22:10:00 [CustomQuiz] Start
+22:10:29 [ServerInfo] Files to BMD Exported successfully
+22:10:31 [ServerInfo] Files to XML Exported successfully
+22:13:01 [CustomQuiz] Finish
+22:36:01 [OnlineLoterry] No Winner
+22:50:00 [Invasion Manager] Index(7) Boss Position (Map: 0 X: 158 Y: 57)
+23:10:00 [CustomQuiz] Start
+23:13:00 [CustomQuiz] Finish
+23:36:01 [OnlineLoterry] No Winner

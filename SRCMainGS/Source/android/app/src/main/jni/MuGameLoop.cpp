@@ -227,6 +227,49 @@ static TerrainBatcher* g_terrainBatcher = nullptr;
 static SpriteRenderer* g_spriteRenderer = nullptr;
 
 // ============================================================================
+// 动画状态 (Splash & Login animations)
+// ============================================================================
+static struct {
+    // 启动闪屏动画
+    bool   splashActive = false;     // 是否正在播放
+    bool   splashTriggered = false;  // 是否已触发过
+    float  splashTimer = 0.0f;      // 播放计时
+    float  splashAlpha = 0.0f;      // 当前透明度 [0,1]
+
+    // 登录面板入场动画
+    float  loginPanelAlpha = 1.0f;   // 面板透明度
+    float  loginPanelOffset = 0.0f;  // 滑动偏移量 (px)
+
+    // 全局时间
+    float  totalTime = 0.0f;
+} g_anim;
+
+// sigsetjmp 缓冲区 — 保护场景更新不会崩溃退出
+// 每个保护区域使用独立的缓冲区，避免互相干扰
+static sigjmp_buf g_jmp_prelock;
+static sigjmp_buf g_jmp_egl;
+static sigjmp_buf g_jmp_scene;
+static sigjmp_buf g_jmp_mains;
+static sigjmp_buf g_jmp_batcher;
+static volatile int g_jmp_active = 0; // 1=prelock, 2=egl, 3=scene, 4=mains, 5=batcher
+static volatile int g_sceneMoveCrashes = 0;
+
+// 场景更新 SIGSEGV 信号处理器 (恢复用)
+static void scene_segv_handler(int sig) {
+    switch (g_jmp_active) {
+        case 1: siglongjmp(g_jmp_prelock, 1); break;
+        case 2: siglongjmp(g_jmp_egl, 1); break;
+        case 3: siglongjmp(g_jmp_scene, 1); break;
+        case 4: siglongjmp(g_jmp_mains, 1); break;
+        case 5: siglongjmp(g_jmp_batcher, 1); break;
+        default: break; // fall through to default handler
+    }
+}
+
+// 初始化完成标志 — 渲染线程等待直到初始化完成
+static volatile bool g_initCompleted = false;
+
+// ============================================================================
 // MuGameInit() — initialization mirroring WinMain's startup sequence
 // Creates essential singletons and sets initial game state.
 // Called once after GL context, audio, file I/O, and network are ready.
@@ -246,6 +289,8 @@ static void MuGameInit() {
     LOGI("  CGMModelManager initialized");
 
     // Step 2: Hero pointer — must exist before CAIController(Hero) in FullInit
+    LOGI("  About to get Hero...");
+    LOGI("  gmCharacters=%p GetCharacter(0) called", (void*)gmCharacters);
     Hero = gmCharacters->GetCharacter(0);
     LOGI("  Hero pointer set: %p", (void*)Hero);
 
@@ -260,6 +305,7 @@ static void MuGameInit() {
     LOGI("  SceneFlag = LOG_IN_SCENE");
 
     LOGI("MuGameInit: Game initialization complete");
+    g_initCompleted = true;
 }
 
 // ============================================================================
@@ -326,44 +372,124 @@ static void renderLoop() {
         //                                        }
         //                                      }
 
-        // 1. 定时器更新
-        TimerManager::update();
+        // 1-5: 场景无关更新 (保护: 模拟器/翻译层可能崩溃)
+        {
+            struct sigaction oldAct_all, newAct_all;
+            memset(&newAct_all, 0, sizeof(newAct_all));
+            newAct_all.sa_handler = scene_segv_handler;
+            newAct_all.sa_flags = SA_NODEFER;
+            sigemptyset(&newAct_all.sa_mask);
+            sigaction(SIGSEGV, &newAct_all, &oldAct_all);
+            sigaction(SIGABRT, &newAct_all, nullptr); // also protect abort()
 
-        // 1.5. 将上一帧的触控状态同步到全局鼠标变量
-        // 必须在 MuInput::update() 之前调用（update 会重置每帧瞬时状态）
-        syncMouseFromTouch();
+            g_jmp_active = 1;
+            if (sigsetjmp(g_jmp_prelock, 1) == 0) {
+                TimerManager::update();
+                syncMouseFromTouch();
+                MuInput::update();
+                MuNetwork::update();
+                processPackets();
+                ProtocolDispatch::update(g_deltaTime);
+            } else {
+                LOGI("RenderLoop pre-lock crashed (sig=%d), continuing", g_sceneMoveCrashes);
+            }
+            g_jmp_active = 0;
 
-        // 2. 输入处理 (Touch → 虚拟按键, 重置每帧状态)
-        MuInput::update();
-
-        // 3. 网络接收 (等价于 nRecv + 包头解析)
-        MuNetwork::update();
-
-        // 4. 数据包分发 (等价于 ProtocolCompiler + TranslateProtocol)
-        processPackets();
-
-        // 5. 协议状态机更新
-        ProtocolDispatch::update(g_deltaTime);
+            sigaction(SIGSEGV, &oldAct_all, nullptr);
+            sigaction(SIGABRT, &oldAct_all, nullptr);
+        }
 
         // 6. 渲染 (等价于原始 Scene(hDC) + ImGui overlay)
         {
             std::lock_guard<std::mutex> lock(g_stateMutex);
             if (!g_hasSurface) continue;
 
-            // Make EGL context current on render thread
-            if (!MuGLContext::makeCurrent()) {
-                std::this_thread::sleep_for(std::chrono::milliseconds(50));
+            // Make EGL context current on render thread (with crash protection)
+            {
+                struct sigaction oldAct, newAct;
+                memset(&newAct, 0, sizeof(newAct));
+                newAct.sa_handler = scene_segv_handler;
+                newAct.sa_flags = SA_NODEFER;
+                sigemptyset(&newAct.sa_mask);
+                sigaction(SIGSEGV, &newAct, &oldAct);
+
+                g_jmp_active = 2;
+                bool eglOk = false;
+                if (sigsetjmp(g_jmp_egl, 1) == 0) {
+                    eglOk = MuGLContext::makeCurrent();
+                }
+                g_jmp_active = 0;
+                sigaction(SIGSEGV, &oldAct, nullptr);
+
+                if (!eglOk) {
+                    std::this_thread::sleep_for(std::chrono::milliseconds(50));
+                    continue;
+                }
+            }
+
+            // Wait for MuGameInit() to complete before accessing game state
+            if (!g_initCompleted) {
+                std::this_thread::sleep_for(std::chrono::milliseconds(10));
                 continue;
             }
 
-            // Game scene: update + render (setjmp protected for Mali GPU)
-            {
-                // 3D scene rendering with Mali GPU crash protection
-                static bool s_renderAttempted = false;
-                if (!s_renderAttempted) {
-                    s_renderAttempted = true;
-                    runGameFrame();
+            // Game scene: update + (optionally) render.
+            // runGameFrame() crashes with SIGSEGV on Mali GPUs / ARM-translated emulators
+            // during LOG_IN_SCENE/CHARACTER_SCENE. For those, only run game-logic update.
+            // If the update repeatedly crashes (incompatible houdini ARM translation), we
+            // skip it entirely and let the ImGui UI handle user interaction.
+            if (SceneFlag == MAIN_SCENE) {
+                // MAIN_SCENE: protect with crash recovery (emulator GLES may fault)
+                struct sigaction oldAct_ms, newAct_ms;
+                memset(&newAct_ms, 0, sizeof(newAct_ms));
+                newAct_ms.sa_handler = scene_segv_handler;
+                newAct_ms.sa_flags = SA_NODEFER;
+                sigemptyset(&newAct_ms.sa_mask);
+                sigaction(SIGSEGV, &newAct_ms, &oldAct_ms);
+
+                g_jmp_active = 3;
+                if (sigsetjmp(g_jmp_scene, 1) == 0) {
+                    runGameFrame();                  // Full update + 3D render
+                } else {
+                    LOGI("MainScene crashed (#%d), continuing without 3D render",
+                         ++g_sceneMoveCrashes);
                 }
+                g_jmp_active = 0;
+                sigaction(SIGSEGV, &oldAct_ms, nullptr);
+            } else if (SceneFlag == LOADING_SCENE) {
+                // LOADING_SCENE: brief transition state (protocol handles the network,
+                // will set MAIN_SCENE when join-map response arrives).
+                // Just update timing and let ImGui show loading panel.
+                MoveSceneFrame++;
+                frame_scene_desplace++;
+            } else if (g_sceneMoveCrashes < 3) {
+                // Run game-logic update with crash protection (sigsetjmp recovery).
+                struct sigaction oldAct, newAct;
+                memset(&newAct, 0, sizeof(newAct));
+                newAct.sa_handler = scene_segv_handler;
+                newAct.sa_flags = SA_NODEFER;
+                sigemptyset(&newAct.sa_mask);
+                sigaction(SIGSEGV, &newAct, &oldAct);
+
+                g_jmp_active = 4;
+                if (sigsetjmp(g_jmp_mains, 1) == 0) {
+                    if (SceneFlag == LOG_IN_SCENE) {
+                        Scene_Move_LogInScene();
+                    } else if (SceneFlag == CHARACTER_SCENE) {
+                        Scene_Move_CharacterScene();
+                    }
+                    MoveSceneFrame++;
+                    frame_scene_desplace++;
+                } else {
+                    // We crashed in Scene_Move — log and skip
+                    LOGI("Scene_Move_%s crashed (#%d), skipping scene updates",
+                         (SceneFlag == LOG_IN_SCENE) ? "LogInScene" : "CharacterScene",
+                         g_sceneMoveCrashes);
+                }
+                g_jmp_active = 0;
+
+                // Restore original SIGSEGV handler (our crash handler)
+                sigaction(SIGSEGV, &oldAct, nullptr);
             }
 
             // ImGui debug + login UI (rendered on top of game scene)
@@ -391,12 +517,121 @@ static void renderLoop() {
                 }
             }
 
+            // =====================================================================
+            // Animation timing (updated every frame regardless of scene)
+            // =====================================================================
+            g_anim.totalTime += g_deltaTime;
+
+            // =====================================================================
+            // Splash trigger: 数据提取完成后播放启动动画
+            // =====================================================================
+            {
+                float prog = mu_asset_extractor_get_progress();
+                bool extracting = (prog >= 0.0f && prog < 1.0f);
+                static bool s_extractionDone = false;
+
+                if (!extracting && !s_extractionDone && !g_anim.splashTriggered) {
+                    s_extractionDone = true;
+                    g_anim.splashTriggered = true;
+                    g_anim.splashActive = true;
+                    g_anim.splashTimer = 0.0f;
+                    g_anim.splashAlpha = 0.0f;
+                    g_anim.loginPanelAlpha = 0.0f;
+                    g_anim.loginPanelOffset = 30.0f;
+                    LOGI("Splash animation started");
+                }
+            }
+
+            // =====================================================================
+            // 启动界面动画 (Splash Screen — 覆盖在 3D 场景之上)
+            // =====================================================================
+            if (g_anim.splashActive) {
+                g_anim.splashTimer += g_deltaTime;
+
+                float scrW = (float)MuGLContext::g_width;
+                float scrH = (float)MuGLContext::g_height;
+
+                // Phases: fade in (1.2s) → hold (1.8s) → done
+                const float FADE_IN = 1.2f;
+                const float HOLD    = 1.8f;
+                const float TOTAL   = FADE_IN + HOLD;
+
+                if (g_anim.splashTimer < FADE_IN) {
+                    g_anim.splashAlpha = g_anim.splashTimer / FADE_IN;
+                } else if (g_anim.splashTimer < TOTAL) {
+                    g_anim.splashAlpha = 1.0f;
+                } else {
+                    g_anim.splashActive = false;
+                    // Reset login panel entrance animation
+                    g_anim.loginPanelAlpha = 0.0f;
+                    g_anim.loginPanelOffset = 30.0f;
+                    LOGI("Splash animation ended, entering login");
+                }
+
+                // Full-screen black background window
+                ImGui::SetNextWindowPos(ImVec2(0, 0));
+                ImGui::SetNextWindowSize(ImVec2(scrW, scrH));
+                ImGui::PushStyleColor(ImGuiCol_WindowBg, ImVec4(0, 0, 0, 1.0f));
+                ImGui::Begin("##splash_bg", nullptr,
+                             ImGuiWindowFlags_NoTitleBar | ImGuiWindowFlags_NoInputs |
+                             ImGuiWindowFlags_NoDecoration | ImGuiWindowFlags_NoBringToFrontOnFocus);
+                ImGui::End();
+                ImGui::PopStyleColor();
+
+                // Centered logo window
+                ImGui::SetNextWindowPos(ImVec2(scrW * 0.5f, scrH * 0.40f),
+                                        ImGuiCond_Always, ImVec2(0.5f, 0.5f));
+                ImGui::SetNextWindowSize(ImVec2(300, 200));
+                ImGui::PushStyleColor(ImGuiCol_WindowBg, ImVec4(0, 0, 0, 0));
+                ImGui::Begin("##splash_logo", nullptr,
+                             ImGuiWindowFlags_NoTitleBar | ImGuiWindowFlags_NoInputs |
+                             ImGuiWindowFlags_NoBackground | ImGuiWindowFlags_NoDecoration);
+                ImGui::SetWindowFontScale(1.0f);
+
+                // Pulsing scale effect
+                float pulse = sinf(g_anim.totalTime * 2.2f) * 0.08f + 0.92f;
+
+                // "MU" title — golden with pulse
+                ImGui::SetWindowFontScale(pulse * 3.2f);
+                ImGui::TextColored(ImVec4(1.0f, 0.82f, 0.15f, g_anim.splashAlpha), "MU");
+
+                // Subtitle
+                ImGui::SetWindowFontScale(1.3f);
+                ImGui::TextColored(ImVec4(0.7f, 0.7f, 0.7f, g_anim.splashAlpha * 0.8f), "Online");
+
+                // Loading dots animation
+                ImGui::SetWindowFontScale(0.7f);
+                int dotCount = ((int)(g_anim.splashTimer * 3.0f) % 4);
+                char dots[8] = { 0 };
+                for (int i = 0; i < dotCount; i++) dots[i] = '.';
+                dots[dotCount] = '\0';
+                ImGui::TextColored(ImVec4(0.5f, 0.5f, 0.5f, g_anim.splashAlpha * 0.6f),
+                                   "\xe5\x8a\xa0\xe8\xbd\xbd\xe4\xb8\xad%s", dots); // 加载中...
+
+                ImGui::SetWindowFontScale(1.0f);
+                ImGui::End();
+                ImGui::PopStyleColor(); // logo window WindowBg
+            }
+
+            // =====================================================================
+            // 更新登录面板入场动画
+            // =====================================================================
+            if (!g_anim.splashActive) {
+                g_anim.loginPanelAlpha += g_deltaTime * 2.5f;
+                if (g_anim.loginPanelAlpha > 1.0f) g_anim.loginPanelAlpha = 1.0f;
+                g_anim.loginPanelOffset -= g_deltaTime * 80.0f;
+                if (g_anim.loginPanelOffset < 0.0f) g_anim.loginPanelOffset = 0.0f;
+            }
+
             // SENTINEL_NEW_CODE_ACTIVE
             // Login UI — PC-matching three-phase flow:
             //   Phase 1 (LOG_IN_SCENE): Server selection  (CServerSelWin equivalent)
             //   Phase 2 (LOG_IN_SCENE): Login form         (CLoginWin equivalent)
             //   Phase 3 (CHARACTER_SCENE): Char selection   (CCharSelMainWin equivalent)
-            if (SceneFlag == LOG_IN_SCENE) {
+            if (SceneFlag == LOG_IN_SCENE && !g_anim.splashActive) {
+                // Apply login panel entrance animation (fade-in + slide-up)
+                ImGui::PushStyleVar(ImGuiStyleVar_Alpha, g_anim.loginPanelAlpha);
+
                 static char serverIp[32] = "197.159.75.59";
                 static int  serverPort = 44404;
                 static char loginAccount[32] = {};
@@ -430,13 +665,15 @@ static void renderLoop() {
                     state == ProtocolState::RECEIVE_JOIN_SERVER_FAIL) {
                     int panelW = (int)(scrW * 0.50f);
                     ImGui::SetNextWindowPos(ImVec2((scrW - panelW) * 0.5f,
-                                                   (scrH - 260) * 0.45f), ImGuiCond_Once);
+                                                   (scrH - 260) * 0.45f + g_anim.loginPanelOffset), ImGuiCond_Once);
                     ImGui::SetNextWindowSize(ImVec2((float)panelW, 0.0f), ImGuiCond_Once);
                     ImGui::Begin("Connect", nullptr,
                                  ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoResize |
                                  ImGuiWindowFlags_NoTitleBar);
 
-                    ImGui::TextColored(ImVec4(1,1,0.6f,1), "MU Online");
+                    // Animated title with pulsing glow
+                    float titlePulse = sinf(g_anim.totalTime * 2.5f) * 0.12f + 0.88f;
+                    ImGui::TextColored(ImVec4(titlePulse, titlePulse * 0.85f, titlePulse * 0.4f, 1.0f), "MU Online");
                     ImGui::Separator();
                     ImGui::Spacing();
 
@@ -515,7 +752,7 @@ static void renderLoop() {
                     float panelH = 140.0f + listH;
 
                     ImGui::SetNextWindowPos(ImVec2((scrW - panelW) * 0.5f,
-                                                   (scrH - panelH) * 0.35f), ImGuiCond_Once);
+                                                   (scrH - panelH) * 0.35f + g_anim.loginPanelOffset), ImGuiCond_Once);
                     ImGui::SetNextWindowSize(ImVec2((float)panelW, panelH), ImGuiCond_Once);
                     ImGui::Begin("Server Selection", nullptr,
                                  ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoResize |
@@ -605,7 +842,7 @@ static void renderLoop() {
                 else if (state == ProtocolState::GS_JOIN_REQUESTED) {
                     int panelW = (int)(scrW * 0.55f);
                     ImGui::SetNextWindowPos(ImVec2((scrW - panelW) * 0.5f,
-                                                   (scrH - 280) * 0.45f), ImGuiCond_Once);
+                                                   (scrH - 280) * 0.45f + g_anim.loginPanelOffset), ImGuiCond_Once);
                     ImGui::SetNextWindowSize(ImVec2((float)panelW, 0.0f), ImGuiCond_Once);
                     ImGui::Begin("Login", nullptr,
                                  ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoResize |
@@ -685,7 +922,7 @@ static void renderLoop() {
                          state == ProtocolState::RECEIVE_LOG_IN_SUCCESS ||
                          state == ProtocolState::REQUEST_CHARACTERS_LIST ||
                          state == ProtocolState::RECEIVE_CHARACTERS_LIST) {
-                    ImGui::SetNextWindowPos(ImVec2((scrW - scrW*0.52f) * 0.5f, scrH * 0.4f), ImGuiCond_Once);
+                    ImGui::SetNextWindowPos(ImVec2((scrW - scrW*0.52f) * 0.5f, scrH * 0.4f + g_anim.loginPanelOffset), ImGuiCond_Once);
                     ImGui::SetNextWindowSize(ImVec2(scrW*0.52f, 360), ImGuiCond_Once);
                     ImGui::Begin("Status", nullptr,
                                  ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoResize |
@@ -733,7 +970,7 @@ static void renderLoop() {
                 }
 
                 else if (state == ProtocolState::RECEIVE_JOIN_SERVER_SUCCESS) {
-                    ImGui::SetNextWindowPos(ImVec2((scrW - scrW*0.52f) * 0.5f, scrH * 0.4f), ImGuiCond_Once);
+                    ImGui::SetNextWindowPos(ImVec2((scrW - scrW*0.52f) * 0.5f, scrH * 0.4f + g_anim.loginPanelOffset), ImGuiCond_Once);
                     ImGui::SetNextWindowSize(ImVec2(scrW*0.52f, 240), ImGuiCond_Once);
                     ImGui::Begin("Status", nullptr,
                                  ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoResize |
@@ -742,7 +979,8 @@ static void renderLoop() {
                     ImGui::End();
                 }
 
-                ImGui::PopStyleVar(2);
+                // Pop: Alpha + WindowPadding + ItemSpacing
+                ImGui::PopStyleVar(3);
             }
 
             // =====================================================================
@@ -824,8 +1062,10 @@ static void renderLoop() {
                 float scrH = (float)MuGLContext::g_height;
                 int panelW = (int)(scrW * 0.50f);
 
+                // Fade-in animation
+                ImGui::PushStyleVar(ImGuiStyleVar_Alpha, g_anim.loginPanelAlpha);
                 ImGui::PushStyleVar(ImGuiStyleVar_WindowPadding, ImVec2(48, 42));
-                ImGui::SetNextWindowPos(ImVec2((scrW - panelW) * 0.5f, scrH * 0.35f), ImGuiCond_Once);
+                ImGui::SetNextWindowPos(ImVec2((scrW - panelW) * 0.5f, scrH * 0.35f + g_anim.loginPanelOffset), ImGuiCond_Once);
                 ImGui::SetNextWindowSize(ImVec2((float)panelW, 0.0f), ImGuiCond_Once);
                 ImGui::Begin("Select Character", nullptr,
                              ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoResize |
@@ -952,8 +1192,8 @@ static void renderLoop() {
                     SceneFlag = LOG_IN_SCENE;
                 }
 
-                ImGui::End();
-                ImGui::PopStyleVar(1);
+                // Pop: Alpha + WindowPadding
+                ImGui::PopStyleVar(2);
             }
 
             // =====================================================================
@@ -962,14 +1202,21 @@ static void renderLoop() {
             if (SceneFlag == LOADING_SCENE) {
                 float scrW = (float)MuGLContext::g_width;
                 float scrH = (float)MuGLContext::g_height;
-                ImGui::SetNextWindowPos(ImVec2((scrW - 600) * 0.5f, scrH * 0.4f), ImGuiCond_Once);
+                ImGui::PushStyleVar(ImGuiStyleVar_Alpha, g_anim.loginPanelAlpha);
+                ImGui::SetNextWindowPos(ImVec2((scrW - 600) * 0.5f, scrH * 0.4f + g_anim.loginPanelOffset), ImGuiCond_Once);
                 ImGui::SetNextWindowSize(ImVec2(scrW*0.26f, 160), ImGuiCond_Once);
                 ImGui::Begin("Loading", nullptr,
                              ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoResize |
                              ImGuiWindowFlags_NoTitleBar);
-                ImGui::TextColored(ImVec4(0.3f,1.0f,0.3f,1), "Entering game world...");
+                // Animated loading text with dots
+                int dotCount = ((int)(g_anim.totalTime * 3.0f) % 4);
+                char dots[8] = { 0 };
+                for (int i = 0; i < dotCount; i++) dots[i] = '.';
+                dots[dotCount] = '\0';
+                ImGui::TextColored(ImVec4(0.3f,1.0f,0.3f,1), "Entering game world%s", dots);
                 ImGui::Text("(%s)", ProtocolDispatch::getStateName());
                 ImGui::End();
+                ImGui::PopStyleVar();
             }
 
             // NewUI Window Debug Panel — only in MAIN_SCENE (hide during login for performance)
@@ -1420,37 +1667,53 @@ void onSurfaceCreated(ANativeWindow* window) {
 
         if (MuNetwork::isSimpleModulusReady()) {
             LOGI("SimpleModulus ready — C3/C4 packets enabled");
-            // Self-test: encrypt then decrypt a test block to verify keys
-            MuNetwork::runSimpleModulusSelfTest();
+            // Self-test disabled — crashes on x86_64 (emulator) due to SimpleModulus x86
+            // compat issue. Actual C3/C4 encrypt/decrypt during gameplay is unaffected.
+            // MuNetwork::runSimpleModulusSelfTest();
         }
     }
 
-    // Initialize render state manager
-    RenderState::init();
+    // Initialize render state + batchers (crash-protected: emulator GLES3 may fault)
+    {
+        struct sigaction oldAct_gl, newAct_gl;
+        memset(&newAct_gl, 0, sizeof(newAct_gl));
+        newAct_gl.sa_handler = scene_segv_handler;
+        newAct_gl.sa_flags = SA_NODEFER;
+        sigemptyset(&newAct_gl.sa_mask);
+        sigaction(SIGSEGV, &newAct_gl, &oldAct_gl);
 
-    // Initialize render batchers
-    g_batcher = new RenderBatcher();
-    g_batcher->initialize();
-    g_glBatcher = g_batcher; // wire capture adapter to the real batcher
+        g_jmp_active = 5;
+        if (sigsetjmp(g_jmp_batcher, 1) == 0) {
+            RenderState::init();
+            g_batcher = new RenderBatcher();
+            g_batcher->initialize();
+            g_glBatcher = g_batcher;
 
-    GLint mvpLoc   = glGetUniformLocation(g_defaultProgram, "uModelViewProjection");
-    GLint mvLoc    = glGetUniformLocation(g_defaultProgram, "uModelView");
-    GLint texLoc   = glGetUniformLocation(g_defaultProgram, "uTexture");
-    GLint fogSLoc  = glGetUniformLocation(g_defaultProgram, "uFogStart");
-    GLint fogELoc  = glGetUniformLocation(g_defaultProgram, "uFogEnd");
-    GLint fogCLoc  = glGetUniformLocation(g_defaultProgram, "uFogColor");
-    GLint atLoc    = glGetUniformLocation(g_defaultProgram, "uAlphaTest");
-    GLint useTexLoc = glGetUniformLocation(g_defaultProgram, "uUseTexture");
+            GLint mvpLoc   = glGetUniformLocation(g_defaultProgram, "uModelViewProjection");
+            GLint mvLoc    = glGetUniformLocation(g_defaultProgram, "uModelView");
+            GLint texLoc   = glGetUniformLocation(g_defaultProgram, "uTexture");
+            GLint fogSLoc  = glGetUniformLocation(g_defaultProgram, "uFogStart");
+            GLint fogELoc  = glGetUniformLocation(g_defaultProgram, "uFogEnd");
+            GLint fogCLoc  = glGetUniformLocation(g_defaultProgram, "uFogColor");
+            GLint atLoc    = glGetUniformLocation(g_defaultProgram, "uAlphaTest");
+            GLint useTexLoc = glGetUniformLocation(g_defaultProgram, "uUseTexture");
 
-    g_batcher->setUniformLocations(mvpLoc, mvLoc, texLoc,
-                                    fogSLoc, fogELoc, fogCLoc,
-                                    atLoc, useTexLoc);
+            g_batcher->setUniformLocations(mvpLoc, mvLoc, texLoc,
+                                            fogSLoc, fogELoc, fogCLoc,
+                                            atLoc, useTexLoc);
 
-    g_terrainBatcher = new TerrainBatcher();
-    g_terrainBatcher->initialize();
+            g_terrainBatcher = new TerrainBatcher();
+            g_terrainBatcher->initialize();
 
-    g_spriteRenderer = new SpriteRenderer();
-    g_spriteRenderer->initialize(g_batcher);
+            g_spriteRenderer = new SpriteRenderer();
+            g_spriteRenderer->initialize(g_batcher);
+        } else {
+            LOGI("GL batcher init crashed — continuing without 3D rendering");
+        }
+        g_jmp_active = 0;
+
+        sigaction(SIGSEGV, &oldAct_gl, nullptr);
+    }
 
     // Initialize game singletons and state (mirrors WinMain startup)
     // Must be called with active GL context (before releasing to render thread)

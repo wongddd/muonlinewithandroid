@@ -2803,6 +2803,99 @@ void MoveClientManager()
 	}
 }
 
+// ============================================================================
+// Move-only scene update (no OpenGL rendering) — used on Android to avoid
+// GLES3 Mali GPU crashes during LOG_IN_SCENE/CHARACTER_SCENE.
+// These extract the update portion from MainScene().
+// ============================================================================
+void Scene_Move_LogInScene()
+{
+	g_ErrorReport.Write("> Scene_Move_LogInScene enter (Android safe path)\r\n");
+
+	const uintmax_t fixedDeltaTime = gsteady_clock->Getframe_per_second();
+
+	static uintmax_t accumulatedTime = fixedDeltaTime;
+
+	gsteady_clock->LoadInformationFps();
+
+	if (accumulatedTime >= fixedDeltaTime)
+		accumulatedTime -= fixedDeltaTime;
+
+	g_pNewKeyInput->ScanAsyncKeyState();
+
+	{
+		double dDeltaTick = g_pTimer->GetTimeElapsed();
+		dDeltaTick = MIN(dDeltaTick, 200.0);
+		g_pTimer->ResetTimer();
+
+		CInput::Instance().Update();
+		CUIMng::Instance().Update(dDeltaTick);
+	}
+
+	g_dwMouseUseUIID = 0;
+
+	NewMoveLogInScene();
+
+	g_PhysicsManager.Move(0.005f);
+
+	MoveNotices();
+
+	if (ChatTime > 0)
+		ChatTime -= timefac(1.f);
+
+	if (MacroTime > 0)
+		MacroTime--;
+
+	if (checkNormalizer)
+	{
+		WaterTextureNumber++;
+		WaterTextureNumber %= 32;
+	}
+}
+
+void Scene_Move_CharacterScene()
+{
+	const uintmax_t fixedDeltaTime = gsteady_clock->Getframe_per_second();
+
+	static uintmax_t accumulatedTime = fixedDeltaTime;
+
+	gsteady_clock->LoadInformationFps();
+
+	if (accumulatedTime >= fixedDeltaTime)
+		accumulatedTime -= fixedDeltaTime;
+
+	g_pNewKeyInput->ScanAsyncKeyState();
+
+	{
+		double dDeltaTick = g_pTimer->GetTimeElapsed();
+		dDeltaTick = MIN(dDeltaTick, 200.0);
+		g_pTimer->ResetTimer();
+
+		CInput::Instance().Update();
+		CUIMng::Instance().Update(dDeltaTick);
+	}
+
+	g_dwMouseUseUIID = 0;
+
+	NewMoveCharacterScene();
+
+	g_PhysicsManager.Move(0.005f);
+
+	MoveNotices();
+
+	if (ChatTime > 0)
+		ChatTime -= timefac(1.f);
+
+	if (MacroTime > 0)
+		MacroTime--;
+
+	if (checkNormalizer)
+	{
+		WaterTextureNumber++;
+		WaterTextureNumber %= 32;
+	}
+}
+
 void MainScene(HDC hDC)
 {
 	const uintmax_t fixedDeltaTime = gsteady_clock->Getframe_per_second();

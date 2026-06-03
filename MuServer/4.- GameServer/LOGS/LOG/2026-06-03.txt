@@ -1,0 +1,33 @@
+00:05:00 [Invasion Manager] Index(0) Boss Position (Map: 0 X: 138 Y: 196)
+00:10:00 [CustomQuiz] Start
+00:13:00 [CustomQuiz] Finish
+00:14:02 [Obj][12500] AddClient (98.97.79.172)
+00:14:04 [Obj][12500] AddAccount (louismk)
+00:14:34 [Obj][12500] LogInCharacter (ºìÃ«´óÏÀ)
+00:14:46 [Obj][12500] LogOutCharacter (ºìÃ«´óÏÀ)
+00:14:46 [Obj][12500] DelAccount (louismk)
+00:14:46 [Obj][12500] DelClient (98.97.79.172)
+00:15:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 103 Y: 190)
+00:15:48 [Obj][12500] AddClient (98.97.79.172)
+00:15:50 [Obj][12500] AddAccount (louismk)
+00:15:54 [Obj][12500] LogInCharacter (????)
+00:16:17 [Obj][12500] LogOutCharacter (????)
+00:16:17 [Obj][12500] DelAccount (louismk)
+00:16:17 [Obj][12500] DelClient (98.97.79.172)
+00:25:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 105 Y: 109)
+00:36:01 [OnlineLoterry] No Winner
+00:50:00 [Invasion Manager] Index(3) Boss Position (Map: 2 X: 161 Y: 17)
+01:00:00 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 127 Y: 165)
+01:10:00 [CustomQuiz] Start
+01:13:00 [CustomQuiz] Finish
+01:36:01 [OnlineLoterry] No Winner
+01:52:10 [Obj][12500] AddClient (98.97.79.172)
+01:52:12 [Obj][12500] AddAccount (louismk)
+01:52:18 [Obj][12500] LogInCharacter (LouisSM)
+01:54:01 [Obj][12500] LogOutCharacter (LouisSM)
+01:54:01 [Obj][12500] DelAccount (louismk)
+01:54:01 [Obj][12500] DelClient (98.97.79.172)
+01:57:08 [Obj][12500] AddClient (98.97.79.172)
+01:57:25 [Obj][12500] DelClient (98.97.79.172)
+01:57:33 [Obj][12501] AddClient (98.97.79.172)
+01:57:48 [Obj][12501] DelClient (98.97.79.172)

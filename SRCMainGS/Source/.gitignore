@@ -1,0 +1,23 @@
+# Server runtime logs
+/MuServer/1.- ConnectServer/LOG/
+/MuServer/2.- DataServer/LOG/
+/MuServer/3.- JoinServer/LOGS/
+/MuServer/4.- GameServer/LOGS/
+
+# Visual Studio build artifacts
+*.obj
+*.pdb
+*.idb
+*.tlog
+*.log
+*.manifest
+*.res
+*.ilk
+ipch/
+.vs/
+Debug/
+Release/
+
+# CMake build
+android/app/.cxx/
+android/app/build/

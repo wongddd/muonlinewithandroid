@@ -20,6 +20,11 @@ extern int g_iLengthAuthorityCode;
 
 extern void LoadingScene(HDC hDC);
 extern void Scene(HDC Hdc);
+
+// Move-only scene updates (no OpenGL rendering) — Android GLES3 safe path
+extern void Scene_Move_LogInScene();
+extern void Scene_Move_CharacterScene();
+
 extern bool CheckName();
 extern void StartGame();
 

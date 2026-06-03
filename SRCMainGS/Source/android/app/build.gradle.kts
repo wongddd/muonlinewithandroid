@@ -40,12 +40,12 @@ android {
                     "-DCMAKE_BUILD_TYPE=Release"
                 )
                 // 模拟器需要 x86, 真机用 arm64-v8a
-                abiFilters += listOf("arm64-v8a", "x86")
+                abiFilters += listOf("x86", "x86_64")
             }
         }
 
         ndk {
-            abiFilters += listOf("arm64-v8a", "x86")
+            abiFilters += listOf("x86", "x86_64")
         }
     }
 
@@ -57,6 +57,14 @@ android {
         debug {
             isDebuggable = true
             isJniDebuggable = true
+        }
+        // Non-debuggable variant — bypasses Huawei EMUI security kill of debug APKs.
+        // No ProGuard for fast iteration.
+        register("nondebug") {
+            initWith(getByName("debug"))
+            isDebuggable = false
+            isJniDebuggable = false
+            isMinifyEnabled = false
         }
     }
 
