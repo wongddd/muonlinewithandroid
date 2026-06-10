@@ -1078,6 +1078,9 @@ static void renderLoop() {
                 if (chars.empty()) {
                     ImGui::Text("\xe6\xb2\xa1\xe6\x9c\x89\xe8\xa7\x92\xe8\x89\xb2"); // 没有角色
                 } else {
+                    static int pendingDeleteIndex = -1;
+                    static char pendingDeleteName[11] = {};
+                    static char deleteCode[21] = {};
                     for (size_t i = 0; i < chars.size(); i++) {
                         const auto& c = chars[i];
                         const char* className = "Unknown";
@@ -1106,9 +1109,47 @@ static void renderLoop() {
                         snprintf(delLabel, sizeof(delLabel), "\xe5\x88\xa0\xe9\x99\xa4##del%zu", i);
                         if (ImGui::Button(delLabel, ImVec2(180, 90))) {
                             LOGI("Delete character: '%s'", c.name);
-                            ProtocolDispatch::deleteCharacter((int)i);
+                            pendingDeleteIndex = (int)i;
+                            strncpy(pendingDeleteName, c.name, sizeof(pendingDeleteName) - 1);
+                            pendingDeleteName[sizeof(pendingDeleteName) - 1] = '\0';
+                            deleteCode[0] = '\0';
+                            ImGui::OpenPopup("\xe5\x88\xa0\xe9\x99\xa4\xe8\xa7\x92\xe8\x89\xb2");
                         }
                         ImGui::PopStyleColor();
+                    }
+
+                    ImGui::SetNextWindowSize(ImVec2(520, 260), ImGuiCond_Appearing);
+                    if (ImGui::BeginPopupModal("\xe5\x88\xa0\xe9\x99\xa4\xe8\xa7\x92\xe8\x89\xb2", nullptr,
+                                               ImGuiWindowFlags_NoResize)) {
+                        ImGui::Text("\xe8\xa7\x92\xe8\x89\xb2: %s", pendingDeleteName);
+                        ImGui::Spacing();
+                        ImGui::Text("\xe5\xae\x89\xe5\x85\xa8\xe7\xa0\x81:");
+                        ImGui::SameLine(150);
+                        ImGui::PushItemWidth(300);
+                        ImGui::InputText("##deleteCode", deleteCode, sizeof(deleteCode),
+                                         ImGuiInputTextFlags_Password);
+                        ImGui::PopItemWidth();
+
+                        ImGui::Spacing();
+                        ImGui::Separator();
+                        ImGui::Spacing();
+                        if (ImGui::Button("\xe7\xa1\xae\xe8\xae\xa4\xe5\x88\xa0\xe9\x99\xa4", ImVec2(220, 64))) {
+                            if (pendingDeleteIndex >= 0) {
+                                ProtocolDispatch::deleteCharacter(pendingDeleteIndex, deleteCode);
+                            }
+                            pendingDeleteIndex = -1;
+                            pendingDeleteName[0] = '\0';
+                            deleteCode[0] = '\0';
+                            ImGui::CloseCurrentPopup();
+                        }
+                        ImGui::SameLine();
+                        if (ImGui::Button("\xe5\x8f\x96\xe6\xb6\x88", ImVec2(180, 64))) {
+                            pendingDeleteIndex = -1;
+                            pendingDeleteName[0] = '\0';
+                            deleteCode[0] = '\0';
+                            ImGui::CloseCurrentPopup();
+                        }
+                        ImGui::EndPopup();
                     }
                 }
 

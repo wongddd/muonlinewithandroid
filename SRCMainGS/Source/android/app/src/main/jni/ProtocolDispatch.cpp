@@ -7,6 +7,7 @@
 #include <string>
 #include <algorithm>
 #include <ctime>
+#include <cstdlib>
 
 #define LOG_TAG "ProtocolDispatch"
 #define LOGI(...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__)
@@ -75,6 +76,93 @@ static uint8_t g_version[SIZE_PROTOCOLVERSION] = {
     static_cast<uint8_t>('5' + 5)
 };
 static const char g_serial[SIZE_PROTOCOLSERIAL + 1] = "TbYehR2hFUPBKgZj";
+static std::string g_storagePath;
+static std::string g_hardwareId;
+
+static uint32_t mix32(uint32_t x) {
+    x ^= x >> 16;
+    x *= 0x7FEB352D;
+    x ^= x >> 15;
+    x *= 0x846CA68B;
+    x ^= x >> 16;
+    return x;
+}
+
+static uint32_t nextIdWord(uint32_t& state) {
+    state ^= state << 13;
+    state ^= state >> 17;
+    state ^= state << 5;
+    return mix32(state);
+}
+
+static void generateHardwareId(char out[36]) {
+    struct timespec ts;
+    clock_gettime(CLOCK_REALTIME, &ts);
+
+    uint32_t seed = static_cast<uint32_t>(ts.tv_nsec)
+                  ^ static_cast<uint32_t>(ts.tv_sec)
+                  ^ static_cast<uint32_t>(reinterpret_cast<uintptr_t>(&seed))
+                  ^ 0xA53C91E7u;
+    if (!g_storagePath.empty()) {
+        for (unsigned char ch : g_storagePath) {
+            seed = mix32(seed ^ ch);
+        }
+    }
+
+    uint32_t a = nextIdWord(seed);
+    uint32_t b = nextIdWord(seed);
+    uint32_t c = nextIdWord(seed);
+    uint32_t d = nextIdWord(seed);
+    snprintf(out, 36, "%08X-%08X-%08X-%08X", a, b, c, d);
+}
+
+static const std::string& getHardwareId() {
+    if (!g_hardwareId.empty()) {
+        return g_hardwareId;
+    }
+
+    char loaded[64] = {0};
+    if (!g_storagePath.empty()) {
+        std::string path = g_storagePath;
+        if (!path.empty() && path.back() != '/') path += '/';
+        path += ".mu_hwid";
+
+        FILE* fp = (fopen)(path.c_str(), "r");
+        if (fp) {
+            if (fgets(loaded, sizeof(loaded), fp)) {
+                loaded[strcspn(loaded, "\r\n")] = '\0';
+            }
+            fclose(fp);
+        }
+
+        if (strlen(loaded) == 35) {
+            g_hardwareId = loaded;
+        } else {
+            char generated[36] = {0};
+            generateHardwareId(generated);
+            g_hardwareId = generated;
+            fp = (fopen)(path.c_str(), "w");
+            if (fp) {
+                fprintf(fp, "%s\n", g_hardwareId.c_str());
+                fclose(fp);
+            }
+        }
+    }
+
+    if (g_hardwareId.empty()) {
+        char generated[36] = {0};
+        generateHardwareId(generated);
+        g_hardwareId = generated;
+    }
+
+    return g_hardwareId;
+}
+
+static void fillHardwareId(uint8_t* dest, size_t size) {
+    memset(dest, 0, size);
+    const std::string& hwid = getHardwareId();
+    memcpy(dest, hwid.c_str(), std::min(size - 1, hwid.size()));
+}
 
 // ============================================================================
 // 状态
@@ -82,6 +170,10 @@ static const char g_serial[SIZE_PROTOCOLSERIAL + 1] = "TbYehR2hFUPBKgZj";
 static ProtocolState g_currentState = ProtocolState::DISCONNECTED;
 static std::string g_serverIP;
 static uint16_t g_serverPort = 0;
+static std::string g_connectServerIP;
+static uint16_t g_connectServerPort = 0;
+static std::string g_gameServerIP;
+static uint16_t g_gameServerPort = 0;
 static bool g_stateChanged = true;
 
 // 登录凭据
@@ -102,7 +194,8 @@ static constexpr float LOGIN_TIMEOUT  = 30.0f;   // 登录超时 30s
 static constexpr float JOIN_TIMEOUT   = 20.0f;   // 加入地图超时 20s
 
 // 自动重连 (Task 5)
-static bool g_autoReconnect = false;
+static bool g_autoReconnectEnabled = false;
+static bool g_reconnectPending = false;
 static std::string g_reconnectIP;
 static uint16_t g_reconnectPort = 0;
 static std::string g_reconnectAccount;
@@ -117,10 +210,10 @@ static std::vector<ServerGroup> g_serverGroups;
 static std::vector<CharacterInfo> g_characterList;
 
 // 当前选中角色 (用于 sendJoinMapServerRequestPacket)
+static int g_selectedConnectIndex = -1;
 static int g_selectedSlot = 0;
 static char g_selectedCharName[11] = {0};
 static bool g_pendingJoinMap = false;
-static bool g_autoLoginAfterReconnect = false;
 
 // ============================================================================
 // 内部函数声明
@@ -241,9 +334,10 @@ static void onEnterState(ProtocolState state) {
             ReleaseLogoSceneData();
             LOGI("*** ReleaseLogoSceneData() called");
 
-            // Task 5: 保存连接信息用于自动重连
-            g_reconnectIP = g_serverIP;
-            g_reconnectPort = g_serverPort;
+            // Task 5: 保存 ConnectServer 入口用于重连。当前 g_serverIP/g_serverPort
+            // 已经是 GameServer 重定向地址，重连必须重新走 CS 选服流程。
+            g_reconnectIP = g_connectServerIP.empty() ? g_serverIP : g_connectServerIP;
+            g_reconnectPort = (g_connectServerPort == 0) ? g_serverPort : g_connectServerPort;
             g_reconnectAccount = g_loginAccount;
             g_reconnectPassword = g_loginPassword;
 
@@ -331,10 +425,17 @@ void init() {
     g_stateChanged = true;
     g_serverIP.clear();
     g_serverPort = 0;
+    g_connectServerIP.clear();
+    g_connectServerPort = 0;
+    g_gameServerIP.clear();
+    g_gameServerPort = 0;
+    g_selectedConnectIndex = -1;
     g_serverGroups.clear();
     g_characterList.clear();
     g_timeoutAccum = 0.0f;
-    g_autoReconnect = false;
+    g_autoReconnectEnabled = false;
+    g_reconnectPending = false;
+    g_reconnectDelay = 0.0f;
     LOGI("ProtocolDispatch initialized");
 }
 
@@ -342,6 +443,19 @@ void update(float deltaTime) {
     if (g_stateChanged) {
         g_stateChanged = false;
         onEnterState(g_currentState);
+    }
+
+    if (!MuNetwork::isConnected() &&
+        g_currentState != ProtocolState::DISCONNECTED &&
+        g_currentState != ProtocolState::RECEIVE_JOIN_SERVER_FAIL) {
+        LOGE("Socket disconnected while state=%s", stateName(g_currentState));
+        g_timeoutAccum = 0.0f;
+        if (g_autoReconnectEnabled && !g_reconnectIP.empty()) {
+            g_reconnectPending = true;
+            g_reconnectDelay = 0.0f;
+            g_pendingJoinMap = (g_currentState >= ProtocolState::RECEIVE_CHARACTERS_LIST);
+        }
+        setState(ProtocolState::DISCONNECTED);
     }
 
     // Timer-based: 0.3s after connecting to CS, request server list
@@ -379,27 +493,31 @@ void update(float deltaTime) {
             g_lastError = "连接超时";
             LOGE("Timeout in state %s after %.0fs", stateName(g_currentState), timeout);
             g_timeoutAccum = 0.0f;
-            disconnect();
+            MuNetwork::disconnect();
+            if (g_autoReconnectEnabled && !g_reconnectIP.empty()) {
+                g_reconnectPending = true;
+                g_reconnectDelay = 0.0f;
+            }
+            setState(ProtocolState::DISCONNECTED);
         }
     } else {
         g_timeoutAccum = 0.0f;
     }
 
     // ======== Task 5: 自动重连 (always go through CS) ========
-    if (g_autoReconnect &&
+    if (g_reconnectPending &&
         g_currentState == ProtocolState::DISCONNECTED &&
         !g_reconnectIP.empty()) {
         g_reconnectDelay += deltaTime;
         if (g_reconnectDelay >= RECONNECT_DELAY) {
             LOGI("Auto-reconnecting to %s:%u as %s",
                  g_reconnectIP.c_str(), g_reconnectPort, g_reconnectAccount.c_str());
-            g_autoReconnect = false;
+            g_reconnectPending = false;
             g_reconnectDelay = 0.0f;
             if (!g_reconnectAccount.empty()) {
                 g_loginAccount = g_reconnectAccount;
                 g_loginPassword = g_reconnectPassword;
             }
-            // Always reconnect to ConnectServer (default 197.159.75.59:44404)
             ProtocolDispatch::connectToServer(g_reconnectIP.c_str(), g_reconnectPort);
         }
     }
@@ -473,8 +591,13 @@ void processPacket(const Packet& packet) {
 }
 
 void connectToServer(const char* ip, uint16_t port) {
-    g_serverIP = ip;
+    g_connectServerIP = ip ? ip : "";
+    g_connectServerPort = port;
+    g_serverIP = g_connectServerIP;
     g_serverPort = port;
+    g_gameServerIP.clear();
+    g_gameServerPort = 0;
+    g_reconnectPending = false;
     setState(ProtocolState::REQUEST_JOIN_SERVER);
 }
 
@@ -483,6 +606,9 @@ void disconnect() {
     g_serverGroups.clear();
     g_characterList.clear();
     g_timeoutAccum = 0.0f;
+    g_pendingJoinMap = false;
+    g_reconnectPending = false;
+    g_reconnectDelay = 0.0f;
     setState(ProtocolState::DISCONNECTED);
 }
 
@@ -503,6 +629,7 @@ void selectServer(int groupIdx, int subIdx) {
     if (subIdx < 0 || subIdx >= (int)group.servers.size()) return;
 
     uint16_t connectIdx = (uint16_t)group.servers[subIdx].connectIndex;
+    g_selectedConnectIndex = connectIdx;
     sendServerSelectRequest(connectIdx);
     LOGI("Selected server: group=%d '%s' sub=%d '%s' (connectIdx=%u)",
          groupIdx, group.name, subIdx, group.servers[subIdx].name, connectIdx);
@@ -562,9 +689,16 @@ void selectCharacter(int slotIndex) {
     if (g_currentState == ProtocolState::DISCONNECTED) {
         LOGI("GS disconnected — reconnecting before joining map server");
         g_pendingJoinMap = true;
-        g_autoReconnect = true;
-        g_reconnectIP = "197.159.75.59";
-        g_reconnectPort = 44404; // CS port
+        g_reconnectPending = true;
+        g_reconnectDelay = RECONNECT_DELAY;
+        if (g_reconnectIP.empty()) {
+            g_reconnectIP = g_connectServerIP;
+            g_reconnectPort = g_connectServerPort;
+        }
+        if (g_reconnectIP.empty() || g_reconnectPort == 0) {
+            g_lastError = "缺少 ConnectServer 地址，无法重连";
+            g_reconnectPending = false;
+        }
         return;
     }
 
@@ -583,6 +717,7 @@ const char* getSavedPassword() { return g_savedPassword.c_str(); }
 
 void setCredPath(const char* internalPath) {
     if (internalPath) {
+        g_storagePath = internalPath;
         g_credPath = internalPath;
         if (!g_credPath.empty() && g_credPath.back() != '/') g_credPath += '/';
         g_credPath += ".mu_credentials";
@@ -625,21 +760,26 @@ void loadCredentials() {
 // ========== Task 5: 自动重连 ==========
 
 void enableAutoReconnect(bool enable) {
-    g_autoReconnect = enable;
+    g_autoReconnectEnabled = enable;
+    if (!enable) {
+        g_reconnectPending = false;
+        g_reconnectDelay = 0.0f;
+    }
     LOGI("Auto-reconnect %s", enable ? "enabled" : "disabled");
 }
 
-bool isAutoReconnectEnabled() { return g_autoReconnect; }
+bool isAutoReconnectEnabled() { return g_autoReconnectEnabled; }
 
 // ============================================================================
 // 数据包发送
 // ============================================================================
 
 static void sendHWIDRequest() {
-    uint8_t buf[42] = {0};
-    buf[0] = 0xC1; buf[1] = 42; buf[2] = 0xF4; buf[3] = 0x04;
+    uint8_t buf[40] = {0};
+    buf[0] = 0xC1; buf[1] = static_cast<uint8_t>(sizeof(buf)); buf[2] = 0xF4; buf[3] = 0x04;
+    fillHardwareId(buf + 4, 36);
     MuNetwork::send(buf, buf[1]);
-    LOGI("Sent HWID request (0xF4 sub 0x04)");
+    LOGI("Sent HWID request (0xF4 sub 0x04): %s", getHardwareId().c_str());
 }
 
 static void sendServerListRequest() {
@@ -688,6 +828,7 @@ static void sendLoginRequestPacket() {
     memcpy(rawBuf.data() + off, g_loginPassword.c_str(), pwdLen);
     off += PW_SIZE;
 
+    fillHardwareId(rawBuf.data() + off, HWID_SIZE);
     off += HWID_SIZE;
 
     BuxConvert(rawBuf.data() + 4, ID_SIZE);
@@ -736,13 +877,15 @@ static void sendCharacterCreateRequestPacket(const char* name, uint8_t classCode
     LOGI("Sent create character request: '%s' class=0x%02X", name, classCode);
 }
 
-static void sendCharacterDeleteRequestPacket(const char* name) {
-    // PC: SendRequestDeleteCharacter — C1 [size] F3 02 [name(10)] [code]
-    uint8_t buf[16] = {0};
-    buf[0] = 0xC1; buf[1] = 16; buf[2] = 0xF3; buf[3] = 0x02;
+static void sendCharacterDeleteRequestPacket(const char* name, const char* personalCode) {
+    // PC: SendRequestDeleteCharacter — C1 [size] F3 02 [name(10)] [resident/code(20)]
+    uint8_t buf[34] = {0};
+    buf[0] = 0xC1; buf[1] = static_cast<uint8_t>(sizeof(buf)); buf[2] = 0xF3; buf[3] = 0x02;
     memcpy(buf + 4, name, std::min(strlen(name), (size_t)10));
-    buf[14] = 0x00; // code
-    XorData(buf, 3, 16);
+    if (personalCode) {
+        memcpy(buf + 14, personalCode, std::min(strlen(personalCode), (size_t)20));
+    }
+    XorData(buf, 3, sizeof(buf));
     MuNetwork::send(buf, buf[1], true);
     LOGI("Sent delete character request: '%s'", name);
 }
@@ -758,9 +901,13 @@ void createCharacter(const char* name, uint8_t classCode) {
 }
 
 void deleteCharacter(int slotIndex) {
+    deleteCharacter(slotIndex, "");
+}
+
+void deleteCharacter(int slotIndex, const char* personalCode) {
     if (slotIndex < 0 || slotIndex >= (int)g_characterList.size()) return;
     if (g_currentState != ProtocolState::RECEIVE_CHARACTERS_LIST) return;
-    sendCharacterDeleteRequestPacket(g_characterList[slotIndex].name);
+    sendCharacterDeleteRequestPacket(g_characterList[slotIndex].name, personalCode);
 }
 
 // ========== Task 2: 账号注册 ==========
@@ -933,6 +1080,8 @@ static void handleProtocol0xF4(const Packet& packet) {
                 uint16_t port = static_cast<uint16_t>(packet.data[20])
                               | (static_cast<uint16_t>(packet.data[21]) << 8);
                 LOGI("GameServer at %s:%u", ip, port);
+                g_gameServerIP = ip;
+                g_gameServerPort = port;
                 g_serverIP = ip;
                 g_serverPort = port;
                 setState(ProtocolState::RECEIVE_JOIN_SERVER_SUCCESS);
@@ -1071,9 +1220,24 @@ static void handleProtocol0xF4(const Packet& packet) {
 
             // Auto-select first server if pending join map
             if (g_pendingJoinMap && !g_serverGroups.empty() && !g_serverGroups[0].servers.empty()) {
-                uint16_t idx = g_serverGroups[0].servers[0].connectIndex;
-                sendServerSelectRequest(idx);
-                LOGI("Auto-selecting server %u for pending join", idx);
+                int idx = -1;
+                if (g_selectedConnectIndex >= 0) {
+                    for (const auto& group : g_serverGroups) {
+                        for (const auto& server : group.servers) {
+                            if (server.connectIndex == g_selectedConnectIndex) {
+                                idx = server.connectIndex;
+                                break;
+                            }
+                        }
+                        if (idx >= 0) break;
+                    }
+                }
+                if (idx < 0) {
+                    idx = g_serverGroups[0].servers[0].connectIndex;
+                }
+                uint16_t sendIdx = static_cast<uint16_t>(idx);
+                sendServerSelectRequest(sendIdx);
+                LOGI("Auto-selecting server %u for pending join", (unsigned)sendIdx);
             }
             break;
         }
@@ -1101,29 +1265,67 @@ static void handleProtocol0xF3(const Packet& packet) {
 
             g_characterList.clear();
 
-            // Determine offset: after header(4) + classCode(1) + moveCnt(1) + count(1)
+            // Determine offset after normalized header:
+            //   C2 original: C2 sizeH sizeL F3 00 class move count extWarehouse entries...
+            //   normalized:  C2 sizeL      F3 00 class move count extWarehouse entries...
+            // 602+ servers include ExtWarehouse, so entry data starts at 8.
             uint8_t classCode = (packet.size >= 6) ? packet.data[4] : 0;
             uint8_t moveCnt   = (packet.size >= 6) ? packet.data[5] : 0;
             uint8_t count     = (packet.size >= 7) ? packet.data[6] : 0;
-            LOGI("Character list: classCode=%d moveCnt=%d count=%d", classCode, moveCnt, count);
+            uint8_t extWarehouse = (packet.size >= 8) ? packet.data[7] : 0;
+            LOGI("Character list: classCode=%d moveCnt=%d count=%d extWarehouse=%d",
+                 classCode, moveCnt, count, extWarehouse);
 
-            // Auto-detect entry size from packet body
-            g_characterList.clear();
+            if (count == 0) {
+                setState(ProtocolState::RECEIVE_CHARACTERS_LIST);
+                break;
+            }
+
+            auto entryScore = [](int size) {
+                if (size == 76) return 0; // 603/602: 13 DWORD equipment + reset/master reset
+                if (size == 68) return 1; // older layout without reset/master reset
+                if (size >= 34 && size <= 96) return 2;
+                if (size >= 15) return 3;
+                return 100;
+            };
+
             int hdrSize = 7;
-            int body = (int)packet.size - hdrSize;
-            int entrySize = body / count;
-            if (entrySize < 15) entrySize = 34;
+            int bestScore = 100;
+            for (int candidateHdr : {8, 7}) {
+                int body = (int)packet.size - candidateHdr;
+                if (body < (int)count * 15 || body % count != 0) continue;
+                int candidateEntry = body / count;
+                int score = entryScore(candidateEntry);
+                if (score < bestScore) {
+                    bestScore = score;
+                    hdrSize = candidateHdr;
+                }
+            }
 
-            LOGI("  Auto-detect: body=%d count=%d entrySize=%d", body, count, entrySize);
+            int body = (int)packet.size - hdrSize;
+            int entrySize = (body > 0) ? (body / count) : 0;
+            if (entrySize < 15) {
+                LOGE("Invalid character list layout: size=%zu hdr=%d count=%d body=%d",
+                     packet.size, hdrSize, count, body);
+                setState(ProtocolState::RECEIVE_CHARACTERS_LIST);
+                break;
+            }
+
+            LOGI("  Auto-detect: hdr=%d body=%d count=%d entrySize=%d",
+                 hdrSize, body, count, entrySize);
             for (int ci = 0; ci < count; ci++) {
                 int pos = hdrSize + ci * entrySize;
-                if (pos + 14 > (int)packet.size) break;
+                if (pos + 15 > (int)packet.size) break;
                 CharacterInfo c;
                 c.slot = packet.data[pos];
                 memcpy(c.name, packet.data + pos + 1, 10); c.name[10] = '\0';
-                // Strip non-printable prefix byte from name
-                if (c.name[0] > 0 && c.name[0] < ' ' && c.name[1] >= ' ') {
-                    memmove(c.name, c.name + 1, 9); c.name[9] = '\0';
+                for (int ni = 0; ni < 10; ++ni) {
+                    unsigned char ch = static_cast<unsigned char>(c.name[ni]);
+                    if (ch == 0) break;
+                    if (ch < 32 || ch > 126) {
+                        c.name[ni] = '\0';
+                        break;
+                    }
                 }
                 c.level    = packet.data[pos + 11] | (packet.data[pos + 12] << 8);
                 c.ctlCode  = packet.data[pos + 13];
@@ -1143,12 +1345,12 @@ static void handleProtocol0xF3(const Packet& packet) {
                 uint8_t result = packet.data[4];
                 LOGI("Create character result: 0x%02X", result);
                 switch (result) {
-                    case 0x00:
+                    case 0x01:
                         snprintf(g_createResult, sizeof(g_createResult), "\xe5\x88\x9b\xe5\xbb\xba\xe6\x88\x90\xe5\x8a\x9f");
                         g_createResultColor = 1;
                         break;
-                    case 0x01:
-                        snprintf(g_createResult, sizeof(g_createResult), "\xe8\xa7\x92\xe8\x89\xb2\xe5\x90\x8d\xe5\xb7\xb2\xe5\xad\x98\xe5\x9c\xa8");
+                    case 0x00:
+                        snprintf(g_createResult, sizeof(g_createResult), "\xe5\x88\x9b\xe5\xbb\xba\xe5\xa4\xb1\xe8\xb4\xa5");
                         break;
                     case 0x02:
                         snprintf(g_createResult, sizeof(g_createResult), "\xe5\xb7\xb2\xe8\xbe\xbe\xe8\xa7\x92\xe8\x89\xb2\xe4\xb8\x8a\xe9\x99\x90");
@@ -1168,11 +1370,23 @@ static void handleProtocol0xF3(const Packet& packet) {
             if (packet.size > 4) {
                 uint8_t result = packet.data[4];
                 LOGI("Delete character result: 0x%02X", result);
-                if (result == 0x00) {
-                    snprintf(g_createResult, sizeof(g_createResult), "\xe5\x88\xa0\xe9\x99\xa4\xe6\x88\x90\xe5\x8a\x9f");
-                    g_createResultColor = 1;
-                } else {
-                    snprintf(g_createResult, sizeof(g_createResult), "\xe5\x88\xa0\xe9\x99\xa4\xe5\xa4\xb1\xe8\xb4\xa5");
+                switch (result) {
+                    case 0x01:
+                        snprintf(g_createResult, sizeof(g_createResult), "\xe5\x88\xa0\xe9\x99\xa4\xe6\x88\x90\xe5\x8a\x9f");
+                        g_createResultColor = 1;
+                        break;
+                    case 0x00:
+                        snprintf(g_createResult, sizeof(g_createResult), "\xe8\xa7\x92\xe8\x89\xb2\xe5\x9c\xa8\xe5\x85\xac\xe4\xbc\x9a\xe4\xb8\xad\xef\xbc\x8c\xe4\xb8\x8d\xe8\x83\xbd\xe5\x88\xa0\xe9\x99\xa4");
+                        break;
+                    case 0x02:
+                        snprintf(g_createResult, sizeof(g_createResult), "\xe5\xae\x89\xe5\x85\xa8\xe7\xa0\x81\xe9\x94\x99\xe8\xaf\xaf");
+                        break;
+                    case 0x03:
+                        snprintf(g_createResult, sizeof(g_createResult), "\xe8\xa7\x92\xe8\x89\xb2\xe6\x9c\x89\xe7\x89\xa9\xe5\x93\x81\xe9\x94\x81\xef\xbc\x8c\xe4\xb8\x8d\xe8\x83\xbd\xe5\x88\xa0\xe9\x99\xa4");
+                        break;
+                    default:
+                        snprintf(g_createResult, sizeof(g_createResult), "\xe5\x88\xa0\xe9\x99\xa4\xe5\xa4\xb1\xe8\xb4\xa5\xef\xbc\x8c\xe9\x94\x99\xe8\xaf\xaf\xe7\xa0\x81%d", result);
+                        break;
                 }
             }
             setState(ProtocolState::REQUEST_CHARACTERS_LIST);

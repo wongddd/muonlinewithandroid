@@ -7,6 +7,7 @@
 #include <cstring>
 #include <cstdlib>
 #include <string>
+#include <vector>
 #include <sys/stat.h>
 #include <errno.h>
 
@@ -41,6 +42,14 @@ struct FileHandle {
 
 static AAssetManager* g_assetManager = nullptr;
 static std::string    g_internalPath;
+
+static const char* g_externalRoots[] = {
+    "/sdcard/",
+    "/storage/emulated/0/",
+    "/sdcard/MU/",
+    "/storage/emulated/0/MU/",
+    nullptr
+};
 
 // ============================================================================
 // 初始化
@@ -82,7 +91,90 @@ static bool isAssetPath(const char* path, const char* mode) {
     return true;
 }
 
-// 构建磁盘完整路径
+static bool isReadOnlyMode(const char* mode) {
+    return !(mode && (strchr(mode, 'w') || strchr(mode, 'a') || strchr(mode, '+')));
+}
+
+// 标准化磁盘/asset 路径 (反斜杠 → 正斜杠，去掉 ./ 前缀)
+static std::string normalizePath(const char* path) {
+    std::string result;
+    if (!path) return result;
+
+    while (*path) {
+        if (*path == '\\') result += '/';
+        else result += *path;
+        ++path;
+    }
+    while (result.compare(0, 2, "./") == 0) {
+        result.erase(0, 2);
+    }
+    return result;
+}
+
+static std::string joinPath(const std::string& root, const std::string& relative) {
+    if (root.empty()) return relative;
+    if (root.back() == '/') return root + relative;
+    return root + "/" + relative;
+}
+
+static bool fileExistsOnDisk(const std::string& path) {
+    struct stat st;
+    return stat(path.c_str(), &st) == 0;
+}
+
+static bool hasDataPrefix(const std::string& path) {
+    return path.compare(0, 5, "Data/") == 0 || path.compare(0, 5, "data/") == 0;
+}
+
+static std::string lowercaseAscii(const std::string& value) {
+    std::string out = value;
+    for (char& ch : out) {
+        if (ch >= 'A' && ch <= 'Z') ch = static_cast<char>(ch - 'A' + 'a');
+    }
+    return out;
+}
+
+static std::string canonicalizeResourcePath(const std::string& path) {
+    std::string base;
+    std::string rest = path;
+    if (hasDataPrefix(rest)) {
+        base = "Data/";
+        rest = rest.substr(5);
+    }
+
+    size_t slash = rest.find('/');
+    std::string head = (slash == std::string::npos) ? rest : rest.substr(0, slash);
+    std::string tail = (slash == std::string::npos) ? "" : rest.substr(slash);
+    std::string lower = lowercaseAscii(head);
+    std::string fixed = head;
+
+    if (lower.compare(0, 5, "world") == 0) fixed = "World" + head.substr(5);
+    else if (lower.compare(0, 6, "object") == 0) fixed = "Object" + head.substr(6);
+    else if (lower == "custom") fixed = "Custom";
+    else if (lower == "effect") fixed = "Effect";
+    else if (lower == "interface") fixed = "Interface";
+    else if (lower == "item") fixed = "Item";
+    else if (lower == "launcher") fixed = "Launcher";
+    else if (lower == "local") fixed = "Local";
+    else if (lower == "logo") fixed = "Logo";
+    else if (lower == "monster") fixed = "Monster";
+    else if (lower == "music") fixed = "Music";
+    else if (lower == "npc") fixed = "NPC";
+    else if (lower == "player") fixed = "Player";
+    else if (lower == "skill") fixed = "Skill";
+    else if (lower == "sound") fixed = "Sound";
+
+    return base + fixed + tail;
+}
+
+static void addUniqueCandidate(std::vector<std::string>& candidates, const std::string& path) {
+    for (const std::string& existing : candidates) {
+        if (existing == path) return;
+    }
+    candidates.push_back(path);
+}
+
+// 构建默认磁盘完整路径；写入仍限制在 internalPath 内。
 static std::string buildDiskPath(const char* path) {
     if (!path) return "";
 
@@ -90,26 +182,44 @@ static std::string buildDiskPath(const char* path) {
     if (path[0] == '/') return path;
 
     // 相对路径 → 基于 internalPath
-    std::string full = g_internalPath;
-    // 标准化反斜杠
-    const char* p = path;
-    while (*p) {
-        if (*p == '\\') full += '/';
-        else full += *p;
-        ++p;
-    }
-    return full;
+    return joinPath(g_internalPath, normalizePath(path));
 }
 
-// 标准化 asset 路径 (反斜杠 → 正斜杠)
-static std::string normalizeAssetPath(const char* path) {
-    std::string result;
-    while (*path) {
-        if (*path == '\\') result += '/';
-        else result += *path;
-        ++path;
+static std::vector<std::string> buildReadCandidates(const char* path) {
+    std::vector<std::string> candidates;
+    if (!path) return candidates;
+
+    std::string norm = normalizePath(path);
+    if (norm.empty()) return candidates;
+
+    if (norm[0] == '/') {
+        candidates.push_back(norm);
+        return candidates;
     }
-    return result;
+
+    std::string canonical = canonicalizeResourcePath(norm);
+    for (int i = 0; g_externalRoots[i] != nullptr; ++i) {
+        addUniqueCandidate(candidates, joinPath(g_externalRoots[i], norm));
+        addUniqueCandidate(candidates, joinPath(g_externalRoots[i], canonical));
+        if (!hasDataPrefix(norm)) {
+            addUniqueCandidate(candidates, joinPath(g_externalRoots[i], "Data/" + norm));
+            addUniqueCandidate(candidates, joinPath(g_externalRoots[i], "Data/" + canonical));
+        }
+    }
+    addUniqueCandidate(candidates, joinPath(g_internalPath, norm));
+    addUniqueCandidate(candidates, joinPath(g_internalPath, canonical));
+    if (!hasDataPrefix(norm)) {
+        addUniqueCandidate(candidates, joinPath(g_internalPath, "Data/" + norm));
+        addUniqueCandidate(candidates, joinPath(g_internalPath, "Data/" + canonical));
+    }
+    addUniqueCandidate(candidates, norm);
+    addUniqueCandidate(candidates, canonical);
+    return candidates;
+}
+
+// 标准化 asset 路径
+static std::string normalizeAssetPath(const char* path) {
+    return normalizePath(path);
 }
 
 // ============================================================================
@@ -122,18 +232,30 @@ void* open(const char* path, const char* mode) {
     auto* handle = new FileHandle();
     const char* fopenMode = mode ? mode : "rb";
 
-    // --- Try disk first for ALL paths ---
-    // This allows /sdcard/Data/... to override APK-bundled assets at runtime,
-    // which is critical for large game assets that don't fit in the APK on device.
-    std::string diskPath = buildDiskPath(path);
-    handle->file = (fopen)(diskPath.c_str(), fopenMode);
-
-    if (handle->file) {
-        handle->type = HandleType::DISK;
-        fseek(handle->file, 0, SEEK_END);
-        handle->fsize = ftell(handle->file);
-        fseek(handle->file, 0, SEEK_SET);
-        return handle;
+    if (isReadOnlyMode(fopenMode)) {
+        // Public Data roots let the Android build consume the same resource tree
+        // as the PC client without repackaging multi-GB assets into the APK.
+        std::vector<std::string> candidates = buildReadCandidates(path);
+        for (const std::string& candidate : candidates) {
+            handle->file = (fopen)(candidate.c_str(), fopenMode);
+            if (handle->file) {
+                handle->type = HandleType::DISK;
+                fseek(handle->file, 0, SEEK_END);
+                handle->fsize = ftell(handle->file);
+                fseek(handle->file, 0, SEEK_SET);
+                return handle;
+            }
+        }
+    } else {
+        std::string diskPath = buildDiskPath(path);
+        handle->file = (fopen)(diskPath.c_str(), fopenMode);
+        if (handle->file) {
+            handle->type = HandleType::DISK;
+            fseek(handle->file, 0, SEEK_END);
+            handle->fsize = ftell(handle->file);
+            fseek(handle->file, 0, SEEK_SET);
+            return handle;
+        }
     }
 
     // --- Not on disk, try APK assets ---
@@ -141,6 +263,14 @@ void* open(const char* path, const char* mode) {
         std::string assetPath = normalizeAssetPath(path);
         handle->type  = HandleType::ASSET;
         handle->asset = AAssetManager_open(g_assetManager, assetPath.c_str(), AASSET_MODE_BUFFER);
+        if (!handle->asset) {
+            assetPath = canonicalizeResourcePath(assetPath);
+            handle->asset = AAssetManager_open(g_assetManager, assetPath.c_str(), AASSET_MODE_BUFFER);
+        }
+        if (!handle->asset && !hasDataPrefix(assetPath)) {
+            assetPath = "Data/" + assetPath;
+            handle->asset = AAssetManager_open(g_assetManager, assetPath.c_str(), AASSET_MODE_BUFFER);
+        }
 
         if (!handle->asset) {
             LOGE("open(asset) failed: %s", assetPath.c_str());
@@ -152,7 +282,7 @@ void* open(const char* path, const char* mode) {
         return handle;
     }
 
-    LOGE("open failed: %s (disk=%s)", path, diskPath.c_str());
+    LOGE("open failed: %s", path);
     delete handle;
     return nullptr;
 }
@@ -227,15 +357,24 @@ void close(void* handlePtr) {
 bool exists(const char* path) {
     if (!path) return false;
 
-    // Check disk first
-    std::string diskPath = buildDiskPath(path);
-    struct stat st;
-    if (stat(diskPath.c_str(), &st) == 0) return true;
+    // Check public/full-resource roots and internal cache first.
+    std::vector<std::string> candidates = buildReadCandidates(path);
+    for (const std::string& candidate : candidates) {
+        if (fileExistsOnDisk(candidate)) return true;
+    }
 
     // Fall back to APK assets
     if (isAssetPath(path, "rb") && g_assetManager) {
         std::string assetPath = normalizeAssetPath(path);
         AAsset* asset = AAssetManager_open(g_assetManager, assetPath.c_str(), AASSET_MODE_BUFFER);
+        if (!asset) {
+            assetPath = canonicalizeResourcePath(assetPath);
+            asset = AAssetManager_open(g_assetManager, assetPath.c_str(), AASSET_MODE_BUFFER);
+        }
+        if (!asset && !hasDataPrefix(assetPath)) {
+            assetPath = "Data/" + assetPath;
+            asset = AAssetManager_open(g_assetManager, assetPath.c_str(), AASSET_MODE_BUFFER);
+        }
         if (asset) {
             AAsset_close(asset);
             return true;

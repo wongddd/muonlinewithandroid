@@ -93,6 +93,7 @@ void selectCharacter(int slotIndex);
 // 角色创建/删除
 void createCharacter(const char* name, uint8_t classCode);
 void deleteCharacter(int slotIndex);
+void deleteCharacter(int slotIndex, const char* personalCode);
 const char* getCreateCharResult();
 int getCreateCharResultColor();
 

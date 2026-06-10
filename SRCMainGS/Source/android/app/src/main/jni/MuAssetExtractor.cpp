@@ -16,6 +16,14 @@
 static AAssetManager* g_assetMgr = nullptr;
 static std::string    g_basePath;
 
+static const char* g_externalRoots[] = {
+    "/sdcard/",
+    "/storage/emulated/0/",
+    "/sdcard/MU/",
+    "/storage/emulated/0/MU/",
+    nullptr
+};
+
 // ============================================================================
 // Known data subdirectories under assets/Data/ — walked for bulk extraction.
 // Must match the PC client's data directory layout.
@@ -39,7 +47,7 @@ static const char* g_dataDirs[] = {
     "Data/Skill",
     "Data/Sound",
     "Data/World1", "Data/World2", "Data/World3", "Data/World4", "Data/World5",
-    "Data/World7", "Data/World8", "Data/World9",
+    "Data/World6", "Data/World7", "Data/World8", "Data/World9",
     "Data/World10", "Data/World11", "Data/World12", "Data/World19",
     "Data/World25", "Data/World31", "Data/World32", "Data/World34", "Data/World35",
     "Data/World38", "Data/World39", "Data/World40", "Data/World41", "Data/World42",
@@ -53,9 +61,10 @@ static const char* g_dataDirs[] = {
     "Data/World83", "Data/World84", "Data/World85", "Data/World86", "Data/World87",
     "Data/World88", "Data/World89", "Data/World90", "Data/World91", "Data/World92",
     "Data/World93", "Data/World94", "Data/World95",
-    "Data/World100",
+    "Data/World100", "Data/World101", "Data/World111",
+    "Data/World134", "Data/World135", "Data/World136", "Data/World137",
     "Data/Object1", "Data/Object2", "Data/Object3", "Data/Object4", "Data/Object5",
-    "Data/Object7", "Data/Object8", "Data/Object9",
+    "Data/Object6", "Data/Object7", "Data/Object8", "Data/Object9",
     "Data/Object10", "Data/Object11", "Data/Object12", "Data/Object19",
     "Data/Object25", "Data/Object31", "Data/Object32", "Data/Object34", "Data/Object35",
     "Data/Object38", "Data/Object39", "Data/Object40", "Data/Object41", "Data/Object42",
@@ -69,6 +78,8 @@ static const char* g_dataDirs[] = {
     "Data/Object83", "Data/Object84", "Data/Object85", "Data/Object86", "Data/Object87",
     "Data/Object88", "Data/Object89", "Data/Object90", "Data/Object91", "Data/Object92",
     "Data/Object93", "Data/Object94", "Data/Object95",
+    "Data/Object100", "Data/Object101", "Data/Object111",
+    "Data/Object134", "Data/Object135", "Data/Object136", "Data/Object137",
     nullptr  // sentinel
 };
 
@@ -98,7 +109,66 @@ static std::string normalizePath(const char* path) {
         result += (*path == '\\') ? '/' : *path;
         ++path;
     }
+    while (result.compare(0, 2, "./") == 0) {
+        result.erase(0, 2);
+    }
     return result;
+}
+
+static bool isReadOnlyMode(const char* mode) {
+    return !(mode && (strchr(mode, 'w') || strchr(mode, 'a') || strchr(mode, '+')));
+}
+
+static bool hasDataPrefix(const std::string& path) {
+    return path.compare(0, 5, "Data/") == 0 || path.compare(0, 5, "data/") == 0;
+}
+
+static std::string lowercaseAscii(const std::string& value) {
+    std::string out = value;
+    for (char& ch : out) {
+        if (ch >= 'A' && ch <= 'Z') ch = static_cast<char>(ch - 'A' + 'a');
+    }
+    return out;
+}
+
+static std::string canonicalizeResourcePath(const std::string& path) {
+    std::string base;
+    std::string rest = path;
+    if (hasDataPrefix(rest)) {
+        base = "Data/";
+        rest = rest.substr(5);
+    }
+
+    size_t slash = rest.find('/');
+    std::string head = (slash == std::string::npos) ? rest : rest.substr(0, slash);
+    std::string tail = (slash == std::string::npos) ? "" : rest.substr(slash);
+    std::string lower = lowercaseAscii(head);
+    std::string fixed = head;
+
+    if (lower.compare(0, 5, "world") == 0) fixed = "World" + head.substr(5);
+    else if (lower.compare(0, 6, "object") == 0) fixed = "Object" + head.substr(6);
+    else if (lower == "custom") fixed = "Custom";
+    else if (lower == "effect") fixed = "Effect";
+    else if (lower == "interface") fixed = "Interface";
+    else if (lower == "item") fixed = "Item";
+    else if (lower == "launcher") fixed = "Launcher";
+    else if (lower == "local") fixed = "Local";
+    else if (lower == "logo") fixed = "Logo";
+    else if (lower == "monster") fixed = "Monster";
+    else if (lower == "music") fixed = "Music";
+    else if (lower == "npc") fixed = "NPC";
+    else if (lower == "player") fixed = "Player";
+    else if (lower == "skill") fixed = "Skill";
+    else if (lower == "sound") fixed = "Sound";
+
+    return base + fixed + tail;
+}
+
+static bool tryOpenFile(const std::string& path, const char* mode, FILE** out) {
+    FILE* fp = (fopen)(path.c_str(), mode);
+    if (!fp) return false;
+    *out = fp;
+    return true;
 }
 
 // Ensure all parent directories exist for a file path
@@ -158,6 +228,41 @@ static bool extractAsset(const char* assetPath, const char* diskPath) {
     return true;
 }
 
+static bool extractAssetTree(const std::string& assetDir,
+                             const std::string& diskDir,
+                             int* fileCount,
+                             int64_t* byteCount) {
+    if (!g_assetMgr) return false;
+
+    AAssetDir* dir = AAssetManager_openDir(g_assetMgr, assetDir.c_str());
+    if (!dir) return false;
+
+    bool extractedAny = false;
+    const char* name;
+    while ((name = AAssetDir_getNextFileName(dir)) != nullptr) {
+        std::string assetPath = assetDir.empty() ? name : assetDir + "/" + name;
+        std::string diskPath = diskDir.empty() ? name : diskDir + "/" + name;
+
+        if (extractAsset(assetPath.c_str(), diskPath.c_str())) {
+            extractedAny = true;
+            if (fileCount) (*fileCount)++;
+            if (byteCount) {
+                struct stat st;
+                if (stat(diskPath.c_str(), &st) == 0) *byteCount += st.st_size;
+            }
+            continue;
+        }
+
+        std::string childDiskDir = diskPath;
+        if (extractAssetTree(assetPath, childDiskDir, fileCount, byteCount)) {
+            extractedAny = true;
+        }
+    }
+
+    AAssetDir_close(dir);
+    return extractedAny;
+}
+
 // ============================================================================
 // Progress tracking for extraction
 // ============================================================================
@@ -183,7 +288,7 @@ void mu_asset_extractor_extract_all() {
     if (g_extractTotalDirs == 0) {
         int count = 0;
         for (int i = 0; g_dataDirs[i] != nullptr; i++) count++;
-        g_extractTotalDirs = count + 1; // +1 for root Data/
+        g_extractTotalDirs = count + 1 + 139 * 2; // +1 for Data/, plus World/Object0..138
     }
 
     // Sentinel: skip if already extracted
@@ -202,22 +307,9 @@ void mu_asset_extractor_extract_all() {
     int64_t totalBytes = 0;
     int dirIndex = 0;
 
-    // Extract root-level files in Data/
+    // Extract root-level files and any directory tree discoverable in assets/Data.
     {
-        AAssetDir* rootDir = AAssetManager_openDir(g_assetMgr, "Data");
-        if (rootDir) {
-            const char* fname;
-            while ((fname = AAssetDir_getNextFileName(rootDir)) != nullptr) {
-                std::string assetPath = std::string("Data/") + fname;
-                std::string diskPath = g_basePath + assetPath;
-                if (extractAsset(assetPath.c_str(), diskPath.c_str())) {
-                    totalFiles++;
-                    struct stat st;
-                    if (stat(diskPath.c_str(), &st) == 0) totalBytes += st.st_size;
-                }
-            }
-            AAssetDir_close(rootDir);
-        }
+        extractAssetTree("Data", g_basePath + "Data", &totalFiles, &totalBytes);
         dirIndex++;
         g_extractProgress = (float)dirIndex / (float)g_extractTotalDirs;
     }
@@ -231,18 +323,27 @@ void mu_asset_extractor_extract_all() {
             continue;
         }
 
-        const char* fname;
-        while ((fname = AAssetDir_getNextFileName(dir)) != nullptr) {
-            std::string assetPath = std::string(g_dataDirs[i]) + "/" + fname;
-            std::string diskPath = g_basePath + assetPath;
-            if (extractAsset(assetPath.c_str(), diskPath.c_str())) {
-                totalFiles++;
-                struct stat st;
-                if (stat(diskPath.c_str(), &st) == 0) totalBytes += st.st_size;
-            }
-        }
+        extractAssetTree(g_dataDirs[i], g_basePath + g_dataDirs[i], &totalFiles, &totalBytes);
         AAssetDir_close(dir);
 
+        dirIndex++;
+        g_extractProgress = (float)dirIndex / (float)g_extractTotalDirs;
+    }
+
+    // The PC client derives map resource directories as World%d/Object%d from
+    // map ids. Keep this broad so newly added maps in the copied Data tree or
+    // APK assets are not missed by a static whitelist.
+    for (int map = 0; map <= 138; ++map) {
+        char worldDir[32];
+        char objectDir[32];
+        snprintf(worldDir, sizeof(worldDir), "Data/World%d", map);
+        snprintf(objectDir, sizeof(objectDir), "Data/Object%d", map);
+
+        extractAssetTree(worldDir, g_basePath + worldDir, &totalFiles, &totalBytes);
+        dirIndex++;
+        g_extractProgress = (float)dirIndex / (float)g_extractTotalDirs;
+
+        extractAssetTree(objectDir, g_basePath + objectDir, &totalFiles, &totalBytes);
         dirIndex++;
         g_extractProgress = (float)dirIndex / (float)g_extractTotalDirs;
     }
@@ -267,37 +368,90 @@ FILE* mu_fopen_android(const char* path, const char* mode) {
     if (!path) return nullptr;
 
     std::string normPath = normalizePath(path);
+    if (normPath.empty()) return nullptr;
 
-    bool isWrite = mode && (strchr(mode, 'w') || strchr(mode, 'a'));
+    const char* fopenMode = mode ? mode : "rb";
+    bool isWrite = !isReadOnlyMode(fopenMode);
 
     // --- Absolute path: pass through ---
     if (normPath[0] == '/') {
         if (isWrite) {
             ensureParentDir(normPath.c_str());
         }
-        return (fopen)(normPath.c_str(), mode);
+        return (fopen)(normPath.c_str(), fopenMode);
     }
 
     // --- Relative write path: prepend base path ---
     if (isWrite) {
         std::string diskPath = g_basePath + normPath;
         ensureParentDir(diskPath.c_str());
-        return (fopen)(diskPath.c_str(), mode);
+        return (fopen)(diskPath.c_str(), fopenMode);
     }
 
     // --- Relative read-only path ---
-    // Step 1: Try disk (already extracted from a previous run)
-    std::string diskPath = g_basePath + normPath;
-    FILE* fp = (fopen)(diskPath.c_str(), mode);
-    if (fp) return fp;
+    FILE* fp = nullptr;
+    std::string canonicalPath = canonicalizeResourcePath(normPath);
 
-    // Step 2: Try extracting from APK assets
-    if (g_assetMgr && extractAsset(normPath.c_str(), diskPath.c_str())) {
-        LOGI("Extracted from APK: %s -> %s", normPath.c_str(), diskPath.c_str());
-        fp = (fopen)(diskPath.c_str(), mode);
+    // Step 1: Try public external data roots populated from the PC client.
+    for (int i = 0; g_externalRoots[i] != nullptr; ++i) {
+        std::string candidate = std::string(g_externalRoots[i]) + normPath;
+        if (tryOpenFile(candidate, fopenMode, &fp)) return fp;
+        candidate = std::string(g_externalRoots[i]) + canonicalPath;
+        if (tryOpenFile(candidate, fopenMode, &fp)) return fp;
+        if (!hasDataPrefix(normPath)) {
+            candidate = std::string(g_externalRoots[i]) + "Data/" + normPath;
+            if (tryOpenFile(candidate, fopenMode, &fp)) return fp;
+            candidate = std::string(g_externalRoots[i]) + "Data/" + canonicalPath;
+            if (tryOpenFile(candidate, fopenMode, &fp)) return fp;
+        }
+    }
+
+    // Step 2: Try internal disk cache (already extracted from a previous run).
+    std::string diskPath = g_basePath + normPath;
+    fp = (fopen)(diskPath.c_str(), fopenMode);
+    if (fp) return fp;
+    diskPath = g_basePath + canonicalPath;
+    fp = (fopen)(diskPath.c_str(), fopenMode);
+    if (fp) return fp;
+    if (!hasDataPrefix(normPath)) {
+        diskPath = g_basePath + "Data/" + normPath;
+        fp = (fopen)(diskPath.c_str(), fopenMode);
+        if (fp) return fp;
+        diskPath = g_basePath + "Data/" + canonicalPath;
+        fp = (fopen)(diskPath.c_str(), fopenMode);
         if (fp) return fp;
     }
 
-    // Step 3: Final fallback
-    return (fopen)(path, mode);
+    // Step 3: Try extracting from APK assets.
+    diskPath = g_basePath + normPath;
+    if (g_assetMgr && extractAsset(normPath.c_str(), diskPath.c_str())) {
+        LOGI("Extracted from APK: %s -> %s", normPath.c_str(), diskPath.c_str());
+        fp = (fopen)(diskPath.c_str(), fopenMode);
+        if (fp) return fp;
+    }
+    diskPath = g_basePath + canonicalPath;
+    if (g_assetMgr && canonicalPath != normPath && extractAsset(canonicalPath.c_str(), diskPath.c_str())) {
+        LOGI("Extracted from APK: %s -> %s", canonicalPath.c_str(), diskPath.c_str());
+        fp = (fopen)(diskPath.c_str(), fopenMode);
+        if (fp) return fp;
+    }
+    if (g_assetMgr && !hasDataPrefix(normPath)) {
+        std::string assetPath = "Data/" + normPath;
+        diskPath = g_basePath + assetPath;
+        if (extractAsset(assetPath.c_str(), diskPath.c_str())) {
+            LOGI("Extracted from APK: %s -> %s", assetPath.c_str(), diskPath.c_str());
+            fp = (fopen)(diskPath.c_str(), fopenMode);
+            if (fp) return fp;
+        }
+        assetPath = "Data/" + canonicalPath;
+        diskPath = g_basePath + assetPath;
+        if (canonicalPath != normPath && extractAsset(assetPath.c_str(), diskPath.c_str())) {
+            LOGI("Extracted from APK: %s -> %s", assetPath.c_str(), diskPath.c_str());
+            fp = (fopen)(diskPath.c_str(), fopenMode);
+            if (fp) return fp;
+        }
+    }
+
+    // Step 4: Final fallback for callers that already use a process-relative path.
+    return (fopen)(path, fopenMode);
 }
